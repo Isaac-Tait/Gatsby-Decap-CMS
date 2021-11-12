@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "royal-ridges-retreat",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Royal Ridges Retreat",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Joshua Tait <joshua@royalridges.org>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },

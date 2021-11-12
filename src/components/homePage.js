@@ -8,7 +8,7 @@ const HomePage = () => {
     return (
         <div>
         {/* First window */}
-          <div className="rounded-lg shadow-lg mb-2 sm:mx-8 flex flex-col h-screen justify-between">
+          <div className="heropattern-topography-yellow-400 rounded-lg shadow-lg mb-2 sm:mx-8 flex flex-col h-screen justify-between">
             <img
             src={logo}
             alt="Royal Ridge's Logo"
@@ -32,7 +32,7 @@ const HomePage = () => {
             </div>
         </div>
         {/* Second window https://tailwindcss.com/docs/background-attachment#fixed */}
-        <div className="bg-fixed rounded-lg shadow-lg mb-2 h-screen bg-green-200 bg-repeat-round flex flex-col sm:mx-8">
+        <div className="bg-fixed rounded-lg shadow-lg mb-2 h-screen bg-green-200 md:bg-pack-train bg-repeat-round flex flex-col sm:mx-8">
             <p className="font-extrabold text-xl md:text-6xl text-yellow-400 grid place-items-center h-screen font-mono">
             Discover ~ Connect ~ Grow
             </p>
@@ -53,7 +53,7 @@ const HomePage = () => {
               />
               <Link
                 to={'/summercamp'}
-                className="text-green-200 hover:text-yellow-400 underline"
+                className="text-green-200 hover:text-yellow-200 underline"
               >
                 Summer Camp
               </Link>
@@ -67,7 +67,7 @@ const HomePage = () => {
               />
               <Link
                 to={'/programs'}
-                className="text-green-200 hover:text-yellow-400 underline"
+                className="text-green-200 hover:text-yellow-200 underline"
               >
                 Programs
               </Link>
@@ -81,7 +81,7 @@ const HomePage = () => {
               />
               <Link
                 to={'/support'}
-                className="text-green-200 hover:text-yellow-400 underline"
+                className="text-green-200 hover:text-yellow-200 underline"
               >
                 Support
               </Link>
@@ -99,7 +99,7 @@ const HomePage = () => {
               />
               <Link
                 to={'/about'}
-                className="text-green-200 hover:text-yellow-400 underline"
+                className="text-green-200 hover:text-yellow-200 underline"
               >
                 About
               </Link>
