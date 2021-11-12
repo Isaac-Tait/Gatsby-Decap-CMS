@@ -1,15 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Royal Ridges Retreat`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Joshua Tait`,
+      summary: `who lives and works in south Washington and is the director for Royal Ridges Retreat.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `An epic horse based adventure retreat located on the flanks of Mt Saint Helens.`,
+    siteUrl: `https://royalridges.org`,
+    social: {},
   },
   plugins: [
     `gatsby-plugin-postcss`,
