@@ -38,12 +38,12 @@ const HomePage = () => {
             </p>
         </div>
         {/* Third window */}
-        <div className="bg-fixed rounded-lg shadow-lg h-screen bg-green-200 sm:mx-8 mb-2">
+        <div className="bg-fixed rounded-lg shadow-lg h-screen bg-yellow-200 sm:mx-8 mb-2">
           <Blog />
         </div>
         
         {/* Fourth window */}
-        <div className="h-screen bg-yellow-200 rounded-lg shadow-lg sm:mx-8">
+        <div className="h-screen bg-yellow-400 rounded-lg shadow-lg sm:mx-8">
           <div className="grid col-span-3 grid-cols-3 md:col-span-1 pt-12">
             <div className="mx-4 font-semibold uppercase flex flex-col items-center justify-center">
               <img
