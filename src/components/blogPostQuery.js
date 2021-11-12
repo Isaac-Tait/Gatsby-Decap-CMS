@@ -9,6 +9,12 @@ const useBlogPosts = () => {
         frontmatter {
           date (formatString: "MMMM DD, YYYY")
           title
+          heroImageAlt
+          heroImage {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
         }
         excerpt(format: PLAIN, pruneLength: 150, truncate: true)
         fields {

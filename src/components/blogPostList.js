@@ -14,6 +14,7 @@ const BlogPostList = () => {
         title: postEdge.node.frontmatter.title,
         excerpt: postEdge.node.excerpt,
         date: postEdge.node.frontmatter.date,
+        image: postEdge.node.frontmatter.heroImage,
       })
   })
   return postList;
@@ -28,6 +29,7 @@ return (
       <Link to={post.path} key={post.title}>
         <p className="uppercase text-xl text-yellow-400 underline hover:text-red-400">{post.title}</p>
       </Link>
+      <p className="w-20">{post.image}</p>
       <p className="ml-2">{post.date}</p>
       <p className="ml-4 italic">{post.excerpt}</p>
      </div>

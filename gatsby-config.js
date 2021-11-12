@@ -10,6 +10,7 @@ module.exports = {
     social: {},
   },
   plugins: [
+    'gatsby-image',
     `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
     {
@@ -98,13 +99,19 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      heroImageAlt
+                        heroImage {
+                          childImageSharp {
+                          gatsbyImageData
+                        }
+                      }
                     }
                   }
                 }
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Royal Ridges Retreat",
           },
         ],
       },
@@ -112,7 +119,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Royal Ridges Retreat`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
@@ -120,7 +127,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
