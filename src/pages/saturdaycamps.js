@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const SaturdayCamps = () => {
     return (
@@ -72,6 +73,7 @@ const SaturdayCamps = () => {
         </p>
       </div>
     </div>
+    <Footer />
         </div>
     );
 }

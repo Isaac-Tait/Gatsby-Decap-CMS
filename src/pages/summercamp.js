@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "gatsby";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const SummerCampPage = () => {
     return (
@@ -63,6 +64,7 @@ const SummerCampPage = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     )
   }

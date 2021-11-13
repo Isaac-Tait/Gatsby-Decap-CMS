@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const MotherDaughter = () => {
     return (
@@ -28,6 +29,7 @@ const MotherDaughter = () => {
         </p>
       </div>
     </div>
+        <Footer />
         </div>
     );
 }

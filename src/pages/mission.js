@@ -1,5 +1,7 @@
 import React from "react";
+
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const Mission = () => {
     return (
@@ -48,6 +50,7 @@ const Mission = () => {
         </p>
       </div>
     </div>
+        <Footer />
         </div>
     );
 }

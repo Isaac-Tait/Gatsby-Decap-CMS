@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const SponsorAHorse = () => {
     return (
@@ -77,6 +78,7 @@ const SponsorAHorse = () => {
         {/* add link to blog post*/}
       </div>
     </div>
+        <Footer />
         </div>
     );
 }

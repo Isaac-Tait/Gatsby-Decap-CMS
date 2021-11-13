@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const GiddyUp = () => {
     return (
@@ -53,6 +54,7 @@ const GiddyUp = () => {
                 </p>
             </div>
         </div>
+        <Footer />
         </div>
     );
 }

@@ -1,5 +1,7 @@
 import React from "react";
+
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const Staff = () => {
     return (
@@ -31,6 +33,7 @@ const Staff = () => {
           </a>
           <p>Office Manager & Registrations</p>
         </div>
+        <Footer />
       </div>
     );
 }

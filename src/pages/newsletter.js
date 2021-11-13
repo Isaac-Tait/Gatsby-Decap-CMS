@@ -1,5 +1,7 @@
 import React from "react";
+
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const Newsletter = () => {
     return (
@@ -22,6 +24,7 @@ const Newsletter = () => {
                 . NO SPAM - we promise
                 </p>
             </div>
+        <Footer />
         </div>
     );
 }

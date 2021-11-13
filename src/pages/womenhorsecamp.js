@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const WomenHorseCamp = () => {
     return (
@@ -27,6 +28,7 @@ const WomenHorseCamp = () => {
         </p>
       </div>
     </div>
+      <Footer />
         </div>
     );
 }

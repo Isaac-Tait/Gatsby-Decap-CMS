@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const BookARide = () => {
     return (
@@ -54,6 +55,7 @@ const BookARide = () => {
         </p>
       </div>
     </div>
+    <Footer />
         </div>
     );
 }
