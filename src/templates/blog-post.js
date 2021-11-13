@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { graphql, Link, useStaticQuery } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
@@ -7,24 +7,7 @@ import Bio from '../components/bio'
 import Logo from '../images/logo.png';
 
 const BlogPostTemplate = ({ data }) => {
-    useStaticQuery(graphql`
-    query MyQuery($id: String) {
-    mdx(id: {eq: $id}) {
-        body
-        frontmatter {
-        heroImageAlt
-        heroImage {
-            childImageSharp {
-            gatsbyImageData
-            }
-        }
-        title
-        date(formatString: "MMMM DD, YYYY")
-        }
-        excerpt(pruneLength: 100, truncate: false)
-    }}`)
-
-const image = getImage(data.mdx.frontmatter.heroImage)
+    const image = getImage(data.mdx.frontmatter.heroImage)
     
     return (
     <div>
@@ -45,9 +28,6 @@ const image = getImage(data.mdx.frontmatter.heroImage)
                           <li className="mx-4">
                               <Link to={'/programs'} className="underline text-green-200 font-semibold uppercase">Programs</Link>
                           </li>
-                          <li className="mx-4">
-                            <Link to={'/blog'} className="underline text-green-200">Blog</Link>
-                        </li>
                           <li className="mx-4">
                               <Link to={'/support'} className="underline text-green-200 font-semibold uppercase">Support</Link>
                           </li>
@@ -79,10 +59,28 @@ const image = getImage(data.mdx.frontmatter.heroImage)
                 </MDXRenderer>
             </div>
         </div>
-        <hr />
         <Bio />
       </div>
     )
   }
+
+export const query = graphql`
+query MyQuery($id: String) {
+  mdx(id: {eq: $id}) {
+    body
+    frontmatter {
+      heroImageAlt
+      heroImage {
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+      title
+      date(formatString: "MMMM DD, YYYY")
+    }
+    excerpt(pruneLength: 100, truncate: false)
+  }
+}
+`
 
 export default BlogPostTemplate;
