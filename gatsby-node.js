@@ -46,7 +46,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
 
       createPage({
-        path: post.node.fields.slug,
+        path: post.fields.slug,
         component: blogPost,
         context: {
           id: post.id,
@@ -57,7 +57,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   }
 }
-
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -88,27 +87,22 @@ exports.createSchemaCustomization = ({ actions }) => {
       siteUrl: String
       social: Social
     }
-
     type Author {
       name: String
       summary: String
     }
-
     type Social {
       twitter: String
     }
-
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
       fields: Fields
     }
-
     type Frontmatter {
       title: String
       description: String
       date: Date @dateformat
     }
-
     type Fields {
       slug: String
     }
