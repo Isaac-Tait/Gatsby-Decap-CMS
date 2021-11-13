@@ -3,18 +3,20 @@
 import React from "react"
 import { Link } from "gatsby"
 import blogPostQuery from "../components/blogPostQuery"
+import { StaticImage } from "gatsby-plugin-image";
 
 const BlogPostList = () => {
   const getPostList = () => {
     const postList = [];
     const posts = blogPostQuery();
-    posts.allMarkdownRemark.edges.forEach((postEdge) => {
+    posts.allMdx.edges.forEach((postEdge) => {
       postList.push({
         path: postEdge.node.fields.slug,
         title: postEdge.node.frontmatter.title,
         excerpt: postEdge.node.excerpt,
         date: postEdge.node.frontmatter.date,
-        image: postEdge.node.frontmatter.heroImage,
+        image: postEdge.node.frontmatter.heroImage.childImageSharp.gatsbyImageData,
+        alt: postEdge.node.frontmatter.heroImgAlt
       })
   })
   return postList;
@@ -26,10 +28,10 @@ return (
   <div>
    {postList.map((post) => (
      <div className="max-w-6xl flex flex-col mx-auto">
+     <StaticImage image={post.image} alt={post.alt}/>
       <Link to={post.path} key={post.title}>
         <p className="uppercase text-xl text-yellow-400 underline hover:text-red-400">{post.title}</p>
       </Link>
-      <p className="w-20">{post.image}</p>
       <p className="ml-2">{post.date}</p>
       <p className="ml-4 italic">{post.excerpt}</p>
      </div>

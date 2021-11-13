@@ -1,9 +1,9 @@
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 
-const useBlogPosts = () => {
+const BlogPostsQuery = () => {
     const BlogPosts = useStaticQuery(graphql`
         query MyQuery {
-  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+  allMdx(sort: {fields: frontmatter___date, order: DESC}) {
     edges {
       node {
         frontmatter {
@@ -12,7 +12,10 @@ const useBlogPosts = () => {
           heroImageAlt
           heroImage {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData (
+              width: 200
+              placeholder: BLURRED
+            )
           }
         }
         }
@@ -28,4 +31,4 @@ const useBlogPosts = () => {
     return BlogPosts;
 }
 
-export default useBlogPosts;
+export default BlogPostsQuery;
