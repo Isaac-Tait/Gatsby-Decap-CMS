@@ -1,12 +1,13 @@
 import React from "react"
+import { Link } from "gatsby"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Pagination from "../templates/blog-pagination"
 
-const BlogPostsLanding = () => {
+const BlogPostsLanding = ({posts,}) => {
     return (
         <div>
-            <SEO />
+            <Seo />
                 {posts.map(({ node }) => {
                 const title = node.frontmatter.title || node.fields.slug
                 return (

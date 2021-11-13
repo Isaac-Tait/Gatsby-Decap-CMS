@@ -10,19 +10,19 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto h-screen flex justify-center">
             <form name="contact" method="POST" data-netlify="true" className="my-4">
                 <div className="my-4 flex flex-col">
-                    <label>Your Name:</label>
-                    <input type="text" name="name" />  
+                    <label aria-label="name">Name</label>
+                    <input type="text" name="name" id="name"/>  
                 </div>
                 <div className="mb-4 flex flex-col">
-                    <label>Your Email:</label>
+                    <label aria-label="email">Email</label>
                     <input type="email" name="email" />
                 </div>
                 <div className="mb-4 flex flex-col">
-                    <label>Your Phone:</label>
+                    <label aria-label="phone">Phone</label>
                     <input name="phone" />
                 </div>
                 <div className="mb-4 flex flex-col">
-                    <label>Message:</label>
+                    <label aria-label="message">Message</label>
                     <textarea name="message" />
                 </div>
 

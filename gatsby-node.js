@@ -8,15 +8,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
 
-    // Create your paginated pages
-    paginate({
-      createPage, // The Gatsby `createPage` function
-      items: result.data.allMdx.nodes, // An array of objects
-      itemsPerPage: 5, // How many items you want per page
-      pathPrefix: '/blog', // Creates pages like `/blog`, `/blog/2`, etc
-      component: path.resolve('...'), // Just like `createPage()`
-    })
-
   // Get all markdown blog posts sorted by date
   const result = await graphql(
     `
@@ -43,6 +34,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     )
     return
   }
+
+    // Create your paginated pages
+    paginate({
+      createPage, // The Gatsby `createPage` function
+      items: result.data.allMdx.nodes, // An array of objects
+      itemsPerPage: 5, // How many items you want per page
+      pathPrefix: '/blog', // Creates pages like `/blog`, `/blog/2`, etc
+      component: path.resolve('...'), // Just like `createPage()`
+    })
 
   const posts = result.data.allMdx.nodes
 

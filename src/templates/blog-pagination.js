@@ -1,10 +1,11 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import Pager from "../components/pager"
 
-export const pageQuery = graphql`
+const BlogPagination = ({ data, location, pageContext }) => {
+  useStaticQuery(graphql`
   query BlogPagination($skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
@@ -31,9 +32,7 @@ export const pageQuery = graphql`
       }
     }
   }
-`
-
-const BlogPagination = ({ data, location, pageContext }) => {
+`)
     if (!data) { return null }
     const posts = data.allMdx.edges;
   

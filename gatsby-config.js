@@ -10,6 +10,12 @@ module.exports = {
     social: {},
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        path: `${__dirname}/content/blog`,
+      },
+    },
     `gatsby-plugin-postcss`,
     `gatsby-awesome-pagination`,
     `gatsby-plugin-image`,

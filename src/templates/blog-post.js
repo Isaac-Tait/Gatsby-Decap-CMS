@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
@@ -7,7 +7,24 @@ import Bio from '../components/bio'
 import Logo from '../images/logo.png';
 
 const BlogPostTemplate = ({ data }) => {
-    const image = getImage(data.mdx.frontmatter.heroImage)
+    useStaticQuery(graphql`
+    query MyQuery($id: String) {
+    mdx(id: {eq: $id}) {
+        body
+        frontmatter {
+        heroImageAlt
+        heroImage {
+            childImageSharp {
+            gatsbyImageData
+            }
+        }
+        title
+        date(formatString: "MMMM DD, YYYY")
+        }
+        excerpt(pruneLength: 100, truncate: false)
+    }}`)
+
+const image = getImage(data.mdx.frontmatter.heroImage)
     
     return (
     <div>
@@ -89,24 +106,5 @@ const BlogPostTemplate = ({ data }) => {
       </div>
     )
   }
-
-export const query = graphql`
-query MyQuery($id: String) {
-  mdx(id: {eq: $id}) {
-    body
-    frontmatter {
-      heroImageAlt
-      heroImage {
-        childImageSharp {
-          gatsbyImageData
-        }
-      }
-      title
-      date(formatString: "MMMM DD, YYYY")
-    }
-    excerpt(pruneLength: 100, truncate: false)
-  }
-}
-`
 
 export default BlogPostTemplate;
