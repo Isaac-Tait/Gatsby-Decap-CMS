@@ -3,7 +3,7 @@ module.exports = {
     title: `Royal Ridges Retreat`,
     author: {
       name: `Joshua Tait`,
-      summary: `who lives and works in south Washington and is the director for Royal Ridges Retreat.`,
+      summary: `who lives and works in southern Washington and is the director for Royal Ridges Retreat.`,
     },
     description: `An epic horse based adventure retreat located on the flanks of Mt Saint Helens.`,
     siteUrl: `https://royalridges.org`,
