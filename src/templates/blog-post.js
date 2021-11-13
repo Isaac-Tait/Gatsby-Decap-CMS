@@ -29,6 +29,9 @@ const BlogPostTemplate = ({ data }) => {
                               <Link to={'/programs'} className="underline text-green-200 font-semibold uppercase">Programs</Link>
                           </li>
                           <li className="mx-4">
+                            <Link to={'/blog'} className="underline text-green-200">Blog</Link>
+                        </li>
+                          <li className="mx-4">
                               <Link to={'/support'} className="underline text-green-200 font-semibold uppercase">Support</Link>
                           </li>
                           <li className="mx-4">

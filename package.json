@@ -12,6 +12,7 @@
     "@mdx-js/react": "^1.6.22",
     "autoprefixer": "^10.4.0",
     "gatsby": "^4.1.3",
+    "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-feed": "^4.1.1",
     "gatsby-plugin-gatsby-cloud": "^4.1.1",
     "gatsby-plugin-google-analytics": "^4.1.0",
