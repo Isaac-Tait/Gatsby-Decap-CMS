@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 const Support = () => {
   return (
-    <div className="max-w-8xl mx-auto">
+    <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
     <Header />
     <div className="max-w-6xl mx-auto">
       <div className="text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto">

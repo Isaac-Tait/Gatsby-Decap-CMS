@@ -32,7 +32,7 @@ const HomePage = () => {
             </div>
         </div>
         {/* Second window https://tailwindcss.com/docs/background-attachment#fixed */}
-        <div className="bg-fixed rounded-lg shadow-lg mb-2 h-screen bg-gradient-to-r from-yellow-400 via-yellow-200 to-green-400 sm:mx-8">
+        <div className="bg-fixed rounded-lg shadow-lg mb-2 h-screen bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200 sm:mx-8">
             <p className="font-extrabold text-xl md:text-6xl text-yellow-400 grid place-items-center h-screen font-mono">
             Discover ~ Connect ~ Grow
             </p>
