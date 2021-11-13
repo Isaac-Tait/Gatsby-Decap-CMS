@@ -10,7 +10,6 @@ module.exports = {
     social: {},
   },
   plugins: [
-    'gatsby-image',
     `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
     {

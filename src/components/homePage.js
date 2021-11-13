@@ -1,6 +1,5 @@
 import React from "react"
 import {Link} from "gatsby"
-import Blog from "./blogPostList"
 
 import logo from "../images/logo.png"
 
@@ -39,7 +38,7 @@ const HomePage = () => {
         </div>
         {/* Third window */}
         <div className="bg-fixed rounded-lg shadow-lg h-screen bg-yellow-200 sm:mx-8 mb-2">
-          <Blog />
+          <p>Blog will go here some day</p>
         </div>
         
         {/* Fourth window */}
