@@ -2,7 +2,7 @@
 
 import React from "react"
 import { Link } from "gatsby"
-import blogPostQuery from "./blogpostquery"
+import blogPostQuery from "./blogPostQuery"
 
 const BlogPostList = () => {
   const getPostList = () => {
