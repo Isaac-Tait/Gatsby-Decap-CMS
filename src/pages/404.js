@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 
 const NotFoundPage = () => {
@@ -27,6 +28,7 @@ const NotFoundPage = () => {
           .
         </p>
       </main>
+      <Footer />
     </div>
   );
 }

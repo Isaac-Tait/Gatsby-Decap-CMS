@@ -5,7 +5,7 @@ import Logo from '../images/logo.png';
 
 const Header = () => {
     return (
-        <header className="md:flex flex-wrap items-center border-b-4 border-green-200 px-8 py-6">
+        <header className="md:flex flex-wrap items-center border-b-4 heropattern-topography-yellow-400 px-8 py-6">
             <div className="md:flex md:flex-1">
             <Link to="/">
                 <div className="flex-grow mt-1 text-center md:text-left">
