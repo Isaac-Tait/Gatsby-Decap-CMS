@@ -6,10 +6,6 @@ module.exports = {
   purge: ['src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    // extend: {backgroundImage: theme => ({
-    //   backgroundImage: {
-    //     'pack-train': "url('../images/packTrain.JPG')",
-    // },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
