@@ -1,6 +1,7 @@
 import React from "react"
 import {Link} from "gatsby"
 
+import Blog from "./blogPostList"
 import logo from "../images/logo.png"
 
 const HomePage = () => {
@@ -37,12 +38,15 @@ const HomePage = () => {
             </p>
         </div>
         {/* Third window */}
-        <div className="bg-fixed rounded-lg shadow-lg h-screen heropattern-endlessclouds-green-200 sm:mx-8 mb-2">
-          <p>Blog will go here some day</p>
+        <div className="bg-fixed rounded-lg shadow-lg h-screen heropattern-endlessclouds-gray-200 sm:mx-8 mb-2">
+          <div className="grid place-items-center h-screen">
+            <Blog />  {/* Blog post list */}
+          </div>
+          
         </div>
         
         {/* Fourth window */}
-        <div className="h-screen bg-yellow-400 rounded-lg shadow-lg sm:mx-8">
+        <div className="h-screen bg-gradient-to-l from-indigo-300 via-red-200 to-gray-400 rounded-lg shadow-lg sm:mx-8">
           <div className="grid col-span-3 grid-cols-3 md:col-span-1 pt-12">
             <div className="mx-4 font-semibold uppercase flex flex-col items-center justify-center">
               <img

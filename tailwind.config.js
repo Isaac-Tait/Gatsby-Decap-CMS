@@ -32,7 +32,7 @@ module.exports = {
       endlessclouds: heroPatterns.endlessclouds,
     },
     heroPatternsShades: ['200', '400'],
-    heroPatternsColors: ['green', 'yellow'],
+    heroPatternsColors: ['green', 'yellow', 'gray'],
   },
   variants: {
     extend: {},
