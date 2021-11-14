@@ -3,11 +3,11 @@ import { graphql, Link } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
-import Bio from '../components/bio'
-import Logo from '../images/logo.png';
+import Logo from '../../images/logo.png';
+import Bio from '../../components/bio'
 
-const BlogPostTemplate = ({ data }) => {
-    const image = getImage(data.mdx.frontmatter.heroImage)
+const BlogPost = ({data}) => {
+  const image = getImage(data.mdx.frontmatter.heroImage)
     
     return (
     <div>
@@ -27,6 +27,9 @@ const BlogPostTemplate = ({ data }) => {
                           </li>
                           <li className="mx-4">
                               <Link to={'/programs'} className="underline text-green-200 font-semibold uppercase">Programs</Link>
+                          </li>
+                          <li className="mx-4">
+                              <Link to={'/blog'} className="underline text-green-200 font-semibold uppercase">Blog</Link>
                           </li>
                           <li className="mx-4">
                               <Link to={'/support'} className="underline text-green-200 font-semibold uppercase">Support</Link>
@@ -83,4 +86,4 @@ query MyQuery($id: String) {
 }
 `
 
-export default BlogPostTemplate;
+export default BlogPost
