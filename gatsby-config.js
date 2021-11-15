@@ -10,6 +10,7 @@ module.exports = {
     social: {},
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-postcss`,
     `gatsby-awesome-pagination`,
     `gatsby-plugin-image`,
