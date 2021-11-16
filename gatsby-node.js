@@ -27,6 +27,14 @@ module.exports.onCreateNode = ({node, actions}) => {
 module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
 	const blogTemplate = path.resolve('./src/pages/blog/{mdx.slug}.js')
+
+    paginate({
+        createPage, // The Gatsby `createPage` function
+        items: blogTemplate, // An array of objects
+        itemsPerPage: 1, // How many items you want per page
+        pathPrefix: '/blog', // Creates pages like `/blog`, `/blog/2`, etc
+        component: path.resolve('./src/pages/blog/index.js'), // Just like `createPage()`
+      })
 	
 	// Change query from 'allMarkdownRemark' to 'allMdx'
 	// Also, explcitly set sorting to be the same as in index.js

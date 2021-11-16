@@ -5,7 +5,7 @@ import Header from "../../components/header";
 import Pagination from "../../components/pagination";
 import Footer from "../../components/footer";
 
-const BlogPosts = ({ data, pageContext: { numPages, currentPage } }) => {
+const BlogPosts = ({ props, data, pageContext}) => {
     return (
         <div>
           <Header />
@@ -26,7 +26,12 @@ const BlogPosts = ({ data, pageContext: { numPages, currentPage } }) => {
                     </div>
                   ))
                 }
-                <Pagination numPages={numPages} currentPage={currentPage}/>
+                <div>
+        {/* previousPageLink and nextPageLink were added by the plugin */ }
+        <Link to={props.pageContext.previousPagePath}>Previous</Link>
+        <Link to={props.pageContext.nextPagePath}>Next</Link>
+      </div>
+                
               </div>
             </div>
           <Footer />
@@ -35,8 +40,12 @@ const BlogPosts = ({ data, pageContext: { numPages, currentPage } }) => {
 }
 
 export const query = graphql`
-  query {
-    allMdx(sort: {fields: frontmatter___date, order: DESC}) {
+  query ($skip: Int!, $limit: Int!){
+    allMdx(
+      sort: {fields: frontmatter___date, order: DESC}
+      skip: $skip 
+      limit: $limit
+      ) {
       nodes {
         excerpt(truncate: true, pruneLength: 100)
         frontmatter {
