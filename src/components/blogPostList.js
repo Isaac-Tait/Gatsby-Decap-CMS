@@ -2,6 +2,8 @@
 
 import React from "react"
 import { Link } from "gatsby"
+
+import Pagination from "./pagination";
 import blogPostQuery from "./blogPostQuery"
 
 const BlogPostList = () => {
@@ -32,6 +34,7 @@ return (
       <p className="ml-4 italic">{post.excerpt}</p>
      </div>
    ))}
+   <p className="mt-4 flex justify-center">Want to read more?&nbsp;<Link to={`/blog`} className="uppercase text-xl text-yellow-400 underline hover:text-red-400">Click here</Link>.</p>
   </div>
 );
 };

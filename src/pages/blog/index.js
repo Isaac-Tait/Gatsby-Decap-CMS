@@ -5,7 +5,7 @@ import Header from "../../components/header";
 import Pagination from "../../components/pagination";
 import Footer from "../../components/footer";
 
-const BlogPosts = ({ props, data, pageContext}) => {
+const BlogPosts = ({ data, pageContext }) => {
     return (
         <div>
           <Header />
