@@ -5,7 +5,7 @@ import Header from "../../components/header";
 import Pagination from "../../components/pagination";
 import Footer from "../../components/footer";
 
-const BlogPosts = ({ data }) => {
+const BlogPosts = ({ data, pageContext: { numPages, currentPage } }) => {
     return (
         <div>
           <Header />
@@ -26,7 +26,7 @@ const BlogPosts = ({ data }) => {
                     </div>
                   ))
                 }
-                <Pagination />
+                <Pagination numPages={numPages} currentPage={currentPage}/>
               </div>
             </div>
           <Footer />
