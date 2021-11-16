@@ -27,10 +27,8 @@ const BlogPosts = ({ props, data, pageContext}) => {
                   ))
                 }
                 <div>
-        {/* previousPageLink and nextPageLink were added by the plugin */ }
-        <Link to={props.pageContext.previousPagePath}>Previous</Link>
-        <Link to={props.pageContext.nextPagePath}>Next</Link>
-      </div>
+              <Pagination pageContext={pageContext} />
+              </div>
                 
               </div>
             </div>

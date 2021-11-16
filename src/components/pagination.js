@@ -1,43 +1,29 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'gatsby';
 
-const Pagination = ({ numPages, currentPage }) => {
-	if(numPages === 0) return ""
+const Pagination = ({ pageContext }) => {
+  
+  const { previousPagePath, nextPagePath } = pageContext;
 
-	const pagesArray = Array.from(Array(numPages).keys()).map( (_, index) => index + 1);
-	const previousPage = currentPage - 1 <= 1 ? "" : currentPage - 1;
-	const nextPage = currentPage === numPages ? currentPage : currentPage + 1;
+    return (
+      <nav class="flex flex-wrap w-full justify-between">
+        <div class="flex">
+          {previousPagePath && (
+            <Link to={previousPagePath}>
+              <button className="">← Newer Posts</button>
+            </Link>
+          )}
+        </div>
 
-	return(
-		<div className="flex flex-wrap justify-between">
-			<Link 
-				className=""
-				to={`/${previousPage}`}
-			>
-				{"<"}
-			</Link>
-			{
-				pagesArray.map( num => {
-					return(
-						<Page key={num} num={num} current={num === currentPage} />
-					)
-				})
-			}
-			<Link 
-				className="" 
-				to={`/${nextPage}`}>
-					{">"}
-			</Link>
-		</div>
-	)
-}
+        <div class="flex">
+          {nextPagePath && (
+            <Link to={nextPagePath}>
+              <button className="">Older Posts →</button>
+            </Link>
+          )}
+        </div>
+      </nav>
+    );
+};
 
-const Page = ({ num, current }) => {
-	const toPage = num === 1 ? "" : num;
-
-	return(
-		<Link className="" to={`/${toPage}`}>{num}</Link>
-	)
-}
-
-export default Pagination
+export default Pagination;
