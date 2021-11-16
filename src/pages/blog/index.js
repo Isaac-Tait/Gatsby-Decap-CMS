@@ -7,15 +7,15 @@ import Footer from "../../components/footer";
 
 const BlogPosts = ({ data }) => {
     return (
-        <div className="bg-gradient-to-r from-yellow-400 via-red-200 to-indigo-200">
+        <div>
           <Header />
-            <div className="h-screen">
+            <div className="h-screen bg-gradient-to-b from-yellow-400 via-red-200 to-indigo-200 grid place-content-center">
               <div className="max-w-6xl md:mx-auto">
                 {
                   data.allMdx.nodes.map((node) => (
-                    <div className="flex justify-center">
+                    <div className="flex justify-center align-middle">
                       <article key={node.id}>
-                      <div className="text-gray-800 underline hover:text-indigo-400 text-4xl mt-2">
+                      <div className="text-pink-800 underline hover:text-indigo-400 text-4xl mt-2">
                         <Link to={`/blog/${node.slug}`}>
                           {node.frontmatter.title}
                         </Link>

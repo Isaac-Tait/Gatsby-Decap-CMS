@@ -15,6 +15,7 @@ module.exports = {
       indigo: colors.indigo,
       red: colors.rose,
       blue: colors.blue,
+      pink: colors.pink,
       green: {
         200: '#355e3b',
       },
@@ -28,7 +29,7 @@ module.exports = {
       endlessclouds: heroPatterns.endlessclouds,
     },
     heroPatternsShades: ['200', '400'],
-    heroPatternsColors: ['green', 'yellow', 'gray'],
+    heroPatternsColors: ['green', 'yellow', 'gray', 'indigo'],
   },
   variants: {
     extend: {},
