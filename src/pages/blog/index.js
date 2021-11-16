@@ -1,8 +1,8 @@
 import React from "react";
 import { graphql, Link } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import Header from "../../components/header";
+import Pagination from "../../components/pagination";
 import Footer from "../../components/footer";
 
 const BlogPosts = ({ data }) => {
@@ -26,6 +26,7 @@ const BlogPosts = ({ data }) => {
                     </div>
                   ))
                 }
+                <Pagination />
               </div>
             </div>
           <Footer />

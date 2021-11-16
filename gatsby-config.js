@@ -7,7 +7,9 @@ module.exports = {
     },
     description: `An epic horse based adventure retreat located on the flanks of Mt Saint Helens.`,
     siteUrl: `https://royalridges.org`,
-    social: {},
+    social: {
+      instagram: '/royalridges'
+    },
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
