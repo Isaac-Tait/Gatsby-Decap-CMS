@@ -52,8 +52,6 @@ module.exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-
-	// Change query from 'allMarkdownRemark' to 'allMdx' so that it matches the query
     res.data.allMdx.edges.forEach((edge) => {
         createPage({
             component:blogTemplate,

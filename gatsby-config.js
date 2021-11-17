@@ -5,7 +5,7 @@ module.exports = {
       name: `Joshua Tait`,
       summary: `who lives and works in southern Washington and is the director for Royal Ridges Retreat.`,
     },
-    description: `An epic horse based adventure retreat located on the flanks of Mt Saint Helens.`,
+    description: `An epic horse based adventure retreat located on the flanks of Mount Saint Helens.`,
     siteUrl: `https://royalridges.org`,
     social: {
       instagram: '/royalridges'
@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
         path: `${__dirname}/src/images`,
+        name: `images`,
       },
     },
     {

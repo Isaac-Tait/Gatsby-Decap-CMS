@@ -6,23 +6,25 @@ import Header from '../components/header'
 import Bio from '../components/bio'
 
 const BlogPost = ({data, pageContext}) => {
+  const post = data.allMdx
   const { previous, next } = pageContext
 
     return (
     <div>
         <Header /> 
-        {/*👇🏼Controls blog post content*/}
+        {/*👇🏼Blog post content*/}
         <div className="grid place-items-center bg-yellow-200 my-2">
           <div className="mt-2">
             </div>
-                <p className="font-semibold text-3xl uppercase text-gray-700">{data.allMdx.frontmatter.title}</p>
-                <p className="text-gray-600">Posted: {data.allMdx.frontmatter.date}</p>
+                <p className="font-semibold text-3xl uppercase text-gray-700">{post.frontmatter.title}</p>
+                <p className="text-gray-600">Posted: {post.frontmatter.date}</p>
                 <hr />
             <div className="mx-4 text-gray-800">
                 <MDXRenderer>       
-                    {data.allMdx.body}
+                    {post.body}
                 </MDXRenderer>
             </div>
+            {/*👇🏼Blog post navigation*/}
             <nav>
                 <div>
                 {previous && (
