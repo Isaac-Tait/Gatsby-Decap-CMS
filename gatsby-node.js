@@ -3,41 +3,11 @@ const path = require('path')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { paginate } =require('gatsby-awesome-pagination')
 
-module.exports.onCreateNode = ({node, actions}) => {
-    const { createNodeField } = actions
-
-	// Change 'MarkdownRemark' to 'Mdx'
-    if(node.internal.type === 'Mdx') {
-		/* 
-		Basename only was only passed the .md extension,
-		which meant the slug for for .mdx files would be incorrect.
-		I changed it so that we read the ext fron absolutePath and put that into the basename method.
-		*/ 
-		const absPath = node.fileAbsolutePath;
-		const ext = path.extname(absPath);
-        const slug = path.basename(node.fileAbsolutePath, ext)
-        //console.log(JSON.stringify(node,undefined, 4))
-        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@', slug)
-        createNodeField({
-            node,
-            name: 'slug',
-            value: slug
-        })
-    }
-}
 
 module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
-	const blogTemplate = path.resolve('./src/pages/blog/{mdx.slug}.js')
-    const blogPosts = []
-
-    paginate({
-        createPage, // The Gatsby `createPage` function
-        items: blogPosts, // An array of objects
-        itemsPerPage: 4, // How many items you want per page
-        pathPrefix: '/blog', // Creates pages like `/blog`, `/blog/2`, etc
-        component: path.resolve('./src/pages/blog/index.js'), // Just like `createPage()`
-      })
+	  const blogTemplate = path.resolve('./src/templates/blog-template.js')//template for individual blog posts
+    const blogPosts = path.resolve('./src/templates/blog-post-list.js')//template for url/blog page
 	
 	// Change query from 'allMarkdownRemark' to 'allMdx'
 	// Also, explicitly set sorting to be the same as in index.js
@@ -57,24 +27,30 @@ module.exports.createPages = async ({ graphql, actions }) => {
         }
 	`)
 	
+  paginate({
+    createPage, // The Gatsby `createPage` function
+    items: res.data.allMdx.edges, // An array of objects
+    itemsPerPage: 4, // How many items you want per page
+    pathPrefix: '/blog', // Creates pages like `/blog`, `/blog/2`, etc
+    component: blogPosts, // Just like `createPage()`
+  })
 
-	// Create pages for pagination.
 	const posts = res.data.allMdx.edges
-	const postsPerPage = 1 // Change this to get more resutls per page.
-	const numPages = Math.ceil(posts.length / postsPerPage)
+  
+  posts.forEach((post, index) => {
+    const previous = index === 0 ? null : posts[index - 1].node
+    const next = index === (posts.length - 1) ? null : posts[index + 1].node
 
-	Array.from( {length: numPages} ).forEach( (_, i) => {
-		createPage({
-			path: i === 0 ? '/' : `/${i + 1}`,
-			component: path.resolve('./src/pages/blog/{mdx.slug}.js'),
-			context: {
-				limit: postsPerPage,
-				skip: i * postsPerPage,
-				numPages,
-				currentPage: i + 1
-			}
-		});
-	})
+    createPage({
+      path: post.node.fields.slug,
+      component: blogTemplate,
+      context: {
+        slug: post.node.fields.slug,
+        previous,
+        next,
+      },
+    })
+  })
 
 
 	// Change query from 'allMarkdownRemark' to 'allMdx' so that it matches the query
@@ -87,6 +63,29 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         })
     })
+}
+
+module.exports.onCreateNode = ({node, actions}) => {
+  const { createNodeField } = actions
+
+// Change 'MarkdownRemark' to 'Mdx'
+  if(node.internal.type === 'Mdx') {
+  /* 
+  Basename only was only passed the .md extension,
+  which meant the slug for for .mdx files would be incorrect.
+  I changed it so that we read the ext fron absolutePath and put that into the basename method.
+  */ 
+  const absPath = node.fileAbsolutePath;
+  const ext = path.extname(absPath);
+      const slug = path.basename(node.fileAbsolutePath, ext)
+      //console.log(JSON.stringify(node,undefined, 4))
+      console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@', slug)
+      createNodeField({
+          node,
+          name: 'slug',
+          value: slug
+      })
+  }
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

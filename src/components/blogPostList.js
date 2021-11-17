@@ -3,7 +3,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Pagination from "./pagination";
 import blogPostQuery from "./blogPostQuery"
 
 const BlogPostList = () => {

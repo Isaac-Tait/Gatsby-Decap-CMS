@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql, Link } from 'gatsby'
 
-import Header from "../../components/header";
-import Pagination from "../../components/pagination";
-import Footer from "../../components/footer";
+import Header from "../components/header";
+import Pager from "../components/pager";
+import Footer from "../components/footer";
 
 const BlogPosts = ({ data, pageContext }) => {
     return (
@@ -27,7 +27,7 @@ const BlogPosts = ({ data, pageContext }) => {
                   ))
                 }
                 <div>
-              <Pagination pageContext={pageContext} />
+              <Pager pageContext={pageContext} />
               </div>
                 
               </div>
@@ -36,6 +36,8 @@ const BlogPosts = ({ data, pageContext }) => {
         </div>
     );
 }
+
+export default BlogPosts;
 
 export const query = graphql`
   query ($skip: Int!, $limit: Int!){
@@ -56,5 +58,3 @@ export const query = graphql`
     }
   }
 `
-
-export default BlogPosts;
