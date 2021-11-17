@@ -13,7 +13,6 @@
     "autoprefixer": "^10.4.0",
     "gatsby": "^4.2.0",
     "gatsby-awesome-pagination": "^0.3.8",
-    "gatsby-plugin-feed": "^4.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",
     "gatsby-plugin-google-analytics": "^4.2.0",
     "gatsby-plugin-image": "^2.2.0",
