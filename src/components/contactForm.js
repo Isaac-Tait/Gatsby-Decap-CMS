@@ -16,19 +16,18 @@ const Comments = () => {
     };
 
     return (
-        <div>
+        <div className="w-full">
             <hr />
             <form 
                 name="contact" 
                 method="POST" 
                 data-netlify="true" 
-                className="my-4" 
                 action="/success"
             >
                 <div className="my-4 flex flex-col">
                     <label htmlFor="name">Name</label>
                     <input
-                        class="ml-2 mt-2 pl-2 border-dashed border-2 border-red-500" 
+                        className="ml-2 mt-2 pl-2 w-1/4" 
                         type="text" 
                         name="name" 
                         onChange={handleChange}  
@@ -39,7 +38,7 @@ const Comments = () => {
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="email">Email</label>
                     <input 
-                        class="ml-2 mt-2 pl-2"
+                        className="ml-2 mt-2 pl-2 w-1/4"
                         type="email" 
                         name="email" 
                         onChange={handleChange} 
@@ -49,7 +48,7 @@ const Comments = () => {
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="phone">Phone</label>
                     <input 
-                        class="ml-2 mt-2 pl-2"
+                        className="ml-2 mt-2 pl-2 w-1/4"
                         type="text" 
                         name="phone" 
                         onChange={handleChange} 
@@ -59,17 +58,15 @@ const Comments = () => {
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="message">Message</label>
                     <input
-                            class="overflow-y-auto ml-2 mt-2 box-border h-2/3 w-3/4 p-2"            
+                            className="overflow-y-auto ml-2 mt-2 p-2"            
                             type="text" 
                             name="message" 
                             onChange={handleChange}  
                             value={formState.message} 
                         />
                 </div>
-
-                <div className="bg-indigo-200 text-gray-700 hover:bg-yellow-200 hover:text-green-200 rounded-2xl w-1/3 mx-auto">
-                    <button type="submit" className="flex mx-auto">Send</button>
-                </div>
+                
+                <button type="submit" className="bg-indigo-200 text-gray-700 hover:bg-yellow-200 hover:text-green-200 rounded-2xl w-1/4">Send</button>
             </form>
         </div>
     )
