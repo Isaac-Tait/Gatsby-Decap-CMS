@@ -13,12 +13,6 @@ query BlogPosts {
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
-          heroImageAlt
-          heroImage {
-            childrenImageSharp {
-              gatsbyImageData
-            }
-          }
         }
       }
     }
