@@ -39,7 +39,7 @@ const Comments = () => {
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="email">Email</label>
                     <input 
-                        class="ml-2 mt-2 pl-2 border-dashed border-2 border-red-500"
+                        class="ml-2 mt-2 pl-2"
                         type="email" 
                         name="email" 
                         onChange={handleChange} 
@@ -49,21 +49,21 @@ const Comments = () => {
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="phone">Phone</label>
                     <input 
-                        class="ml-2 mt-2 pl-2 border-dashed border-2 border-red-500"
+                        class="ml-2 mt-2 pl-2"
                         type="text" 
                         name="phone" 
                         onChange={handleChange} 
-                        value={formState.website} 
+                        value={formState.phone} 
                     />
                 </div>
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="message">Message</label>
                     <input
-                            class="overflow-y-auto ml-2 mt-2 box-border h-2/3 w-3/4 p-2 border-dashed border-2 border-red-500"            
+                            class="overflow-y-auto ml-2 mt-2 box-border h-2/3 w-3/4 p-2"            
                             type="text" 
                             name="message" 
                             onChange={handleChange}  
-                            value={formState.comment} 
+                            value={formState.message} 
                         />
                 </div>
 
