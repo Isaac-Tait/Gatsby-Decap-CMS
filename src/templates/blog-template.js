@@ -5,6 +5,23 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Header from '../components/header'
 import Bio from '../components/bio'
 
+export const pageQuery = graphql`
+query MyQuery {
+  allMdx {
+    edges {
+      node {
+        body
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+        }
+        excerpt(pruneLength: 160, truncate: true)
+      }
+    }
+  }
+}
+`
+
 const BlogPost = ({data, pageContext}) => {
   const post = data.allMdx
   const { previous, next } = pageContext
@@ -49,20 +66,3 @@ const BlogPost = ({data, pageContext}) => {
   }
 
 export default BlogPost
-
-export const pageQuery = graphql`
-query MyQuery {
-  allMdx {
-    edges {
-      node {
-        body
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-        }
-        excerpt(pruneLength: 160, truncate: true)
-      }
-    }
-  }
-}
-`

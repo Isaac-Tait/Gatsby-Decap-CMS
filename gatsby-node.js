@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 const { paginate } =require('gatsby-awesome-pagination')
 
 
-module.exports.createPages = async ({ graphql, actions }) => {
+module.exports.createPages = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions
 	  const blogTemplate = path.resolve('./src/templates/blog-template.js')//template for individual blog posts
     const blogPosts = path.resolve('./src/templates/blog-post-list.js')//template for url/blog page
@@ -26,6 +26,15 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         }
 	`)
+
+//added below after reading https://github.com/gatsbyjs/gatsby/issues/11784
+  if (res.errors) {
+    reporter.panicOnBuild(
+      `There was an error loading your blog posts`,
+      result.errors
+    )
+    return
+  }
 	
   paginate({
     createPage, // The Gatsby `createPage` function
