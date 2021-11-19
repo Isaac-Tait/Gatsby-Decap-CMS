@@ -5,25 +5,8 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Header from '../components/header'
 import Bio from '../components/bio'
 
-export const pageQuery = graphql`
-query MyQuery {
-  allMdx {
-    edges {
-      node {
-        body
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-        }
-        excerpt(pruneLength: 160, truncate: true)
-      }
-    }
-  }
-}
-`
-
 const BlogPost = ({data, pageContext}) => {
-  const post = data.allMdx
+  const post = data.mdx
   const { previous, next } = pageContext
 
     return (
@@ -42,19 +25,19 @@ const BlogPost = ({data, pageContext}) => {
                 </MDXRenderer>
             </div>
             {/*👇🏼Blog post navigation*/}
-            <nav>
+            <nav className="flex flex-wrap justify-between w-1/2 my-2">
                 <div>
                 {previous && (
-                    <Link to={previous.fields.slug} rel="prev">
-                        <button>← {previous.frontmatter.title}</button> 
+                    <Link to={previous.slug} rel="prev">
+                        <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-white mb-2">← Previous Post{previous.title}</button> 
                     </Link>
                     )}
                 </div>
 
                 <div>
                 {next && (
-                    <Link to={next.fields.slug} rel="next">
-                        <button>{next.frontmatter.title} →</button>
+                    <Link to={next.slug} rel="next">
+                        <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-white">{next.title}Next Post →</button>
                     </Link>
                     )}
                 </div>
@@ -66,3 +49,17 @@ const BlogPost = ({data, pageContext}) => {
   }
 
 export default BlogPost
+
+export const pageQuery = graphql`
+query MyQuery($id: String) {
+  mdx(id: {eq: $id}) {
+    body
+    frontmatter {
+      date(formatString: "MMMM DD, YYYY")
+      title
+    }
+    excerpt(pruneLength: 160, truncate: false)
+    slug
+  }
+}
+`
