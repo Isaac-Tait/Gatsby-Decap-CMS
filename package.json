@@ -31,7 +31,7 @@
     "gatsby-source-filesystem": "^4.2.0",
     "gatsby-transformer-sharp": "^4.2.0",
     "netlify-cms-app": "^2.15.59",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.4",
     "prismjs": "^1.25.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -42,7 +42,7 @@
     "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.0"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
