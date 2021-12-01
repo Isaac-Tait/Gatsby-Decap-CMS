@@ -12,7 +12,7 @@ query BlogPosts {
           title
           image {
             childImageSharp {
-              gatsbyImageData(layout: CONSTRAINED, width:200, height:75)
+              gatsbyImageData(layout: CONSTRAINED)
             }
           }
           imageAlt

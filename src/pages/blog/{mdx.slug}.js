@@ -1,13 +1,12 @@
 import React from 'react';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import Header from '../../components/header'
 import Bio from '../../components/bio'
 
-const BlogPostPage = ({ data, pageContext }) => {
+const BlogPostPage = ({ data }) => {
   const post = data.mdx
-  const { previous, next } = pageContext
 
     return (
       <div>
@@ -24,24 +23,6 @@ const BlogPostPage = ({ data, pageContext }) => {
                       {post.body}
                   </MDXRenderer>
               </div>
-
-              {/*👇🏼Blog post navigation*/}
-              <nav className="flex flex-wrap justify-between w-1/2 my-2">
-                <div>
-                {previous && (
-                    <Link to={previous.slug} rel="prev">
-                        <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-white mb-2">←&nbsp;{previous.title}</button> 
-                    </Link>
-                    )}
-                </div>
-                <div>
-                {next && (
-                    <Link to={next.slug} rel="next">
-                        <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-white">{next.title}&nbsp;→</button>
-                    </Link>
-                    )}
-                </div>
-              </nav>
           </div>
           <Bio />
         </div>
@@ -49,15 +30,13 @@ const BlogPostPage = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-query BlogPostById($slug: String) {
-  mdx(fields: {slug: {eq: $slug}}) {
+query BlogPostById($id: String) {
+  mdx(id: {eq: $id}) {
     body
     frontmatter {
       date(formatString: "MMMM DD, YYYY")
       title
     }
-    excerpt
-    slug
   }
 }
   `

@@ -29,11 +29,12 @@ const postList = getPostList();
 return (
   <div>
    {postList.map((post) => (
-     <div className="max-w-6xl flex flex-col mx-auto">
+     <div className="max-w-6xl">
       <Link to={post.path} key={post.title}>
         <p className="uppercase text-xl text-yellow-400 underline hover:text-red-400">{post.title}</p>
       </Link>
-        <div className="w-8 h-2">
+      
+        <div className="w-1/4 ml-2">
           <GatsbyImage
               image={post.image}
               alt={post.alt}

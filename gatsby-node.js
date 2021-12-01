@@ -64,7 +64,7 @@ module.exports.createPages = async ({ graphql, actions, reporter }) => {
 paginate({
   createPage,
   items: res.data.allMdx.edges,
-  itemsPerPage: 4, // How many items you want per page
+  itemsPerPage: 3, // How many items you want per page
   pathPrefix: '/blog', // Creates pages like `/blog`, `/blog/2`, etc
   component: blogPosts,
 })

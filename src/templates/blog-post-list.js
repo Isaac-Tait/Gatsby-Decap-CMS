@@ -1,11 +1,13 @@
 import React from "react";
 import { graphql, Link } from 'gatsby'
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import Header from "../components/header";
 import Pager from "../components/pager";
 import Footer from "../components/footer";
 
 const BlogPosts = ({ data, pageContext }) => {
+
     return (
         <div className="bg-gradient-to-r from-yellow-400 via-red-200 to-indigo-200">
           <Header />
@@ -20,7 +22,11 @@ const BlogPosts = ({ data, pageContext }) => {
                           {node.frontmatter.title}
                         </Link>
                       </div>
-                        <p className="ml-2 text-gray-600">Posted: {node.frontmatter.date}</p>
+                      <GatsbyImage 
+                          image={node.frontmatter.image}
+                          alt={node.frontmatter.imageAlt}
+                      />
+                        <p className="text-gray-600">Posted: {node.frontmatter.date}</p>
                         <p className="ml-4 italic text-gray-700">{node.excerpt}</p>
                       </article>
                     </div>
@@ -46,15 +52,21 @@ export const query = graphql`
       skip: $skip 
       limit: $limit
       ) {
-      nodes {
-        excerpt(truncate: true, pruneLength: 100)
-        frontmatter {
-          date(formatString: "MMMM D, YYYY")
-          title
+        nodes {
+      excerpt
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        imageAlt
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED)
+          }
         }
-        id
-        slug
       }
+      id
+      slug
+    }
     }
   }
 `
