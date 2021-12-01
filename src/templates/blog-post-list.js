@@ -6,32 +6,33 @@ import Pager from "../components/pager";
 import Footer from "../components/footer";
 
 const BlogPosts = ({ data, pageContext }) => {
-  const posts = data.allMdx.edges;
-
     return (
         <div className="bg-gradient-to-r from-yellow-400 via-red-200 to-indigo-200">
           <Header />
-        <div className="h-screen grid place-content-center">
-            {posts.map(({ node }) => {
-              return (
-                <div className="max-w-6xl md:mx-auto">
-                  <div className="flex justify-center align-middle">
-                    <article key={node.fields.id}>
-                      <header className="text-pink-800 underline hover:text-indigo-400 text-4xl mt-2">
-                        <Link to={node.fields.slug}>
-                          {title}
+            <div className="h-screen grid place-content-center">
+              <div className="max-w-6xl md:mx-auto">
+                {
+                  data.allMdx.nodes.map((node) => (
+                    <div className="flex justify-center align-middle">
+                      <article key={node.id}>
+                      <div className="text-pink-800 underline hover:text-indigo-400 text-4xl mt-2">
+                        <Link to={node.slug}>
+                          {node.frontmatter.title}
                         </Link>
-                      </header>
+                      </div>
                         <p className="ml-2 text-gray-600">Posted: {node.frontmatter.date}</p>
                         <p className="ml-4 italic text-gray-700">{node.excerpt}</p>
-                    </article>
-                  </div>
-                </div>
-              )
-              })}
-            <Pager pageContext={pageContext} />
-          </div>
-            <Footer />
+                      </article>
+                    </div>
+                  ))
+                }
+                <div>
+              <Pager pageContext={pageContext} />
+              </div>
+                
+              </div>
+            </div>
+          <Footer />
         </div>
     );
 }

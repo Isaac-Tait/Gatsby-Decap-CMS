@@ -1,27 +1,25 @@
-import * as React from 'react'
-import { graphql, Link } from 'gatsby'
+import React from 'react';
+import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import Header from '../components/header'
 import Bio from '../components/bio'
 
-const BlogPost = ({data, pageContext}) => {
-  const post = data.mdx
-  const { previous, next } = pageContext
-
+const BlogPostPage = ({ data, pageContext }) => {
+    const { previous, next } = pageContext
     return (
-    <div>
+        <div>
         <Header /> 
         {/*👇🏼Blog post content*/}
         <div className="grid place-items-center bg-yellow-200 my-2">
           <div className="mt-2">
             </div>
-                <p className="font-semibold text-3xl uppercase text-gray-700">{post.frontmatter.title}</p>
-                <p className="text-gray-600">Posted: {post.frontmatter.date}</p>
+                <p className="font-semibold text-3xl uppercase text-gray-700">{data.mdx.frontmatter.title}</p>
+                <p className="text-gray-600">Posted: {data.mdx.frontmatter.date}</p>
                 <hr />
             <div className="mx-4 text-gray-800">
                 <MDXRenderer>       
-                    {post.body}
+                    {data.mdx.body}
                 </MDXRenderer>
             </div>
             {/*👇🏼Blog post navigation*/}
@@ -46,20 +44,20 @@ const BlogPost = ({data, pageContext}) => {
         <Bio />
       </div>
     )
-  }
-
-export default BlogPost
-
-export const pageQuery = graphql`
-query MyQuery($id: String) {
-  mdx(id: {eq: $id}) {
-    body
-    frontmatter {
-      date(formatString: "MMMM DD, YYYY")
-      title
-    }
-    excerpt(pruneLength: 160, truncate: false)
-    slug
-  }
 }
-`
+
+export const query = graphql`
+  query BlogPostById($id: String) {
+    mdx(id: {eq: $id}) {
+      body
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+      }
+      excerpt(pruneLength: 160, truncate: false)
+      slug
+    }
+  }
+  `
+
+export default BlogPostPage

@@ -26,7 +26,7 @@ return (
   <div>
    {postList.map((post) => (
      <div className="max-w-6xl flex flex-col mx-auto">
-      <Link to={`/blog${post.path}`} key={post.title}>
+      <Link to={post.path} key={post.title}>
         <p className="uppercase text-xl text-yellow-400 underline hover:text-red-400">{post.title}</p>
       </Link>
       <p className="ml-2">{post.date}</p>

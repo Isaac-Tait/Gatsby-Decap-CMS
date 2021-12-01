@@ -6,7 +6,7 @@ const { paginate } =require('gatsby-awesome-pagination')
 
 module.exports.createPages = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions
-	  const blogTemplate = path.resolve('./src/templates/blog-template.js')//template for individual blog posts
+	  const blogTemplate = path.resolve('./src/pages/{Mdx.slug}.js')//template for individual blog posts
     const blogPosts = path.resolve('./src/templates/blog-post-list.js')//template for url/blog page
 	
 	// Change query from 'allMarkdownRemark' to 'allMdx'
@@ -58,14 +58,14 @@ module.exports.createPages = async ({ graphql, actions, reporter }) => {
   });
 
   res.data.allMdx.edges.forEach((edge) => {
-        createPage({
-            component:blogTemplate,
-            path: `/blog/${edge.node.fields.slug}`,
-            context: {
-                slug: edge.node.fields.slug
-            }
-        })
+    createPage({
+        component:blogTemplate,
+        path: edge.node.fields.slug,
+        context: {
+            slug: edge.node.fields.slug
+        }
     })
+})
 }
 
 module.exports.onCreateNode = ({node, actions}) => {
