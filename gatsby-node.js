@@ -43,9 +43,9 @@ module.exports.createPages = async ({ graphql, actions, reporter }) => {
       path: post.node.fields.slug,
       component: blogTemplate,
       context: {
-        slug: post.node.fields.slug,
-        previous: index === 0 ? null : posts[index - 1].node,
-        next: index === (posts.length - 1) ? null : posts[index + 1].node
+        slug: post.node.fields.slug, // Pass slug for individual blog post
+        previous: index === 0 ? null : posts[index - 1].node, // Pass previous post for pagination
+        next: index === (posts.length - 1) ? null : posts[index + 1].node // Pass next post for pagination
       },
     })
   });
@@ -70,7 +70,7 @@ paginate({
 })
 }
 
-//Do I need this? I do not know what it does
+//Do I need any of this? I do not know what it does
 module.exports.onCreateNode = ({node, actions}) => {
   const { createNodeField } = actions
 
@@ -79,7 +79,7 @@ module.exports.onCreateNode = ({node, actions}) => {
   /* 
   Basename only was only passed the .md extension,
   which meant the slug for for .mdx files would be incorrect.
-  I changed it so that we read the ext fron absolutePath and put that into the basename method.
+  I changed it so that we read the ext from absolutePath and put that into the basename method.
   */ 
   const absPath = node.fileAbsolutePath;
   const ext = path.extname(absPath);
