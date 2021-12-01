@@ -24,23 +24,23 @@ const BlogPostPage = ({ data, pageContext }) => {
                       {post.body}
                   </MDXRenderer>
               </div>
+
               {/*👇🏼Blog post navigation*/}
               <nav className="flex flex-wrap justify-between w-1/2 my-2">
-                  <div>
-                  {previous && (
-                      <Link to={previous.slug} rel="prev">
-                          <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-white mb-2">← Previous Post{previous.title}</button> 
-                      </Link>
-                      )}
-                  </div>
-  
-                  <div>
-                  {next && (
-                      <Link to={next.slug} rel="next">
-                          <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-white">{next.title}Next Post →</button>
-                      </Link>
-                      )}
-                  </div>
+                <div>
+                {previous && (
+                    <Link to={previous.slug} rel="prev">
+                        <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-white mb-2">←&nbsp;{previous.title}</button> 
+                    </Link>
+                    )}
+                </div>
+                <div>
+                {next && (
+                    <Link to={next.slug} rel="next">
+                        <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-white">{next.title}&nbsp;→</button>
+                    </Link>
+                    )}
+                </div>
               </nav>
           </div>
           <Bio />
@@ -49,17 +49,17 @@ const BlogPostPage = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query BlogPostById($id: String) {
-    mdx(id: {eq: $id}) {
-      body
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        title
-      }
-      excerpt(pruneLength: 160, truncate: false)
-      slug
+query BlogPostById($slug: String) {
+  mdx(fields: {slug: {eq: $slug}}) {
+    body
+    frontmatter {
+      date(formatString: "MMMM DD, YYYY")
+      title
     }
+    excerpt
+    slug
   }
+}
   `
 
 export default BlogPostPage
