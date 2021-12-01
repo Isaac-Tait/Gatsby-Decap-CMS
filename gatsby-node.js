@@ -7,7 +7,7 @@ const { paginate } =require('gatsby-awesome-pagination')
 module.exports.createPages = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions
 
-	  const blogTemplate = path.resolve('./src/pages/{mdx.slug}.js')//template for individual blog posts
+	  const blogTemplate = path.resolve('./src/pages/blog/{mdx.slug}.js')//template for individual blog posts
     const blogPosts = path.resolve('./src/templates/blog-post-list.js')//template for url/blog page
 
     const res = await graphql(`
