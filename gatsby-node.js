@@ -43,6 +43,7 @@ module.exports.createPages = async ({ graphql, actions, reporter }) => {
       path: post.node.fields.slug,
       component: blogTemplate,
       context: {
+        slug: post.node.fields.slug,
         previous: index === 0 ? null : posts[index - 1].node,
         next: index === (posts.length - 1) ? null : posts[index + 1].node
       },
