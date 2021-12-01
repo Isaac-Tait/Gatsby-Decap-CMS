@@ -2,10 +2,12 @@
 
 import React from "react"
 import { Link } from "gatsby"
+import {GatsbyImage} from "gatsby-plugin-image"
 
+//import Pager from "../components/pager"
 import blogPostQuery from "./blogPostQuery"
 
-const BlogPostList = () => {
+const BlogPostList = ({ pageContext }) => {
   const getPostList = () => {
     const postList = [];
     const posts = blogPostQuery();
@@ -15,6 +17,8 @@ const BlogPostList = () => {
         title: postEdge.node.frontmatter.title,
         excerpt: postEdge.node.excerpt,
         date: postEdge.node.frontmatter.date,
+        image: postEdge.node.frontmatter.image.childImageSharp.gatsbyImageData,
+        alt: postEdge.node.frontmatter.imageAlt,
       })
   })
   return postList;
@@ -29,11 +33,18 @@ return (
       <Link to={post.path} key={post.title}>
         <p className="uppercase text-xl text-yellow-400 underline hover:text-red-400">{post.title}</p>
       </Link>
+        <div className="w-8 h-2">
+          <GatsbyImage
+              image={post.image}
+              alt={post.alt}
+            />
+        </div >
       <p className="ml-2">{post.date}</p>
       <p className="ml-4 italic">{post.excerpt}</p>
      </div>
    ))}
-   <p className="mt-4 flex justify-center">Want to read more?&nbsp;<Link to={`/blog`} className="uppercase text-xl text-yellow-400 underline hover:text-red-400">Click here</Link>.</p>
+    <p className="mt-4 flex justify-center">Want to read more?&nbsp;<Link to={`/blog`} className="uppercase text-xl text-yellow-400 underline hover:text-red-400">Click here</Link>.</p>
+    
   </div>
 );
 };

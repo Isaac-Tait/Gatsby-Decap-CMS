@@ -7,17 +7,24 @@ query BlogPosts {
     edges {
       node {
         excerpt
-        fields {
-          slug
-        }
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: CONSTRAINED, width:200, height:75)
+            }
+          }
+          imageAlt
+        }
+        fields {
+          slug
         }
       }
     }
   }
 }
+
 `)
     return BlogPosts;
 }
