@@ -6,11 +6,10 @@ const { paginate } =require('gatsby-awesome-pagination')
 
 module.exports.createPages = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions
-	  const blogTemplate = path.resolve('./src/pages/{Mdx.slug}.js')//template for individual blog posts
+
+	  const blogTemplate = path.resolve('./src/pages/{mdx.slug}.js')//template for individual blog posts
     const blogPosts = path.resolve('./src/templates/blog-post-list.js')//template for url/blog page
-	
-	// Change query from 'allMarkdownRemark' to 'allMdx'
-	// Also, explicitly set sorting to be the same as in index.js
+
     const res = await graphql(`
         query {
             allMdx(
@@ -35,15 +34,8 @@ module.exports.createPages = async ({ graphql, actions, reporter }) => {
     )
     return
   }
-	
-  paginate({
-    createPage, // The Gatsby `createPage` function
-    items: res.data.allMdx.edges, // An array of objects
-    itemsPerPage: 4, // How many items you want per page
-    pathPrefix: '/blog', // Creates pages like `/blog`, `/blog/2`, etc
-    component: blogPosts, // Just like `createPage()`
-  })
 
+  // Create blog posts pages (aka a template for)
 	const posts = res.data.allMdx.edges
   
   posts.forEach((post, index) => {
@@ -66,8 +58,18 @@ module.exports.createPages = async ({ graphql, actions, reporter }) => {
         }
     })
 })
+
+//pagination for blog post list page
+paginate({
+  createPage,
+  items: res.data.allMdx.edges,
+  itemsPerPage: 4, // How many items you want per page
+  pathPrefix: '/blog', // Creates pages like `/blog`, `/blog/2`, etc
+  component: blogPosts,
+})
 }
 
+//Do I need this? I do not know what it does
 module.exports.onCreateNode = ({node, actions}) => {
   const { createNodeField } = actions
 

@@ -2,8 +2,8 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import Header from '../components/header'
-import Bio from '../components/bio'
+import Header from '../../components/header'
+import Bio from '../../components/bio'
 
 const BlogPostPage = ({ data, pageContext }) => {
     const { previous, next } = pageContext
@@ -11,7 +11,7 @@ const BlogPostPage = ({ data, pageContext }) => {
         <div>
         <Header /> 
         {/*👇🏼Blog post content*/}
-        <div className="grid place-items-center bg-yellow-200 my-2">
+        <div className="grid place-items-center bg-yellow-200 h-screen my-2">
           <div className="mt-2">
             </div>
                 <p className="font-semibold text-3xl uppercase text-gray-700">{data.mdx.frontmatter.title}</p>
