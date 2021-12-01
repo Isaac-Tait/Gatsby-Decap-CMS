@@ -1,12 +1,13 @@
 import React from "react";
 import { graphql, Link } from 'gatsby'
-import { GatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Header from "../components/header";
 import Pager from "../components/pager";
 import Footer from "../components/footer";
 
 const BlogPosts = ({ data, pageContext }) => {
+const image = getImage(data.allMdx.frontmatter.image)
 
     return (
         <div className="bg-gradient-to-r from-yellow-400 via-red-200 to-indigo-200">
@@ -23,8 +24,8 @@ const BlogPosts = ({ data, pageContext }) => {
                         </Link>
                       </div>
                       <GatsbyImage 
-                          image={node.frontmatter.image}
-                          alt={node.frontmatter.imageAlt}
+                          image={image}
+                          alt={data.frontmatter.imageAlt}
                       />
                         <p className="text-gray-600">Posted: {node.frontmatter.date}</p>
                         <p className="ml-4 italic text-gray-700">{node.excerpt}</p>

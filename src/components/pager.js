@@ -6,8 +6,8 @@ const Pagination = ({ pageContext }) => {
   const { previousPagePath, nextPagePath } = pageContext;
 
     return (
-      <nav class="flex flex-wrap w-full justify-between">
-        <div class="flex">
+      <nav className="flex flex-wrap w-full justify-between">
+        <div className="flex">
           {previousPagePath && (
             <Link to={previousPagePath}>
               <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">← Newer Posts</button>
@@ -15,7 +15,7 @@ const Pagination = ({ pageContext }) => {
           )}
         </div>
 
-        <div class="flex">
+        <div className="flex">
           {nextPagePath && (
             <Link to={nextPagePath}>
               <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">Older Posts →</button>
