@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 const heroPatterns = require('tailwindcss-hero-patterns/src/patterns')
 const colors = require('tailwindcss/colors')
 

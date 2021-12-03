@@ -11,7 +11,7 @@ const BlogPostPage = ({ data }) => {
     return (
       <div>
           <Header /> 
-          {/*👇🏼Blog post content*/}
+          {/* 👇🏼 Blog post content*/}
           <div className="grid place-items-center bg-yellow-200 h-screen my-2">
             <div className="mt-2">
               </div>
@@ -24,6 +24,7 @@ const BlogPostPage = ({ data }) => {
                   </MDXRenderer>
               </div>
           </div>
+          {/* 👆🏻 End of blog post content*/}
           <Bio />
         </div>
       )

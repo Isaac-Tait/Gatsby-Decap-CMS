@@ -7,7 +7,7 @@ import {GatsbyImage} from "gatsby-plugin-image"
 //import Pager from "../components/pager"
 import blogPostQuery from "./blogPostQuery"
 
-const BlogPostList = () => {
+const BlogPostList = ({ pageContext }) => {
   const getPostList = () => {
     const postList = [];
     const posts = blogPostQuery();
