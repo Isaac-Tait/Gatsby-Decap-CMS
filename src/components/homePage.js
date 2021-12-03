@@ -38,7 +38,7 @@ const HomePage = () => {
             </p>
         </div>
         {/* Third window */}
-        <div className="bg-fixed rounded-lg shadow-lg h-screen heropattern-endlessclouds-gray-200 sm:mx-8 mb-2">
+        <div className="bg-fixed rounded-lg shadow-lg h-screen heropattern-endlessclouds-gray-200 sm:mx-8 mb-2 overflow-scroll">
           <div className="grid place-items-center h-screen">
             <Blog />  {/* Blog post list */}
           </div>
