@@ -10,7 +10,8 @@ module.exports = {
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
-      'body': ['Fuzzy-Bubbles'],
+      'cursive': ['"Fuzzy Bubbles"', 'cursive'],
+      'chalk': ['"Gloria Hallelujah"', 'cursive'],
      },
     colors: {
       transparent: 'transparent',
