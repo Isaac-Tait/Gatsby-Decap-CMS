@@ -9,7 +9,7 @@ module.exports = {
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
-      'cursive': ['"Fuzzy Bubbles"', 'cursive'],
+      'cursive': ['"Permanent Marker"', 'cursive'],
       'chalk': ['"Gloria Hallelujah"', 'cursive'],
      },
     colors: {

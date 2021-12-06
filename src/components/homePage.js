@@ -38,7 +38,7 @@ const HomePage = () => {
         </div>
         {/* Second window */}
         <div className="bg-fixed mb-2 h-screen bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
-            <p className="font-cursive font-extrabold text-xl md:text-6xl text-yellow-400 grid place-items-center h-screen">
+            <p className="font-cursive text-xl md:text-6xl text-yellow-400 grid place-items-center h-screen">
             Discover ~ Connect ~ Grow
             </p>
         </div>
