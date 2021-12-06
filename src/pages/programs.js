@@ -13,7 +13,7 @@ const ProgramsPage = () => {
             Royal Ridges Programs
           </div>
   
-          <div className="grid grid-rows-3 h-96 lg:h-screen">
+          <div className="grid grid-rows-3 h-96 md:h-screen mx-2">
             {/*👇🏼First row*/}
             <div className="flex flex-wrap justify-between text-sm">
               {/*👇🏼First block*/}
@@ -67,16 +67,11 @@ const ProgramsPage = () => {
               {/*👇🏼First block*/}
               <div className="flex flex-col items-center justify-center">
                 <img
-                  alt="happy_kids"
-                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-happy_kid.jpeg"
+                  alt="reptile"
+                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-reptile.jpeg"
                   className="h-40 w-32 hidden md:block rounded-3xl"
                 />
-                <Link
-                  to={'/womenhorsecamp'}
-                  className="text-gray-600 hover:text-red-400"
-                >
-                  Women&apos;s Horse Camp
-                </Link>
+                <Link to={'/paintball'}>Paintball</Link>
               </div>
   
               {/*👇🏼Middle block*/}
@@ -90,7 +85,7 @@ const ProgramsPage = () => {
                   to={'/outdoorsurvival'}
                   className="text-gray-600 hover:text-red-400"
                 >
-                  Outdoor Survival Skills
+                  Outdoor Survival
                 </Link>
               </div>
   
@@ -102,7 +97,7 @@ const ProgramsPage = () => {
                   className="h-40 w-32 hidden md:block rounded-3xl"
                 />
                 <Link to={'/motherdaughterday'}>
-                  Mother Daughter Day
+                  Mother Daughter
                 </Link>
               </div>
             </div>
@@ -142,11 +137,16 @@ const ProgramsPage = () => {
               {/*👇🏼Last block*/}
               <div className="flex flex-col items-center justify-center">
                 <img
-                  alt="reptile"
-                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-reptile.jpeg"
+                  alt="happy_kids"
+                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-happy_kid.jpeg"
                   className="h-40 w-32 hidden md:block rounded-3xl"
                 />
-                <Link to={'/paintball'}>Paintball</Link>
+                <Link
+                  to={'/womenhorsecamp'}
+                  className="text-gray-600 hover:text-red-400"
+                >
+                  Women&apos;s Horse Camp
+                </Link>
               </div>
             </div>
           </div>
