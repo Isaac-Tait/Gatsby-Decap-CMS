@@ -57,7 +57,7 @@ const HomePage = () => {
             <div className="flex flex-col items-center justify-center">
               <Link
                 to={'/summercamp'}
-                className=" text-green-200 hover:text-yellow-200 text-base md:text-2xl font-black uppercase"
+                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
                 <img
                 alt="summer camp icon"
@@ -72,7 +72,7 @@ const HomePage = () => {
             <div className="flex flex-col items-center justify-center">
               <Link
                 to={'/programs'}
-                className=" text-green-200 hover:text-yellow-200 text-base md:text-2xl font-black uppercase"
+                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
                 alt="wild west icon"
@@ -89,7 +89,7 @@ const HomePage = () => {
             <p className="flex flex-col items-center justify-center">
               <Link
                 to={'/support'}
-                className=" text-green-200 hover:text-yellow-200 text-base md:text-2xl font-black uppercase"
+                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
                 alt="adventures icon"
@@ -107,7 +107,7 @@ const HomePage = () => {
             <div className="flex flex-col items-center">
               <Link
                 to={'/about'}
-                className=" text-green-200 hover:text-yellow-200 text-base md:text-2xl font-black uppercase"
+                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
                 alt="expedition icon"
@@ -122,7 +122,7 @@ const HomePage = () => {
             <div className="flex flex-col items-center">
               <Link
                 to={'/contact'}
-                className=" text-green-200 hover:text-yellow-400 text-base md:text-2xl font-black"
+                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
                 <img
                   alt="sand dunes icon"
