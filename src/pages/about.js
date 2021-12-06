@@ -14,7 +14,7 @@ const About = () => {
           About Royal Ridges Retreat
         </div>
 
-        <div className="grid grid-rows-2 h-96 lg:h-screen max-w-6xl mx-auto">
+        <div className="grid grid-rows-2 h-96 md:h-screen max-w-6xl mx-auto">
           <div className="flex flex-wrap justify-between mx-2 my-2 text-sm md:text-lg content-center">
             {/*👇🏼First block*/}
             <div className="flex flex-col items-center">

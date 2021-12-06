@@ -12,7 +12,7 @@ const Support = () => {
       <div className="text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto">
         Support Royal Ridges
       </div>
-      <div className="grid grid-rows-2 h-96 lg:h-screen max-w-6xl mx-auto">
+      <div className="grid grid-rows-2 h-96 md:h-screen max-w-6xl mx-auto">
         {/*👇🏼Controls first row*/}
         <div className="flex flex-wrap justify-between mx-2 my-2 text-sm md:text-lg content-center">
           <div className="flex flex-col items-center">
