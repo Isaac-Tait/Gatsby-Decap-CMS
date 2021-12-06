@@ -5,38 +5,37 @@ import Logo from '../images/logo.png';
 
 const Header = () => {
     return (
-        <header className="md:flex flex-wrap items-center heropattern-topography-yellow-400 px-8 py-6">
-            <div className="md:flex md:flex-1">
-            <Link to="/">
-                <div className="flex-grow mt-1 text-center md:text-left">
+        <div className="heropattern-topography-yellow-400 flex flex-wrap">
+            <div className="px-8 py-6">
+                <Link to="/">
                     <img src={Logo} alt="logo" className="w-56 inline-block"/>
-                </div>
-            </Link>
+                </Link>
             </div>
-
-                <nav className="flex-grow sm:flex-grow-0 md:font-semibold md:uppercase min-h-screenmt-4 mt-4 md:mt-0 overflow-y-auto">
-                    <ul className="flex justify-center content-center">
-                        <li className="mx-4">
-                            <Link to={'/summercamp'} className="underline text-green-200">Summer Camp</Link>
-                        </li>
-                        <li className="mx-4">
+            <div className="flex items-center">
+                <nav className="text-xs lg:text-2xl lg:font-semibold lg:uppercase">
+                    <ul className="flex content-center">
+                        <li className="ml-2 lg:ml-12">
                             <Link to={'/programs'} className="underline text-green-200">Programs</Link>
                         </li>
-                        <li className="mx-4">
+                        <li className="ml-2 lg:ml-12">
+                            <Link to={'/summercamp'} className="underline text-green-200">Summer Camp</Link>
+                        </li>
+                        <li className="ml-2 lg:ml-12">
                             <Link to={'/blog'} className="underline text-green-200">Updates</Link>
                         </li>
-                        <li className="mx-4">
+                        <li className="ml-2 lg:ml-12">
                             <Link to={'/support'} className="underline text-green-200">Support</Link>
                         </li>
-                        <li className="mx-4">
+                        <li className="ml-2 lg:ml-12">
                             <Link to={'/about'} className="underline text-green-200">About</Link>
                         </li>
-                        <li className="mx-4">
+                        <li className="ml-2 lg:ml-12">
                             <Link to={'/contact'} className="underline text-green-200">Contact</Link>
                         </li>
                     </ul>
                 </nav> 
-        </header>
+            </div>
+        </div>
     );
 };
 
