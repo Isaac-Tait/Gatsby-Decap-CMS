@@ -69,7 +69,7 @@ const HomePage = () => {
             </div>
             {/* Empty Div*/}
             <div></div>
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center mt-6">
               <Link
                 to={'/programs'}
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
