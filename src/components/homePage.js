@@ -4,12 +4,16 @@ import {Link} from "gatsby"
 import Blog from "./blogPostList"
 import logo from "../images/logo.png"
 import adventure1 from "../images/adventureOne.png"
+import adventure2 from "../images/adventureTwo.png"
+import adventure3 from "../images/adventureThree.png"
+import adventure4 from "../images/adventureFour.png"
+import adventure5 from "../images/adventureFive.png"
 
 const HomePage = () => {
     return (
         <div>
         {/* First window */}
-          <div className="heropattern-topography-yellow-400 rounded-lg shadow-lg mb-2 sm:mx-8 flex flex-col h-screen justify-between">
+          <div className="heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between">
             <img
             src={logo}
             alt="Royal Ridge's Logo"
@@ -32,14 +36,14 @@ const HomePage = () => {
                 </svg>
             </div>
         </div>
-        {/* Second window https://tailwindcss.com/docs/background-attachment#fixed */}
-        <div className="bg-fixed rounded-lg shadow-lg mb-2 h-screen bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200 sm:mx-8">
+        {/* Second window */}
+        <div className="bg-fixed mb-2 h-screen bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
             <p className="font-cursive font-extrabold text-xl md:text-6xl text-yellow-400 grid place-items-center h-screen">
             Discover ~ Connect ~ Grow
             </p>
         </div>
         {/* Third window */}
-        <div className="bg-fixed rounded-lg shadow-lg h-screen heropattern-endlessclouds-gray-200 sm:mx-8 mb-2 overflow-scroll">
+        <div className="bg-fixed rounded-lg shadow-lg h-screen heropattern-endlessclouds-gray-200 mb-2 overflow-scroll">
           <div className="grid place-items-center h-screen">
             <Blog />  {/* Blog post list */}
           </div>
@@ -47,84 +51,89 @@ const HomePage = () => {
         </div>
         
         {/* Fourth window */}
-        <div className="h-screen bg-gradient-to-l from-indigo-300 via-red-200 to-gray-400 rounded-lg shadow-lg sm:mx-8">
-          <div className="grid col-span-3 grid-cols-3 md:col-span-1 pt-12">
-            
-            <div className="mx-4 font-semibold uppercase flex flex-col items-center justify-center">
+        <div className="h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-to-l from-indigo-300 via-red-200 to-gray-400">
+          {/* Row One */}
+          <div className="grid col-span-3 grid-cols-3 md:col-span-1">
+            <div className="flex flex-col items-center justify-center">
               <Link
                 to={'/summercamp'}
-                className="font-chalk text-green-200 hover:text-yellow-200 underline"
+                className=" text-green-200 hover:text-yellow-200 text-base md:text-2xl font-black uppercase"
               >
                 <img
-                alt="butterfly"
-                src={adventure1}
-                className="hidden md:block w-48 rounded-3xl"
+                alt="summer camp icon"
+                src={adventure4}
+                className="w-52"
               />
               <p className="flex justify-center">Summer Camp</p>
               </Link>
             </div>
-
-            <div className="mx-4 font-semibold uppercase flex flex-col items-center justify-center">
+            {/* Empty Div*/}
+            <div></div>
+            <div className="flex flex-col items-center justify-center">
               <Link
                 to={'/programs'}
-                className="font-chalk text-green-200 hover:text-yellow-200 underline"
+                className=" text-green-200 hover:text-yellow-200 text-base md:text-2xl font-black uppercase"
               >
               <img
-                alt="Climbing wall"
-                src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/splash-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-climbing+wall.JPG"
-                className="hidden md:block h-64 w-48 rounded-3xl"
+                alt="wild west icon"
+                src={adventure2}
+                className="w-52"
               />
                 <p className="flex justify-center">Programs</p>
               </Link>
             </div>
-
-            <p className="mx-4 font-semibold uppercase flex flex-col items-center justify-center">
+          </div>
+          {/* Row Two */}
+          <div className="grid col-span-3 grid-cols-3 md:col-span-1">
+            <div></div>
+            <p className="flex flex-col items-center justify-center">
               <Link
                 to={'/support'}
-                className="font-chalk text-green-200 hover:text-yellow-200 underline"
+                className=" text-green-200 hover:text-yellow-200 text-base md:text-2xl font-black uppercase"
               >
               <img
-                alt="Happy campers"
-                src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/splash-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-happy+campers.JPG"
-                className="hidden md:block h-64 w-48 rounded-3xl"
+                alt="adventures icon"
+                src={adventure3}
+                className="w-52"
               />
                 <p className="flex justify-center">Support</p>
               </Link>
             </p>
+            {/* Empty Div*/}
+            <div></div>
           </div>
-
-          <div className="grid col-span-5 grid-cols-5 md:col-span-1 mt-20">
-            <div className="box-content h-12 w-12 md:h-32 md:w-32 p-4"></div>
-
-            <div className="mx-4 font-semibold uppercase flex flex-col items-center">
+          {/* Row Three */}
+          <div className="grid col-span-3 grid-cols-3 md:col-span-1">
+            <div className="flex flex-col items-center">
               <Link
                 to={'/about'}
-                className="font-chalk text-green-200 hover:text-yellow-200 underline"
+                className=" text-green-200 hover:text-yellow-200 text-base md:text-2xl font-black uppercase"
               >
               <img
-                alt="High ropes course"
-                src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/splash-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-high+ropes.JPG"
-                className="hidden md:block h-64 w-48 rounded-3xl"
+                alt="expedition icon"
+                src={adventure1}
+                className="w-52"
               />
                 <p className="flex justify-center">About</p>
               </Link>
             </div>
-            
-            <div className="box-content h-12 w-12 md:h-32 md:w-32 p-4"></div>
-            <div className="mx-4 font-semibold uppercase flex flex-col items-center">
+            {/* Empty Div*/}
+            <div></div>
+            <div className="flex flex-col items-center">
               <Link
                 to={'/contact'}
-                className="font-chalk text-green-200 hover:text-yellow-400 underline"
+                className=" text-green-200 hover:text-yellow-400 text-base md:text-2xl font-black"
               >
                 <img
-                  alt="Meadow"
-                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/splash-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-meadow.JPG"
-                  className="hidden md:block h-64 w-48 rounded-3xl"
+                  alt="sand dunes icon"
+                  src={adventure5}
+                  className="w-52"
                 />
                 <p className="flex justify-center">Contact</p>
               </Link>
             </div>
           </div>
+          
       </div>
   </div>
   )
