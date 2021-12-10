@@ -12,7 +12,7 @@ const Header = () => {
                 </Link>
             </div>
             <div className="flex items-center">
-                <nav className="text-xs lg:text-2xl lg:font-semibold lg:uppercase">
+                <nav className="text-xs lg:text-xl lg:font-semibold lg:uppercase">
                     <ul className="flex content-center">
                         <li className="ml-2 lg:ml-12">
                             <Link to={'/programs'} className="underline text-green-200">Programs</Link>
