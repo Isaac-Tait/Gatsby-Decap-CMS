@@ -96,8 +96,8 @@ const ProgramsPage = () => {
                   src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-meadow.JPG"
                   className="h-40 w-32 hidden md:block rounded-3xl"
                 />
-                <Link to={'/motherdaughterday'}>
-                  Mother Daughter
+                <Link to={'/parentchild'}>
+                  Parent Child
                 </Link>
               </div>
             </div>
