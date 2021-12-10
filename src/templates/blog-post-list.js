@@ -20,7 +20,7 @@ const BlogPosts = ({ data, pageContext }) => {
                     return (
                       <div className="flex justify-center align-middle">
                         <article key={node.id}>
-                        <div className="text-pink-800 underline hover:text-indigo-400 text-4xl mt-2">
+                        <div className="text-pink-800 hover:text-indigo-400 text-4xl mt-2">
                           <Link to={node.slug}>
                             {node.frontmatter.title}
                           </Link>
@@ -28,10 +28,10 @@ const BlogPosts = ({ data, pageContext }) => {
                           <GatsbyImage 
                               image={image}
                               alt={frontmatter.imageAlt}
-                              className="w-1/4 mt-2"
+                              className="w-1/4 mt-2 rounded-xl"
                           />
-                        <p className="text-gray-600">Posted: {node.frontmatter.date}</p>
-                        <p className="ml-4 italic text-gray-700">{node.excerpt}</p>
+                        <p className="mb-4 italic text-gray-700">{node.excerpt}</p>
+                        <hr />
                       </article>
                     </div>
                     )}

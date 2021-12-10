@@ -7,7 +7,7 @@ import {GatsbyImage} from "gatsby-plugin-image"
 //import Pager from "../components/pager"
 import blogPostQuery from "./blogPostQuery"
 
-const BlogPostList = ({ pageContext }) => {
+const BlogPostList = ({ }) => {
   const getPostList = () => {
     const postList = [];
     const posts = blogPostQuery();
@@ -16,7 +16,6 @@ const BlogPostList = ({ pageContext }) => {
         path: postEdge.node.fields.slug,
         title: postEdge.node.frontmatter.title,
         excerpt: postEdge.node.excerpt,
-        date: postEdge.node.frontmatter.date,
         image: postEdge.node.frontmatter.image.childImageSharp.gatsbyImageData,
         alt: postEdge.node.frontmatter.imageAlt,
       })
@@ -40,8 +39,8 @@ return (
               alt={post.alt}
             />
         </div >
-      <p className="ml-2">{post.date}</p>
-      <p className="ml-4 italic">{post.excerpt}</p>
+      <p className="ml-2 italic">{post.excerpt}</p>
+      <hr />
      </div>
    ))}
     <p className="mt-4 flex justify-center">Want to read more?&nbsp;<Link to={`/blog`} className="uppercase text-xl text-yellow-400 underline hover:text-red-400">Click here</Link>.</p>
