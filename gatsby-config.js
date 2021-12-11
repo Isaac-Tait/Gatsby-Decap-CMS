@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Royal Ridges Retreat`,
@@ -12,6 +14,15 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia-queries")
+      },
+    },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-postcss`,
     `gatsby-awesome-pagination`,
