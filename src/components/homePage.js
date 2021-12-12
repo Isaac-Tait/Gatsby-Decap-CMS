@@ -3,11 +3,11 @@ import {Link} from "gatsby"
 
 import Blog from "./blogPostList"
 import logo from "../images/logo.png"
-import adventure1 from "../images/adventureOne.png"
-import adventure2 from "../images/adventureTwo.png"
-import adventure3 from "../images/adventureThree.png"
-import adventure4 from "../images/adventureFour.png"
-import adventure5 from "../images/adventureFive.png"
+import aboutIcon from "../images/AboutIcon.png"
+import contactIcon from "../images/ContactIcon.png"
+import summerIcon from "../images/SummerIcon.png"
+import programIcon from "../images/ProgramIcon-2.0.png"
+import supportIcon from "../images/SupportIcon.png"
 
 const HomePage = () => {
     return (
@@ -54,14 +54,14 @@ const HomePage = () => {
         <div className="h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-to-l from-indigo-300 via-red-200 to-gray-400">
           {/* Row One */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center mt-6">
               <Link
                 to={'/summercamp'}
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
                 <img
                 alt="summer camp icon"
-                src={adventure4}
+                src={summerIcon}
                 className="w-52"
               />
               <p className="flex justify-center">Summer Camp</p>
@@ -69,14 +69,14 @@ const HomePage = () => {
             </div>
             {/* Empty Div*/}
             <div></div>
-            <div className="flex flex-col items-center justify-center mt-6">
+            <div className="flex flex-col items-center justify-center">
               <Link
                 to={'/programs'}
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
                 alt="wild west icon"
-                src={adventure2}
+                src={programIcon}
                 className="w-52"
               />
                 <p className="flex justify-center">Programs</p>
@@ -93,7 +93,7 @@ const HomePage = () => {
               >
               <img
                 alt="adventures icon"
-                src={adventure3}
+                src={supportIcon}
                 className="w-52"
               />
                 <p className="flex justify-center">Support</p>
@@ -111,7 +111,7 @@ const HomePage = () => {
               >
               <img
                 alt="expedition icon"
-                src={adventure1}
+                src={aboutIcon}
                 className="w-52"
               />
                 <p className="flex justify-center">About</p>
@@ -126,7 +126,7 @@ const HomePage = () => {
               >
                 <img
                   alt="sand dunes icon"
-                  src={adventure5}
+                  src={contactIcon}
                   className="w-52"
                 />
                 <p className="flex justify-center">Contact</p>
