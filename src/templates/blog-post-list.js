@@ -4,10 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Header from "../components/header";
 import Pager from "../components/pager";
-import Search from "../components/search";
 import Footer from "../components/footer";
-
-const searchIndices = [{ name: 'Pages', title: 'Pages' }]
 
 const BlogPosts = ({ data, pageContext }) => {
 
@@ -15,9 +12,6 @@ const BlogPosts = ({ data, pageContext }) => {
         <div className="bg-gradient-to-r from-yellow-400 via-red-200 to-indigo-200">
           <Header />
             <div className="md:h-screen grid place-content-center">
-              <div>
-                <Search indices={searchIndices} />
-              </div>
               <div className="max-w-6xl md:mx-auto">
                 {
                   data.allMdx.nodes.map((node) => {
