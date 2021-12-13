@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import Header from '../../components/header'
@@ -12,14 +12,20 @@ const BlogPostPage = ({ data }) => {
       <div>
           <Header /> 
           {/* 👇🏼 Blog post content*/}
-          <div className="grid place-items-center bg-yellow-200 md:h-screen my-2">
+          <div className="grid place-items-center bg-yellow-200 md:h-screen">
               <p className="font-semibold text-3xl uppercase text-gray-700">{post.frontmatter.title}</p>
               <div className="mx-4 text-gray-800">
                   <MDXRenderer>       
                       {post.body}
                   </MDXRenderer>
-              </div>
+              </div>              
           </div>
+          <div className="bg-gray-100 flex flex-wrap justify-center content-center">
+                <p className="text-gray-600">Were you looking for something else? Head on over to our&nbsp;</p>
+                <Link to={'/search'} className="underline text-red-400">
+                  search page
+                </Link>
+              </div>
           {/* 👆🏻 End of blog post content*/}
           <Bio />
         </div>
