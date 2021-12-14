@@ -32,7 +32,7 @@ module.exports = {
     },
     heroPatterns: {
       topography: heroPatterns.topography,
-      endlessclouds: heroPatterns.endlessclouds,
+      rain: heroPatterns.rain,
     },
     heroPatternsShades: ['200', '400'],
     heroPatternsColors: ['green', 'yellow', 'gray', 'indigo'],
