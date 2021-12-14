@@ -9,7 +9,7 @@ const GirlScouts = () => {
         <Header />
         <div>
 
-      <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base">
+      <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
         <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
           Girl Scouts Riding Badge
         </p>

@@ -142,6 +142,43 @@ const ProgramsPage = () => {
                   className="h-40 w-32 hidden md:block rounded-3xl"
                 />
                 <Link
+                  to={'/guestgroups'}
+                  className="text-gray-600 hover:text-red-400"
+                >
+                  Guest Groups
+                </Link>
+              </div>
+            </div>
+            {/*👇🏼Third row*/}
+            <div className="flex flex-wrap justify-between text-sm">
+              {/*👇🏼First block*/}
+              <div className="flex flex-col items-center justify-center">
+                <img
+                  alt="sunset"
+                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-sunset.jpeg"
+                  className="h-40 w-32 hidden md:block rounded-3xl"
+                />
+                <Link
+                  to={'/vaulting'}
+                  className="text-gray-600 hover:text-red-400"
+                >
+                  Vaulting
+                </Link>
+              </div>
+  
+              {/*👇🏼Middle block*/}
+              <div className="">
+                
+              </div>
+  
+              {/*👇🏼Last block*/}
+              <div className="flex flex-col items-center justify-center">
+                <img
+                  alt="happy_kids"
+                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-happy_kid.jpeg"
+                  className="h-40 w-32 hidden md:block rounded-3xl"
+                />
+                <Link
                   to={'/womenhorsecamp'}
                   className="text-gray-600 hover:text-red-400"
                 >

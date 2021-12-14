@@ -7,7 +7,9 @@ const SummerStaffApp = () => {
     return (
         <div>
         <Header />
-            <p>content</p>
+            <div className="h-screen">
+                <p>content</p>
+            </div>
         <Footer />
         </div>
     );
