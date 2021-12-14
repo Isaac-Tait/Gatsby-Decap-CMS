@@ -52,17 +52,6 @@ const Support = () => {
         <div className="flex flex-wrap justify-between mx-2 my-2 text-sm md:text-lg">
           <div className="flex flex-col items-center">
             <img
-              alt="meeting"
-              src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-meeting.jpeg"
-              className="h-48 w-64 hidden md:block rounded-3xl"
-            />
-            <p className="text-gray-600 hover:text-green-700">
-              <Link to={'/sponsorahorse'}>Sponsor-A-Horse</Link>
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <img
               alt="painted horse"
               src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-painted+horse.jpeg"
               className="h-48 w-64 hidden md:block rounded-3xl"
