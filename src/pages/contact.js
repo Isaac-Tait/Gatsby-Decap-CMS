@@ -1,23 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Header from "../components/header";
 import Footer from "../components/footer";
 
 const Comments = () => {
-    const [formState, setFormState] = useState({
-        name: "",
-        email: "", 
-        website: "", 
-        comment: ""
-    });
-
-    const handleChange = e => {
-        setFormState({
-            ...formState, 
-            [e.target.name]: e.target.value
-        })
-    };
-
     return (
         <div>
             <Header />
@@ -32,59 +18,52 @@ const Comments = () => {
                 action="/success"
                 className="w-full"
             >
+            <input type="hidden" name="form-name" value="contact" />
                 <div className="my-4 flex flex-col">
-                    <label htmlFor="name">Name</label>
-                    <input
-                        input type="hidden"
-                        value="contact"
-                        className="border-2 border-yellow-400 w-1/4" 
-                        type="text" 
-                        name="name" 
-                        onChange={handleChange}  
-                        value={formState.name} 
-                    />
+                    <label htmlFor="name">Name
+                        <input
+                            className="border-2 border-yellow-400 w-1/4" 
+                            type="text" 
+                            name="name" 
+                        />
+                    </label>
                 </div>
 
                 <div className="mb-4 flex flex-col">
-                    <label htmlFor="email">Email</label>
-                    <input
-                        input type="hidden"
-                        value="contact" 
-                        className="border-2 border-yellow-400 w-1/4"
-                        type="email" 
-                        name="email" 
-                        onChange={handleChange} 
-                        value={formState.email} 
-                    />
+                    <label htmlFor="email">Email
+                        <input 
+                            className="border-2 border-yellow-400 w-1/4"
+                            type="email" 
+                            name="email" 
+                            
+                        />
+                    </label>
                 </div>
+
                 <div className="mb-4 flex flex-col">
-                    <label htmlFor="phone">Phone</label>
-                    <input
-                        input type="hidden"
-                        value="contact" 
-                        className="border-2 border-yellow-400 w-1/4"
-                        type="text" 
-                        name="phone" 
-                        onChange={handleChange} 
-                        value={formState.phone} 
-                    />
+                    <label htmlFor="phone">Phone
+                        <input
+                            className="border-2 border-yellow-400 w-1/4"
+                            type="text" 
+                            name="phone" 
+                        />
+                    </label>
                 </div>
+
                 <div className="mb-4 flex flex-col">
-                    <label htmlFor="message">Message</label>
-                    <textarea
-                            input type="hidden"
-                            value="contact"
+                    <label htmlFor="message">Message
+                        <textarea
                             className="overflow-y-auto h-60 border-2 border-yellow-400"            
                             type="text" 
                             name="message" 
-                            onChange={handleChange}  
-                            value={formState.message} 
                         />
+                    </label>
                 </div>
                 
                 <button type="submit" className="bg-indigo-200 text-gray-700 hover:bg-yellow-200 hover:text-green-200 rounded-2xl w-1/4 flex mx-auto cursor-pointer">
                     <p className="underline flex mx-auto">Send</p>
                 </button>
+                
             </form>
         </div>
             <Footer />
