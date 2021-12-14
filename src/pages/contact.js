@@ -25,6 +25,7 @@ const Comments = () => {
             <div className="max-w-6xl flex mx-auto">
             <hr />
             <form 
+                input type="hidden"
                 name="contact" 
                 method="POST" 
                 data-netlify="true" 
