@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 const Success = () => {
     return (
-        <div className="">
+        <div>
             <Header />
             <div className="bg-yellow-200 h-screen">
                 <div className="grid place-content-center">
