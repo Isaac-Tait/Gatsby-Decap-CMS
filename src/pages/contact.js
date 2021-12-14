@@ -25,7 +25,7 @@ const Comments = () => {
             <div className="max-w-6xl flex mx-auto">
             <hr />
             <form 
-                input type="hidden"
+                data-netlify-honeypot="bot-field"
                 name="contact" 
                 method="POST" 
                 data-netlify="true" 
@@ -35,6 +35,8 @@ const Comments = () => {
                 <div className="my-4 flex flex-col">
                     <label htmlFor="name">Name</label>
                     <input
+                        input type="hidden"
+                        value="contact"
                         className="border-2 border-yellow-400 w-1/4" 
                         type="text" 
                         name="name" 
@@ -45,7 +47,9 @@ const Comments = () => {
 
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="email">Email</label>
-                    <input 
+                    <input
+                        input type="hidden"
+                        value="contact" 
                         className="border-2 border-yellow-400 w-1/4"
                         type="email" 
                         name="email" 
@@ -55,7 +59,9 @@ const Comments = () => {
                 </div>
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="phone">Phone</label>
-                    <input 
+                    <input
+                        input type="hidden"
+                        value="contact" 
                         className="border-2 border-yellow-400 w-1/4"
                         type="text" 
                         name="phone" 
@@ -66,6 +72,8 @@ const Comments = () => {
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="message">Message</label>
                     <textarea
+                            input type="hidden"
+                            value="contact"
                             className="overflow-y-auto h-60 border-2 border-yellow-400"            
                             type="text" 
                             name="message" 
