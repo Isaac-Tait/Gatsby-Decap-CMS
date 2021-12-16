@@ -2,27 +2,38 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Pagination = ({ pageContext }) => {
-  
-  const { previousPagePath, nextPagePath } = pageContext;
+  const { numPages, currentPage } = pageContext
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage = currentPage - 1 === 1 ? "/blog" : (currentPage - 1).toString()
+  const nextPage = (currentPage + 1).toString()
 
     return (
-      <nav className="flex flex-wrap w-full justify-between">
-        <div className="flex">
-          {previousPagePath && (
-            <Link to={previousPagePath}>
-              <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">← Newer Posts</button>
-            </Link>
-          )}
-        </div>
+      <nav>
+      <div className="flex flex-wrap justify-between">
 
-        <div className="flex">
-          {nextPagePath && (
-            <Link to={nextPagePath}>
-              <button className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">Older Posts →</button>
+        {!isFirst && (
+          <Link to={prevPage} rel="prev" className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">
+            {"<< Prev"}
+          </Link>
+        )}
+
+        {Array.from({ length: numPages }, (_, i) => (
+          <div key={`pagination-number${i + 1}`}>
+            <Link to={`/blog/${i === 0 ? '' : i + 1}`} className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">
+              {i + 1}
             </Link>
-          )}
-        </div>
-      </nav>
+          </div>
+        ))}
+
+        {!isLast && (
+          <Link to={nextPage} rel="next" className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">
+            {"Next >>"}
+          </Link>
+        )}
+
+      </div>
+    </nav>
     );
 };
 

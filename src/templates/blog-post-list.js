@@ -11,7 +11,7 @@ const BlogPosts = ({ data, pageContext }) => {
     return (
         <div className="bg-gradient-to-r from-yellow-400 via-red-200 to-indigo-200">
           <Header />
-            <div className="md:h-screen grid place-content-center">
+            <div className="md:h-screen grid place-content-center overflow-y-scroll">
               <div className="max-w-6xl md:mx-auto">
                 {
                   data.allMdx.nodes.map((node) => {
@@ -50,7 +50,7 @@ const BlogPosts = ({ data, pageContext }) => {
 export default BlogPosts;
 
 export const query = graphql`
-  query ($skip: Int!, $limit: Int!){
+  query ($skip: Int, $limit: Int){
     allMdx(
       sort: {fields: frontmatter___date, order: DESC}
       skip: $skip 

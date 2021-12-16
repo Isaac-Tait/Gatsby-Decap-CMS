@@ -13,7 +13,6 @@
     "algoliasearch": "^4.11.0",
     "autoprefixer": "^10.4.0",
     "gatsby": "^4.3.0",
-    "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-algolia": "^0.24.0",
     "gatsby-plugin-gatsby-cloud": "^4.3.0",
     "gatsby-plugin-google-analytics": "^4.3.0",
