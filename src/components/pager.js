@@ -11,13 +11,13 @@ const Pagination = ({ pageContext }) => {
     return (
       <nav>
       <div className="flex flex-wrap justify-between">
-
+        {/* Nav Menu*/}
         {!isFirst && (
           <Link to={prevPage} rel="prev" className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">
             {"<< Prev"}
           </Link>
         )}
-
+        {/* Nav Menu*/}
         {Array.from({ length: numPages }, (_, i) => (
           <div key={`pagination-number${i + 1}`}>
             <Link to={`/blog/${i === 0 ? '' : i + 1}`} className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">
@@ -25,7 +25,7 @@ const Pagination = ({ pageContext }) => {
             </Link>
           </div>
         ))}
-
+        {/* Nav Menu*/}
         {!isLast && (
           <Link to={nextPage} rel="next" className="bg-yellow-400 rounded-xl px-2 text-gray-700 hover:text-indigo-400 hover:bg-white">
             {"Next >>"}
