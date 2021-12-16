@@ -24,7 +24,6 @@ module.exports = {
     },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-postcss`,
-    `gatsby-awesome-pagination`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
