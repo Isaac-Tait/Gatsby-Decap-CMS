@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const useBlogPosts = () => {
 const BlogPosts = useStaticQuery(graphql`
 query BlogPosts {
-  allMdx {
+  allMdx(limit: 3, sort: {fields: frontmatter___date, order: DESC}) {
     edges {
       node {
         excerpt
