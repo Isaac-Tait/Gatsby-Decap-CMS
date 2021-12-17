@@ -43,7 +43,7 @@ return (
       <hr />
      </div>
    ))}
-    <p className="mt-4 flex justify-center">Want to read more?&nbsp;<Link to={`/blog`} className="uppercase text-xl text-yellow-400 underline hover:text-red-400">Click here</Link>.</p>
+    <p className="mt-4 flex justify-center">Want to read more?&nbsp;<Link to={`/updates`} className="uppercase text-xl text-yellow-400 underline hover:text-red-400">Click here</Link>.</p>
     
   </div>
 );
