@@ -21,7 +21,7 @@ const BlogPostPage = ({ data, pageContext, location }) => {
                 </MDXRenderer>
             </div>
             <nav className="flex flex-wrap w-full justify-between px-4">
-            <div>
+              <div>
                 {next && (
                     <Link to={next.fields.slug} rel="next">
                         <button className="bg-green-200 px-2 my-4 rounded-xl text-gray-200">⬅️ Next Article</button>

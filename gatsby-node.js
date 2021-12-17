@@ -1,23 +1,21 @@
   const path = require(`path`)
   const { createFilePath } = require(`gatsby-source-filesystem`)
   
-  // Creates path to the nodes (md files from MarkdownRemark)
+  // Creates path to the nodes (md files from Mdx)
   // onCreateNode runs during server start
   // bunch of nodes created from the filesystem during server starts
-  // we are only interested on node.internal.type MarkdownRemark nodes (md files)
+  // we are only interested on node.internal.type Mdx nodes (md files)
   // other node.internal.type is SitePage, which is our .js files inside src
   exports.onCreateNode = ({ node, getNode, actions }) => {
       const { createNodeField } = actions
       if (node.internal.type === `Mdx`) {
           const slug = createFilePath({ node, getNode })
-          // console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@', slug)
-          // createNodeField creates "fields" in graphql named 'slug' with value of slug for that node:node
           createNodeField({ node:node, name: `slug`, value: slug })
       }
   }
   
-  // Dynamically create pages based on graphql query on slugs from each node, put component of that page from blog-post.js template
-  // Create pagination using src/templates/blog-list.js
+  // Dynamically create pages based on graphql query on slugs from each node, put component of that page from {mdx.slug}.js template
+  // Create pagination using src/templates/blog-post-list.js
   exports.createPages = ({ graphql, actions }) => {
       const { createPage } = actions
       const blogTemplate = path.resolve('./src/pages/blog/{mdx.slug}.js')//template for individual blog posts
@@ -58,7 +56,7 @@
               })
           })
           // Create blog list pages (for Blog List Pagination, BLP)
-          // Assign path /2, /3, p/4, etc
+          // Assign path /blog/2, /blog/3, /blog/4, etc
           const postsPerPage = 3
           const numPages = Math.ceil(posts.length / postsPerPage)
   
