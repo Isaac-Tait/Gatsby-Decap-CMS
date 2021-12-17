@@ -18,7 +18,7 @@
   // Create pagination using src/templates/blog-post-list.js
   exports.createPages = ({ graphql, actions }) => {
       const { createPage } = actions
-      const blogTemplate = path.resolve('./src/pages/blog/{mdx.slug}.js')//template for individual blog posts
+      const blogTemplate = path.resolve('./src/pages/updates/{mdx.slug}.js')//template for individual blog posts
       const blogPosts = path.resolve('./src/templates/blog-post-list.js')//template for url/blog page
   
       // this graphql is function string to pass graphql query, this is a node version of graphql
@@ -67,7 +67,7 @@
   
           Array.from({ length: numPages }).forEach((_, i) => {
               createPage({
-                  path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+                  path: i === 0 ? `/updates` : `/updates/${i + 1}`,
                   component: blogPosts,
                   context: {
                       limit: postsPerPage,

@@ -21,7 +21,7 @@ const BlogPosts = ({ data, pageContext }) => {
                       <div className="flex justify-center align-middle">
                         <article key={node.id}>
                         <div className="text-pink-800 hover:text-indigo-400 text-4xl mt-2">
-                          <Link to={node.slug}>
+                          <Link to={`/updates/${node.slug}`}>
                             {node.frontmatter.title}
                           </Link>
                         </div>
