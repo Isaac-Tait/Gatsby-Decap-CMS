@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 import HomePage from "../components/homePage"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data.site.siteMetadata.title || `Title`
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -34,7 +34,6 @@ export const pageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
-          description
         }
       }
     }
