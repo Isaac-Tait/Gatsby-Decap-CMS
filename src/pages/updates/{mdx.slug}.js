@@ -8,17 +8,19 @@ import Bio from '../../components/bio'
 const BlogPostPage = ({ data, pageContext, location }) => {
   const post = data.mdx
   const { previous, next } = pageContext
-  if(!post) return <pre>{JSON.stringify(pageContext,null,2)}</pre>
+  //if(!post) return <pre>{JSON.stringify(pageContext,null,2)}</pre>
+  const title = post.frontmatter.title ? post.frontmatter.title : "";
+  const body = post.body ? post.body : "";
 
     return (
       <div location={location}>
           <Header /> 
           {/* 👇🏼 Blog post content*/}
           <div className="grid place-items-center bg-yellow-200 md:h-screen overflow-y-scroll">
-            <p className="font-semibold text-3xl uppercase text-gray-700">{post.frontmatter.title}</p>
+            <p className="font-semibold text-3xl uppercase text-gray-700">{title}</p>
             <div className="mx-4 text-gray-800">
                 <MDXRenderer>       
-                    {post.body}
+                    {body}
                 </MDXRenderer>
             </div>
             <nav className="flex flex-wrap w-full justify-between px-4">

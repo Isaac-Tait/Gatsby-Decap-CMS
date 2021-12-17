@@ -21,7 +21,7 @@ const Header = () => {
                             <Link to={'/summercamp'} className="underline text-green-200">Summer Camp</Link>
                         </li>
                         <li className="ml-1 lg:ml-12">
-                            <Link to={'/blog'} className="underline text-green-200">Updates</Link>
+                            <Link to={'/updates'} className="underline text-green-200">Updates</Link>
                         </li>
                         <li className="ml-1 lg:ml-12">
                             <Link to={'/support'} className="underline text-green-200">Support</Link>
