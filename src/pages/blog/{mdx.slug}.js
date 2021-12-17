@@ -8,13 +8,14 @@ import Bio from '../../components/bio'
 const BlogPostPage = ({ data, pageContext, location }) => {
   const post = data.mdx
   const { previous, next } = pageContext
+  if(!post) return <pre>{JSON.stringify(pageContext,null,4)}</pre>
 
     return (
       <div location={location}>
           <Header /> 
           {/* 👇🏼 Blog post content*/}
           <div className="grid place-items-center bg-yellow-200 md:h-screen overflow-y-scroll">
-            <p className="font-semibold text-3xl uppercase text-gray-700">{post.frontmatter.title}</p>
+            <p key={post.id} className="font-semibold text-3xl uppercase text-gray-700">{post.frontmatter.title}</p>
             <div className="mx-4 text-gray-800">
                 <MDXRenderer>       
                     {post.body}
@@ -53,13 +54,14 @@ const BlogPostPage = ({ data, pageContext, location }) => {
 export default BlogPostPage
 
 export const query = graphql`
-query ($slug: String!) {
+query ($slug: String) {
   mdx(fields: { slug: { eq: $slug } }) {
     body
     frontmatter {
       title
       date
     }
+    id
   }
 }
 `

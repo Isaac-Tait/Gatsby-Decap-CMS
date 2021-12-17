@@ -24,19 +24,22 @@
       // this graphql is function string to pass graphql query, this is a node version of graphql
       // this query returns a promise of slugs. use then instead of async await
       return graphql(`
-      query loadSlugQuery{
-        allMdx(
-          sort: { fields: [frontmatter___date], order: DESC}
-          ) {
-            edges {
-                node {
-                    fields {
-                        slug
-                    }
-                }
+      query loadSlugQuery {
+        allMdx(sort: {fields: [frontmatter___date], order: DESC}) {
+          edges {
+            node {
+              body
+              id
+              frontmatter {
+                title
+              }
+              fields {
+                slug
+              }
             }
+          }
         }
-    }`, { limit: 1000}).then(result => {
+      }`, { limit: 1000}).then(result => {
         
           const posts = result.data.allMdx.edges
           posts.forEach((post, index) => {
@@ -50,6 +53,8 @@
                   component: blogTemplate,
                   context: {
                       slug: post.node.fields.slug,
+                      title: post.node.frontmatter.title,
+                      body: post.node.body,
                       previous,
                       next,
                   },
