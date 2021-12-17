@@ -8,7 +8,7 @@ import Bio from '../../components/bio'
 const BlogPostPage = ({ data, pageContext, location }) => {
   const post = data.mdx
   const { previous, next } = pageContext
-  //if(!post) return <pre>{JSON.stringify(pageContext,null,2)}</pre>
+  if(!post) return <pre>{JSON.stringify(pageContext,null,2)}</pre>
 
     return (
       <div location={location}>

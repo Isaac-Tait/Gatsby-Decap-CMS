@@ -1,83 +1,22 @@
   const path = require(`path`)
   const { createFilePath } = require(`gatsby-source-filesystem`)
-  
-    exports.onCreateNode = ({ node, getNode, actions }) => {
-      const { createNodeField } = actions
-      if (node.internal.type === `Mdx`) {
-          const value = createFilePath({ node, getNode })
-          createNodeField({ 
-            name: `slug`,
-            value,
-            node,
-         })
-      }
-  }
-
-  module.exports.onCreateNode = ({node, actions}) => {
-    const { createNodeField } = actions
-  
-  // Change 'MarkdownRemark' to 'Mdx'
-    if(node.internal.type === 'Mdx') {
-    /* 
-    Basename only was only passed the .md extension,
-    which meant the slug for for .mdx files would be incorrect.
-    I changed it so that we read the ext from absolutePath and put that into the basename method.
-    */ 
-    const absPath = node.fileAbsolutePath;
-    const ext = path.extname(absPath);
-        const slug = path.basename(node.fileAbsolutePath, ext)
-        //console.log(JSON.stringify(node,undefined, 4))
-        console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@', slug)
-        createNodeField({
-            node,
-            name: 'slug',
-            value: slug
-        })
-    }
-  }
-
-  exports.createSchemaCustomization = ({ actions }) => {
-    const { createTypes } = actions
-  
-    // Explicitly define the siteMetadata {} object
-    // This way those will always be defined even if removed from gatsby-config.js
-  
-    // Also explicitly define the Markdown frontmatter
-    // This way the "MarkdownRemark" queries will return `null` even when no
-    // blog posts are stored inside "content/blog" instead of returning an error
-    createTypes(`
-      type SiteSiteMetadata {
-        author: Author
-        siteUrl: String
-        social: Social
-      }
-      type Author {
-        name: String
-        summary: String
-      }
-      type Social {
-        twitter: String
-      }
-      type Mdx implements Node {
-        frontmatter: Frontmatter
-        fields: Fields
-      }
-      type Frontmatter {
-        title: String
-        description: String
-        date: Date @dateformat
-      }
-      type Fields {
-        slug: String
-      }
-    `)
-  }
 
   // Creates path to the nodes (md files from Mdx)
   // onCreateNode runs during server start
   // bunch of nodes created from the filesystem during server starts
   // we are only interested on node.internal.type Mdx nodes (md files)
   // other node.internal.type is SitePage, which is our .js files inside src
+  exports.onCreateNode = ({ node, getNode, actions }) => {
+    const { createNodeField } = actions
+    if (node.internal.type === `Mdx`) {
+        const value = createFilePath({ node, getNode })
+        createNodeField({ 
+          name: `slug`,
+          value,
+          node,
+       })
+    }
+  }
   
   // Dynamically create pages based on graphql query on slugs from each node, put component of that page from {mdx.slug}.js template
   // Create pagination using src/templates/blog-post-list.js
