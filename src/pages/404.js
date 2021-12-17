@@ -1,3 +1,4 @@
+// eslint-disable-next-line jsx-a11y/rule-name
 import * as React from "react"
 import { Link } from "gatsby"
 

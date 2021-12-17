@@ -8,7 +8,7 @@ import Bio from '../../components/bio'
 const BlogPostPage = ({ data, pageContext, location }) => {
   const post = data.mdx
   const { previous, next } = pageContext
-  if(!post) return <pre>{JSON.stringify(pageContext,null,2)}</pre>
+  //if(!post) return <pre>{JSON.stringify(pageContext,null,2)}</pre>
 
     return (
       <div location={location}>
@@ -51,17 +51,16 @@ const BlogPostPage = ({ data, pageContext, location }) => {
       )
 }
 
-export default BlogPostPage
-
 export const query = graphql`
 query ($slug: String) {
   mdx(fields: { slug: { eq: $slug } }) {
-    body
     frontmatter {
       title
-      date
     }
+    body
     id
   }
 }
 `
+
+export default BlogPostPage
