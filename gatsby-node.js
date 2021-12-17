@@ -37,8 +37,8 @@
             }
         }
     }`, { limit: 1000}).then(result => {
+        
           const posts = result.data.allMdx.edges
-          
           posts.forEach((post, index) => {
               // create prev and next on each posts render (for Blog Post Pagination, BPP)
               const previous = index === (posts.length - 1) ? null : posts[index + 1].node
