@@ -29,7 +29,7 @@ return (
   <div>
    {postList.map((post) => (
      <div className="max-w-6xl">
-      <Link to={post.path} key={post.title}>
+      <Link to={`/updates${post.path}`} key={post.title}>
         <p className="uppercase text-xl text-yellow-400 underline hover:text-red-400">{post.title}</p>
       </Link>
       
