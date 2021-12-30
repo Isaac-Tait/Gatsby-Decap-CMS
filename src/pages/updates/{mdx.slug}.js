@@ -54,8 +54,10 @@ const BlogPostPage = ({ data, pageContext, location }) => {
 }
 
 export const query = graphql`
-query ($slug: String) {
-  mdx(fields: { slug: { eq: $slug } }) {
+query (
+  $id: String
+  ) {
+  mdx(id: {eq: $id}) {
     frontmatter {
       title
     }

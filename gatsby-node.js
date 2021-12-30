@@ -30,8 +30,7 @@
       return graphql(`
       query loadSlugQuery {
         allMdx(sort: {fields: [frontmatter___date], order: DESC}) {
-          edges {
-            node {
+            nodes {
               body
               id
               frontmatter {
@@ -41,24 +40,23 @@
                 slug
               }
             }
-          }
         }
       }`, { limit: 1000}).then(result => {
         
-          const posts = result.data.allMdx.edges
+          const posts = result.data.allMdx.nodes
           posts.forEach((post, index) => {
               // create prev and next on each posts render (for Blog Post Pagination, BPP)
-              const previous = index === (posts.length - 1) ? null : posts[index + 1].node
-              const next = index === 0 ? null : posts[index - 1].node
+              const previous = index === (posts.length - 1) ? null : posts[index + 1].id
+              const next = index === 0 ? null : posts[index - 1].id
   
               // previous and next are objects props sent as pageContext object to blogPostTemplate
               createPage({
-                  path: post.node.fields.slug,
+                  path: post.nodes.fields.slug,
                   component: blogTemplate,
                   context: {
-                      slug: post.node.fields.slug,
-                      title: post.node.frontmatter.title,
-                      body: post.node.body,
+                      slug: post.nodes.fields.slug,
+                      title: post.nodes.frontmatter.title,
+                      body: post.nodes.body,
                       previous,
                       next,
                   },
