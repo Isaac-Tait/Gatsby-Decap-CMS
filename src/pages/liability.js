@@ -7,7 +7,7 @@ const Medical = () => {
     return (
         <div>
         <Header />
-        <div className="h-screen">
+        <div className="h-screen max-w-6xl mx-auto">
             <p className="text-gray-600 font-medium text-xl">
                 This form is required for all summer camps. We suggest you complete the
                 form at the time of your purchase. Forms are valid from October 1 to

@@ -39,10 +39,10 @@ const ProgramsPage = () => {
                   className="h-40 w-32 hidden md:block rounded-3xl"
                 />
                 <Link
-                  to={'/ridinglessons'}
+                  to={'/horsemanship'}
                   className="text-gray-600 hover:text-red-400"
                 >
-                  Riding Lessons
+                  Horsemanship Lessons
                 </Link>
               </div>
   
@@ -165,12 +165,8 @@ const ProgramsPage = () => {
                   Vaulting
                 </Link>
               </div>
-  
               {/*👇🏼Middle block*/}
-              <div className="">
-                
-              </div>
-  
+              <div></div>
               {/*👇🏼Last block*/}
               <div className="flex flex-col items-center justify-center">
                 <img

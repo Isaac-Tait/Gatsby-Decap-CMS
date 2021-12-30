@@ -22,7 +22,7 @@ const SummerCampPage = () => {
                   className="w-64 rounded-3xl"
                 />
                 <div className="text-gray-600 hover:text-green-200 mx-4">
-                  <Link to={'/medical'}>Medical & Liability Waiver</Link>
+                  <Link to={'/liability'}>Liability Waiver</Link>
                 </div>
               </div>
               {/*Item two*/}
