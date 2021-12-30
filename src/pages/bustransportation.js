@@ -30,6 +30,11 @@ const DayCamp = () => {
                     </div>
                     {/*Column 2*/}
                     <div className='mr-4'>
+                        <img 
+                            src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Summer_Bus_Service_-_10.png'
+                            alt='bus_service'
+                            className='w-1/2'
+                        />
                         <p>Bus Transportation Information</p>
                     </div>    
                 </div>

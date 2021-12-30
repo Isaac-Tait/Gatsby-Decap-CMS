@@ -66,7 +66,7 @@ const SummerCampPage = () => {
                 {/*Item four*/}
                 <div className="flex flex-col items-center">
                   <Link 
-                      to={'/summercampreg'}
+                      to={'/registration'}
                       className="text-gray-400 hover:text-green-200"
                     >
                     <img

@@ -22,7 +22,7 @@ const DayCamp = () => {
                             <p>Day Paintball Camp</p>
                         </Link>
                         <Link to={'/summergiddyupprogram'} className='my-4 underline text-green-200 hover:text-indigo-500'>
-                            <p>Summer GiddyUp Program</p>
+                            <p>Summer Giddy Up Program</p>
                         </Link>
                         <Link to={'/bustransportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
@@ -30,6 +30,11 @@ const DayCamp = () => {
                     </div>
                     {/*Column 2*/}
                     <div className='mr-4'>
+                        <img 
+                            src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Traditional_Day_Camp_100.png' 
+                            alt='traditional_day_camp' 
+                            className='w-1/2' 
+                        />    
                         <p>Day Camp Information</p>
                     </div>    
                 </div>

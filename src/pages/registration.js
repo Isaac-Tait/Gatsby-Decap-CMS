@@ -12,22 +12,22 @@ const SummerReg = () => {
                 <div className='h-screen grid grid-cols-2 gap-4'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
-                        <Link to={'/day-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/daycamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Traditional Day Camp</p>
                         </Link>
-                        <Link to={'/day-horse-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/dayhorsecamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Day Horse Camp</p>
                         </Link>
-                        <Link to={'/day-adventure-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/dayadventurecamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Day Adventure Camp</p>
                         </Link>
-                        <Link to={'/day-paintball-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/daypaintballcamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Day Paintball Camp</p>
                         </Link>
-                        <Link to={'/summer-giddyup-program'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/summergiddyupprogram'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Summer GiddyUp Program</p>
                         </Link>
-                        <Link to={'/bus-transportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/bustransportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
                         </Link>
                     </div>

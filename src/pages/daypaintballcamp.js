@@ -30,6 +30,11 @@ const DayPaintBall = () => {
                     </div>
                     {/*Column 2*/}
                     <div className='mr-4'>
+                        <img 
+                            src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Paintball_Day_Camp_100.png'
+                            alt='paintball_day_camp'
+                            className='w-1/2'
+                        />
                         <p>Day Paint Ball Camp Information</p>
                     </div>    
                 </div>
