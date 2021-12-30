@@ -4,7 +4,6 @@ import React from "react"
 import { Link } from "gatsby"
 import {GatsbyImage} from "gatsby-plugin-image"
 
-//import Pager from "../components/pager"
 import blogPostQuery from "./blogPostQuery"
 
 const BlogPostList = () => {
