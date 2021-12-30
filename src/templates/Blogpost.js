@@ -2,8 +2,8 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import Header from '../../components/header'
-import Bio from '../../components/bio'
+import Header from '../components/header'
+import Bio from '../components/bio'
 
 const BlogPostPage = ({ data, pageContext, location }) => {
   console.log(data, pageContext)
@@ -60,8 +60,8 @@ const BlogPostPage = ({ data, pageContext, location }) => {
   )
 }
 
-export const pageuery = graphql`
-  query blogpost($id: String!, $previous: String, $next: String) {
+export const pageQuery = graphql`
+  query blogPost($id: String!, $previous: String, $next: String) {
     mdx(id: { eq: $id }) {
       frontmatter {
         title

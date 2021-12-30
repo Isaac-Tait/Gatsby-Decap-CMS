@@ -1,15 +1,14 @@
 //Helpful blog post https://blog.bitsrc.io/gatsby-fetching-data-at-the-component-level-with-usestaticquery-397e35e648e
 
-import React from "react"
-import { Link } from "gatsby"
-import {GatsbyImage} from "gatsby-plugin-image"
-
-import blogPostQuery from "./blogPostQuery"
+import React from 'react'
+import { Link } from 'gatsby'
+import { GatsbyImage } from 'gatsby-plugin-image'
+import useBlogPosts from './useBlogPosts'
 
 const BlogPostList = () => {
   const getPostList = () => {
-    const postList = [];
-    const posts = blogPostQuery();
+    const postList = []
+    const posts = useBlogPosts()
     posts.allMdx.edges.forEach((postEdge) => {
       postList.push({
         path: postEdge.node.fields.slug,
@@ -18,34 +17,41 @@ const BlogPostList = () => {
         image: postEdge.node.frontmatter.image.childImageSharp.gatsbyImageData,
         alt: postEdge.node.frontmatter.imageAlt,
       })
-  })
-  return postList;
+    })
+    return postList
+  }
+
+  const postList = getPostList()
+
+  return (
+    <div>
+      {postList.map((post) => (
+        <div className="max-w-6xl">
+          <Link to={`/updates${post.path}`} key={post.title}>
+            <p className="uppercase text-xl text-yellow-400 underline hover:text-red-400">
+              {post.title}
+            </p>
+          </Link>
+
+          <div className="w-1/4 ml-2">
+            <GatsbyImage image={post.image} alt={post.alt} />
+          </div>
+          <p className="ml-2 italic">{post.excerpt}</p>
+          <hr />
+        </div>
+      ))}
+      <p className="mt-4 flex justify-center">
+        Want to read more?&nbsp;
+        <Link
+          to={`/updates`}
+          className="uppercase text-xl text-yellow-400 underline hover:text-red-400"
+        >
+          Click here
+        </Link>
+        .
+      </p>
+    </div>
+  )
 }
 
-const postList = getPostList();
-
-return (
-  <div>
-   {postList.map((post) => (
-     <div className="max-w-6xl">
-      <Link to={`/updates${post.path}`} key={post.title}>
-        <p className="uppercase text-xl text-yellow-400 underline hover:text-red-400">{post.title}</p>
-      </Link>
-      
-        <div className="w-1/4 ml-2">
-          <GatsbyImage
-              image={post.image}
-              alt={post.alt}
-            />
-        </div >
-      <p className="ml-2 italic">{post.excerpt}</p>
-      <hr />
-     </div>
-   ))}
-    <p className="mt-4 flex justify-center">Want to read more?&nbsp;<Link to={`/updates`} className="uppercase text-xl text-yellow-400 underline hover:text-red-400">Click here</Link>.</p>
-    
-  </div>
-);
-};
-
-export default BlogPostList;
+export default BlogPostList
