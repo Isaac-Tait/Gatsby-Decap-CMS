@@ -18,50 +18,62 @@ const About = () => {
           <div className="flex flex-wrap justify-between mx-2 my-2 text-sm md:text-lg content-center">
             {/*👇🏼First block 1st row*/}
             <div className="flex flex-col items-center">
-              <img
-                alt="Clouds"
-                src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-clouds.JPG"
-                className="h-48 w-64 hidden md:block rounded-3xl"
-              />
-              <p className="text-gray-600 hover:text-red-400">
-                <Link to={'/mission'}>Mission</Link>
-              </p>
+                <Link 
+                  to={'/mission'}
+                  className='text-gray-400 hover:text-green-200'
+                >
+                <img
+                  alt="Clouds"
+                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-clouds.JPG"
+                  className="h-48 w-64 hidden md:block rounded-3xl"
+                />
+                <p className='flex justify-center'>Missions</p>
+                </Link>
             </div>
             {/*👇🏼Second block 1st row*/}
             <div className="flex flex-col items-center">
-              <img
-                alt="couple at picnic table"
-                src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-founders.JPG"
-                className="h-48 w-64 hidden md:block rounded-3xl"
-              />
-              <p className="text-gray-600 hover:text-red-400">
-                <Link to={'/newsletter'}>Newsletter</Link>
-              </p>
+                <Link 
+                  to={'/newsletter'}
+                  className='text-gray-400 hover:text-green-200'
+                >
+                <img
+                  alt="couple at picnic table"
+                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-founders.JPG"
+                  className="h-48 w-64 hidden md:block rounded-3xl"
+                />
+                <p className='flex justify-center'>Newsletter</p>
+                </Link>
             </div>
           </div>
 
           <div className="flex flex-wrap justify-between mx-2 my-2 text-sm md:text-lg content-center">
             {/*👇🏼First block 2nd row*/}
             <div className="flex flex-col items-center">
-              <img
-                alt="pool"
-                src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-pool.JPG"
-                className="h-48 w-64 hidden md:block rounded-3xl"
-              />
-              <p className="text-gray-600 hover:text-red-400">
-                <Link to={'/staff'}>Staff Page</Link>
-              </p>
+                <Link 
+                  to={'/staff'}
+                  className='text-gray-400 hover:text-green-200'
+                >
+                <img
+                  alt="pool"
+                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-pool.JPG"
+                  className="h-48 w-64 hidden md:block rounded-3xl"
+                />
+                <p className='flex justify-center'>Staff Page</p>
+                </Link>
             </div>
             {/*👇🏼Second block 2nd row*/}
             <div className="flex flex-col items-center">
-              <img
-                alt="stables"
-                src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-stables.JPG"
-                className="h-48 w-64 hidden md:block rounded-3xl"
-              />
-              <p className="text-gray-600 hover:text-red-400">
-                <Link to={'/statementoffaith'}>Our Faith</Link>
-              </p>
+                <Link 
+                  to={'/statementoffaith'}
+                  className='text-gray-400 hover:text-green-200'
+                >
+                <img
+                  alt="stables"
+                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-stables.JPG"
+                  className="h-48 w-64 hidden md:block rounded-3xl"
+                />
+                <p className='flex justify-center'>Statement of Faith</p>
+                </Link>
             </div>
           </div>
         </div>
