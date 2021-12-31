@@ -8,10 +8,14 @@ const DayCamp = () => {
     return (
         <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
             <Header />
-            <p className='text-2xl font-extrabold text-green-200 flex justify-center mb-4'>Summer Camp Registration</p>
-                <div className='h-screen grid grid-cols-2 gap-4'>
+            <p className='text-2xl font-extrabold text-green-200 flex justify-center mb-4'>Summer Camp Information</p>
+                <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
+                    <Link to={'/registration'} className='my-4 underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
+                            <p>Registration</p>
+                        </Link>
+                        <hr /> 
                         <Link to={'/daycamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Traditional Day Camp</p>
                         </Link>
@@ -25,7 +29,10 @@ const DayCamp = () => {
                             <p>Day Paintball Camp</p>
                         </Link>
                         <Link to={'/summergiddyupprogram'} className='my-4 underline text-green-200 hover:text-indigo-500'>
-                            <p>Summer GiddyUp Program</p>
+                            <p>Summer Giddy Up Program</p>
+                        </Link>
+                        <Link to={'/faq'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                            <p>FAQs</p>
                         </Link>
                     </div>
                     {/*Column 2*/}
@@ -33,7 +40,7 @@ const DayCamp = () => {
                         <img 
                             src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Summer_Bus_Service_-_10.png'
                             alt='bus_service'
-                            className='w-1/2'
+                            className='w-1/2 flex mx-auto rounded-xl mb-2'
                         />
                         <p>Bus Transportation Information</p>
                     </div>    
