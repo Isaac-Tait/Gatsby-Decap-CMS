@@ -72,6 +72,7 @@ const Faq = () => {
                     <p className="mb-4">Royal Ridges staff will take a photo of your child&#8217;s group during the week. We will send your child&#8217;s group photo in an email for you to download by the end of the following week. If you do not receive an email from us by the end of the week following attendance, please contact us, and we will resend it. Day Horse Campers will also receive a link to view a short video of their camper&#8217;s riding time.</p>
                 </div>
             </div>
+            <p className='my-20'></p>{/* Spacer */}
         <Footer />
         </div>
 

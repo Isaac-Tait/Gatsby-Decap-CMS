@@ -77,6 +77,7 @@ const DayPaintBall = () => {
                             rel="noopener noreferrer"
                             className='text-yellow-400 font-extrabold text-3xl underline'
                         >Register for Paintball Camp</a>
+                        <p className='my-20'></p>{/* Spacer */}
                     </div>    
                 </div>
             <Footer />

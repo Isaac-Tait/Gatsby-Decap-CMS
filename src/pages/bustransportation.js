@@ -86,13 +86,13 @@ const DayCamp = () => {
                             <p>ALL BUSES WILL STAY AT THEIR LAST STOP UNTIL THE LAST KIDDO IS PICKED UP!</p>
                             <p>Please call the office at 360.686.3737 to determine the last stop.   </p>
                         </div>
-
                         <a 
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className='text-yellow-400 font-extrabold text-3xl underline'
                         >Register for Bus Service</a>
+                        <p className='my-20'></p>{/* Spacer */}
                     </div>    
                 </div>
             <Footer />
