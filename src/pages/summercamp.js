@@ -20,7 +20,7 @@ const SummerCampPage = () => {
               <div className="flex flex-col items-center">
                 <Link 
                     to={'/liability'}
-                    className="text-gray-400 hover:text-green-200"
+                    className='text-green-200 hover:text-indigo-400'
                   >
                   <img
                     alt="medical_image"
@@ -35,7 +35,7 @@ const SummerCampPage = () => {
               <div className="flex flex-col items-center">
                 <Link 
                 to={'/parentmanual'}
-                className="text-gray-400 hover:text-green-200"
+                className='text-green-200 hover:text-indigo-400'
                 >
                   <img
                     alt="parents_manual"
@@ -52,7 +52,7 @@ const SummerCampPage = () => {
               <div className="flex flex-col items-center">
                 <Link 
                   to={'/summerstaffapp'}
-                  className="text-gray-400 hover:text-green-200"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                   <img
                     alt="staff_application"
@@ -67,7 +67,7 @@ const SummerCampPage = () => {
                 <div className="flex flex-col items-center">
                   <Link 
                       to={'/registration'}
-                      className="text-gray-400 hover:text-green-200"
+                      className='text-green-200 hover:text-indigo-400'
                     >
                     <img
                       alt="staff_application"

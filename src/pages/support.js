@@ -18,7 +18,7 @@ const Support = () => {
           <div className="flex flex-col items-center">
             <Link 
               to={'/churchsponsors'}
-              className='text-gray-400 hover:text-green-200'
+              className='text-green-200 hover:text-indigo-400'
             >
             <img
               alt="kids in a meadow"
@@ -31,7 +31,7 @@ const Support = () => {
           <div className="flex flex-col items-center">
               <Link 
                 to={'/donations'}
-                className='text-gray-400 hover:text-green-200'
+                className='text-green-200 hover:text-indigo-400'
               >
               <img
                 alt="low ropes course"
@@ -47,7 +47,7 @@ const Support = () => {
           <div className="flex flex-col items-center">
               <Link 
                 to={'/volunteers'} 
-                className='text-gray-400 hover:text-green-200'
+                className='text-green-200 hover:text-indigo-400'
               >
               <img
                 alt="group huddle"
@@ -61,7 +61,7 @@ const Support = () => {
           <div className="flex flex-col items-center">
               <Link 
                 to={'/business'}
-                className='text-gray-400 hover:text-green-200'
+                className='text-green-200 hover:text-indigo-400'
               >
               <img
                 alt="vintage_photo"

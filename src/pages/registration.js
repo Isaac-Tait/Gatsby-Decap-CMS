@@ -8,7 +8,6 @@ const SummerReg = () => {
     return (
         <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
             <Header />
-            <p className='text-2xl font-extrabold text-green-200 flex justify-center mb-4'>Summer Camp Registration</p>
                 <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
@@ -39,7 +38,7 @@ const SummerReg = () => {
                         <img 
                             src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Summer_Camp_Descriptions.png' 
                             alt='summer camp descriptions'
-                            className='w-1/2 flex mx-auto rounded-xl mb-2'
+                            className='w-1/2 flex mx-auto rounded-xl my-6'
                         />
                         <p>All of our Summer Day Camps include lots of fun games, team building activities, Bible Studies, singing camp songs, and visits to the Camp Store.</p>
                         <p>Campers will come home dirty and tuckered out from their day at camp.</p>

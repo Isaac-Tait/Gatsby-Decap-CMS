@@ -20,7 +20,7 @@ const About = () => {
             <div className="flex flex-col items-center">
                 <Link 
                   to={'/mission'}
-                  className='text-gray-400 hover:text-green-200'
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="Clouds"
@@ -34,7 +34,7 @@ const About = () => {
             <div className="flex flex-col items-center">
                 <Link 
                   to={'/newsletter'}
-                  className='text-gray-400 hover:text-green-200'
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="couple at picnic table"
@@ -51,7 +51,7 @@ const About = () => {
             <div className="flex flex-col items-center">
                 <Link 
                   to={'/staff'}
-                  className='text-gray-400 hover:text-green-200'
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="pool"
@@ -65,7 +65,7 @@ const About = () => {
             <div className="flex flex-col items-center">
                 <Link 
                   to={'/statementoffaith'}
-                  className='text-gray-400 hover:text-green-200'
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="stables"

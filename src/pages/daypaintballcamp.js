@@ -39,7 +39,7 @@ const DayPaintBall = () => {
                         <img 
                             src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Paintball_Day_Camp_100.png'
                             alt='paintball_day_camp'
-                            className='w-1/2 flex mx-auto rounded-xl mb-2'
+                            className='w-1/2 flex mx-auto rounded-xl my-6'
                         />
                         <a 
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 

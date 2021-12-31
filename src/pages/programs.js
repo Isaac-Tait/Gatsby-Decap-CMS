@@ -20,7 +20,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/giddyup'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                   <img
                     alt="blue_skies"
@@ -35,7 +35,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/horsemanship'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                   <img
                     alt="dreamy forest"
@@ -50,7 +50,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/saturdaycamps'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                   <img
                   alt="happy_campers"
@@ -68,7 +68,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link 
                   to={'/paintball'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="reptile"
@@ -83,7 +83,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/outdoorsurvival'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="holiday spirit"
@@ -98,7 +98,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link 
                   to={'/parentchild'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="camp_meadow"
@@ -116,7 +116,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/girlscouts'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="sunset"
@@ -131,7 +131,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/bookaride'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="mist"
@@ -145,7 +145,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/guestgroups'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                   <img
                   alt="happy_kids"
@@ -162,7 +162,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/vaulting'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="sunset"
@@ -178,7 +178,7 @@ const ProgramsPage = () => {
               <div className="flex flex-col items-center justify-center">
                 <Link
                   to={'/womenhorsecamp'}
-                  className="text-gray-600 hover:text-red-400"
+                  className='text-green-200 hover:text-indigo-400'
                 >
                 <img
                   alt="happy_kids"
