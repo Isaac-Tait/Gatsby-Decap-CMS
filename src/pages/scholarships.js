@@ -5,8 +5,8 @@ import Footer from "../components/footer"
 
 const Scholarship = () => {
     return (
-        <div>
-            <Header />
+    <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+        <Header />
             <div className="max-w-4xl mx-auto h-screen overflow-y-scroll">
                 <h1 className="text-green-200 font-bold text-base md:text-4xl flex justify-center mx-auto">Scholarships</h1>
                 <p className="mt-2 italic">Royal Ridges offers scholarships to anyone who is in need of greater support for their camper to attend anyone of our camps. We know the power and importance that camp can have and we want to extend the opportunity to anyone who asks.</p>
@@ -17,8 +17,8 @@ const Scholarship = () => {
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfU2sLMkZYSsQOUche6g7T9XyWKq5b14xkOKAojLozgwxtH3A/viewform?embedded=true" width="640" height="2775" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
-            <Footer />
-        </div>
+        <Footer />
+    </div>
     )
 }
 

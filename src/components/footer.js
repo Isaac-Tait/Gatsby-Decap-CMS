@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby"
 
 const Footer = () => {
     return (
@@ -6,7 +7,10 @@ const Footer = () => {
             <footer className="heropattern-topography-indigo-400 text-gray-800 rounded-lg shadow-lg text-center px-2 py-2 text-xs flex items-center justify-between">
                 <div>© 1978-{new Date().getFullYear()} Royal Ridges Retreat</div>
                 <div className="text-green-200 hover:text-yellow-400">
-                    <a href='https://www.royalridges.org/donate_rrr.html' className="flex flex-wrap">
+                    <Link 
+                        to={'/donations'}
+                        className="flex flex-wrap"
+                    >
                         <p className="mt-1 mr-1 font-semibold">Donate</p>
                         <svg
                             width="24"
@@ -34,7 +38,7 @@ const Footer = () => {
                                 fill="currentColor"
                             />
                         </svg>
-                    </a>
+                    </Link>
                 </div>
                 <div>
                     <p>

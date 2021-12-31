@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 const Faq = () => {
     return (
-        <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
+    <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
         <Header />
         <h1 className="text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto">FAQs</h1>
             <div className="h-screen grid grid-cols-2 max-w-6xl mx-auto">
@@ -74,9 +74,7 @@ const Faq = () => {
             </div>
             <p className='my-20'></p>{/* Spacer */}
         <Footer />
-        </div>
-
-
+    </div>
     )
 }
 

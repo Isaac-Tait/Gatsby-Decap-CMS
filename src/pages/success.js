@@ -5,15 +5,15 @@ import Footer from "../components/footer";
 
 const Success = () => {
     return (
-        <div>
-            <Header />
+    <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+        <Header />
             <div className="bg-yellow-200 h-screen">
                 <div className="grid place-content-center">
                     <p className="mt-4 text-2xl text-gray-600">Your message was successfully delivered. Someone will be in touch with you shortly.</p>
                 </div>
             </div>
-            <Footer />
-        </div>
+        <Footer />
+    </div>
     )
 }
 
