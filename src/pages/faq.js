@@ -63,7 +63,7 @@ const Faq = () => {
                     <p>For the quickest drop-off experience, remember to pay your bill in total, and complete all necessary paperwork before arriving at camp. Early check-in is not available. Camper check-in begins each morning at the check-in station beginning at 8:30 am. Because our staff will be preparing the camp for your arrival, early check-in will not be possible.</p>
 
                     <h2 className="text-green-200 font-bold text-xl mt-2">What time do I pick up my child at camp?</h2>
-                    <p>To order Bus Transportation, you will need to log in to your UltraCamp account. You must be registered for a camp first before purchasing bus transportation. For a list of all bus routes and stops, use this link: Bus Transportation</p>
+                    <p>To order Bus Transportation, you will need to log in to your UltraCamp account. You must be registered for a camp first before purchasing bus transportation. For a list of all bus routes and stops, use this link:&nbsp;<Link to={'/bustransportation'} className="text-green-200 underline">Bus Transportation</Link></p>
                     
                     <h2 className="text-green-200 font-bold text-xl mt-2">What time do I pick up my child at camp?</h2>
                     <p>To pick up your camper, arrive each day at 3:40 pm. If someone other than you is picking up your child, make sure they are listed as an authorized person for pick up and have a photo ID ready to show our staff.</p>
