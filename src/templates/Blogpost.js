@@ -10,14 +10,11 @@ const BlogPostPage = ({ data, pageContext, location }) => {
   const post = data.mdx
   const { previous, next } = data
 
-  //Null Check
-  //if(!post) return <pre>{JSON.stringify(pageContext,null,2)}</pre>
-
   return (
-    <div location={location}>
+    <div location={location} className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
       <Header />
       {/* 👇🏼 Blog post content*/}
-      <div className="grid place-items-center bg-yellow-200 md:h-screen overflow-y-scroll">
+      <div className="grid place-items-center md:h-screen overflow-y-scroll">
         <p className="font-semibold text-3xl uppercase text-gray-700">
           {post.frontmatter.title}
         </p>
@@ -29,7 +26,7 @@ const BlogPostPage = ({ data, pageContext, location }) => {
             {next && (
               <Link to={`/updates${data.next.fields.slug}`} rel="next">
                 <button className="bg-green-200 px-2 my-4 rounded-xl text-gray-200">
-                  Next Article
+                  Newer Updates
                 </button>
               </Link>
             )}
@@ -38,7 +35,7 @@ const BlogPostPage = ({ data, pageContext, location }) => {
             {previous && (
               <Link to={`/updates${data.previous.fields.slug}`} rel="prev">
                 <button className="bg-green-200 px-2 my-4 rounded-xl text-gray-200">
-                  Previous Article
+                  Older Updates
                 </button>
               </Link>
             )}
@@ -46,7 +43,7 @@ const BlogPostPage = ({ data, pageContext, location }) => {
         </nav>
       </div>
 
-      <div className="bg-gray-100 flex flex-wrap justify-center content-center">
+      <div className="flex flex-wrap justify-center content-center">
         <p className="text-gray-600">
           Were you looking for something else? Head on over to our&nbsp;
         </p>

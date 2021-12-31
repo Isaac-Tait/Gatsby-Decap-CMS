@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 const Comments = () => {
     return (
-    <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+    <div className="bg-gradient-to-t from-yellow-400 via-yellow-200 to-indigo-200">
         <Header />
             <div className="max-w-6xl flex mx-auto h-screen">
             <hr />
