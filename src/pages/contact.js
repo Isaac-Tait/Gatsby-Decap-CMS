@@ -7,7 +7,7 @@ const Comments = () => {
     return (
     <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
         <Header />
-            <div className="max-w-6xl flex mx-auto">
+            <div className="max-w-6xl flex mx-auto h-screen">
             <hr />
                 <form 
                     data-netlify-honeypot="bot-field"

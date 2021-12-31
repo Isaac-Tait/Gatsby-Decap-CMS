@@ -8,7 +8,7 @@ import { Highlight } from "react-instantsearch-dom";
 const SearchPreview = ({ hit }) => {
     return (
         <div>
-            <Link to={hit.slug} className="text-2xl text-green-200 hover:text-indigo-600">
+            <Link to={`/updates${hit.slug}`} className="text-2xl text-green-200 hover:text-indigo-600">
                 <Highlight hit={hit} attribute="title" tagName="mark" />
             </Link>
 
