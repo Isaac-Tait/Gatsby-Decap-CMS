@@ -8,7 +8,6 @@ const DayPaintBall = () => {
     return (
         <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
             <Header />
-            <p className='text-2xl font-extrabold text-green-200 flex justify-center mb-4'>Summer Camp Information</p>
                 <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
