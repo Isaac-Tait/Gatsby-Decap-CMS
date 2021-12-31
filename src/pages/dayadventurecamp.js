@@ -36,13 +36,46 @@ const DayAdventureCamp = () => {
                         </Link>
                     </div>
                     {/*Column 2*/}
-                    <div className='mr-4'>
+                    <div className='mr-4 overflow-y-scroll'>
                         <img 
                             src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Day_Adventure_Camp_100.png' 
                             alt='day_adventure_camp' 
                             className='w-1/2 flex mx-auto rounded-xl mb-2'
                         />
-                        <p>Day Adventure Camp Information</p>
+                        <a 
+                            href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className='text-yellow-400 font-extrabold text-3xl underline'
+                        >Register for Adventure Camp</a>
+                        <div className='font-semibold text-green-200 ml-4 my-4'>
+                            <p>Monday-Friday 9am-3:30pm</p>   
+                            <p>Entering Grades 4th - 9th</p>      
+                            <p>$250 for the week</p>             
+                            <p>$50 Bus Transportation</p>
+                        </div>
+                        <hr />
+                        <p className='mt-4'>Our Day Adventure Camp is back and better than ever! Throughout the week, your camper will learn new outdoor survival skills, test their ability on the climbing wall, play fun team games like gaga ball and human foosball, hone their expertise with slingshots and archery, spend meaningful time exploring the Bible, and, of course, end their week at the high ropes course and zipline. Each day your camper will go home tired, dirty, and ready for the next day's adventures! Day Adventure Campers are divided into the following groups:</p>
+                        <p className='font-semibold text-green-200'>Explorers: Grades 4-6</p>
+                        <p className='font-semibold text-green-200 mb-4'>Navigators: Grades 6-9</p>
+                        <hr />
+                        <div className='my-2 ml-2'>
+                            <p><span className='text-green-200 font-semibold'>Week #1</span> - June 20-24</p>
+                            <p><span className='text-green-200 font-semibold'>Week #2</span> - June 27-July 1</p>  
+                            <p><span className='text-green-200 font-semibold'>Week #3</span> - July 4-8</p>              
+                            <p><span className='text-green-200 font-semibold'>Week #4</span> - July 11-15</p>           
+                            <p><span className='text-green-200 font-semibold'>Week #5</span> - July 18-22</p>           
+                            <p><span className='text-green-200 font-semibold'>Week #6</span> - July 25-29</p>
+                            <p><span className='text-green-200 font-semibold'>Week #7</span> - August 1-5</p>
+                            <p><span className='text-green-200 font-semibold'>Week #8</span> - August 8-12</p>
+                            <p><span className='text-green-200 font-semibold'>Week #9</span> - August 15-19</p>
+                        </div>
+                        <a 
+                            href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className='text-yellow-400 font-extrabold text-3xl underline'
+                        >Register for Adventure Camp</a>
                     </div>    
                 </div>
             <Footer />
