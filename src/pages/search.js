@@ -22,7 +22,7 @@ class Search extends React.Component {
         return (
             <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
                 <Header />
-                <div class="max-w-6xl h-screen flex flex-col mx-auto">
+                <div class="max-w-6xl h-screen flex flex-col mx-auto overflow-y-scroll">
                     {/*👇🏼 Search component*/}
                     <InstantSearch searchClient={searchClient} indexName="Pages">
                         {/*👇🏼 Search Box */}

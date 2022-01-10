@@ -5,13 +5,15 @@ const Footer = () => {
     return (
         <div>
             <footer className="heropattern-topography-indigo-400 text-gray-800 rounded-lg shadow-lg text-center px-2 py-2 text-xs flex items-center justify-between">
-                <div>© 1978-{new Date().getFullYear()} Royal Ridges Retreat</div>
-                <div className="text-green-200 hover:text-yellow-400">
+                <div className='w-1/3'>
+                    <p>© 1978-{new Date().getFullYear()} <span className='hidden md:block'>Royal Ridges Retreat</span></p>
+                </div>
+                <div className="text-green-200 hover:text-yellow-400 w-1/3 flex justify-center">
                     <Link 
                         to={'/donations'}
                         className="flex flex-wrap"
                     >
-                        <p className="mt-1 mr-1 font-semibold">Donate</p>
+                        <p className="mt-1 mr-1 font-semibold hidden md:block">Donate</p>
                         <svg
                             width="24"
                             height="24"
@@ -40,8 +42,8 @@ const Footer = () => {
                         </svg>
                     </Link>
                 </div>
-                <div>
-                    <p>
+                <div className='w-1/3 overflow-x-scroll'>
+                    <p className='flex'>
                         Another&nbsp;
                         <a
                         href="https://mountaintopcoding.dev"
