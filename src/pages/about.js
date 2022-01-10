@@ -21,7 +21,7 @@ const About = () => {
                   <img
                     alt="Clouds"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-clouds.JPG"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className='flex justify-center'>Missions</p>
                   </Link>
@@ -34,7 +34,7 @@ const About = () => {
                   <img
                     alt="couple at picnic table"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-founders.JPG"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className='flex justify-center'>Newsletter</p>
                   </Link>
@@ -47,7 +47,7 @@ const About = () => {
                   <img
                     alt="pool"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-pool.JPG"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className='flex justify-center'>Staff Page</p>
                   </Link>
@@ -60,7 +60,7 @@ const About = () => {
                   <img
                     alt="stables"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-stables.JPG"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className='flex justify-center'>Statement of Faith</p>
                   </Link>

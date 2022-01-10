@@ -23,7 +23,7 @@ const ProgramsPage = () => {
                     <img
                       alt="blue_skies"
                       src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-blue_skies.jpeg"
-                      className="rounded-3xl"
+                      className="h-20 md:h-40 mx-auto rounded-3xl"
                     />
                     <p className="text-center">Giddy Up</p>
                   </Link>
@@ -36,7 +36,7 @@ const ProgramsPage = () => {
                     <img
                       alt="dreamy forest"
                       src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-dreamy_forest.jpeg"
-                      className="rounded-3xl"
+                      className="h-20 md:h-40 mx-auto rounded-3xl"
                     />
                     <p className="text-center">Horsemanship Lessons</p>
                   </Link>
@@ -49,7 +49,7 @@ const ProgramsPage = () => {
                     <img
                     alt="happy_campers"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-happy+campers.JPG"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                     <p className="text-center">Saturday Camps</p>
                   </Link>
@@ -63,7 +63,7 @@ const ProgramsPage = () => {
                   <img
                     alt="reptile"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-reptile.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className="text-center">Paintball</p>
                   </Link>
@@ -76,7 +76,7 @@ const ProgramsPage = () => {
                   <img
                     alt="holiday spirit"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-holiday_spirit.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                     <p className="text-center">Outdoor Survival</p>
                   </Link>
@@ -89,7 +89,7 @@ const ProgramsPage = () => {
                   <img
                     alt="camp_meadow"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-meadow.JPG"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                     <p className="text-center">Parent Child</p>
                   </Link>
@@ -103,7 +103,7 @@ const ProgramsPage = () => {
                   <img
                     alt="sunset"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-sunset.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                     <p className="text-center">Girl Scouts</p>
                   </Link>
@@ -116,7 +116,7 @@ const ProgramsPage = () => {
                   <img
                     alt="mist"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-mist.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                     <p className="text-center">Book a Ride</p>
                   </Link>
@@ -129,7 +129,7 @@ const ProgramsPage = () => {
                     <img
                     alt="happy_kids"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-happy_kid.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                     <p className="text-center">Guest Groups</p>
                   </Link>
@@ -143,7 +143,7 @@ const ProgramsPage = () => {
                   <img
                     alt="sunset"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-sunset.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                     <p className="text-center">Vaulting</p>
                   </Link>
@@ -157,7 +157,7 @@ const ProgramsPage = () => {
                   <img
                     alt="happy_kids"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-happy_kid.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                     <p className="text-center">Women&apos;s Horse Camp</p>
                   </Link>

@@ -34,7 +34,7 @@ const SummerReg = () => {
                         </Link>
                     </div>
                     {/*Column 2*/}
-                    <div className='mr-4'>
+                    <div className='mr-4 overflow-y-scroll'>
                         <img 
                             src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Summer_Camp_Descriptions.png' 
                             alt='summer camp descriptions'

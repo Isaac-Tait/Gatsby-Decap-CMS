@@ -21,7 +21,7 @@ const Support = () => {
                 <img
                   alt="kids in a meadow"
                   src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-kids_in_meadow.jpeg"
-                  className="rounded-3xl"
+                  className="h-20 md:h-40 mx-auto rounded-3xl"
                 />
                 <p className='flex justify-center'>Church Sponsors</p>
                 </Link>
@@ -34,7 +34,7 @@ const Support = () => {
                   <img
                     alt="low ropes course"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-low_ropes_course.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className='flex justify-center'>Donations</p>
                   </Link>
@@ -48,7 +48,7 @@ const Support = () => {
                   <img
                     alt="group huddle"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-pow_wow.jpeg"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className='flex justify-center'>Volunteers</p>
                   </Link>
@@ -62,7 +62,7 @@ const Support = () => {
                   <img
                     alt="vintage_photo"
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-vintage+photo.JPG"
-                    className="rounded-3xl"
+                    className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className='flex justify-center'>Business Sponsors</p>
                   </Link>
