@@ -2,8 +2,7 @@ const heroPatterns = require('tailwindcss-hero-patterns/src/patterns')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: ['src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  content: ['src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui'],
@@ -17,8 +16,9 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      gray: colors.trueGray,
       indigo: colors.indigo,
+      gray: colors.zinc,
+      purple: colors.violet,
       red: colors.rose,
       blue: colors.blue,
       pink: colors.pink,
@@ -36,9 +36,6 @@ module.exports = {
     },
     heroPatternsShades: ['200', '400'],
     heroPatternsColors: ['green', 'yellow', 'gray', 'indigo'],
-  },
-  variants: {
-    extend: {},
   },
   plugins: [require('tailwindcss-hero-patterns')],
 }

@@ -11,7 +11,6 @@
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "algoliasearch": "^4.12.0",
-    "autoprefixer": "^10.4.2",
     "gatsby": "^4.4.0",
     "gatsby-plugin-algolia": "^0.25.0",
     "gatsby-plugin-gatsby-cloud": "^4.4.0",
@@ -32,19 +31,20 @@
     "gatsby-source-filesystem": "^4.3.0",
     "gatsby-transformer-sharp": "^4.3.0",
     "netlify-cms-app": "^2.15.63",
-    "postcss": "^8.4.4",
     "prismjs": "^1.26.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-instantsearch-dom": "^6.19.0",
-    "tailwindcss": "^2.2.19",
     "tailwindcss-hero-patterns": "^0.0.1",
     "typeface-merriweather": "^1.1.13",
     "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
-    "prettier": "^2.5.0"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.0",
+    "tailwindcss": "^3.0.12"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
