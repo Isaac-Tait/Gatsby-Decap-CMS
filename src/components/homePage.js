@@ -90,7 +90,7 @@ const HomePage = () => {
             className="w-1/2 flex justify-center mx-auto pt-8"
             />
             <div className="w-1/2 flex justify-center mx-auto mb-10">
-                <svg
+            <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6 animate-bounce"
                     fill="none"

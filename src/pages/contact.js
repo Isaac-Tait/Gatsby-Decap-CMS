@@ -21,7 +21,7 @@ const Comments = () => {
                     <div className="my-4 flex flex-col">
                         <label htmlFor="name">Name</label>
                         <input
-                                className="border-2 border-yellow-400 w-1/4" 
+                                className="border-2 border-green-200 caret-yellow-400 w-1/4" 
                                 type="text" 
                                 name="name" 
                             />
@@ -29,7 +29,7 @@ const Comments = () => {
                     <div className="mb-4 flex flex-col">
                         <label htmlFor="email">Email</label>
                         <input 
-                            className="border-2 border-yellow-400 w-1/4"
+                            className="border-2 border-green-200 caret-yellow-400 w-1/4"
                             type="email" 
                             name="email" 
                         />
@@ -37,7 +37,7 @@ const Comments = () => {
                     <div className="mb-4 flex flex-col">
                         <label htmlFor="phone">Phone</label>
                         <input
-                            className="border-2 border-yellow-400 w-1/4"
+                            className="border-2 border-green-200 caret-yellow-400 w-1/4"
                             type="text" 
                             name="phone" 
                         />
@@ -45,7 +45,7 @@ const Comments = () => {
                     <div className="mb-4 flex flex-col">
                         <label htmlFor="message">Message</label>
                         <textarea
-                            className="overflow-y-auto h-60 border-2 border-yellow-400"            
+                            className="overflow-y-auto h-60 border-2 border-green-200 caret-yellow-400"            
                             type="text" 
                             name="message" 
                         />
