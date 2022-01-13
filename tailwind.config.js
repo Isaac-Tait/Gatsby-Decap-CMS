@@ -33,9 +33,10 @@ module.exports = {
     heroPatterns: {
       topography: heroPatterns.topography,
       rain: heroPatterns.rain,
+      bamboo: heroPatterns.bamboo,
     },
     heroPatternsShades: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-    heroPatternsColors: ['green', 'yellow', 'gray', 'indigo'],
+    heroPatternsColors: ['green', 'yellow', 'gray', 'indigo', 'purple'],
   },
   plugins: [require('tailwindcss-hero-patterns')],
 }
