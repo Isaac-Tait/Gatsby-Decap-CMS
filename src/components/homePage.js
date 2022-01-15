@@ -3,11 +3,11 @@ import {Link} from "gatsby"
 
 import Blog from "./blogPostList"
 import logo from "../images/logo.png"
-import aboutIcon from "../images/AboutIcon.png"
-import contactIcon from "../images/ContactIcon.png"
-import summerIcon from "../images/SummerIcon.png"
-import programIcon from "../images/ProgramIcon-2.0.png"
-import supportIcon from "../images/SupportIcon.png"
+import aboutIcon from "../images/aboutIcon.png"
+import contactIcon from "../images/contactIcon.png"
+import summerIcon from "../images/summerIcon.png"
+import programIcon from "../images/programIcon.png"
+import supportIcon from "../images/supportIcon.png"
 
 const HomePage = () => {
     return (
