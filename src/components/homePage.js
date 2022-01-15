@@ -6,7 +6,7 @@ import logo from "../images/logo.png"
 import aboutIcon from "../images/AboutIcon.png"
 import contactIcon from "../images/ContactIcon.png"
 import summerIcon from "../images/SummerIcon.png"
-import programIcon from "../images/ProgramIcon.png"
+import programIcon from "../images/ProgramIcon-2.0.png"
 import supportIcon from "../images/SupportIcon.png"
 
 const HomePage = () => {
