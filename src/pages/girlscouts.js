@@ -8,10 +8,8 @@ const GirlScouts = () => {
       <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
         <Header />
           <div>
-            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
-              <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
-                Girl Scouts Riding Badge
-              </p>
+            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
+              <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/girlScouts.png" alt="girlScouts" className="w-full rounded-2xl shadow-xl mt-2" />
               <p className="mt-2">
                 Help your Girl Scout troop work toward earning their horse riding
                 badge by registering for our Girl Scouts Riding Badge Class. Your

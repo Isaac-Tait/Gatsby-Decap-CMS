@@ -8,7 +8,8 @@ const GuestGroups = () => {
         <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
             <Header />
               <div>
-                <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
+                <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
+                    <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/guestGroups.png" alt="guest groups" className="w-full rounded-2xl shadow-xl mt-2" />
                     <p>Content</p>
                 </div>
               </div>

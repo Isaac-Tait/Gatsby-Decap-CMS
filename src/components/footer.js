@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 const Footer = () => {
     return (
-        <div>
+        <div className='bg-indigo-100'>
             <footer className="heropattern-topography-indigo-400 text-gray-800 rounded-lg shadow-lg text-center px-2 py-2 text-xs flex items-center justify-between">
-                <div className='w-1/3'>
+                <div className='w-1/3 flex justify-start'>
                     <p>© 1978-{new Date().getFullYear()} <span className='hidden md:block'>Royal Ridges Retreat</span></p>
                 </div>
                 <div className="text-green-200 hover:text-yellow-400 w-1/3 flex justify-center">
@@ -42,7 +42,7 @@ const Footer = () => {
                         </svg>
                     </Link>
                 </div>
-                <div className='w-1/3 overflow-x-scroll'>
+                <div className='w-1/3 flex justify-end overflow-x-scroll'>
                     <p className='flex'>
                         Another&nbsp;
                         <a

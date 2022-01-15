@@ -8,8 +8,9 @@ const GiddyUp = () => {
     <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
         <Header />
             <div>
-                <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base">
-                    <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
+                <div className="max-w-6xl h-screen overflow-y-scroll mx-2 md:mx-auto text-xs md:text-base">
+                    <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/giddyUp.png" alt="" className="w-full rounded-xl shadow-2xl mt-2" />   
+                    <p className="flex flex-wrap text-green-200 font-bold text-lg justify-center md:text-4xl">
                         Giddy Up - definition: To go ahead or go faster.
                     </p>
 
