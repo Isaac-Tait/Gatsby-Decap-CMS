@@ -19,7 +19,7 @@ const SummerStaffApp = () => {
                         <p>Onsite training will be on the weekends in June. The dates and training information will be sent to you once you are hired.</p>
                         <p>If you have a specific question before applying, please email Chrisy our Program Director <a href="mailto:chrisy@royalridges.org" className='text-green-200 underline hover:text-indigo-400'>chrisy@royalridges.org</a></p>
                     </div>
-                    <div className='flex flex-col text-center'>
+                    <div className='flex flex-col text-center heropattern-bamboo-indigo-100 rounded-2xl mt-4'>
                         {/*Summer Staff Application*/}
                         <div className='mt-4'>
                             <p className='text-3xl text-yellow-400 mb-6'>Step I</p>
