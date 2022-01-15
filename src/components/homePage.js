@@ -3,11 +3,11 @@ import {Link} from "gatsby"
 
 import Blog from "./blogPostList"
 import logo from "../images/logo.png"
-import aboutIcon from "../images/aboutIcon.png"
-import contactIcon from "../images/contactIcon.png"
-import summerIcon from "../images/summerIcon.png"
-import programIcon from "../images/programIcon.png"
-import supportIcon from "../images/supportIcon.png"
+import aboutIcon from "../images/AboutIcon.png"
+import contactIcon from "../images/ContactIcon.png"
+import summerIcon from "../images/SummerIcon.png"
+import programIcon from "../images/ProgramIcon.png"
+import supportIcon from "../images/SupportIcon.png"
 
 const HomePage = () => {
     return (
@@ -130,7 +130,7 @@ const HomePage = () => {
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
                 <img
-                alt="summer camp icon"
+                alt="summer RRR icon"
                 src={summerIcon}
                 className="w-52"
               />
@@ -145,7 +145,7 @@ const HomePage = () => {
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
-                alt="wild west icon"
+                alt="program RRR icon"
                 src={programIcon}
                 className="w-52"
               />
@@ -162,7 +162,7 @@ const HomePage = () => {
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
-                alt="adventures icon"
+                alt="support RRR icon"
                 src={supportIcon}
                 className="w-52"
               />
@@ -180,7 +180,7 @@ const HomePage = () => {
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
-                alt="expedition icon"
+                alt="about RRR icon"
                 src={aboutIcon}
                 className="w-52"
               />
@@ -195,7 +195,7 @@ const HomePage = () => {
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
                 <img
-                  alt="sand dunes icon"
+                  alt="contact RRR icon"
                   src={contactIcon}
                   className="w-52"
                 />
