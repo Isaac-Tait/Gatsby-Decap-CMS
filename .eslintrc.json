@@ -6,7 +6,8 @@
     },
     "extends": [
         "prettier", 
-        "airbnb-base"
+        "airbnb-base",
+        "standard-react"
     ],
     "plugins": [
         "prettier"
