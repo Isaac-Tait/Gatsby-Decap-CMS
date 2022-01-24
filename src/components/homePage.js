@@ -126,7 +126,7 @@ const HomePage = () => {
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
             <div className="flex flex-col items-center justify-center mt-6">
               <Link
-                to={'/summercamp'}
+                to={'/summer-camp'}
                 className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
                 <img

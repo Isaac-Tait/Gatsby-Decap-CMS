@@ -15,19 +15,19 @@ const DayPaintBall = () => {
                             <p>Registration</p>
                         </Link>
                         <hr /> 
-                        <Link to={'/daycamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Traditional Day Camp</p>
                         </Link>
-                        <Link to={'/dayhorsecamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-horse-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Day Horse Camp</p>
                         </Link>
-                        <Link to={'/dayadventurecamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-adventure-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Day Adventure Camp</p>
                         </Link>
-                        <Link to={'/summergiddyupprogram'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/summer-giddy-up-program'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Summer Giddy Up Program</p>
                         </Link>
-                        <Link to={'/bustransportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/bus-transportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
                         </Link>
                         <Link to={'/faq'} className='my-4 underline text-green-200 hover:text-indigo-500'>

@@ -43,7 +43,7 @@ const StatementOfFaith = () => {
                     We believe that God created Adam and Eve in His image, but they
                     sinned when tempted by Satan. In union with Adam, human beings are
                     sinners by nature and by choice, alienated from God, and under His
-                    wrath. Only through God’s saving work in Jesus Christ can we be
+                    wrath. Only through God&#39;s saving work in Jesus Christ can we be
                     rescued, reconciled and renewed.
                   </p>
                   <p className="text-yellow-400 font-bold text-base">Jesus Christ</p>

@@ -8,10 +8,8 @@ const RidingLessons = () => {
         <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
           <Header />
             <div>
-              <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base">
-                <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
-                  Riding Lessons
-                </p>
+              <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
+              <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Riding+Lessons+1.0+(3).png" alt="outdoor survival" className="w-full rounded-2xl shadow-xl mt-2" />
                 <p>
                   Royal Ridges provides a horsemanship riding lesson program which
                   addresses safe handling as well as riding and care of the horse.

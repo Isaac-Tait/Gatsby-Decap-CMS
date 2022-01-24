@@ -4,30 +4,30 @@ import { Link } from 'gatsby'
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-const SummerGiddyUp = () => {
+const DayAdventureCamp = () => {
     return (
         <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
             <Header />
                 <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
                     {/*Column 1*/}
-                    <div className='flex flex-col mx-auto'>
+                    <div className='flex flex-col mx-auto '>
                         <Link to={'/registration'} className='my-4 underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
                             <p>Registration</p>
                         </Link>
                         <hr /> 
-                        <Link to={'/daycamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Traditional Day Camp</p>
                         </Link>
-                        <Link to={'/dayhorsecamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-horse-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Day Horse Camp</p>
                         </Link>
-                        <Link to={'/dayadventurecamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Adventure Camp</p>
-                        </Link>
-                        <Link to={'/daypaintballcamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-paintball-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Day Paintball Camp</p>
                         </Link>
-                        <Link to={'/bustransportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/summer-giddy-up-program'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                            <p>Summer Giddy Up Program</p>
+                        </Link>
+                        <Link to={'/bus-transportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
                         </Link>
                         <Link to={'/faq'} className='my-4 underline text-green-200 hover:text-indigo-500'>
@@ -36,25 +36,27 @@ const SummerGiddyUp = () => {
                     </div>
                     {/*Column 2*/}
                     <div className='mr-4 overflow-y-scroll'>
-                        <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Summer_GiddyUp_15.png'
-                            alt='summer_giddyup_info' 
-                            className='w-1/2 flex mx-auto rounded-xl my-6' 
+                        <img 
+                            src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Day_Adventure_Camp_100.png' 
+                            alt='day_adventure_camp' 
+                            className='w-1/2 flex mx-auto rounded-xl my-6'
                         />
                         <a 
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className='text-yellow-400 font-extrabold text-3xl underline'
-                        >Register for Summer Giddy Up</a>
+                        >Register for Adventure Camp</a>
                         <div className='font-semibold text-green-200 ml-4 my-4'>
                             <p>Monday-Friday 9am-3:30pm</p>   
-                            <p>Entering Grades 1st - 5th</p>      
-                            <p>$640 for four (4) weeks</p>             
-                            <p>$75 ADD ON Extend Day Horse Camp Weeks #2, #4, #6, & #8</p>
-                            <p>$50 Bus Transportation (You must purchase bus for each week your child attends.)</p>
+                            <p>Entering Grades 4th - 9th</p>      
+                            <p>$250 for the week</p>             
+                            <p>$50 Bus Transportation</p>
                         </div>
                         <hr />
-                        <p className='my-4'>Our popular GiddyUp Program will be continuing throughout the summer! This program is ideal for the repeating camper who wants to experience multiple weeks at Royal Ridges. GiddyUp participants will enjoy various activities (including a special surprise activity each week), fun games, and a different Bible Story focus each week. Purchased four weeks at a time, you choose the four weeks that work best for your schedule.</p>
+                        <p className='mt-4'>Our Day Adventure Camp is back and better than ever! Throughout the week, your camper will learn new outdoor survival skills, test their ability on the climbing wall, play fun team games like gaga ball and human foosball, hone their expertise with slingshots and archery, spend meaningful time exploring the Bible, and, of course, end their week at the high ropes course and zipline. Each day your camper will go home tired, dirty, and ready for the next day's adventures! Day Adventure Campers are divided into the following groups:</p>
+                        <p className='font-semibold text-green-200'>Explorers: Grades 4-6</p>
+                        <p className='font-semibold text-green-200 mb-4'>Navigators: Grades 6-9</p>
                         <hr />
                         <div className='my-2 ml-2'>
                             <p><span className='text-green-200 font-semibold'>Week #1</span> - June 20-24</p>
@@ -72,7 +74,7 @@ const SummerGiddyUp = () => {
                             target="_blank" 
                             rel="noopener noreferrer"
                             className='text-yellow-400 font-extrabold text-3xl underline'
-                        >Register for Summer Giddy Up</a>
+                        >Register for Adventure Camp</a>
                         <p className='my-20'></p>{/* Spacer */}
                     </div>    
                 </div>
@@ -81,4 +83,4 @@ const SummerGiddyUp = () => {
     )
 }
 
-export default SummerGiddyUp
+export default DayAdventureCamp

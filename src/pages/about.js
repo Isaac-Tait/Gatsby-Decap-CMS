@@ -54,7 +54,7 @@ const About = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                   <Link 
-                    to={'/statementoffaith'}
+                    to={'/statement-of-faith'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img

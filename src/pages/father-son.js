@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-const FatherDaughter = () => {
+const FatherSon = () => {
     return (
         <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
             <Header />
@@ -13,22 +13,22 @@ const FatherDaughter = () => {
                         {/*Column One (Left)*/}
                         <div className='flex flex-col justify-between bg-indigo-300 mt-2'>
                             <div>
-                                <Link to={'/motherdaughter'}>
+                                <Link to={'/mother-daughter'}>
                                 <p className="text-green-200 hover:text-indigo-400 font-bold text-lg justify-center md:text-2xl">Mother Daughter</p>
                                 </Link>
                             </div>
                             <div>
-                                <Link to={'/motherson'}>
+                                <Link to={'/mother-son'}>
                                 <p className="text-green-200 hover:text-indigo-400 font-bold text-lg justify-center md:text-2xl">Mother Son</p>
                                 </Link>
                             </div>
                             <div>
-                                <Link to={'/motherdaughter'}>
+                                <Link to={'/mother-daughter'}>
                                 <p className="text-green-200 hover:text-indigo-400 font-bold text-lg justify-center md:text-2xl">Father Daughter</p>
                                 </Link>
                             </div>
                             <div>
-                                <Link to={'/fatherson'}>
+                                <Link to={'/father-son'}>
                                 <p className="text-green-200 hover:text-indigo-400 font-bold text-lg justify-center md:text-2xl">Father Son</p>
                                 </Link>
                             </div>
@@ -44,4 +44,4 @@ const FatherDaughter = () => {
     )
 }
 
-export default FatherDaughter;
+export default FatherSon;

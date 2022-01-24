@@ -15,7 +15,7 @@ const Support = () => {
           <div className="grid grid-cols-2 gap-2 mx-2 h-screen overflow-y-scroll">
               <div className="flex flex-col items-center justify-center">
                 <Link 
-                  to={'/churchsponsors'}
+                  to={'/church-sponsors'}
                   className='text-green-200 hover:text-indigo-400'
                 >
                 <img

@@ -32,7 +32,7 @@ const SummerCampPage = () => {
                   {/*Item two*/}
                   <div className="flex flex-col w-28 md:w-64">
                     <Link 
-                    to={'/parentmanual'}
+                    to={'/parent-manual'}
                     className='text-green-200 hover:text-indigo-400'
                     >
                       <img
@@ -49,7 +49,7 @@ const SummerCampPage = () => {
                   {/*Item three*/}
                   <div className="flex flex-col w-28 md:w-64">
                     <Link 
-                      to={'/summerstaffapp'}
+                      to={'/summer-staff-app'}
                       className='text-green-200 hover:text-indigo-400'
                     >
                       <img

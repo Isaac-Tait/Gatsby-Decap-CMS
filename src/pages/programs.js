@@ -17,7 +17,7 @@ const ProgramsPage = () => {
                 {/*👇🏼First Row*/}
                 <div className="flex flex-col text-center">
                   <Link
-                    to={'/giddyup'}
+                    to={'/giddy-up'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                     <img
@@ -43,7 +43,7 @@ const ProgramsPage = () => {
                 </div>
                 <div className="flex flex-col text-center">
                   <Link
-                    to={'/saturdaycamps'}
+                    to={'/saturday-camps'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                     <img
@@ -70,7 +70,7 @@ const ProgramsPage = () => {
                 </div>
                 <div className="flex flex-col text-center">
                   <Link
-                    to={'/outdoorsurvival'}
+                    to={'/adventure-class'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
@@ -78,12 +78,12 @@ const ProgramsPage = () => {
                     src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/the_real_programs_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-holiday_spirit.jpeg"
                     className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
-                    <p className="text-center">Outdoor Survival</p>
+                    <p className="text-center">Adventure Class</p>
                   </Link>
                 </div>
                 <div className="flex flex-col text-center">
                   <Link 
-                    to={'/parentchild'}
+                    to={'/parent-child'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
@@ -97,7 +97,7 @@ const ProgramsPage = () => {
                 {/*👇🏼Third Row*/}
                 <div className="flex flex-col text-center">
                   <Link
-                    to={'/girlscouts'}
+                    to={'/girl-scouts'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
@@ -110,7 +110,7 @@ const ProgramsPage = () => {
                 </div>
                 <div className="flex flex-col text-center">
                   <Link
-                    to={'/bookaride'}
+                    to={'/book-a-ride'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
@@ -123,7 +123,7 @@ const ProgramsPage = () => {
                 </div>
                 <div className="flex flex-col text-center">
                   <Link
-                    to={'/guestgroups'}
+                    to={'/guest-groups'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                     <img
@@ -151,7 +151,7 @@ const ProgramsPage = () => {
                 <div></div>
                 <div className="flex flex-col text-center">
                   <Link
-                    to={'/womenhorsecamp'}
+                    to={'/women-horse-camp'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
