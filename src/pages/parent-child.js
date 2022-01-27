@@ -20,7 +20,7 @@ const ParentChild = () => {
               <div className="mt-2">
                 <p>
                   Check-in will be at 9:00 am on Saturday at Upper Camp with lunch
-                  provided. Please wear long pants for riding + closed toe shoes.
+                  provided. Please wear long pants for riding and closed toe shoes.
                 </p>
                 <div className='flex flex-row justify-between'>
                   <div>
