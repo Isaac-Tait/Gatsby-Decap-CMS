@@ -2,6 +2,8 @@
 title: Testing out the new site's CMS
 date: 2022-01-27T22:03:45.755Z
 description: She is ALIVE!!!
+image: ./fish-1000.jpg
+imageAlt: fish
 ---
 ![Fish in hand](fish-1000.jpg "A nice brown trout")
 
