@@ -51,29 +51,6 @@ const ProgramsPage = () => {
 
                 <div className="lg:w-60 lg:h-60">
                   <Link
-                    to={'/saturday-camps'}
-                  >
-                    <img
-                    alt="Saturday Camps"
-                    src={SatCamp}
-                  />
-                  </Link>
-                </div>
-
-                <div className="lg:w-60 lg:h-60">
-                  <Link 
-                    to={'/paintball'}
-                  >
-                  <img
-                    alt="paintball camp"
-                    src={PaintBall}
-                  />
-                  </Link>
-                </div>
-
-                {/*👇🏼Second Row*/}
-                <div className="lg:w-60 lg:h-60">
-                  <Link
                     to={'/adventure-class'}
                   >
                   <img
@@ -94,6 +71,18 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
+                {/*👇🏼Second Row*/}
+                <div className="lg:w-60 lg:h-60">
+                  <Link
+                    to={'/saturday-camps'}
+                  >
+                    <img
+                    alt="Saturday Camps"
+                    src={SatCamp}
+                  />
+                  </Link>
+                </div>
+
                 <div className="lg:w-60 lg:h-60">
                   <Link
                     to={'/girl-scouts'}
@@ -103,7 +92,7 @@ const ProgramsPage = () => {
                     src={GirlScouts}
                   />
                   </Link>
-                </div>
+                </div>              
 
                 <div className="lg:w-60 lg:h-60">
                   <Link
@@ -112,6 +101,17 @@ const ProgramsPage = () => {
                   <img
                     alt="mist"
                     src={BookRide}
+                  />
+                  </Link>
+                </div>
+
+                <div className="lg:w-60 lg:h-60">
+                  <Link 
+                    to={'/paintball'}
+                  >
+                  <img
+                    alt="paintball camp"
+                    src={PaintBall}
                   />
                   </Link>
                 </div>
