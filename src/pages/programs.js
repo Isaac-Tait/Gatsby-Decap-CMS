@@ -12,6 +12,7 @@ import BookRide from '../images/Book-a-ride.png';
 import GuestGroup from '../images/GuestGroup.png';
 import Vault from '../images/Vaulting.png';
 import Women from '../images/WomenHorse.png'
+import School from '../images/SchoolBreakCamps.png'
 
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -43,7 +44,7 @@ const ProgramsPage = () => {
                     to={'/horsemanship'}
                   >
                     <img
-                      alt="dreamy forest"
+                      alt="horse lessons"
                       src={RidingLesson}
                     />
                   </Link>
@@ -54,7 +55,7 @@ const ProgramsPage = () => {
                     to={'/adventure-class'}
                   >
                   <img
-                    alt="holiday spirit"
+                    alt="adventures galore"
                     src={AdventureClass}
                   />
                   </Link>
@@ -65,7 +66,7 @@ const ProgramsPage = () => {
                     to={'/parent-child'}
                   >
                   <img
-                    alt="camp_meadow"
+                    alt="Bears"
                     src={ParentChild}
                   />
                   </Link>
@@ -88,7 +89,7 @@ const ProgramsPage = () => {
                     to={'/girl-scouts'}
                   >
                   <img
-                    alt="sunset"
+                    alt="Girl Scouts"
                     src={GirlScouts}
                   />
                   </Link>
@@ -99,7 +100,7 @@ const ProgramsPage = () => {
                     to={'/book-a-ride'}
                   >
                   <img
-                    alt="mist"
+                    alt="Book a Ride"
                     src={BookRide}
                   />
                   </Link>
@@ -122,7 +123,7 @@ const ProgramsPage = () => {
                     to={'/guest-groups'}
                   >
                     <img
-                    alt="happy_kids"
+                    alt="Guest Groups Camp"
                     src={GuestGroup}
                   />
                   </Link>
@@ -133,7 +134,7 @@ const ProgramsPage = () => {
                     to={'/vaulting'}
                   >
                   <img
-                    alt="sunset"
+                    alt="Vault"
                     src={Vault}
                   />
                   </Link>
@@ -144,8 +145,19 @@ const ProgramsPage = () => {
                     to={'/women-horse-camp'}
                   >
                   <img
-                    alt="happy_kids"
+                    alt="Women Camp"
                     src={Women}
+                  />
+                  </Link>
+                </div>
+
+                <div className="lg:w-60 lg:h-60">
+                  <Link
+                    to={'/school-break'}
+                  >
+                  <img
+                    alt="School Break"
+                    src={School}
                   />
                   </Link>
                 </div>

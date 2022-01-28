@@ -127,14 +127,12 @@ const HomePage = () => {
             <div className="flex flex-col items-center justify-center mt-6">
               <Link
                 to={'/summer-camp'}
-                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
                 <img
                 alt="summer RRR icon"
                 src={summerIcon}
                 className="w-52"
               />
-              <p className="flex justify-center">Summer Camp</p>
               </Link>
             </div>
             {/* Empty Div*/}
@@ -142,14 +140,12 @@ const HomePage = () => {
             <div className="flex flex-col items-center justify-center">
               <Link
                 to={'/programs'}
-                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
                 alt="program RRR icon"
                 src={programIcon}
                 className="w-52"
               />
-                <p className="flex justify-center">Programs</p>
               </Link>
             </div>
           </div>
@@ -159,14 +155,12 @@ const HomePage = () => {
             <p className="flex flex-col items-center justify-center">
               <Link
                 to={'/support'}
-                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
                 alt="support RRR icon"
                 src={supportIcon}
                 className="w-52"
               />
-                <p className="flex justify-center">Support</p>
               </Link>
             </p>
             {/* Empty Div*/}
@@ -177,14 +171,12 @@ const HomePage = () => {
             <div className="flex flex-col items-center">
               <Link
                 to={'/about'}
-                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
               <img
                 alt="about RRR icon"
                 src={aboutIcon}
                 className="w-52"
               />
-                <p className="flex justify-center">About</p>
               </Link>
             </div>
             {/* Empty Div*/}
@@ -192,14 +184,12 @@ const HomePage = () => {
             <div className="flex flex-col items-center">
               <Link
                 to={'/contact'}
-                className=" text-green-200 hover:text-indigo-500 text-base md:text-2xl font-black uppercase font-chalk"
               >
                 <img
                   alt="contact RRR icon"
                   src={contactIcon}
                   className="w-52"
                 />
-                <p className="flex justify-center">Contact</p>
               </Link>
             </div>
           </div>
