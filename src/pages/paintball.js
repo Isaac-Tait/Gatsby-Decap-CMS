@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'gatsby';
 
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -22,17 +23,15 @@ const Paintball = () => {
                 hour or two of game play.
               </p>
               <p className="mt-2">
-                Price $175 (group minimum charge covers up to 5 players)
+                Price $225 (group minimum charge covers up to 5 players)
               </p>
-              <p className="mt-2">More than five (5) players? $35 per person</p>
+              <p className="mt-2">More than five (5) players? $45 per person</p>
               <p className="mt-2">Current available booking times:</p>
-              <p className="ml-4 mt-2">Fridays - 5:00pm</p>
-              <p className="ml-4 mt-2">Saturdays - 10:00 am or 3:00 pm</p>
-              <p className="ml-4 mt-2">Sundays - 3:00pm</p>
-              <p className="mt-2">
-                Please click on the minimum package link below to see our current
-                availability
-              </p>
+              <p className="ml-4 mt-2 italic">Saturdays - 10:00 am or 1:00 pm</p>
+              <p className="mt-2">Interested in other dates/times? Email <a href="mailto:paintball@royalridges.org" className="text-green-200 hover:underline hover:text-indigo-400">paintball@royalridges.org       </a></p>
+              
+              <p className="flex flex-wrap justify-center text-xl md:text-4xl font-cursive text-gray-600">What are you waiting for?&nbsp;<a href="https://www.royalridges.org/www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Paintball+Party" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-yellow-400 font-bold font-cursive text-xl md:text-4xl">Register Now!</a></p>
+              
               <p className="mt-2">
                 Interested in other dates, times or any questions{' '}
                 <a
@@ -43,18 +42,17 @@ const Paintball = () => {
                 </a>{' '}
                 us
               </p>
-              <p className="mt-2">
-                Interested in Open Play Games and Dates:{' '}
-                <a
-                  href="https://www.royalridges.upcsites.org/rrpb-openplay.html"
-                  className="text-green-200 hover:underline hover:text-indigo-400"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Royal Ridges Open Play Days
-                </a>
-                .
-              </p>
+              <div className="flex flex-row mt-2">
+                <p>Open Play Games and Dates:</p>
+                  <Link
+                    to={`/paintball-open-play`}
+                    className="text-green-200 hover:underline hover:text-indigo-400"
+                  >
+                    <p>&nbsp;Info</p>
+                  </Link>
+              </div>
+              <p className="mt-2">Register for our Private Paintball Parties Here:{` `}<a href="http://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Paintball+Party" className="text-green-200 hover:underline hover:text-indigo-400" target="_blank" rel="noopener noreferrer">Register</a></p>
+              <p className="my-2">Paintball Liability Form{` `}<a href="https://waiver.smartwaiver.com/w/54c2a108cb5e3/web/" className="text-green-200 hover:underline hover:text-indigo-400" target="_blank" rel="noopener noreferrer">Link</a></p>
             </div>
           <Footer />
         </div>

@@ -22,7 +22,7 @@ const SaturdayCamps = () => {
               <p>
                 Purchase camp&nbsp;
                 <a
-                  href="https://www.royalridges.upcsites.org/saturday-day-camp.html"
+                  href="https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-4"
@@ -42,7 +42,7 @@ const SaturdayCamps = () => {
               <p>
                 Purchase camp&nbsp;
                 <a
-                  href="https://www.royalridges.upcsites.org/saturday-day-camp.html"
+                  href="https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-4"
@@ -63,7 +63,7 @@ const SaturdayCamps = () => {
               <p>
                 Purchase camp&nbsp;
                 <a
-                  href="https://www.royalridges.upcsites.org/saturday-day-camp.html"
+                  href="https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-4"
