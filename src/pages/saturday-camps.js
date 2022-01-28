@@ -9,7 +9,7 @@ const SaturdayCamps = () => {
           <Header />
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
               <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/saturdayCamps.png' alt='saturday camp' className='w-full rounded-2xl shadow-xl mt-2'/>
-              <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
+              <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
                 Traditional Day Camp
               </p>
               <p>
@@ -30,7 +30,7 @@ const SaturdayCamps = () => {
                   here
                 </a>
               </p>
-              <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
+              <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
                 Day Horse Camp
               </p>
               <p>
@@ -50,7 +50,7 @@ const SaturdayCamps = () => {
                   here
                 </a>
               </p>
-              <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
+              <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
                 Paintball Camp
               </p>
               <p>
