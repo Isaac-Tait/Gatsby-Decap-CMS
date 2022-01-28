@@ -10,37 +10,37 @@ const Faq = () => {
         <h1 className="text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto">FAQs</h1>
             <div className="h-screen grid grid-cols-2 max-w-6xl mx-auto">
             <div className='flex flex-col mx-auto'>
-                        <Link to={'/registration'} className='my-4 underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
+                        <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
                             <p>Registration</p>
                         </Link>
                         <hr />                
-                        <Link to={'/day-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Traditional Day Camp</p>
                         </Link>
-                        <Link to={'/day-horse-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Horse Camp</p>
                         </Link>
-                        <Link to={'/day-adventure-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-adventure-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Adventure Camp</p>
                         </Link>
-                        <Link to={'/day-paintball-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-paintball-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Paintball Camp</p>
                         </Link>
-                        <Link to={'/summer-giddy-up-program'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/summer-giddy-up-program'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Summer Giddy Up Program</p>
                         </Link>
-                        <Link to={'/bus-transportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/bus-transportation'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
                         </Link>
                     </div>
                 <div className="max-w-4xl mx-auto mt-8 overflow-y-scroll">
-                    <p>As a parent or guardian of a camper, you play an integral role in the success of your camper&#8217;s experience. Royal Ridges Retreat is excited to partner with you to create a memorable time for your child. If you are ready to register, head over to Summer Day Camps. You must log in or create an account at <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="underline text-green-200 ml-4">UltraCamp</a> to finalize registration. </p>
+                    <p>As a parent or guardian of a camper, you play an integral role in the success of your camper&#8217;s experience. Royal Ridges Retreat is excited to partner with you to create a memorable time for your child. If you are ready to register, head over to Summer Day Camps. You must log in or create an account at{` `}<a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200">UltraCamp</a> to finalize registration. </p>
                 
                     <h2 className="text-green-200 font-bold text-xl mt-2">How do I register my child for Summer Camp?</h2>
-                    <p>Log in or create an account with <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="underline text-green-200 ml-4">UltraCamp</a>. Follow the on-screen instructions to register as many campers as you would like. Choose your week of camp and any options (Bus transportation, store card,(store cards will be available after January 1, 2022) etc.). Pay using credit or e-check. You must pay a 35% deposit to hold your registration. You will automatically receive a confirmation email, a packing list, and the Parent Handbook.  If you don&#8217;t receive your confirmation email, please call the office at 360.686.3737, and we will check on the status of your reservation.</p>
+                    <p>Log in or create an account with{` `}<a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200">UltraCamp</a>. Follow the on-screen instructions to register as many campers as you would like. Choose your week of camp and any options (Bus transportation, store card,(store cards will be available after January 1, 2022) etc.). Pay using credit or e-check. You must pay a 35% deposit to hold your registration. You will automatically receive a confirmation email, a packing list, and the Parent Handbook.  If you don&#8217;t receive your confirmation email, please call the office at 360.686.3737, and we will check on the status of your reservation.</p>
                     
                     <h2 className="text-green-200 font-bold text-xl mt-2">What should my child bring/not bring to camp?</h2>
-                    <p>You must complete medical and Liability Forms before your child attends camp. You will have to log in to your <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="underline text-green-200 ml-4">UltraCamp</a> account to complete all necessary forms.</p>
+                    <p>You must complete medical and Liability Forms before your child attends camp. You will have to log in to your{` `}<a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200">UltraCamp</a> account to complete all necessary forms.</p>
                     
                     <h2 className="text-green-200 font-bold text-xl mt-2">How do I fill out the Medical Information for my child?</h2>
                     <p> This list of items will prepare your camper to have the best time at camp. You must bring items with an asterisk.</p>
@@ -63,7 +63,7 @@ const Faq = () => {
                     <p>For the quickest drop-off experience, remember to pay your bill in total, and complete all necessary paperwork before arriving at camp. Early check-in is not available. Camper check-in begins each morning at the check-in station beginning at 8:30 am. Because our staff will be preparing the camp for your arrival, early check-in will not be possible.</p>
 
                     <h2 className="text-green-200 font-bold text-xl mt-2">What time do I pick up my child at camp?</h2>
-                    <p>To order Bus Transportation, you will need to log in to your UltraCamp account. You must be registered for a camp first before purchasing bus transportation. For a list of all bus routes and stops, use this link:&nbsp;<Link to={'/bustransportation'} className="text-green-200 underline">Bus Transportation</Link></p>
+                    <p>To order Bus Transportation, you will need to log in to your UltraCamp account. You must be registered for a camp first before purchasing bus transportation. For a list of all bus routes and stops, use this link:&nbsp;<Link to={'/bus-transportation'} className="text-green-200 hover:underline hover:text-indigo-400">Bus Transportation</Link></p>
                     
                     <h2 className="text-green-200 font-bold text-xl mt-2">What time do I pick up my child at camp?</h2>
                     <p>To pick up your camper, arrive each day at 3:40 pm. If someone other than you is picking up your child, make sure they are listed as an authorized person for pick up and have a photo ID ready to show our staff.</p>

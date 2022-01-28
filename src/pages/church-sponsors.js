@@ -27,7 +27,7 @@ const ChurchSponsors = () => {
                     href="https://www.bgbaptist.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400"
+                    className="text-green-200 hover:underline hover:text-indigo-400"
                   >
                     Battle Ground Baptist Church
                   </a>
@@ -44,7 +44,7 @@ const ChurchSponsors = () => {
                     href="http://www.charteroakchurch.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400"
+                    className="text-green-200 hover:underline hover:text-indigo-400"
                   >
                     Charter Oak Community Church
                   </a>
@@ -63,7 +63,7 @@ const ChurchSponsors = () => {
                     href="https://lacenterchurch.org/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400"
+                    className="text-green-200 hover:underline hover:text-indigo-400"
                   >
                     La Center Church
                   </a>
@@ -82,7 +82,7 @@ const ChurchSponsors = () => {
                     href="http://lexingtonbible.org/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400"
+                    className="text-green-200 hover:underline hover:text-indigo-400"
                   >
                     Lexington Bible Fellowship
                   </a>
@@ -101,7 +101,7 @@ const ChurchSponsors = () => {
                     href="http://northcrestchurch.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400"
+                    className="text-green-200 hover:underline hover:text-indigo-400"
                   >
                     Northcrest Community Church
                   </a>
@@ -119,7 +119,7 @@ const ChurchSponsors = () => {
                     href="http://www.proebstelchurch.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400"
+                    className="text-green-200 hover:underline hover:text-indigo-400"
                   >
                     The Church At Proebstel
                   </a>

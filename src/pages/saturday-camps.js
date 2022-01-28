@@ -25,7 +25,7 @@ const SaturdayCamps = () => {
                   href="https://www.royalridges.upcsites.org/saturday-day-camp.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline text-green-200 uppercase text-lg mt-4"
+                  className="hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-4"
                 >
                   here
                 </a>
@@ -45,7 +45,7 @@ const SaturdayCamps = () => {
                   href="https://www.royalridges.upcsites.org/saturday-day-camp.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline text-green-200 uppercase text-lg mt-4"
+                  className="hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-4"
                 >
                   here
                 </a>
@@ -66,7 +66,7 @@ const SaturdayCamps = () => {
                   href="https://www.royalridges.upcsites.org/saturday-day-camp.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline text-green-200 uppercase text-lg mt-4"
+                  className="hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-4"
                 >
                   here
                 </a>

@@ -9,7 +9,7 @@ const Volunteers = () => {
           <Header />
             <div>
               <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
-                <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
+                <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
                   We love volunteers!!!
                 </p>
                 <p>
@@ -24,7 +24,7 @@ const Volunteers = () => {
                   If you have any questions or concerns, please{' '}
                   <a
                     href="email:volunteers@royalridges.org"
-                    className="underline text-green-200 hover:text-red-500"
+                    className="underline text-green-200 hover:underline hover:text-indigo-400"
                   >
                     email
                   </a>{' '}

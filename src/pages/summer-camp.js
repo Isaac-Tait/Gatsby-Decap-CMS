@@ -9,7 +9,7 @@ const SummerCampPage = () => {
       <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
         <Header />
           <div className="max-w-6xl mx-auto h-screen">
-            <div className="flex flex-wrap text-green-200 font-bold text-xl md:text-4xl justify-center">
+            <div className="flex flex-wrap text-green-200 font-cursive font-bold text-xl md:text-4xl justify-center">
               Royal Ridges Summer Camp
             </div>
               {/*First Row*/}

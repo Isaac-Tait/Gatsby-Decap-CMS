@@ -9,7 +9,7 @@ const Support = () => {
     <div className="bg-gradient-to-l from-yellow-400 via-red-200 to-indigo-200">
       <Header />
         <div className="max-w-6xl mx-auto">
-          <div className="text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto">
+          <div className="text-green-200 font-bold font-cursive text-base md:text-4xl flex flex-wrap justify-center mx-auto">
             Support Royal Ridges
           </div>
           <div className="grid grid-cols-2 gap-2 mx-2 h-screen overflow-y-scroll">

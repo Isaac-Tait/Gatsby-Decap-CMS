@@ -15,22 +15,22 @@ const DayHorseCamp = () => {
                             <p>Registration</p>
                         </Link>
                         <hr /> 
-                        <Link to={'/day-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Traditional Day Camp</p>
                         </Link>
-                        <Link to={'/day-adventure-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-adventure-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Adventure Camp</p>
                         </Link>
-                        <Link to={'/day-paintball-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-paintball-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Paintball Camp</p>
                         </Link>
-                        <Link to={'/summer-giddy-up-program'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/summer-giddy-up-program'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Summer Giddy Up Program</p>
                         </Link>
-                        <Link to={'/bus-transportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/bus-transportation'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
                         </Link>
-                        <Link to={'/faq'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/faq'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>FAQs</p>
                         </Link>
                     </div>
@@ -45,7 +45,7 @@ const DayHorseCamp = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl underline'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
                         >Register for Day Horse Camp</a>
                         <div className='font-semibold text-green-200 ml-4 my-4'>
                             <p>Monday-Friday 9am-3:30pm</p>   
@@ -84,7 +84,7 @@ const DayHorseCamp = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl underline'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
                         >Register for Day Horse Camp</a>
                         <p className='my-20'></p>{/* Spacer */}
                     </div>    

@@ -15,22 +15,22 @@ const Header = () => {
                 <nav className="text-xs lg:text-xl lg:font-semibold lg:uppercase">
                     <ul className="flex h-20 pt-8">
                         <li className="ml-1 lg:ml-12">
-                            <Link to={'/programs'} className="underline text-green-200">Programs</Link>
+                            <Link to={'/programs'} className="hover:underline hover:font-cursive hover:text-indigo-400 text-green-200">Programs</Link>
                         </li>
                         <li className="ml-1 lg:ml-12">
-                            <Link to={'/summer-camp'} className="underline text-green-200">Summer Camp</Link>
+                            <Link to={'/summer-camp'} className="hover:underline hover:font-cursive hover:text-indigo-400 text-green-200">Summer Camp</Link>
                         </li>
                         <li className="ml-1 lg:ml-12">
-                            <Link to={'/updates'} className="underline text-green-200">Updates</Link>
+                            <Link to={'/updates'} className="hover:underline hover:font-cursive hover:text-indigo-400 text-green-200">Updates</Link>
                         </li>
                         <li className="ml-1 lg:ml-12">
-                            <Link to={'/support'} className="underline text-green-200">Support</Link>
+                            <Link to={'/support'} className="hover:underline hover:font-cursive hover:text-indigo-400 text-green-200">Support</Link>
                         </li>
                         <li className="ml-1 lg:ml-12">
-                            <Link to={'/about'} className="underline text-green-200">About</Link>
+                            <Link to={'/about'} className="hover:underline hover:font-cursive hover:text-indigo-400 text-green-200">About</Link>
                         </li>
                         <li className="ml-1 lg:ml-12">
-                            <Link to={'/contact'} className="underline text-green-200">Contact</Link>
+                            <Link to={'/contact'} className="hover:underline hover:font-cursive hover:text-indigo-400 text-green-200">Contact</Link>
                         </li>
                         <li>
                             <Link to={'/search'}>
@@ -40,7 +40,7 @@ const Header = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="mt-1 ml-2 lg:ml-12"
+                                className="mt-1 ml-2 lg:ml-12 text-green-200 hover:text-indigo-400"
                                 >
                                 <path
                                     fill-rule="evenodd"

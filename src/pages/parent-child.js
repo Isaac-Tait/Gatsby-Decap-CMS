@@ -25,22 +25,22 @@ const ParentChild = () => {
                 <div className='flex flex-row justify-between'>
                   <div>
                     <Link to={'/mother-daughter'}>
-                      <p className="text-green-200 hover:text-indigo-400 font-bold text-lg justify-center md:text-2xl">Mother Daughter</p>
+                      <p className="text-green-200 hover:text-indigo-400 hover:underline font-bold hover:font-cursive text-lg justify-center md:text-2xl">Mother Daughter</p>
                     </Link>
                   </div>
                   <div>
                     <Link to={'/mother-son'}>
-                      <p className="text-green-200 hover:text-indigo-400 font-bold text-lg justify-center md:text-2xl">Mother Son</p>
+                      <p className="text-green-200 hover:text-indigo-400 hover:underline font-bold hover:font-cursive text-lg justify-center md:text-2xl">Mother Son</p>
                     </Link>
                   </div>
                   <div>
                     <Link to={'/father-daughter'}>
-                      <p className="text-green-200 hover:text-indigo-400 font-bold text-lg justify-center md:text-2xl">Father Daughter</p>
+                      <p className="text-green-200 hover:text-indigo-400 hover:underline font-bold hover:font-cursive text-lg justify-center md:text-2xl">Father Daughter</p>
                     </Link>
                   </div>
                   <div>
                     <Link to={'/father-son'}>
-                      <p className="text-green-200 hover:text-indigo-400 font-bold text-lg justify-center md:text-2xl">Father Son</p>
+                      <p className="text-green-200 hover:text-indigo-400 hover:underline font-bold hover:font-cursive text-lg justify-center md:text-2xl">Father Son</p>
                     </Link>
                   </div>
                 </div>

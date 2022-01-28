@@ -9,14 +9,14 @@ const StatementOfFaith = () => {
           <Header />  
             <div>
               <div className="max-w-6xl mx-2 md:mx-auto text-lg h-screen overflow-y-scroll">
-                <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
+                <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
                   Statement Of Faith
                 </p>
-                <p className="flex flex-wrap text-yellow-400 font-bold text-xl justify-center">
+                <p className="flex flex-wrap text-yellow-400 font-cursive text-xl justify-center">
                   What we believe
                 </p>
                 <div>
-                  <p className="text-yellow-400 font-bold text-base">God</p>
+                  <p className="text-green-200 font-cursive text-lg">God</p>
                   <p>
                     We believe in one God, Creator of all things, holy, infinitely
                     perfect, and eternally existing in a loving unity of three equally
@@ -25,7 +25,7 @@ const StatementOfFaith = () => {
                     from eternity to redeem a people for Himself and to make all things
                     new for His own glory.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">The Bible</p>
+                  <p className="text-green-200 font-cursive text-lg">The Bible</p>
                   <p>
                     We believe that God has spoken in the Scriptures, both Old and New
                     Testaments, through the words of human authors. As the verbally
@@ -36,7 +36,7 @@ const StatementOfFaith = () => {
                     that it teaches, obeyed in all that it requires, and trusted in all
                     that it promises.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">
+                  <p className="text-green-200 font-cursive text-lg">
                     The Human Condition
                   </p>
                   <p>
@@ -46,7 +46,7 @@ const StatementOfFaith = () => {
                     wrath. Only through God&#39;s saving work in Jesus Christ can we be
                     rescued, reconciled and renewed.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">Jesus Christ</p>
+                  <p className="text-green-200 font-cursive text-lg">Jesus Christ</p>
                   <p>
                     We believe that Jesus Christ is God incarnate, fully God and fully
                     man, one Person in two natures. Jesus—Israel&#39;s promised
@@ -55,7 +55,7 @@ const StatementOfFaith = () => {
                     arose bodily from the dead, ascended into heaven and sits at the
                     right hand of God the Father as our High Priest and Advocate.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">
+                  <p className="text-green-200 font-cursive text-lg">
                     The Work of Christ
                   </p>
                   <p>
@@ -64,7 +64,7 @@ const StatementOfFaith = () => {
                     for our sins. His atoning death and victorious resurrection
                     constitute the only ground for salvation.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">The Holy Spirit</p>
+                  <p className="text-green-200 font-cursive text-lg">The Holy Spirit</p>
                   <p>
                     We believe that the Holy Spirit, in all that He does, glorifies the
                     Lord Jesus Christ. He convicts the world of its guilt. He
@@ -73,7 +73,7 @@ const StatementOfFaith = () => {
                     illuminates, guides, equips and empowers believers for Christ-like
                     living and service.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">The Church</p>
+                  <p className="text-green-200 font-cursive text-lg">The Church</p>
                   <p>
                     We believe that the true church comprises all who have been
                     justified by God&#39;s grace through faith alone in Christ alone.
@@ -85,7 +85,7 @@ const StatementOfFaith = () => {
                     means of salvation, when celebrated by the church in genuine faith,
                     these ordinances confirm and nourish the believer.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">
+                  <p className="text-green-200 font-cursive text-lg">
                     Christian Living
                   </p>
                   <p>
@@ -99,7 +99,7 @@ const StatementOfFaith = () => {
                     disciples among all people, always bearing witness to the gospel in
                     word and deed.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">
+                  <p className="text-green-200 font-cursive text-lg">
                     Christ&#39;s Return
                   </p>
                   <p>
@@ -109,7 +109,7 @@ const StatementOfFaith = () => {
                     the believer to godly living, sacrificial service and energetic
                     mission.
                   </p>
-                  <p className="text-yellow-400 font-bold text-base">
+                  <p className="text-green-200 font-cursive text-lg">
                     Response and Eternal Destiny
                   </p>
                   <p>
@@ -119,8 +119,11 @@ const StatementOfFaith = () => {
                     world, assigning the unbeliever to condemnation and eternal
                     conscious punishment and the believer to eternal blessedness and joy
                     with the Lord in the new heaven and the new earth, to the praise of
-                    His glorious grace. Amen.
+                    His glorious grace.
                   </p>
+                  <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
+                  Amen!
+                </p>
                 </div>
               </div>
             </div>

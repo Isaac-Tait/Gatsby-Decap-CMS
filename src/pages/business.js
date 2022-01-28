@@ -9,7 +9,7 @@ const Business = () => {
         <Header />
           <div>
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
-              <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
+              <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
                 Business Sponsors
               </p>
               <p className="italic">
@@ -29,7 +29,7 @@ const Business = () => {
                     href="https://blackbirdcpas.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400 mx-4"
+                    className="text-green-200 hover:underline hover:text-indigo-400 mx-4"
                   >
                     Blackbird Accounting
                   </a>
@@ -48,7 +48,7 @@ const Business = () => {
                     href="http://www.manta.com/c/mtgpc17/jc-farrier-service"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400 mx-4"
+                    className="text-green-200 hover:underline hover:text-indigo-400 mx-4"
                   >
                     JC Farrier Service
                   </a>
@@ -65,7 +65,7 @@ const Business = () => {
                     href="http://www.napaonline.com/wa/battle-ground/clark-c"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-200 hover:text-red-400 mx-4"
+                    className="text-green-200 hover:underline hover:text-indigo-400 mx-4"
                   >
                     Clark County Auto & Truck Supply Inc
                   </a>
@@ -86,7 +86,7 @@ const Business = () => {
                     href="http://nwambush.com/"
                     target="_blank"
                     rel="noopener norferrer noreferrer"
-                    className="text-green-200 hover:text-red-400 mx-4"
+                    className="text-green-200 hover:underline hover:text-indigo-400 mx-4"
                   >
                     NW Ambush, Extreme Sports
                   </a>
@@ -108,7 +108,7 @@ const Business = () => {
                     href="http://amaziavet.com/"
                     target="_blank"
                     rel="noopener norferrer noreferrer"
-                    className="text-green-200 hover:text-red-400 mx-4"
+                    className="text-green-200 hover:underline hover:text-indigo-400 mx-4"
                   >
                     AMAZIA, Veterinary Services
                   </a>

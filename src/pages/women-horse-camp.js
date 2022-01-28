@@ -14,7 +14,7 @@ const WomenHorseCamp = () => {
               of the activities planned are Craft Time, Big Swing, Fellowship Time
               and, of course, HORSES! A delicious lunch is included.
             </p>
-            <p className="underline mt-4">
+            <p className="font-semibold mt-4">
               Please remember to wear long pants, closed-toe shoes, and dress
               weather appropriately.
             </p>

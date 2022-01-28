@@ -9,8 +9,8 @@ const About = () => {
     <div className="bg-gradient-to-b from-yellow-400 via-yellow-200 to-indigo-200">
       <Header />
         <div className="max-w-6xl mx-auto">
-          <div className="text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto">
-            About Royal Ridges Retreat
+          <div className="text-green-200 font-bold font-cursive text-base md:text-4xl flex flex-wrap justify-center mx-auto">
+            About Royal Ridges
           </div>
           <div className="grid grid-cols-2 gap-2 mx-2 h-screen overflow-y-scroll">
               <div className="flex flex-col items-center justify-center">

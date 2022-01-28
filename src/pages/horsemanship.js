@@ -45,7 +45,7 @@ const RidingLessons = () => {
                   href="https://www.royalridges.upcsites.org/horsemanshiplessons.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline text-green-200 uppercase text-lg mt-2"
+                  className="hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-2"
                 >
                   Sign up for the Horsemanship Program
                 </a>

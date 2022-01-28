@@ -46,7 +46,7 @@ const BookARide = () => {
                 If you have any questions or want more info please{' '}
                 <a
                   href="email:programs@royalridges.org"
-                  className="text-green-200 underline"
+                  className="text-green-200 hover:underline hover:text-indigo-400"
                 >
                   email
                 </a>{' '}

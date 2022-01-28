@@ -11,25 +11,25 @@ const SummerReg = () => {
                 <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
-                        <Link to={'/daycamp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Traditional Day Camp</p>
                         </Link>
-                        <Link to={'/day-horse-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-horse-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Horse Camp</p>
                         </Link>
-                        <Link to={'/day-adventure-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-adventure-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Adventure Camp</p>
                         </Link>
-                        <Link to={'/day-paintball-camp'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-paintball-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Paintball Camp</p>
                         </Link>
-                        <Link to={'/summer-giddy-up-program'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/summer-giddy-up-program'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Summer Giddy Up Program</p>
                         </Link>
-                        <Link to={'/bus-transportation'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/bus-transportation'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
                         </Link>
-                        <Link to={'/faq'} className='my-4 underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/faq'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>FAQs</p>
                         </Link>
                     </div>

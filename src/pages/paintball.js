@@ -9,7 +9,7 @@ const Paintball = () => {
           <Header />
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
               <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/paintball.png' alt='paintball' className='rounded-2xl shadow-xl mt-2 w-full'/>
-              <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-4xl">
+              <p className="flex flex-wrap text-green-200 font-bold font-cursive text-xl justify-center md:text-4xl">
                 It is Paintball, the way it should be!!!
               </p>
               <p className="mt-2">
@@ -18,7 +18,7 @@ const Paintball = () => {
                 adventure of woods ball, scenario paintball, or tournament style
                 speed-ball. There are 2 large speed-ball fields, a 20 acre woods-ball
                 field, and a Tactical Village. Book your next extreme adventure with
-                us! All charges cover the cost of a mask, a marker, paintballs, and an
+                us! All charges cover the cost of a mask, a marker, paint balls, and an
                 hour or two of game play.
               </p>
               <p className="mt-2">
@@ -37,7 +37,7 @@ const Paintball = () => {
                 Interested in other dates, times or any questions{' '}
                 <a
                   href="email:paintball@royalridges.org"
-                  className="text-green-200 underline"
+                  className="text-green-200 hover:underline hover:text-indigo-400"
                 >
                   email
                 </a>{' '}
@@ -47,7 +47,7 @@ const Paintball = () => {
                 Interested in Open Play Games and Dates:{' '}
                 <a
                   href="https://www.royalridges.upcsites.org/rrpb-openplay.html"
-                  className="text-green-200 underline"
+                  className="text-green-200 hover:underline hover:text-indigo-400"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
