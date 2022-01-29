@@ -1,6 +1,13 @@
 import React from "react";
 import {Link} from "gatsby";
 
+import Reg from '../images/CampRegistration.png'
+import Faq from '../images/FAQ.png'
+import ParentManual from '../images/ParentManual.png'
+import Scholarship from '../images/Scholarships.png'
+import SummerCamps from '../images/SummerCamps.png'
+import SummerStaffApp from '../images/SummerStaffApp.png'
+
 import Header from "../components/header";
 import Footer from "../components/footer";
 
@@ -33,14 +40,12 @@ const SummerCampPage = () => {
                   <div className="flex flex-col w-28 md:w-64">
                     <Link 
                     to={'/parent-manual'}
-                    className='text-green-200 hover:text-indigo-400'
                     >
                       <img
                         alt="parents_manual"
-                        src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-campers.JPG"
-                        className="w-28 md:w-64 rounded-3xl"
+                        src={ParentManual}
+                        className="w-28 md:w-60 rounded-3xl"
                       />
-                      <p className="text-center">Parent&apos;s Survival Manual</p>
                     </Link>
                   </div>
                 </div>
@@ -50,14 +55,12 @@ const SummerCampPage = () => {
                   <div className="flex flex-col w-28 md:w-64">
                     <Link 
                       to={'/summer-staff-app'}
-                      className='text-green-200 hover:text-indigo-400'
                     >
                       <img
                         alt="staff_application"
-                        src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-Horses.JPG"
+                        src={SummerStaffApp}
                         className="w-28 md:w-64 rounded-3xl"
                       />
-                        <p className="text-center">Summer Staff Application</p>
                       </Link>
                     </div>
                     {/*Item four*/}
@@ -68,10 +71,9 @@ const SummerCampPage = () => {
                         >
                         <img
                           alt="staff_application"
-                          src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-snow.jpg"
+                          src={SummerCamps}
                           className="w-28 md:w-64 rounded-3xl"
                         />
-                          <p className="text-center">Summer Camp Information</p>
                       </Link>
                     </div>
                   </div>

@@ -7,8 +7,9 @@ const Comments = () => {
     return (
     <div className="bg-gradient-to-t from-yellow-400 via-yellow-200 to-indigo-200">
         <Header />
-            <div className="max-w-6xl flex mx-auto h-screen">
-            <hr />
+            <div className="max-w-6xl flex flex-col mx-auto h-screen overflow-y-scroll mb-4">
+                <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/Contact+1.0+(1).png" alt="girlScouts" className="w-full rounded-2xl shadow-xl mt-2" />
+                <hr />
                 <form 
                     data-netlify-honeypot="bot-field"
                     name="contact" 
@@ -17,7 +18,7 @@ const Comments = () => {
                     action="/success"
                     className="w-full"
                 >
-                <input type="hidden" name="form-name" value="contact" />
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="my-4 flex flex-col">
                         <label htmlFor="name">Name</label>
                         <input
