@@ -19,66 +19,67 @@ const SummerCampPage = () => {
             <div className="flex flex-wrap text-green-200 font-cursive font-bold text-xl md:text-4xl justify-center">
               Royal Ridges Summer Camp
             </div>
-              {/*First Row*/}
-              <div className="grid grid-rows-2 h-96 md:h-screen max-w-6xl mx-auto">
-                <div className="flex flex-wrap justify-between mx-2 my-2 text-sm md:text-lg content-center">
-                {/*Item one*/}
-                  <div className="flex flex-col w-28 md:w-64">
-                    <Link 
-                        to={'/liability'}
-                        className='text-green-200 hover:text-indigo-400'
-                      >
-                      <img
-                        alt="medical_image"
-                        src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-Canoe.JPG"
-                        className="w-28 md:w-64 rounded-3xl"
-                      />
-                      <p className="text-center">Liability Waiver</p>
-                    </Link>
-                  </div>
-                  {/*Item two*/}
-                  <div className="flex flex-col w-28 md:w-64">
-                    <Link 
-                    to={'/parent-manual'}
-                    >
-                      <img
-                        alt="parents_manual"
-                        src={ParentManual}
-                        className="w-28 md:w-60 rounded-3xl"
-                      />
-                    </Link>
-                  </div>
+            <div className="grid grid-rows-3 max-w-6xl">
+                
+              <div className="flex flex-row justify-between">
+                <div className="flex justify-center mt-4">
+                  <Link to={'/faq'}>
+                    <img
+                      alt="Facts"
+                      src={Faq}
+                      className="w-28 md:w-60 rounded-3xl"
+                    />
+                  </Link>
                 </div>
-                {/*Second Row*/}
-                <div className="flex flex-wrap justify-between mx-2 my-2 text-sm md:text-lg content-center">
-                  {/*Item three*/}
-                  <div className="flex flex-col w-28 md:w-64">
-                    <Link 
-                      to={'/summer-staff-app'}
-                    >
-                      <img
-                        alt="staff_application"
-                        src={SummerStaffApp}
-                        className="w-28 md:w-64 rounded-3xl"
-                      />
-                      </Link>
-                    </div>
-                    {/*Item four*/}
-                    <div className="flex flex-col w-28 md:w-64">
-                      <Link 
-                          to={'/registration'}
-                          className='text-green-200 hover:text-indigo-400'
-                        >
-                        <img
-                          alt="staff_application"
-                          src={SummerCamps}
-                          className="w-28 md:w-64 rounded-3xl"
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                </div>          
+                <div className="flex justify-center mt-4">
+                  <Link to={'/parent-manual'}>
+                    <img
+                      alt="parents_manual"
+                      src={ParentManual}
+                      className="w-28 md:w-60 rounded-3xl"
+                    />
+                  </Link>
+                </div> 
               </div>
+
+              <div>
+              <div className="flex justify-center mt-4">
+                  <Link to={'/scholarships'}>
+                    <img
+                      alt="medical_image"
+                      src={Scholarship}
+                      className="w-28 md:w-64 rounded-3xl"
+                    />
+                  </Link>
+                </div>
+
+              </div>
+
+              <div className="flex flex-row justify-between">
+                <div className="flex justify-center">
+                <Link to={'/summer-staff-app'}>
+                  <img
+                    alt="staff_application"
+                    src={SummerStaffApp}
+                    className="w-28 md:w-64 rounded-3xl"
+                  />
+                  </Link>
+                </div>
+                <div className="flex justify-center">
+                  <Link to={'/registration'}>
+                    <img
+                      alt="staff_application"
+                      src={SummerCamps}
+                      className="w-28 md:w-64 rounded-3xl"
+                    />
+                  </Link>
+                </div>
+              </div>
+
+                    
+                  
+                </div>          
+            </div>
           <Footer />
         </div>
     )

@@ -7,7 +7,6 @@ const Faq = () => {
     return (
     <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
         <Header />
-        <h1 className="text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto">FAQs</h1>
             <div className="h-screen grid grid-cols-2 max-w-6xl mx-auto">
             <div className='flex flex-col mx-auto'>
                         <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
@@ -34,6 +33,11 @@ const Faq = () => {
                         </Link>
                     </div>
                 <div className="max-w-4xl mx-auto mt-8 overflow-y-scroll">
+                    <img 
+                        src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/headers/FAQs.png'
+                        alt='faqs'
+                        className='w-1/2 flex mx-auto rounded-xl my-6'
+                    />
                     <p>As a parent or guardian of a camper, you play an integral role in the success of your camper&#8217;s experience. Royal Ridges Retreat is excited to partner with you to create a memorable time for your child. If you are ready to register, head over to Summer Day Camps. You must log in or create an account at{` `}<a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200">UltraCamp</a> to finalize registration. </p>
                 
                     <h2 className="text-green-200 font-bold text-xl mt-2">How do I register my child for Summer Camp?</h2>

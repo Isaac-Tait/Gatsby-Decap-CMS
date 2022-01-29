@@ -9,11 +9,16 @@ const SummerStaffApp = () => {
         <div className="bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200">
             <Header />
                 <div className='max-w-6xl mx-auto h-screen overflow-y-scroll'>
+                    <img 
+                        src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/headers/SummerStaffApplication.png'
+                        alt='faqs'
+                        className='w-1/2 flex mx-auto rounded-xl my-6'
+                    />
                     {/*Introduction*/}
                     <div className='text-center mb-1'>
                         <p>Thank you for considering Royal Ridges Retreat as your Summer Mission Field!</p>
                         <p>Applications for Summer 2022 will be accepted from December 1st, 2021 through May 31, 2022.</p>
-                        <p>Please read the following documents carefully and make sure you have read ALL of them before you submit your application.</p>
+                        <p>Please read the following documents carefully and make sure you have read <span className="uppercase underline">all</span> of them before you submit your application.</p>
                         <p>The commitment to serve at Royal Ridges includes a three week minimum time commitment.</p>
                         <p>You must also complete all the online and onsite training prior to your committed time period.</p>
                         <p>Onsite training will be on the weekends in June. The dates and training information will be sent to you once you are hired.</p>
