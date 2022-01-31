@@ -152,29 +152,29 @@ const HomePage = () => {
           {/* Row Two */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
             <div></div>
-            <p className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center">
               <Link
-                to={'/support'}
+                to={'/about'}
               >
-              <img
-                alt="support RRR icon"
-                src={supportIcon}
-                className="w-52"
-              />
+                <img
+                  alt="about RRR icon"
+                  src={aboutIcon}
+                  className="w-52"
+                />
               </Link>
-            </p>
+            </div>
             {/* Empty Div*/}
             <div></div>
           </div>
           {/* Row Three */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
             <div className="flex flex-col items-center">
-              <Link
-                to={'/about'}
+            <Link
+                to={'/support'}
               >
               <img
-                alt="about RRR icon"
-                src={aboutIcon}
+                alt="support RRR icon"
+                src={supportIcon}
                 className="w-52"
               />
               </Link>

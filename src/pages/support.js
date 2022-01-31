@@ -1,6 +1,11 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
+import Church from '../images/ChurchSponsors.png';
+import Business from '../images/BusinessSponsors.png';
+import Donations from '../images/Donations.png';
+import Volunteers from '../images/Volunteers.png';
+
 import Header from "../components/header";
 import Footer from "../components/footer";
 
@@ -8,65 +13,55 @@ const Support = () => {
   return (
     <div className="bg-gradient-to-l from-yellow-400 via-red-200 to-indigo-200">
       <Header />
-        <div className="max-w-6xl mx-auto">
-          <div className="text-green-200 font-bold font-cursive text-base md:text-4xl flex flex-wrap justify-center mx-auto">
+        <div className="max-w-6xl mx-auto h-screen">
+          <h1 className="text-green-200 font-bold font-cursive text-base md:text-4xl flex flex-wrap justify-center pb-8">
             Support Royal Ridges
-          </div>
-          <div className="grid grid-cols-2 gap-2 mx-2 h-screen overflow-y-scroll">
-              <div className="flex flex-col items-center justify-center">
-                <Link 
-                  to={'/church-sponsors'}
-                  className='text-green-200 hover:text-indigo-400'
-                >
-                <img
-                  alt="kids in a meadow"
-                  src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-kids_in_meadow.jpeg"
-                  className="h-20 md:h-40 mx-auto rounded-3xl"
-                />
-                <p className='flex justify-center'>Church Sponsors</p>
-                </Link>
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                  <Link 
-                    to={'/donations'}
-                    className='text-green-200 hover:text-indigo-400'
-                  >
-                  <img
-                    alt="low ropes course"
-                    src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-low_ropes_course.jpeg"
-                    className="h-20 md:h-40 mx-auto rounded-3xl"
-                  />
-                  <p className='flex justify-center'>Donations</p>
-                  </Link>
-              </div>
-
-              <div className="flex flex-col items-center justify-center">
-                  <Link 
-                    to={'/volunteers'} 
-                    className='text-green-200 hover:text-indigo-400'
-                  >
+          </h1>
+          <div className="grid grid-cols-3 gap-2 mx-2 h-screen overflow-y-scroll m-auto">
+            <div className=''>
+              <Link to={'/volunteers'}>
                   <img
                     alt="group huddle"
-                    src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-pow_wow.jpeg"
-                    className="h-20 md:h-40 mx-auto rounded-3xl"
+                    src={Volunteers}
+                    className="w-28 md:w-64 mt-8 mx-auto "
                   />
-                  <p className='flex justify-center'>Volunteers</p>
-                  </Link>
+                </Link>
+            </div>
 
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                  <Link 
-                    to={'/business'}
-                    className='text-green-200 hover:text-indigo-400'
-                  >
+            <div></div>
+
+            <div className=''>
+                <Link to={'/donations'}>
+                  <img
+                    alt="low ropes course"
+                    src={Donations}
+                    className="w-28 md:w-64 mt-8 mx-auto "
+                  />
+                </Link>
+            </div>
+
+            <div className=''>
+              <Link to={'/church-sponsors'}>
+                  <img
+                    alt="kids in a meadow"
+                    src={Church}
+                    className="w-28 md:w-64 mt-8 mx-auto "
+                  />
+              </Link>
+            </div>    
+
+            <div></div>          
+
+            <div className=''>
+                <Link to={'/business'}>
                   <img
                     alt="vintage_photo"
-                    src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-vintage+photo.JPG"
-                    className="h-20 md:h-40 mx-auto rounded-3xl"
+                    src={Business}
+                    className="w-28 md:w-64 mt-8 mx-auto "
                   />
-                  <p className='flex justify-center'>Business Sponsors</p>
-                  </Link>
-              </div>
+                </Link>
+            </div>
+
           </div>
         </div>
       <Footer />
