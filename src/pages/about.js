@@ -27,8 +27,10 @@ const About = () => {
                   </Link>
               </div>
               <div className="flex flex-col items-center justify-center">
-                  <Link 
-                    to={'/newsletter'}
+                  <a 
+                    href="https://zen-wilson-d0e566.netlify.app/"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
@@ -37,7 +39,7 @@ const About = () => {
                     className="h-20 md:h-40 mx-auto rounded-3xl"
                   />
                   <p className='flex justify-center'>Newsletter</p>
-                  </Link>
+                  </a>
               </div>
               <div className="flex flex-col items-center justify-center">
                   <Link 
