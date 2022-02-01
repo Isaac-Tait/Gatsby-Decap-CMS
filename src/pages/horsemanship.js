@@ -23,14 +23,14 @@ const RidingLessons = () => {
                   are offered in terms. Riders must commit to the full term in order to
                   participate in the program.
                 </p>
+                <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
                 <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-xl">
                   The lessons terms sessions are as follows:
                 </p>
-                <p>September 13- October 29</p>
-                <p>November 1- December 17 (November 22-26 off)</p>
-                <p>January 3- February 25</p>
-                <p>February 28- April 29 (April 4-8 off)</p>
-                <p>May 2- June 10 Summer off</p>
+                <p>Spring</p>
+                <p>Fall</p>
+                <p>Winter</p>
+              
                 <p className="mt-2">
                   Make-ups or refunds are not available for students that miss class
                   since the instructor and horse still had to be available for the class
@@ -57,6 +57,8 @@ const RidingLessons = () => {
                   billed by the term. Current Class Times: Tuesdays 4:00-6:00 pm
                   Wednesdays 10:00 am- 12:00 pm Thursdays 4:00-6:00 pm
                 </p>
+
+                <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
               </div>
             </div>
           <Footer />

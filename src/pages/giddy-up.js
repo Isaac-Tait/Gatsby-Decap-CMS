@@ -31,6 +31,8 @@ const GiddyUp = () => {
                     program staff for morning activities. Covered, warm spaces are
                     available on rainy and cold days.</p>
 
+                    <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
+
                     <p className="my-2">Due to our Summer Camp programs, GiddyUp Day at Camp is only offered during the school year.</p>
 
                     <p className="my-2">Winter Break and Spring Break are aligned with the Battle Ground Public
@@ -59,7 +61,9 @@ const GiddyUp = () => {
                     <p className="my-2">Unless notified of the decision to discontinue the program, participants will be auto-enrolled in the
                     next term and sent an emailed invoice.</p>
 
-                    <p className="mb-4">Payment plans or scholarship programs may be available upon request for those with financial need.</p>
+                    <p className="my-2">Payment plans or scholarship programs may be available upon request for those with financial need.</p>
+
+                    <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="mb-4 hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
                 </div>
             </div>
         <Footer />
