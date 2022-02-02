@@ -9,9 +9,7 @@ const Volunteers = () => {
           <Header />
             <div>
               <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
-                <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
-                  We love volunteers!!!
-                </p>
+              <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/header+photos/Volunteers.png' alt='volunteers' className='rounded-2xl shadow-xl mt-2 w-full'/>
                 <p>
                   With 378 acres, there are many projects and needs all over camp. This
                   may be on a construction project or in landscaping of pulling weeds.

@@ -8,9 +8,7 @@ const Donations = () => {
         <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
           <Header />
             <div className="max-w-6xl h-screen overflow-y-scroll mx-auto text-xs md:text-base">
-              <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
-                Donations
-              </p>
+            <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/header+photos/Donations.png' alt='donations' className='rounded-2xl shadow-xl mt-2 w-full'/>
 
               <p className="my-4">
                 We are excited about what God has planned for 2021 at Royal Ridges. Will

@@ -8,11 +8,9 @@ const Business = () => {
       <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
         <Header />
           <div>
-            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
-              <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
-                Business Sponsors
-              </p>
-              <p className="italic">
+            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll pb-4">
+            <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/header+photos/BusinessSponsors.png' alt='business sponsors' className='rounded-2xl shadow-xl mt-2 w-full'/>
+              <p className="text-center">
                 We are proud to call the following businesses &quot;Friends of Royal
                 Ridges&quot;. If you are in need of any services they provide, we
                 encourage you to consider purchasing from the following:

@@ -9,10 +9,8 @@ const ChurchSponsors = () => {
           <Header />
           <div>
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
-              <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
-                Local Churches that sponsor Royal Ridges Retreat
-              </p>
-              <p className="italic">
+            <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/header+photos/ChurchSponsors.png' alt='church sponsors' className='rounded-2xl shadow-xl mt-2 w-full'/>
+              <p className="text-center">
                 We are proud to call the following churches "Friends of Royal Ridges"
                 With out whom we would not be able to keep this ministry thriving!
               </p>
