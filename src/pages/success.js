@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 const Success = () => {
     return (
-    <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+    <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
         <Header />
             <div className="bg-yellow-200 h-screen">
                 <div className="grid place-content-center">

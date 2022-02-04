@@ -20,7 +20,7 @@ const NotFoundPage = () => {
             And just because we are nice here is a handy link to the&nbsp;
             <Link
               to={'/'}
-              className="text-green-200 hover:text-yellow-400 hover:bg-indigo-50 underline"
+              className="text-green-200 hover:text-indigo-400 hover:underline"
             >
               Home Page
             </Link>

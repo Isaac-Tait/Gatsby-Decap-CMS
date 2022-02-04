@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 const Paintball = () => {
     return (
-        <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+        <div className="bg-gradient-to-r from-yellow-200 to-indigo-200">
           <Header />
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
               <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/paintball.png' alt='paintball' className='rounded-2xl shadow-xl mt-2 w-full'/>

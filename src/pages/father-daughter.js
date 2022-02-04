@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 const FatherDaughter = () => {
     return (
-        <div className='bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200'>
+        <div className='bg-gradient-to-r from-yellow-200 to-indigo-200'>
             <Header />
                 <div className='h-screen'>
                 <p className="flex flex-wrap text-green-200 font-bold font-cursive text-xl justify-center md:text-4xl">Father Daughter</p>

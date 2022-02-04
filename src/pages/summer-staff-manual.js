@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 const staffManual = () => {
     return (
-    <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+    <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
         <Header />
             <div className="h-screen">
                 <p className="text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto">Summer Staff Manual</p>

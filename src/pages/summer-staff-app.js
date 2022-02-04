@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 const SummerStaffApp = () => {
     return (
-        <div className="bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200">
+        <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
             <Header />
                 <div className='max-w-6xl mx-auto h-screen overflow-y-scroll'>
                     <img 

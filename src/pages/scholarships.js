@@ -5,7 +5,7 @@ import Footer from "../components/footer"
 
 const Scholarship = () => {
     return (
-    <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+    <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
         <Header />
             <div className="max-w-4xl mx-auto h-screen overflow-y-scroll">
                 <img 

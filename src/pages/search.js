@@ -20,7 +20,7 @@ const searchClient = algoliasearch(
 class Search extends React.Component {
     render() {
         return (
-            <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+            <div className="bg-gradient-to-l from-pink-200 to-indigo-200">
                 <Header />
                 <div class="max-w-6xl h-screen flex flex-col mx-auto overflow-y-scroll">
                     {/*👇🏼 Search component*/}

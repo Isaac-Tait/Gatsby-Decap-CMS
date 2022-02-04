@@ -11,7 +11,7 @@ import Footer from "../components/footer";
 
 const Support = () => {
   return (
-    <div className="bg-gradient-to-l from-yellow-400 via-red-200 to-indigo-200">
+    <div className="bg-gradient-to-b from-yellow-200 to-indigo-200">
       <Header />
         <div className="max-w-6xl mx-auto h-screen">
           <h1 className="text-green-200 font-bold font-cursive text-base md:text-4xl flex flex-wrap justify-center pb-8">

@@ -11,7 +11,7 @@ const BlogPostPage = ({ data, pageContext, location }) => {
   const { previous, next } = data
 
   return (
-    <div location={location} className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+    <div location={location} className="bg-gradient-to-r from-pink-200 to-indigo-200">
       <Header />
       {/* 👇🏼 Blog post content*/}
       <div className="grid place-items-center md:h-screen overflow-y-scroll">

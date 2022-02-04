@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 const StatementOfFaith = () => {
     return (
-        <div className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+        <div className="bg-gradient-to-t from-yellow-200 to-indigo-200">
           <Header />  
             <div>
               <div className="max-w-6xl mx-2 md:mx-auto text-lg h-screen overflow-y-scroll">
