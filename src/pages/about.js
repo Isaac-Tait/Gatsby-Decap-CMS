@@ -28,7 +28,7 @@ const About = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                   <a 
-                    href="https://zen-wilson-d0e566.netlify.app/"
+                    href='https://hardcore-khorana-19151f.netlify.app'
                     target="_blank" 
                     rel="noopener noreferrer"
                     className='text-green-200 hover:text-indigo-400'
