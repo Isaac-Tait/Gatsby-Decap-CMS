@@ -28,7 +28,7 @@ const ProgramsPage = () => {
     
             <div className="grid grid-cols-4 gap-4 h-screen my-4 overflow-y-scroll">
                 {/*👇🏼First Row*/}
-                <div className="lg:w-60 lg:h-60">
+                <div className="relative box-content w-20 h-20 lg:w-60 lg:h-64">
                   <Link
                     to={'/giddy-up'}
                   >
@@ -36,10 +36,13 @@ const ProgramsPage = () => {
                       alt="Giddy Up"
                       src={GiddyUp}
                     />
+                    <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
-                <div className="lg:w-60 lg:h-60">
+                <div className="relative box-content w-20 h-20 lg:w-60 lg:h-64">
                   <Link
                     to={'/horsemanship'}
                   >
@@ -47,10 +50,13 @@ const ProgramsPage = () => {
                       alt="horse lessons"
                       src={RidingLesson}
                     />
+                    <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
-                <div className="lg:w-60 lg:h-60">
+                <div className="relative box-content w-20 h-20 lg:w-60 lg:h-64">
                   <Link
                     to={'/adventure-class'}
                   >
@@ -58,10 +64,13 @@ const ProgramsPage = () => {
                     alt="adventures galore"
                     src={AdventureClass}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
-                <div className="lg:w-60 lg:h-60">
+                <div className="relative box-content w-20 h-20 lg:w-60 lg:h-64">
                   <Link 
                     to={'/parent-child'}
                   >
@@ -69,11 +78,14 @@ const ProgramsPage = () => {
                     alt="Bears"
                     src={ParentChild}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
                 {/*👇🏼Second Row*/}
-                <div className="lg:w-60 lg:h-60">
+                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
                   <Link
                     to={'/saturday-camps'}
                   >
@@ -81,10 +93,13 @@ const ProgramsPage = () => {
                     alt="Saturday Camps"
                     src={SatCamp}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
-                <div className="lg:w-60 lg:h-60">
+                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
                   <Link
                     to={'/girl-scouts'}
                   >
@@ -92,10 +107,13 @@ const ProgramsPage = () => {
                     alt="Girl Scouts"
                     src={GirlScouts}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>              
 
-                <div className="lg:w-60 lg:h-60">
+                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
                   <Link
                     to={'/book-a-ride'}
                   >
@@ -103,10 +121,13 @@ const ProgramsPage = () => {
                     alt="Book a Ride"
                     src={BookRide}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
-                <div className="lg:w-60 lg:h-60">
+                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
                   <Link 
                     to={'/paintball'}
                   >
@@ -114,11 +135,14 @@ const ProgramsPage = () => {
                     alt="paintball camp"
                     src={PaintBall}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
                 
                 {/*👇🏼Third Row*/}
-                <div className="lg:w-60 lg:h-60">
+                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
                   <Link
                     to={'/guest-groups'}
                   >
@@ -126,10 +150,13 @@ const ProgramsPage = () => {
                     alt="Guest Groups Camp"
                     src={GuestGroup}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
-                <div className="lg:w-60 lg:h-60">
+                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
                   <Link
                     to={'/vaulting'}
                   >
@@ -137,10 +164,13 @@ const ProgramsPage = () => {
                     alt="Vault"
                     src={Vault}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
-                <div className="lg:w-60 lg:h-60">
+                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
                   <Link
                     to={'/women-horse-camp'}
                   >
@@ -148,10 +178,13 @@ const ProgramsPage = () => {
                     alt="Women Camp"
                     src={Women}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
 
-                <div className="lg:w-60 lg:h-60">
+                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
                   <Link
                     to={'/school-break'}
                   >
@@ -159,6 +192,9 @@ const ProgramsPage = () => {
                     alt="School Break"
                     src={School}
                   />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p>Placeholder text for icon descriptions</p>
+                    </div>
                   </Link>
                 </div>
             </div>
