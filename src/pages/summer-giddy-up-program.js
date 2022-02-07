@@ -50,7 +50,6 @@ const SummerGiddyUp = () => {
                             <p>Monday-Friday 9am-3:30pm</p>   
                             <p>Entering Grades 1st - 5th</p>      
                             <p>$640 for four (4) weeks</p>             
-                            <p>$75 ADD ON Extend Day Horse Camp Weeks #2, #4, #6, & #8</p>
                             <p>$50 Bus Transportation (You must purchase bus for each week your child attends.)</p>
                         </div>
                         <hr />

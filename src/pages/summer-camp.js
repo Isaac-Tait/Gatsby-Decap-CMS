@@ -12,15 +12,15 @@ import Footer from "../components/footer";
 
 const SummerCampPage = () => {
     return (
-      <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
+      <div className="bg-gradient-to-l from-yellow-200 to-pink-200">
         <Header />
-          <div className="max-w-6xl mx-auto h-screen">
-            <div className="flex flex-wrap text-green-200 font-cursive font-bold text-xl md:text-4xl justify-center pb-8">
+          <div className="text-green-200 font-cursive text-xl md:text-4xl text-center">
               Royal Ridges Summer Camp
             </div>
-            <div className="grid grid-rows-3 max-w-6xl">
-                
-              <div className="flex flex-row justify-between">
+          <div className="max-w-6xl mx-auto py-20">
+            <div className="grid grid-cols-3 h-screen">
+              {/* Row One */}         
+              <div className="flex flex-col justify-between mx-auto">
                 <div className="mx-4">
                   <Link to={'/registration'}>
                     <img
@@ -40,20 +40,22 @@ const SummerCampPage = () => {
                   </Link>
                 </div> 
               </div>
-
-              <div>
-                <div className=" flex justify-center mx-4">
-                  <Link to={'/faq'}>
-                    <img
-                      alt="Facts"
-                      src={Faq}
-                      className="w-28 md:w-44"
-                    />
-                  </Link>
-                </div>
+              {/* Row Two */} 
+              <div className='flex flex-col justify-between mx-auto'>
+                <div>{/*Empty Div*/}</div>
+                  <div className="">
+                    <Link to={'/faq'}>
+                      <img
+                        alt="Facts"
+                        src={Faq}
+                        className="w-28 md:w-44"
+                      />
+                    </Link>
+                  </div>
+                <div>{/*Empty Div*/}</div>
               </div>
-
-              <div className="flex flex-row justify-between">
+              {/* Row Three */} 
+              <div className="flex flex-col justify-between mx-auto">
                 <div className="mx-4">
                   <Link to={'/summer-staff-app'}>
                     <img
@@ -73,10 +75,10 @@ const SummerCampPage = () => {
                   </Link>
                 </div>
               </div>
-              </div>          
-            </div>
-          <Footer />
-        </div>
+            </div>          
+          </div>
+        <Footer />
+      </div>
     )
   }
   

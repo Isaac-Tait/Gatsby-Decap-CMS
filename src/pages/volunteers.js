@@ -44,7 +44,7 @@ const Volunteers = () => {
                       marginheight="0" 
                       marginwidth="0"
                     >
-                    Loading…</iframe>
+                    </iframe>
                   </div>
               </div>
             </div>

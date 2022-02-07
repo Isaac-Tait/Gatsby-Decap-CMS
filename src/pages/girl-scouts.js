@@ -38,7 +38,7 @@ const GirlScouts = () => {
                 will be an additional fee per rider and an added hour to the class.
                 Riders must be at least 9 years of age to ride on a trail ride.
               </p>
-              <p className="mt-2 italic">
+              <p className="mt-2 italic pb-20">
                 Please stay tuned to our blog and social media channels for more
                 information
               </p>

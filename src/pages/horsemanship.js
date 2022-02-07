@@ -11,17 +11,7 @@ const RidingLessons = () => {
               <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
               <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Riding+Lessons+1.0+(3).png" alt="outdoor survival" className="w-full rounded-2xl shadow-xl mt-2" />
                 <p>
-                  Royal Ridges provides a horsemanship riding lesson program which
-                  addresses safe handling as well as riding and care of the horse.
-                  Lessons include riding time, fellowship time and horse science.
-                  Fellowship time includes prayer, discussion and topics relating the
-                  Bible to horsemanship. Students attend once per week. Classes are 2
-                  hours long and include 45 minutes of time on a horse. Due to our
-                  Summer Day Camp programs, horsemanship classes are only offered during
-                  the school year. Winter Break and Spring Break aligned with Battle
-                  Ground Public School schedule will also be off. Horsemanship programs
-                  are offered in terms. Riders must commit to the full term in order to
-                  participate in the program.
+                Royal Ridges provides a horsemanship riding lesson program that addresses safe handling as well as riding and care of the horse. Lessons include riding time, fellowship time, and horse science. Fellowship time includes prayer, discussion, and topics relating the Bible to horsemanship. Students attend once per week. Classes are 2 hours long and include 45 minutes on a horse. Due to our Summer Day Camp programs, horsemanship classes are only offered during the school year. Winter Break and Spring Break aligned with Battle Ground Public School schedule will also be off. Horsemanship programs are offered in terms. Riders must commit to the full term to participate in the program.
                 </p>
                 <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
                 <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-xl">
@@ -57,8 +47,9 @@ const RidingLessons = () => {
                   billed by the term. Current Class Times: Tuesdays 4:00-6:00 pm
                   Wednesdays 10:00 am- 12:00 pm Thursdays 4:00-6:00 pm
                 </p>
-
-                <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
+                <div className='pb-20 text-center text-4xl'>
+                    <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
+                </div>
               </div>
             </div>
           <Footer />

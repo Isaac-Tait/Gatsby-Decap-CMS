@@ -42,7 +42,9 @@ const Paintball = () => {
                   </Link>
               </div>
               <p className="mt-2">Register for our Private Paintball Parties Here:{` `}<a href="http://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Paintball+Party" className="text-green-200 hover:underline hover:text-indigo-400" target="_blank" rel="noopener noreferrer">Register</a></p>
-              <p className="my-2">Paintball Liability Form{` `}<a href="https://waiver.smartwaiver.com/w/54c2a108cb5e3/web/" className="text-green-200 hover:underline hover:text-indigo-400" target="_blank" rel="noopener noreferrer">Link</a></p>
+              <div className='py-20 text-center text-2xl'>
+                <p className="my-2">Paintball Liability Form{` `}<a href="https://waiver.smartwaiver.com/w/54c2a108cb5e3/web/" className="text-green-200 hover:underline hover:text-indigo-400" target="_blank" rel="noopener noreferrer">Link</a></p>
+              </div>
             </div>
           <Footer />
         </div>

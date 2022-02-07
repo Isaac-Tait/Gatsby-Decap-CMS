@@ -32,7 +32,13 @@ const MotherDaughter = () => {
                         </div>
                         {/*Column Two (Right)*/}
                         <div className='mt-2'>
-                            <p>Mother Daughter Content</p>
+                        <p>
+                            This special day is for mothers and daughters who are looking to make
+                            some unforgettable memories while building a better relationship with
+                            each other. You will create a craft, ride a horse on a trail or in the
+                            arena, enjoy the big swing, spend time in Biblical Fellowship, and
+                            invest in quality time together.
+                        </p> 
                         </div>
                     </div>
                 </div>

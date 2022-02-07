@@ -10,13 +10,7 @@ const ParentChild = () => {
         <Header />
           <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
             <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/parentChild.png" alt="parent child" className="w-full rounded-2xl shadow-xl mt-2" />
-            <p>
-              This special day is for mothers and daughters who are looking to make
-              some unforgettable memories while building a better relationship with
-              each other. You will create a craft, ride a horse on a trail or in the
-              arena, enjoy the big swing, spend time in Biblical Fellowship, and
-              invest in quality time together.
-            </p>              
+            <p>Come spend the day at Royal Ridges Retreat with your child! With multiple activities and special moments to spend together, you and your child will create unforgettable memories while building a better relationship with each other.</p>             
               <div className="mt-2">
                 <p>
                   Check-in will be at 9:00 am on Saturday at Upper Camp with lunch

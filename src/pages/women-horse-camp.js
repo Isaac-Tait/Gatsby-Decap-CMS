@@ -11,7 +11,7 @@ const WomenHorseCamp = () => {
             <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/womensHorseCamps.png' alt='women horse camp' className='rounded-2xl shadow-xl mt-2 w-full'/>
             <p>
               Please join us for a memorable day designed for women and horses. Some
-              of the activities planned are Craft Time, Big Swing, Fellowship Time
+              of the activities planned are crafts & fellowship time
               and, of course, HORSES! A delicious lunch is included.
             </p>
             <p className="font-semibold mt-4">

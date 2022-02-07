@@ -18,7 +18,7 @@ const GiddyUp = () => {
                     - 3:00 pm.</p>
 
                     <p className="my-2">Our Giddy Up program offers a Day at Camp program where
-                    campers get to come one day each week and participate in camp
+                    campers come one day each week and participate in camp
                     activities to keep the summer camp fun alive year-round. Activities
                     include a fun camp activity, games, socialization, and friendship
                     building.</p>
@@ -63,7 +63,9 @@ const GiddyUp = () => {
 
                     <p className="my-2">Payment plans or scholarship programs may be available upon request for those with financial need.</p>
 
-                    <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="mb-4 hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
+                    <div className='pb-20 text-center text-4xl'>
+                        <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
+                    </div>
                 </div>
             </div>
         <Footer />

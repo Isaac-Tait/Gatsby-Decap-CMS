@@ -107,7 +107,7 @@ const HomePage = () => {
             </div>
         </div>
         {/* Second window */}
-        <div className="bg-fixed mb-2 h-screen bg-gradient-to-r from-yellow-400 via-yellow-200 to-indigo-200">
+        <div className="bg-fixed mb-2 h-screen bg-gradient-to-r from-indigo-300 via-red-200 to-yellow-200">
             <p className="font-cursive text-xl md:text-6xl text-yellow-400 grid place-items-center h-screen">
             Discover ~ Connect ~ Grow
             </p>
@@ -121,7 +121,7 @@ const HomePage = () => {
         </div>
         
         {/* Fourth window */}
-        <div className="h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-to-l from-indigo-300 via-red-200 to-gray-400">
+        <div className="h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-to-l from-indigo-300 via-red-200 to-yellow-200">
           {/* Row One */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
             <div className="flex flex-col items-center justify-center mt-6">
@@ -151,6 +151,7 @@ const HomePage = () => {
           </div>
           {/* Row Two */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
+            {/* Empty Div*/}
             <div></div>
             <div className="flex flex-col items-center justify-center">
               <Link

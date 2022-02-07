@@ -53,15 +53,18 @@ const DayHorseCamp = () => {
                             <p>$350 for the week</p>             
                             <p>$75 ADD ON Extend Day Horse Camp Weeks #2, #4, #6, & #8</p>
                             <p>$50 Bus Transportation</p>
-                            <p>New this year! Special groups designed for the younger and older horse lovers - Cowpoke Day Horse Camp /Arena Ride Only (Ages 7-8) and Teen Wrangler Day Horse Camp (Ages 13-16) These groups will take place on certain weeks only. Please see schedule below.</p>
+                            <p>New this year! Special groups designed for the younger and older horse lovers</p>
+                            <p>Cowpoke Day Horse Camp /Arena Ride Only (Ages 7-8)</p>
+                            <p>Teen Wrangler Day Horse Camp (Ages 13-16)</p>
+                            <p>These groups will take place on certain weeks only. Please see schedule below.</p>
                         </div>
                         <hr />
                         <div>
                             <p>Do you have a kiddo who is crazy about horses? Our Day Horse Camp may be the perfect solution! Your camper will have the opportunity to take riding lessons each day from our skilled instructors, learn exciting information in horse science, grow valuable skills like grooming and saddling, and make friends along the way! In addition to the horsemanship activities, they will engage in team building, do group Bible studies, and go on a scenic trail ride.</p>
                             <p className='italic'>(Cowpoke group will only ride in Arena.)</p>
-                            <p className='text-green-200'>Day Horse Camp Extended Camp Option Week #2, #4, #6, & #8:</p>
-                            <p>Our extended Day Horse Program will allow campers to experience additional horse time. Campers will stay after camp on Tuesday and Thursday during their Day Horse week so they can continue their day at camp. Dinner will be provided!</p>
-                            <p>Please pack a sack lunch for your Day Horse Camper and plan to pick them up at the lower camp Day Horse Flag at 8 pm on Tuesday and Thursday of their week at camp.</p>
+                            <p className='text-green-200 mt-2'>Day Horse Camp Extended Camp Option Week #2, #4, #6, & #8:</p>
+                            <p className='mt-2'>Our extended Day Horse Program will allow campers to experience additional horse time. Campers will stay after camp on Tuesday and Thursday during their Day Horse week so they can continue their day at camp. Dinner will be provided!</p>
+                            <p className='mt-2'>Please pack a sack lunch for your Day Horse Camper and plan to pick them up at the lower camp Day Horse Flag at 8 pm on Tuesday and Thursday of their week at camp.</p>
                             <p className='mt-4'>Activities to Include:</p>
                             <p className='italic ml-2'>* Campfire, Dinner and S&#8217;Mores</p>
                             <p className='italic ml-2'>* Additional Trail and Arena Rides</p>
