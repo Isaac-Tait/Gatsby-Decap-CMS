@@ -9,12 +9,7 @@ const StatementOfFaith = () => {
           <Header />  
             <div>
               <div className="max-w-6xl mx-2 md:mx-auto text-lg h-screen overflow-y-scroll">
-                <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
-                  Statement Of Faith
-                </p>
-                <p className="flex flex-wrap text-yellow-400 font-cursive text-xl justify-center">
-                  What we believe
-                </p>
+              <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/about_page/Our+Faith.png' alt='statement_of_faith' className='rounded-2xl shadow-xl mt-2 w-full'/>
                 <div>
                   <p className="text-green-200 font-cursive text-lg">God</p>
                   <p>

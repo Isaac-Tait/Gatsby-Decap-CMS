@@ -1,6 +1,11 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
+import Mission from '../images/MissionIcon.png'
+import Faith from '../images/FaithIcon.png'
+import Staff from '../images/StaffIcon.png'
+import Newsletter from '../images/NewsletterIcon.png';
+
 import Header from "../components/header";
 import Footer from "../components/footer";
 
@@ -13,17 +18,16 @@ const About = () => {
             About Royal Ridges
           </div>
           <div className="grid grid-cols-2 gap-2 mx-2 h-screen overflow-y-scroll">
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex items-center justify-center">
                   <Link 
                     to={'/mission'}
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
-                    alt="Clouds"
-                    src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-clouds.JPG"
-                    className="h-20 md:h-40 mx-auto rounded-3xl"
+                    alt="mission"
+                    src={Mission}
+                    className="w-28 md:w-64 mt-8 mx-auto"
                   />
-                  <p className='flex justify-center'>Missions</p>
                   </Link>
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -34,11 +38,10 @@ const About = () => {
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
-                    alt="couple at picnic table"
-                    src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-founders.JPG"
-                    className="h-20 md:h-40 mx-auto rounded-3xl"
+                    alt="newsletter"
+                    src={Newsletter}
+                    className="w-28 md:w-64 mt-8 mx-auto"
                   />
-                  <p className='flex justify-center'>Newsletter</p>
                   </a>
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -47,11 +50,10 @@ const About = () => {
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
-                    alt="pool"
-                    src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-pool.JPG"
-                    className="h-20 md:h-40 mx-auto rounded-3xl"
+                    alt="staff"
+                    src={Staff}
+                    className="w-28 md:w-64 mt-8 mx-auto"
                   />
-                  <p className='flex justify-center'>Staff Page</p>
                   </Link>
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -60,11 +62,10 @@ const About = () => {
                     className='text-green-200 hover:text-indigo-400'
                   >
                   <img
-                    alt="stables"
-                    src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/Royal+Ridges-Horse+Camp-Yacolt-Washington-Summer+Camp-Kids+Camp-Christian+Camp-stables.JPG"
-                    className="h-20 md:h-40 mx-auto rounded-3xl"
+                    alt="faith"
+                    src={Faith}
+                    className="w-28 md:w-64 mt-8 mx-auto"
                   />
-                  <p className='flex justify-center'>Statement of Faith</p>
                   </Link>
               </div>
           </div>
