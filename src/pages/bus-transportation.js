@@ -8,7 +8,7 @@ const DayCamp = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
+                <div className='h-screen grid grid-cols-2'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
                     <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
@@ -45,7 +45,7 @@ const DayCamp = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Bus Service</a>
                         <div className='my-4'>
                             <h3 className="text-green-200 font-semibold text-xl">East One (1) Bus Route</h3>
@@ -89,9 +89,8 @@ const DayCamp = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center py-10'
                         >Register for Bus Service</a>
-                        <p className='my-20'></p>{/* Spacer */}
                     </div>    
                 </div>
             <Footer />

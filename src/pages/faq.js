@@ -7,7 +7,7 @@ const Faq = () => {
     return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
         <Header />
-            <div className="h-screen grid grid-cols-2 max-w-6xl mx-auto">
+            <div className="h-screen grid grid-cols-2">
             <div className='flex flex-col mx-auto'>
                         <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
                             <p>Registration</p>

@@ -8,7 +8,7 @@ const DayHorseCamp = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
+                <div className='h-screen grid grid-cols-2'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
                         <Link to={'/registration'} className='my-4 underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
@@ -39,15 +39,15 @@ const DayHorseCamp = () => {
                         <img 
                             src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Day_Horse_Camp_100.png'
                             alt='day_horse_camp'
-                            className='w-1/2 flex mx-auto rounded-xl my-6'
+                            className='w-1/2 mx-auto rounded-xl my-6'
                         />
                         <a 
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Day Horse Camp</a>
-                        <div className='font-semibold text-green-200 ml-4 my-4'>
+                        <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
                             <p>Monday-Friday 9am-3:30pm</p>   
                             <p>8-14 Years Old</p>      
                             <p>$350 for the week</p>             
@@ -72,7 +72,7 @@ const DayHorseCamp = () => {
                             <p className='italic ml-2'>* Outdoor Games and Crafts</p>
                         </div>
                         <hr />
-                        <div className='my-2 ml-2'>
+                        <div className='my-2 ml-2 text-center'>
                             <p><span className='text-green-200 font-semibold'>Week #1</span> - June 20-24</p>
                             <p><span className='text-green-200 font-semibold'>Week #2</span> - June 27-July 1</p>  
                             <p><span className='text-green-200 font-semibold'>Week #3</span> - July 4-8 <span className='text-green-200'>(Cowpoke Group Available)</span></p>              
@@ -87,9 +87,8 @@ const DayHorseCamp = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
+                            className='text-yellow-400 py-10 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Day Horse Camp</a>
-                        <p className='my-20'></p>{/* Spacer */}
                     </div>    
                 </div>
             <Footer />

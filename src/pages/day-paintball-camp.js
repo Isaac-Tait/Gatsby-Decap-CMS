@@ -8,7 +8,7 @@ const DayPaintBall = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
+                <div className='h-screen grid grid-cols-2'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
                         <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
@@ -45,9 +45,9 @@ const DayPaintBall = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Paintball Camp</a>
-                        <div className='font-semibold text-green-200 ml-4 my-4'>
+                        <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
                             <p>Monday-Friday 9am-3:30pm</p>        
                             <p>$315 for the week</p>             
                             <p>$50 Bus Transportation</p>
@@ -59,7 +59,7 @@ const DayPaintBall = () => {
                         <p className='italic mt-4'>Extreme uses conventional markers and balls at 290 fps, with woodsball being the primary emphasis.</p>
                         <p className='italic my-4'>Splat is our low-impact paintball which uses pump markers, a smaller ball, max. speed at 130 fps and is played mainly in the Tactical Village.</p>
                         <hr />
-                        <div className='my-2 ml-2'>
+                        <div className='my-2 ml-2 text-center'>
                             <p><span className='text-green-200 font-semibold'>Week #1</span> - June 20-24<span className='text-green-200 font-bold'>&nbsp;SPLAT</span></p>
                             <p><span className='text-green-200 font-semibold'>Week #2</span> - June 27-July 1<span className='text-green-200 font-bold'>&nbsp;SPLAT</span></p>  
                             <p><span className='text-green-200 font-semibold'>Week #3</span> - July 4-8<span className='text-yellow-400 font-bold'>&nbsp;EXTREME</span></p>              
@@ -74,9 +74,8 @@ const DayPaintBall = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center py-10'
                         >Register for Paintball Camp</a>
-                        <p className='my-20'></p>{/* Spacer */}
                     </div>    
                 </div>
             <Footer />

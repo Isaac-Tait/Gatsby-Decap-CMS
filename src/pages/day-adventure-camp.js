@@ -8,7 +8,7 @@ const DayAdventureCamp = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
+                <div className='h-screen grid grid-cols-2'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto '>
                         <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
@@ -45,9 +45,9 @@ const DayAdventureCamp = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Adventure Camp</a>
-                        <div className='font-semibold text-green-200 ml-4 my-4'>
+                        <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
                             <p>Monday-Friday 9am-3:30pm</p>   
                             <p>Entering Grades 4th - 9th</p>      
                             <p>$250 for the week</p>             
@@ -58,7 +58,7 @@ const DayAdventureCamp = () => {
                         <p className='font-semibold text-green-200'>Explorers: Grades 4-6</p>
                         <p className='font-semibold text-green-200 mb-4'>Navigators: Grades 6-9</p>
                         <hr />
-                        <div className='my-2 ml-2'>
+                        <div className='my-2 ml-2 text-center'>
                             <p><span className='text-green-200 font-semibold'>Week #1</span> - June 20-24</p>
                             <p><span className='text-green-200 font-semibold'>Week #2</span> - June 27-July 1</p>  
                             <p><span className='text-green-200 font-semibold'>Week #3</span> - July 4-8</p>              
@@ -73,9 +73,8 @@ const DayAdventureCamp = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400'
+                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center py-10'
                         >Register for Adventure Camp</a>
-                        <p className='my-20'></p>{/* Spacer */}
                     </div>    
                 </div>
             <Footer />
