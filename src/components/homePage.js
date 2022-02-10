@@ -1,8 +1,8 @@
 import React from "react"
 import {Link} from "gatsby"
+import { StaticImage  } from "gatsby-plugin-image"
 
 import Blog from "./blogPostList"
-import logo from "../images/logo.png"
 import aboutIcon from "../images/AboutIcon.png"
 import contactIcon from "../images/ContactIcon.png"
 import summerIcon from "../images/SummerIcon.png"
@@ -84,11 +84,16 @@ const HomePage = () => {
           </div>
         {/* First window */}
           <div className="heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between">
-            <img
-            src={logo}
-            alt="Royal Ridge's Logo"
-            className="w-1/2 flex justify-center mx-auto pt-8"
-            />
+            <div className='flex justify-center content-center box-content h-full mt-20'>
+              <StaticImage 
+                src='../images/logo.png' 
+                alt="Royal Ridges Logo" 
+                placeholder="blurred"
+                objectFit="scale-down"
+                className="w-1/2"
+                width={400}
+              />
+            </div>
             <div className="w-1/2 flex justify-center mx-auto mb-10">
             <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +113,7 @@ const HomePage = () => {
         </div>
         {/* Second window */}
         <div className="bg-fixed mb-2 h-screen bg-gradient-to-r from-indigo-300 via-red-200 to-yellow-200">
-            <p className="font-cursive text-xl md:text-6xl text-yellow-400 grid place-items-center h-screen">
+            <p className="font-cursive text-xl md:text-8xl text-white grid place-items-center h-screen">
             Discover ~ Connect ~ Grow
             </p>
         </div>
