@@ -1,14 +1,23 @@
 import React from "react";
-import {Link} from "gatsby";
 
-import Logo from '../images/logo.png';
+import {Link} from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Header = () => {
     return (
         <div className="heropattern-topography-yellow-400 flex flex-col">
             <div className="flex mx-auto my-2">
                 <Link to="/">
-                    <img src={Logo} alt="logo" className="w-56 inline-block"/>
+                    <div className='flex justify-center content-center box-content h-full'>
+                        <StaticImage 
+                            src='../images/logo.png' 
+                            alt="Royal Ridges Logo" 
+                            placeholder="blurred"
+                            objectFit="scale-down"
+                            className="w-1/2"
+                            width={400}
+                        />
+                    </div>
                 </Link>
             </div>
             <div className="flex justify-center mx-auto overflow-y-scroll">

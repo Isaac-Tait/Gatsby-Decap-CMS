@@ -84,7 +84,7 @@ const HomePage = () => {
           </div>
         {/* First window */}
           <div className="heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between">
-            <div className='flex justify-center content-center box-content h-full mt-20'>
+            <div className='flex justify-center content-center box-content h-full'>
               <StaticImage 
                 src='../images/logo.png' 
                 alt="Royal Ridges Logo" 
@@ -113,7 +113,7 @@ const HomePage = () => {
         </div>
         {/* Second window */}
         <div className="bg-fixed mb-2 h-screen bg-gradient-to-r from-indigo-300 via-red-200 to-yellow-200">
-            <p className="font-cursive text-xl md:text-8xl text-white grid place-items-center h-screen">
+            <p className="font-cursive text-xl md:text-5xl lg:text-8xl text-white grid place-items-center h-screen">
             Discover ~ Connect ~ Grow
             </p>
         </div>
