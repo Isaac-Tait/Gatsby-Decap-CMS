@@ -91,7 +91,7 @@ const HomePage = () => {
                 placeholder="blurred"
                 objectFit="scale-down"
                 className="w-1/2"
-                width={400}
+                width={600}
               />
             </div>
             <div className="w-1/2 flex justify-center mx-auto mb-10">
@@ -126,18 +126,23 @@ const HomePage = () => {
         </div>
         
         {/* Fourth window */}
-        <div className="h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-to-l from-indigo-300 via-red-200 to-yellow-200">
+        <div className="h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-to-t from-indigo-200 via-red-100 to-yellow-200">
           {/* Row One */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
             <div className="flex flex-col items-center justify-center mt-6">
               <Link
                 to={'/summer-camp'}
               >
-                <img
-                alt="summer RRR icon"
-                src={summerIcon}
-                className="w-52"
-              />
+               <div className='flex justify-center content-center box-content h-full'>
+                  <StaticImage 
+                    src='../images/SummerIcon.png' 
+                    alt="Summer" 
+                    placeholder="blurred"
+                    objectFit="scale-down"
+                    className="w-1/2"
+                    width={400}
+                  />
+                </div>
               </Link>
             </div>
             {/* Empty Div*/}
@@ -146,11 +151,16 @@ const HomePage = () => {
               <Link
                 to={'/programs'}
               >
-              <img
-                alt="program RRR icon"
-                src={programIcon}
-                className="w-52"
-              />
+              <div className='flex justify-center content-center box-content h-full'>
+                  <StaticImage 
+                    src='../images/ProgramIcon.png' 
+                    alt="Programs" 
+                    placeholder="blurred"
+                    objectFit="scale-down"
+                    className="w-1/2"
+                    width={400}
+                  />
+                </div>
               </Link>
             </div>
           </div>
@@ -162,11 +172,16 @@ const HomePage = () => {
               <Link
                 to={'/about'}
               >
-                <img
-                  alt="about RRR icon"
-                  src={aboutIcon}
-                  className="w-52"
-                />
+                <div className='flex justify-center content-center box-content h-full'>
+                  <StaticImage 
+                    src='../images/AboutIcon.png' 
+                    alt="About" 
+                    placeholder="blurred"
+                    objectFit="scale-down"
+                    className="w-1/2"
+                    width={400}
+                  />
+                </div>
               </Link>
             </div>
             {/* Empty Div*/}
@@ -178,11 +193,16 @@ const HomePage = () => {
             <Link
                 to={'/support'}
               >
-              <img
-                alt="support RRR icon"
-                src={supportIcon}
-                className="w-52"
-              />
+              <div className='flex justify-center content-center box-content h-full'>
+                  <StaticImage 
+                    src='../images/SupportIcon.png' 
+                    alt="Support" 
+                    placeholder="blurred"
+                    objectFit="scale-down"
+                    className="w-1/2"
+                    width={400}
+                  />
+                </div>
               </Link>
             </div>
             {/* Empty Div*/}
@@ -191,11 +211,16 @@ const HomePage = () => {
               <Link
                 to={'/contact'}
               >
-                <img
-                  alt="contact RRR icon"
-                  src={contactIcon}
-                  className="w-52"
-                />
+                <div className='flex justify-center content-center box-content h-full'>
+                  <StaticImage 
+                    src='../images/ContactIcon.png' 
+                    alt="Contact" 
+                    placeholder="blurred"
+                    objectFit="scale-down"
+                    className="w-1/2"
+                    width={400}
+                  />
+                </div>
               </Link>
             </div>
           </div>
