@@ -4,6 +4,11 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   content: ['src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      }
+    },
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],
