@@ -21,14 +21,14 @@ const ProgramsPage = () => {
     return (
       <div className="bg-gradient-to-r from-yellow-200 to-indigo-200">
         <Header />
-          <div className="max-w-6xl mx-auto my-4">
+          <div className="lg:max-w-6xl lg:mx-auto md:ml-4">
             <div className="text-green-200 font-bold font-cursive text-base md:text-4xl flex flex-wrap justify-center pb-8">
               Royal Ridges Programs
             </div>
     
-            <div className="grid grid-cols-4 gap-4 h-screen my-4 overflow-y-scroll">
+            <div className="grid grid-cols-4 gap-4 h-screen my-4 overflow-y-scroll justify-center">
                 {/*👇🏼First Row*/}
-                <div className="relative box-content w-20 h-20 lg:w-60 lg:h-64">
+                <div className="relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64">
                   <Link
                     to={'/giddy-up'}
                   >
@@ -42,7 +42,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
-                <div className="relative box-content w-20 h-20 lg:w-60 lg:h-64">
+                <div className="relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64">
                   <Link
                     to={'/horsemanship'}
                   >
@@ -56,7 +56,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
-                <div className="relative box-content w-20 h-20 lg:w-60 lg:h-64">
+                <div className="relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64">
                   <Link
                     to={'/adventure-class'}
                   >
@@ -70,7 +70,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
-                <div className="relative box-content w-20 h-20 lg:w-60 lg:h-64">
+                <div className="relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64">
                   <Link 
                     to={'/parent-child'}
                   >
@@ -85,7 +85,7 @@ const ProgramsPage = () => {
                 </div>
 
                 {/*👇🏼Second Row*/}
-                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
                     to={'/saturday-camps'}
                   >
@@ -99,7 +99,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
-                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
                     to={'/girl-scouts'}
                   >
@@ -113,7 +113,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>              
 
-                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
                     to={'/book-a-ride'}
                   >
@@ -127,7 +127,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
-                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link 
                     to={'/paintball'}
                   >
@@ -142,7 +142,7 @@ const ProgramsPage = () => {
                 </div>
                 
                 {/*👇🏼Third Row*/}
-                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
                     to={'/guest-groups'}
                   >
@@ -156,7 +156,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
-                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
                     to={'/vaulting'}
                   >
@@ -170,7 +170,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
-                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
                     to={'/women-horse-camp'}
                   >
@@ -184,7 +184,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
-                <div className='relative box-content w-20 h-20 lg:w-60 lg:h-64'>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
                     to={'/school-break'}
                   >

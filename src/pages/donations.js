@@ -11,35 +11,39 @@ const Donations = () => {
             <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/header+photos/Donations.png' alt='donations' className='rounded-2xl shadow-xl mt-2 w-full'/>
 
               <p className="my-4">
-                We are excited about what God has planned for 2021 at Royal Ridges. Will
+                We are excited about what God has planned for 2022 at Royal Ridges. Will
                 you join us by supporting one or more of the areas below?
               </p>
 
               <p className="my-4">
-                Help plan new activities for Summer of 2021 Help cover general expenses
-                with our current activities General fund
+                Help plan new activities for Summer of 2022.
+              </p>
+
+              <p className="my-4">
+                Help cover general expenses with our current activities General fund.
               </p>
 
               <p className="my-4">
                 On-going maintenance of grounds, vehicles, etc. Staff support Programs
-                Horse and Tack Donations
+                Horse and Tack Donations.
               </p>
 
               <p className="my-4">
                 Do you have a beginner safe horse looking for a great program to be a
                 part of? Contact <a href="mailto:chrisy@royalridges.org" className="text-green-200 hover:underline hover:text-indigo-400">chrisy@royalridges.org</a>for more information on a great
-                home for your horse. We also take tack and horse item donations.
-                Scholarship Fund
+                home for your horse.
               </p>
 
               <p className="my-4">
-                Not everyone is able to afford the full cost of attending summer camp.
+                We also take tack and horse item donations.
+              </p>
+
+              <p className="my-4">
+                Please donate to our scholarship fund. Not everyone is able to afford the full cost of attending summer camp.
                 Your contribution will go toward helping another boy/girl have fun at{` `}
                 <span className="font-cursive text-xl">Royal Ridges Retreat</span>. Cost of camp varies between $160-$595. Scholarships can cover
                 partial or full cost of camp.
               </p>
-
-              <p className="my-4">To donate, click on the amount you want to give.</p>
 
               <p className="my-4">
                 All donations are tax-deductible and greatly appreciated.
@@ -47,7 +51,9 @@ const Donations = () => {
                 
               <p className="my-4">
                 Or you can donate any amount at <a href="paypal.me/royalridges" target="_blank" rel="noopener noreferrer" className="text-green-200 hover:underline hover:text-indigo-400">paypal.me/royalridges</a> Make sure to add
-                a note that it is a donation! If you want to send a donation as check
+                a note that it is a donation!</p>
+              
+              <p className="my-4">If you want to send a donation as check
                 then make it payable to Royal Ridges and send it to PO Box 3010 Battle
                 Ground, WA 98604 All donations are tax-deductible and greatly
                 appreciated.

@@ -11,12 +11,7 @@ const Volunteers = () => {
               <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
               <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/header+photos/Volunteers.png' alt='volunteers' className='rounded-2xl shadow-xl mt-2 w-full'/>
                 <p>
-                  With 378 acres, there are many projects and needs all over camp. This
-                  may be on a construction project or in landscaping of pulling weeds.
-                  If you have a specific skill or trade you would like to offer us in
-                  any area, please let us know. If you are interested in getting monthly
-                  updates about our volunteer opportunities then fill out the form
-                  below.
+                  With 378 acres, there are many projects and needs all over camp. Projects may include helping on a construction project or landscaping by pulling weeds. If you have a specific skill or trade you would like to offer us in any area, please let us know. If you are interested in getting monthly updates about our volunteer opportunities, fill out the form below.
                 </p>
                 <p className="mt-2">
                   If you have any questions or concerns, please{' '}

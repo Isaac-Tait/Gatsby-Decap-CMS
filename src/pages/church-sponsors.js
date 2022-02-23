@@ -11,8 +11,7 @@ const ChurchSponsors = () => {
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
             <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/header+photos/ChurchSponsors.png' alt='church sponsors' className='rounded-2xl shadow-xl mt-2 w-full'/>
               <p className="text-center">
-                We are proud to call the following churches "Friends of Royal Ridges"
-                With out whom we would not be able to keep this ministry thriving!
+                We are proud to call the following churches "Friends of Royal Ridges." Without their generous support, this ministry would not be able to thrive!
               </p>
               <div className="grid grid-cols-3">
                 <div className="mt-4 flex flex-col items-center">
