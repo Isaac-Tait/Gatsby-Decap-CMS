@@ -1,4 +1,4 @@
-*** Royal Ridges Retreat
+### Royal Ridges Retreat
 
 Royal Ridges Retreat started in 1978 with a very generous gift of 78 acres of land by Roy and Jean Andersen.
 
