@@ -15,9 +15,9 @@ const BlogPostPage = ({ data, pageContext, location }) => {
       <Header />
       {/* 👇🏼 Blog post content*/}
       <div className="grid place-items-center md:h-screen overflow-y-scroll">
-        <p className="font-semibold text-3xl uppercase text-gray-700">
+        <h1 className="font-semibold text-3xl uppercase text-gray-700">
           {post.frontmatter.title}
-        </p>
+        </h1>
         <div className="mx-4 text-gray-800">
           <MDXRenderer>{post.body}</MDXRenderer>
         </div>
