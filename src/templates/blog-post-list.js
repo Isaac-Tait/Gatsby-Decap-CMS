@@ -11,7 +11,7 @@ const BlogPosts = ({ data, pageContext }) => {
     <div className="bg-gradient-to-r from-pink-200 to-indigo-200">
       <Header />
       <div className="grid place-content-center overflow-y-scroll px-1 pb-2">
-        <div className="max-w-6xl md:mx-auto">
+        <div className="max-w-6xl md:mx-auto h-screen flex flex-col justify-center">
           {data.allMdx.nodes.map((node) => {
             const { frontmatter } = node
             const image = getImage(frontmatter.image)
