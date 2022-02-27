@@ -113,9 +113,16 @@ const HomePage = () => {
         </div>
         {/* Second window */}
         <div className="bg-fixed mb-2 h-screen bg-gradient-to-r from-indigo-400 via-red-300 to-yellow-200">
-            <p className="font-cursive text-xl md:text-5xl lg:text-8xl text-white grid place-items-center h-screen">
-            Discover ~ Connect ~ Grow
-            </p>
+            <div className='flex justify-center content-center box-content h-full'>
+              <StaticImage
+                src='../images/D_C_G_Logo.png' 
+                alt="Summer" 
+                placeholder="blurred"
+                objectFit="scale-down"
+                className="w-1/2"
+                width={1000}
+              />
+            </div>
         </div>
         {/* Third window */}
         <div className="bg-fixed rounded-lg shadow-lg h-screen heropattern-rain-gray-200 mb-2 overflow-scroll">
