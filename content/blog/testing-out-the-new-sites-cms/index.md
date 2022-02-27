@@ -1,14 +1,80 @@
 ---
-title: Testing out the new site's CMS
-date: 2022-01-27T22:03:45.755Z
-description: She is ALIVE!!!
+title: Parent Child Days
+date: 2022-02-28T22:03:45.755Z
 image: ./fish-1000.jpg
 imageAlt: fish
 ---
 ![Fish in hand](fish-1000.jpg "A nice brown trout")
 
-The long and fun process of building Royal Ridges a new site is nearing completion. 
+We are kicking off our Spring Parent and Child Days. This is an excellent opportunity for parents to bring their children out to Royal Ridges for the day and share the experience of being campers. Our purpose for these programs is to provide opportunities to create unforgettable memories for families that will last a lifetime. Click on the links below to register for our parent & child day.
+<div className='text-center mt-4'>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Mother & Daughter:**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*Dates: April 30, 2022 (6 yrs old & up-arena ride only)*
+
+*May 7, 2022 (9 yrs old and up)*
+
+Time:  Saturday, 9:00 am to 4:00 pm
+
+Location: Upper Camp
+
+Cost:$90 per person   
+<a 
+    href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Mother%2fDaughter+Day'
+    className='text-green-200 hover:text-indigo-400 hover:underline'
+    target='_blank' 
+    rel='noopener noreferrer'
+>Register for Mother-Daughter Day</a>
+
+**Mother & Son:**
+
+*Date: April 2, 2022*
+
+*Time: 9:00 AM - 4:00 PM*
+
+Ages: 8 years old and up
+
+Price: $90 per person
+
+<a 
+    href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Mother%2fSon+Day'
+    className='text-green-200 hover:text-indigo-400 hover:underline'
+    target='_blank' 
+    rel='noopener noreferrer'
+>Register now for Mother Son Day</a>
+
+**Father & Daughter:** 
+
+*Date: April 2, 2022*
+
+*Time: 9:00 am - 4:00 pm*
+
+Ages: 8 years and up
+
+Price: $90 per person
+
+<a 
+    href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Father%2fDaughter+Day'
+    className='text-green-200 hover:text-indigo-400 hover:underline'
+    target='_blank' 
+    rel='noopener noreferrer'
+>Register now for Father-Daughter Day</a>
+
+**Father & Son:**
+
+*Date: April 30, 2022*
+
+*Time: 9:00 am - 4:00 pm*
+
+Ages: 6 and up
+
+Price: $90 per person 
+
+<a 
+    href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Father%2fSon+Day'
+    className='text-green-200 hover:text-indigo-400 hover:underline'
+    target='_blank' 
+    rel='noopener noreferrer'
+>Register now for Father-Son Day</a>
+</div>
