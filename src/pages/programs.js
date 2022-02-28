@@ -13,19 +13,23 @@ import GuestGroup from '../images/GuestGroup.png';
 import Vault from '../images/Vaulting.png';
 import Women from '../images/WomenHorse.png'
 import School from '../images/SchoolBreakCamps.png'
+import Program from '../images/ProgramIcon.png'
 
 import Header from "../components/header";
 import Footer from "../components/footer";
 
 const ProgramsPage = () => {
     return (
-      <div className="bg-gradient-to-r from-yellow-200 to-indigo-200">
+      <div className="bg-gradient-to-r from-yellow-200 to-green-200">
         <Header />
           <div className="lg:max-w-6xl lg:mx-auto md:ml-4">
-            <div className="text-green-200 font-bold font-cursive text-base md:text-4xl flex flex-wrap justify-center pb-8">
-              Royal Ridges Programs
+            <div className='flex justify-center'>
+              <img
+                alt="programs"
+                src={Program}
+                className='w-1/12 mt-1'
+              />
             </div>
-    
             <div className="grid grid-cols-4 gap-4 h-screen my-4 overflow-y-scroll justify-center">
                 {/*👇🏼First Row*/}
                 <div className="relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64">
@@ -37,7 +41,7 @@ const ProgramsPage = () => {
                       src={GiddyUp}
                     />
                     <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-400 rounded-full">
-                      <p className='text-white px-1 hidden lg:block'>During the non-summer seasons come on up for a day of horseback riding and fellowship every week</p>
+                      <p className='text-white px-1 hidden lg:block'>During the non-summer seasons come on up for a day of fun and fellowship every week</p>
                     </div>
                   </Link>
                 </div>

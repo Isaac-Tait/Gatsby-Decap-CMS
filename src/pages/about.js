@@ -5,18 +5,23 @@ import Mission from '../images/MissionIcon.png'
 import Faith from '../images/FaithIcon.png'
 import Staff from '../images/StaffIcon.png'
 import Newsletter from '../images/NewsletterIcon.png';
+import AboutIcon from '../images/AboutIcon.png';
 
 import Header from "../components/header";
 import Footer from "../components/footer";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-t from-yellow-200 to-indigo-200">
+    <div className="bg-gradient-to-l from-yellow-200 to-green-200">
       <Header />
         <div className="max-w-6xl mx-auto">
-          <div className="text-green-200 font-bold font-cursive text-base md:text-4xl flex flex-wrap justify-center mx-auto">
-            About Royal Ridges
-          </div>
+          <div className='flex justify-center'>
+              <img
+                alt="about"
+                src={AboutIcon}
+                className='w-1/12 mt-1'
+              />
+            </div>
           <div className="grid grid-cols-2 gap-2 mx-2 h-screen overflow-y-scroll">
               <div className="flex items-center justify-center">
                   <Link 

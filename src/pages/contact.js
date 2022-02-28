@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 const Comments = () => {
     return (
-    <div className="bg-gradient-to-l from-pink-200 to-indigo-200">
+    <div className="bg-gradient-to-l from-green-200 to-yellow-200">
         <Header />
             <div className="max-w-6xl flex flex-col mx-auto h-screen overflow-y-scroll mb-4">
                 <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/Contact+1.0+(1).png" alt="girlScouts" className="w-full rounded-2xl shadow-xl mt-2" />

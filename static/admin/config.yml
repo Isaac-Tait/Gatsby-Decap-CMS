@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: static/img
-public_folder: /src/images
+public_folder: src/images
 
 collections:
   - name: 'blog'

@@ -8,7 +8,7 @@ import Footer from '../components/footer'
 
 const BlogPosts = ({ data, pageContext }) => {
   return (
-    <div className="bg-gradient-to-r from-pink-200 to-indigo-200">
+    <div className="bg-gradient-to-l from-green-200 to-yellow-200">
       <Header />
       <div className="grid place-content-center overflow-y-scroll px-1 pb-2">
         <div className="max-w-6xl md:mx-auto h-screen flex flex-col justify-center">
@@ -16,18 +16,21 @@ const BlogPosts = ({ data, pageContext }) => {
             const { frontmatter } = node
             const image = getImage(frontmatter.image)
             return (
-              <div className="flex justify-center align-middle">
+              <div>
                 <article key={node.id}>
-                  <div className="text-pink-800 hover:text-indigo-400 font-cursive text-4xl mt-2">
+                  <div className="text-pink-800 hover:text-indigo-400 font-cursive text-4xl mt-2 flex flex-col">
                     <Link to={`/updates/${node.slug}`}>
                       {node.frontmatter.title}
+                      <div>
+                        <GatsbyImage
+                          image={image}
+                          alt={frontmatter.imageAlt}
+                          className="w-1/4 mt-2 rounded-xl"
+                        />
+                      </div>
                     </Link>
                   </div>
-                  <GatsbyImage
-                    image={image}
-                    alt={frontmatter.imageAlt}
-                    className="w-1/4 mt-2 rounded-xl"
-                  />
+                  
                   <p className="mb-4 italic text-gray-700">{node.excerpt}</p>
                   <hr />
                 </article>

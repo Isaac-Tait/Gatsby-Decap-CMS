@@ -6,18 +6,23 @@ import Faq from '../images/FAQ.png'
 import ParentManual from '../images/ParentManual.png'
 import Scholarship from '../images/Scholarships.png'
 import SummerStaffApp from '../images/SummerStaffApp.png'
+import Summer from '../images/SummerIcon.png'
 
 import Header from "../components/header";
 import Footer from "../components/footer";
 
 const SummerCampPage = () => {
     return (
-      <div className="bg-gradient-to-l from-yellow-200 to-pink-200">
+      <div className="bg-gradient-to-l from-yellow-200 to-green-200">
         <Header />
-          <div className="text-green-200 font-cursive text-xl md:text-4xl text-center">
-              Royal Ridges Summer Camp
+          <div className="max-w-6xl mx-auto">
+            <div className='flex justify-center'>
+              <img
+                alt="summer"
+                src={Summer}
+                className='w-1/12 mt-1'
+              />
             </div>
-          <div className="max-w-6xl mx-auto py-20">
             <div className="grid grid-cols-3 h-screen">
               {/* Row One */}         
               <div className="flex flex-col justify-between mx-auto">
