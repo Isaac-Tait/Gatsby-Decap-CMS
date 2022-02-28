@@ -1,10 +1,10 @@
 ---
 title: Parent Child Days
 date: 2022-02-28T22:03:45.755Z
-image: ./fish-1000.jpg
+image: ./parentChildDays.png
 imageAlt: fish
 ---
-![Fish in hand](fish-1000.jpg "A nice brown trout")
+![parentChildDays](parentChildDays.png "parent child days")
 
 We are kicking off our Spring Parent and Child Days. This is an excellent opportunity for parents to bring their children out to Royal Ridges for the day and share the experience of being campers. Our purpose for these programs is to provide opportunities to create unforgettable memories for families that will last a lifetime. Click on the links below to register for our parent & child day.
 <div className='text-center mt-4'>

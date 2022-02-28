@@ -3,8 +3,8 @@ title: Thank you Sue
 date: 2022-02-24T13:15:49.432Z
 description: Royal Ridges will forever be impacted by the love and care that Sue
   Wanger put into this camp
-image: ./sunny-lake-heaven.jpeg
-imageAlt: sunny lake
+image: ./thankYouSue.png
+imageAlt: Thankyou Sue
 ---
 ![sunny-lake](sunny-lake-heaven.jpeg "heaven")
 

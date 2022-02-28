@@ -26,7 +26,7 @@ const BlogPostPage = ({ data, pageContext, location }) => {
             {next && (
               <Link to={`/updates${data.next.fields.slug}`} rel="next">
                 <button className="bg-green-200 px-2 my-4 rounded-xl text-gray-200">
-                  Newer Updates
+                  Older Updates
                 </button>
               </Link>
             )}
@@ -35,7 +35,7 @@ const BlogPostPage = ({ data, pageContext, location }) => {
             {previous && (
               <Link to={`/updates${data.previous.fields.slug}`} rel="prev">
                 <button className="bg-green-200 px-2 my-4 rounded-xl text-gray-200">
-                  Older Updates
+                  Newer Updates
                 </button>
               </Link>
             )}
