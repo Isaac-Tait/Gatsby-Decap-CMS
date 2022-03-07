@@ -31,7 +31,8 @@ const FatherDaughter = () => {
                         </div>
                         {/*Column Two (Right)*/}
                         <div className='mt-2'>
-                            <p>Father Daughter content</p>
+                            <p>This special day is set aside for fathers and their daughters, 8 years and older, to spend time together and build their relationship with each other.</p>
+                            <p>For more information please see our <a href='https://royalridges.camp/updates/parent-child-days/' className='text-green-200 hover:text-indigo-400 hover:underline'>updates page</a>.</p>
                         </div>
                     </div>
                 </div>

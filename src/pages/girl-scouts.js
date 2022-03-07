@@ -42,6 +42,7 @@ const GirlScouts = () => {
                 Please stay tuned to our blog and social media channels for more
                 information
               </p>
+              <p>You can register <a href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Girl+Scout+Program' className='text-green-200 hover:text-indigo-400 hover:underline'>here</a>.</p>
             </div>
           </div>
         <Footer />

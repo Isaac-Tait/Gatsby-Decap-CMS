@@ -22,6 +22,7 @@ const OutdoorSurvival = () => {
                 Please stay tuned to our <Link to={'/updates'} className='underline text-green-200 hover:text-indigo-500'>updates</Link> page and our <a href="https://www.facebook.com/RoyalRidges" target="_blank" rel="noopener noreferrer" className='underline text-green-200 hover:text-indigo-500'>Facebook</a> page for more
                 information
               </p>
+              <p>You can register <a href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Adventure+Class' className='text-green-200 hover:text-indigo-400 hover:underline'>here</a>.</p>
             </div>
           </div>
         <Footer />

@@ -38,7 +38,8 @@ const MotherDaughter = () => {
                             each other. You will create a craft, ride a horse on a trail or in the
                             arena, enjoy the big swing, spend time in Biblical Fellowship, and
                             invest in quality time together.
-                        </p> 
+                        </p>
+                        <p>For more information please see our <a href='https://royalridges.camp/updates/parent-child-days/' className='text-green-200 hover:text-indigo-400 hover:underline'>updates page</a>.</p> 
                         </div>
                     </div>
                 </div>

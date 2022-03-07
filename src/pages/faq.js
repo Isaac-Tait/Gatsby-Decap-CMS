@@ -49,16 +49,15 @@ const Faq = () => {
                             <li className="ml-2">* Backpack</li>
                             <li className="ml-2">* Lunch packed in a self-insulated lunch box.</li>
                             <li className="ml-2">* Closed-toe shoes. (Boots preferred for Day Horse Campers)</li>
-                            <li className="ml-2">* Sunscreen and Bug Spray</li>
-                            <li className="ml-2">* Swimsuit (Girls: one-piece only) for Water games</li>
-                            <li className="ml-2">* Towel</li>
-                            <li className="ml-2">* Change of clothes</li>
-                            <li className="ml-2">* Jacket or sweatshirt (Mornings are often chilly here!)</li>
-                            <li className="ml-2">* Face mask for Bus Transportation (Day Horse Campers will ride the bus up and down the hill each day)</li>
-                            <li className="ml-2">* Campers should wear modest, comfortable, casual clothes. Modest clothing is loose, not tight; concealing, not revealing.</li>
+                            <li className="ml-2">Sunscreen and Bug Spray</li>
+                            <li className="ml-2">Swimsuit (Girls: one-piece only) for Water games</li>
+                            <li className="ml-2">Towel</li>
+                            <li className="ml-2">Change of clothes</li>
+                            <li className="ml-2">Jacket or sweatshirt (Mornings are often chilly here!)</li>
+                            <li className="ml-2">Campers should wear modest, comfortable, casual clothes. Modest clothing is loose, not tight; concealing, not revealing.</li>
                                 <p className="italic ml-6">Please remember your camper will get dirty!</p>
-                            <li className="ml-2">* Do not send expensive clothes, shoes, or jewelry to cam</li>
-                            <li className="ml-2">* Please leave all your electronic devices at home (i.e., cell phones, smartwatches, etc.)</li>        
+                            <li className="ml-2">Do not send expensive clothes, shoes, or jewelry to cam</li>
+                            <li className="ml-2">Please leave all your electronic devices at home (i.e., cell phones, smartwatches, etc.)</li>        
                         </ul>
                     <h2 className="text-green-200 font-bold text-xl mt-2">How do I fill out the Medical Information for my child?</h2>
                     <p>You must complete medical and Liability Forms before your child attends camp. You will have to log in to your{` `}<a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200">UltraCamp</a> account to complete all necessary forms.</p>

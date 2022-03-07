@@ -14,7 +14,7 @@ const SaturdayCamps = () => {
               </p>
               <p>
                 Campers are divided into grade-level groups. Activities could include
-                climbing wall, field games, big swing, hiking trails, archery,
+                climbing wall, field games, hiking trails, archery,
                 slingshots, crafts, games, snack shack, hayride, giant bounce pillow,
                 petting farm, GaGa Ball, loud singing, funny skits, and memorable
                 Bible stories.

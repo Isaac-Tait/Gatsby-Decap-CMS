@@ -31,7 +31,8 @@ const FatherSon = () => {
                         </div>
                         {/*Column Two (Right)*/}
                         <div className = 'mt-2'>
-                            <p>Father Son content</p>
+                            <p>A full day jam-packed with adventurous activities intended to bring fathers and sons closer together.</p>
+                            <p>For more information please see our <a href='https://royalridges.camp/updates/parent-child-days/' className='text-green-200 hover:text-indigo-400 hover:underline'>updates page</a>.</p>
                         </div>
                     </div>
                 </div>
