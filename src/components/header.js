@@ -42,7 +42,7 @@ const Header = () => {
             <div className="flex justify-center mx-auto overflow-y-scroll">
                 <nav className="text-xs font-extralight md:text-xl md:font-bold md:uppercase font-">
                     <ul className="flex h-20 pt-8">
-                        <li className="ml-1 lg:ml-12">
+                        <li className="lg:ml-12">
                             <Link to={'/programs'} className="hover:underline md:hover:font-cursive hover:text-indigo-400 text-yellow-400 bg-green-200 hover:bg-transparent px-1 py-1 rounded-xl">Programs</Link>
                         </li>
                         <li className="ml-1 lg:ml-12">
@@ -57,7 +57,7 @@ const Header = () => {
                         <li className="ml-1 lg:ml-12">
                             <Link to={'/about'} className="hover:underline md:hover:font-cursive hover:text-indigo-400 text-yellow-400 bg-green-200 hover:bg-transparent px-1 py-1 rounded-xl">About</Link>
                         </li>
-                        <li className="ml-1 lg:ml-12">
+                        <li className="mx-1 lg:ml-12">
                             <Link to={'/contact'} className="hover:underline md:hover:font-cursive hover:text-indigo-400 text-green-200 bg-yellow-400 hover:bg-transparent px-1 py-1 rounded-xl">Contact</Link>
                         </li>
                     </ul>

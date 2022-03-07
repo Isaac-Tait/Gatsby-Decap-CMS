@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 const Footer = () => {
     return (
-        <div className='bg-indigo-100'>
-            <footer className="heropattern-topography-indigo-400 text-gray-800 text-center px-2 py-2 text-xs flex items-center justify-between">
+        <div className='bg-yellow-200'>
+            <footer className="heropattern-topography-white text-gray-800 text-center px-2 py-2 text-xs flex items-center justify-between">
                 <div className='md:w-1/3 flex flex-col justify-start'>
                     <p>© 1978-{new Date().getFullYear()}</p><p>Royal Ridges Retreat</p>
                 </div>
