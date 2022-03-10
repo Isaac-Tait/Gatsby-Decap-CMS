@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-const SpringBreakCamp = () => {
+const SpringDayCamp = () => {
     return (
         <div className="bg-gradient-to-t from-yellow-200 to-indigo-200">
             <Header />
@@ -13,4 +13,4 @@ const SpringBreakCamp = () => {
     )
 };
 
-export default SpringBreakCamp;
+export default SpringDayCamp;
