@@ -27,7 +27,7 @@ const WinterDayCamp = () => {
                             alt='summer camp descriptions'
                             className='rounded-xl mt-1'
                         />
-                        <p>Oops migrating sites is not without its little hiccups... Stay tuned this page will be live asap. (3/10/22)</p>
+                        <p>Stay tuned in the Fall of 2022 when we will release the dates for Winter Break 2022/23!</p>
                     </div>    
                 </div>
             <Footer />
