@@ -13,7 +13,6 @@ const RidingLessons = () => {
                 <p>
                 Royal Ridges provides a horsemanship riding lesson program that addresses safe handling as well as riding and care of the horse. Lessons include riding time, fellowship time, and horse science. Fellowship time includes prayer, discussion, and topics relating the Bible to horsemanship. Students attend once per week. Classes are 2 hours long and include 45 minutes on a horse. Due to our Summer Day Camp programs, horsemanship classes are only offered during the school year. Winter Break and Spring Break aligned with Battle Ground Public School schedule will also be off. Horsemanship programs are offered in terms. Riders must commit to the full term to participate in the program.
                 </p>
-                <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
                 <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-xl">
                   The lessons terms sessions are as follows:
                 </p>
@@ -31,15 +30,7 @@ const RidingLessons = () => {
                   sent an emailed invoice. Payment plans or scholarship programs may be
                   available upon request for those with financial need.
                 </p>
-                <a
-                  href="https://www.royalridges.upcsites.org/horsemanshiplessons.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-2"
-                >
-                  Sign up for the Horsemanship Program
-                </a>
-                <p>
+                <p className='mt-1'>
                   Designed for horse lovers to learn to be safe and confident around
                   horses while leading, grooming and learning basic riding skills.
                   Classes are 2 hours long which includes 45-minute ride time, Bible
