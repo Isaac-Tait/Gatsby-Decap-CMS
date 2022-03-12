@@ -39,7 +39,12 @@ const RidingLessons = () => {
                   Wednesdays 10:00 am- 12:00 pm Thursdays 4:00-6:00 pm
                 </p>
                 <div className='pb-20 text-center text-4xl'>
-                    <a href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-green-200 font-cursive">Sign Up Here</a>
+                    <a 
+                      href="https://www.ultracamp.com/info/upcomingSessions.aspx?sessionFinder=1&lnkcategory=Horsemanship%20Lessons/Vaulting" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="hover:underline hover:text-indigo-400 text-green-200 font-cursive"
+                    >Sign Up Here</a>
                 </div>
               </div>
             </div>

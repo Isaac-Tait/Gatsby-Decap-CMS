@@ -22,7 +22,13 @@ const WomenHorseCamp = () => {
               Stay tuned to our blog for upcoming opportunities to partake in a
               Women's Horse Camp
             </p>
-            <p>You can register <a href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Women%27s+Horse+Camp' className='text-green-200 hover:text-indigo-400 hover:underline'>here</a>.</p>
+            <p>You can register&nbsp;
+            <a 
+              href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Women%27s+Horse+Camp' 
+              className='text-green-200 hover:text-indigo-400 hover:underline'
+              target="_blank" 
+              rel="noopener noreferrer"
+            >here</a>.</p>
           </div>
         <Footer />
       </div>

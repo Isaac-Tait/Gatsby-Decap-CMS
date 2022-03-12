@@ -15,8 +15,18 @@ const GuestGroups = () => {
                       <p className='mt-4'>Come to Royal Ridges for rest, relaxation, and a re-charge with Christ. We are a Christian retreat center operating on 390 acres in the scenic foothills of the Cascade Mountains. Located 20 minutes from Battle Ground, WA. for easy accessibility, but far enough for peace and quiet. Our retreat packages are perfect for small groups, including churches, schools, youth groups, Girl & Boy Scouts, women's and men's ministry groups, families, and more. Our facilities are ideal for a single-day event, overnight, weekend, or week-long getaways.</p>
 
                       <div className='flex flex-row justify-between mt-10'>
-                        <a href='https://www.royalridges.upcsites.org/overnightguest.html' target='_blank' rel='noopener noreferrer' className='text-green-200 hover:underline hover:text-indigo-400'>Overnight Guest Group Retreats</a>
-                        <a href='https://www.royalridges.upcsites.org/Dayguestgroup.html' target='_blank' rel='noopener noreferrer' className='text-green-200 hover:underline hover:text-indigo-400'>Guest Group Day Retreats</a>
+                        <a 
+                          href='https://www.ultracamp.com/info/sessionFinder.aspx' 
+                          target='_blank' 
+                          rel='noopener noreferrer' 
+                          className='text-green-200 hover:underline hover:text-indigo-400'
+                        >Overnight Guest Group Retreats</a>
+                        <a 
+                          href='https://www.ultracamp.com/info/sessionFinder.aspx' 
+                          target='_blank' 
+                          rel='noopener noreferrer' 
+                          className='text-green-200 hover:underline hover:text-indigo-400'
+                        >Guest Group Day Retreats</a>
                       </div>
                     </div>
               </div>

@@ -30,7 +30,13 @@ const Paintball = () => {
               <p className="ml-4 mt-2 italic">Saturdays: 10:00 am or 1:00 pm</p>
               <p className="mt-2">Interested in other dates/times? Email <a href="mailto:paintball@royalridges.org" className="text-green-200 hover:underline hover:text-indigo-400">paintball@royalridges.org</a>&nbsp;to arrange alternate dates/times.</p>
               
-              <p className="flex flex-wrap justify-center text-xl md:text-4xl font-cursive text-gray-600">What are you waiting for?&nbsp;<a href="https://www.royalridges.org/www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Paintball+Party" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-indigo-400 text-yellow-400 font-bold font-cursive text-xl md:text-4xl">Register Now!</a></p>
+              <p className="flex flex-wrap justify-center text-xl md:text-4xl font-cursive text-gray-600">What are you waiting for?&nbsp;
+                <a 
+                  href="https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Paintball+Party" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:underline hover:text-indigo-400 text-yellow-400 font-bold font-cursive text-xl md:text-4xl"
+                >Register Now!</a></p>
               
               <div className="flex flex-row mt-2">
                 <p>Open Play Games and Dates:</p>
