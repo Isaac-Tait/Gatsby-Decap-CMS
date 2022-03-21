@@ -82,8 +82,10 @@ const HomePage = () => {
                   </div>               
               </div>
           </div>
+        {/*Windows*/}
+        <div className='snap-y snap-mandatory'>
         {/* First window */}
-          <div className="heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between">
+          <div className="snap-always snap-center heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between">
             <div className='flex justify-center content-center box-content h-full'>
               <StaticImage 
                 src='../images/logo.png' 
@@ -113,7 +115,7 @@ const HomePage = () => {
             </div>
         </div>
         {/* Second window */}
-        <div className="bg-fixed mb-2 h-screen bg-gradient-to-r from-green-200 to-yellow-200">
+        <div className="snap-always snap-center bg-fixed mb-2 h-screen bg-gradient-to-r from-green-200 to-yellow-200">
             <div className='flex justify-center content-center box-content h-full'>
               <StaticImage
                 src='../images/D_C_G_Logo.png' 
@@ -126,7 +128,7 @@ const HomePage = () => {
             </div>
         </div>
         {/* Third window */}
-        <div className="bg-fixed rounded-lg shadow-lg h-screen heropattern-rain-gray-200 mb-2 overflow-scroll">
+        <div className="snap-always snap-center bg-fixed rounded-lg shadow-lg h-screen heropattern-rain-gray-200 mb-2 overflow-scroll">
           <div className="grid place-items-center h-screen">
             <Blog />  {/* Blog post list */}
           </div>
@@ -134,7 +136,7 @@ const HomePage = () => {
         </div>
         
         {/* Fourth window */}
-        <div className="h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-green-200">
+        <div className="snap-always snap-center h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-green-200">
           {/* Row One */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
             <div className="flex flex-col items-center justify-center mt-6">
@@ -233,6 +235,7 @@ const HomePage = () => {
             </div>
           </div>
           
+      </div>
       </div>
   </div>
   )
