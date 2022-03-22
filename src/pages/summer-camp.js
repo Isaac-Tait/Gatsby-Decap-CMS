@@ -23,7 +23,7 @@ const SummerCampPage = () => {
                 className='w-1/12 mt-1'
               />
             </div>
-            <div className="grid grid-cols-3 gap-2 h-screen">
+            <div className="grid grid-cols-3 gap-2 h-screen mx-2 overflow-y-scroll">
               {/* Column One */}         
               <div className="flex items-center justify-center">
                 <Link to={'/scholarships'}>
