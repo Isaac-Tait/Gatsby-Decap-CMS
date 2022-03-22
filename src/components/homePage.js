@@ -86,16 +86,7 @@ const HomePage = () => {
         <div className='snap-y snap-mandatory'>
         {/* First window */}
           <div className="snap-always snap-center heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between">
-            <div className='flex justify-center content-center box-content h-full'>
-              <StaticImage 
-                src='../images/logo.png' 
-                alt="Royal Ridges Logo" 
-                placeholder="blurred"
-                objectFit="scale-down"
-                className="w-1/2"
-                width={600}
-              />
-            </div>
+            
             <div className="flex justify-center mb-10">
               <p className='bg-white px-1 text-gray-600'>Scroll Down</p>
               <svg
@@ -112,6 +103,16 @@ const HomePage = () => {
                     d="M19 14l-7 7m0 0l-7-7m7 7V3"
                   />
                 </svg>
+            </div>
+            <div className='flex justify-center content-center box-content h-full'>
+              <StaticImage 
+                src='../images/logo.png' 
+                alt="Royal Ridges Logo" 
+                placeholder="blurred"
+                objectFit="scale-down"
+                className="w-1/2"
+                width={600}
+              />
             </div>
         </div>
         {/* Second window */}
