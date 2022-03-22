@@ -24,7 +24,7 @@ const About = () => {
           </div>
         
         {/* Icons */}
-        <div className="grid grid-cols-2 gap-2 bg-white mx-2 h-screen overflow-y-scroll">
+        <div className="grid grid-cols-2 gap-2 mx-2 h-screen overflow-y-scroll">
           <div className="flex items-center justify-center">
               <Link to={'/mission'}>
                 <img

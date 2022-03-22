@@ -24,7 +24,7 @@ const SummerCampPage = () => {
               />
             </div>
             <div className="grid grid-cols-3 gap-2 h-screen">
-              {/* Row One */}         
+              {/* Column One */}         
               <div className="flex items-center justify-center">
                 <Link to={'/scholarships'}>
                   <img
@@ -34,7 +34,9 @@ const SummerCampPage = () => {
                   />
                 </Link>
               </div>
+              {/* Empty Div */}
               <div></div>
+              {/* Column Three */}
               <div className="flex items-center justify-center">
                 <Link to={'/parent-manual'}>
                   <img
@@ -44,7 +46,7 @@ const SummerCampPage = () => {
                   />
                 </Link>
               </div>
-              {/* Row Two */} 
+              {/* Column One */} 
               <div className='flex items-center justify-center'>
                 <Link to={'/summer-staff-app'}>
                   <img
@@ -54,8 +56,9 @@ const SummerCampPage = () => {
                   />
                 </Link>
               </div>
+              {/* Empty Div */}
               <div></div>
-              {/* Row Three */} 
+              {/* Column Three */} 
               <div className="flex items-center justify-center">
                 <Link to={'/registration'}>
                   <img
@@ -65,7 +68,9 @@ const SummerCampPage = () => {
                   />
                 </Link>
               </div>
+              {/* Empty Div */}
               <div></div>
+              {/* Column Two */}
               <div className="flex items-center justify-center">
                 <Link to={'/faq'}>
                   <img
