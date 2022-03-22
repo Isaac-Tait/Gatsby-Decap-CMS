@@ -23,62 +23,57 @@ const SummerCampPage = () => {
                 className='w-1/12 mt-1'
               />
             </div>
-            <div className="grid grid-cols-3 h-screen">
+            <div className="grid grid-cols-3 gap-2 h-screen">
               {/* Row One */}         
-              <div className="flex flex-col justify-between mx-auto">
-                <div className="mx-4">
-                  <Link to={'/registration'}>
-                    <img
-                      alt="registration"
-                      src={Reg}
-                      className="w-28 md:w-64 mt-8 mx-auto"
-                    />
-                  </Link>
-                </div>
-                <div className="mx-4">
-                  <Link to={'/parent-manual'}>
-                    <img
-                      alt="parents_manual"
-                      src={ParentManual}
-                      className="w-28 md:w-64 mt-8 mx-auto"
-                    />
-                  </Link>
-                </div> 
+              <div className="flex items-center justify-center">
+                <Link to={'/scholarships'}>
+                  <img
+                    alt="scholarships"
+                    src={Scholarship}
+                    className="w-28 md:w-64 mt-8 mx-auto"
+                  />
+                </Link>
+              </div>
+              <div></div>
+              <div className="flex items-center justify-center">
+                <Link to={'/parent-manual'}>
+                  <img
+                    alt="parents_manual"
+                    src={ParentManual}
+                    className="w-28 md:w-64 mt-8 mx-auto"
+                  />
+                </Link>
               </div>
               {/* Row Two */} 
-              <div className='flex flex-col justify-between mx-auto'>
-                <div>{/*Empty Div*/}</div>
-                  <div className="">
-                    <Link to={'/faq'}>
-                      <img
-                        alt="facts"
-                        src={Faq}
-                        className="w-28 md:w-64 mt-8 mx-auto"
-                      />
-                    </Link>
-                  </div>
-                <div>{/*Empty Div*/}</div>
+              <div className='flex items-center justify-center'>
+                <Link to={'/summer-staff-app'}>
+                  <img
+                    alt="staff_application"
+                    src={SummerStaffApp}
+                    className="w-28 md:w-64 mt-8 mx-auto"
+                  />
+                </Link>
               </div>
+              <div></div>
               {/* Row Three */} 
-              <div className="flex flex-col justify-between mx-auto">
-                <div className="mx-4">
-                  <Link to={'/summer-staff-app'}>
-                    <img
-                      alt="staff_application"
-                      src={SummerStaffApp}
-                      className="w-28 md:w-64 mt-8 mx-auto"
-                    />
-                  </Link>
-                </div>
-                <div className="mx-4">
-                  <Link to={'/scholarships'}>
-                    <img
-                      alt="scholarships"
-                      src={Scholarship}
-                      className="w-28 md:w-64 mt-8 mx-auto"
-                    />
-                  </Link>
-                </div>
+              <div className="flex items-center justify-center">
+                <Link to={'/registration'}>
+                  <img
+                    alt="registration"
+                    src={Reg}
+                    className="w-28 md:w-64 mt-8 mx-auto"
+                  />
+                </Link>
+              </div>
+              <div></div>
+              <div className="flex items-center justify-center">
+                <Link to={'/faq'}>
+                  <img
+                    alt="facts"
+                    src={Faq}
+                    className="w-28 md:w-64 mx-auto"
+                  />
+                </Link>
               </div>
             </div>          
           </div>

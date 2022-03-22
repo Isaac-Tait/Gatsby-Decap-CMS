@@ -24,7 +24,7 @@ const About = () => {
           </div>
         
         {/* Icons */}
-        <div className="grid grid-cols-2 gap-2 mx-2 h-screen overflow-y-scroll">
+        <div className="grid grid-cols-2 gap-2 bg-white mx-2 h-screen overflow-y-scroll">
           <div className="flex items-center justify-center">
               <Link to={'/mission'}>
                 <img
@@ -34,7 +34,7 @@ const About = () => {
                 />
               </Link>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex items-center justify-center">
               <a 
                 href='https://hardcore-khorana-19151f.netlify.app'
                 target="_blank" 
@@ -47,7 +47,7 @@ const About = () => {
                 />
               </a>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex items-center justify-center">
               <Link to={'/staff'}>
                 <img
                   alt="staff"
@@ -56,7 +56,7 @@ const About = () => {
                 />
               </Link>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex items-center justify-center">
               <Link to={'/statement-of-faith'}>
                 <img
                   alt="faith"
