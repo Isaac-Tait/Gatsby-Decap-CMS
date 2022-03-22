@@ -89,7 +89,7 @@ const Header = () => {
                                     as="a"
                                     href={item.href}
                                     className={classNames(
-                                        item.current ? 'bg-gray-900 text-white' : 'text-green-200 hover:bg-yellow-400 hover:text-white',
+                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-800 hover:bg-yellow-400 hover:text-white',
                                         'block px-3 py-2 rounded-md text-base font-medium'
                                     )}
                                     aria-current={item.current ? 'page' : undefined}
