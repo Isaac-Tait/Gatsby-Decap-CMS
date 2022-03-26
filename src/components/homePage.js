@@ -116,7 +116,7 @@ const HomePage = () => {
             </div>
         </div>
         {/* Second window */}
-        <div className="snap-always snap-center bg-fixed mb-2 h-screen bg-gradient-to-r from-green-200 to-yellow-200">
+        <div className="snap-always snap-center bg-fixed mb-2 h-screen bg-gradient-to-r from-emerald-700 to-yellow-200">
             <div className='flex justify-center content-center box-content h-full'>
               <StaticImage
                 src='../images/D_C_G_Logo.png' 
@@ -137,7 +137,7 @@ const HomePage = () => {
         </div>
         
         {/* Fourth window */}
-        <div className="snap-always snap-center h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-green-200">
+        <div className="snap-always snap-center h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-emerald-200">
           {/* Row One */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
             <div className="flex flex-col items-center justify-center mt-6">

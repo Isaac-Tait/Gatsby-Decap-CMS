@@ -27,6 +27,7 @@ module.exports = {
       red: colors.rose,
       blue: colors.blue,
       pink: colors.pink,
+      emerald: colors.emerald,
       green: {
         200: '#355e3b',
       },
