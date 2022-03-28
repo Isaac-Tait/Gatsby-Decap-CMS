@@ -40,8 +40,7 @@ const Donations = () => {
 
               <p className="my-4">
                 Please donate to our scholarship fund. Not everyone is able to afford the full cost of attending summer camp.
-                Your contribution will go toward helping another boy/girl have fun at{` `}
-                <span className="font-cursive text-xl">Royal Ridges Retreat</span>. Cost of camp varies between $160-$595. Scholarships can cover
+                Your contribution will go toward helping another boy/girl have fun at Royal Ridges Retreat. Cost of camp varies between $160-$595. Scholarships can cover
                 partial or full cost of camp.
               </p>
 
