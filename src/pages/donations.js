@@ -50,7 +50,7 @@ const Donations = () => {
               </p>
                 
               <p className="my-4">
-                Or you can donate any amount at <a href="paypal.me/royalridges" target="_blank" rel="noopener noreferrer" className="text-green-200 hover:underline hover:text-indigo-400">paypal.me/royalridges</a> Make sure to add
+                Or you can donate any amount at <a href="https://www.paypal.me/royalridges" target="_blank" rel="noopener noreferrer" className="text-green-200 hover:underline hover:text-indigo-400">paypal.me/royalridges</a> Make sure to add
                 a note that it is a donation!</p>
               
               <p className="my-4">If you want to send a donation as check
