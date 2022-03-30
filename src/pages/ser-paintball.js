@@ -13,7 +13,7 @@ const SerPaintball = () => {
                 <p className='text-center font-semibold text-3xl mb-4'>PAINTBALL STAFF</p>
                 <div className='ml-2 flex flex-col'>
                     <a href='https://www.youtube.com/watch?v=tjab07IpM5U' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Paintball Rules Video</a>
-                    <a href='https://www.royalridges.upcsites.org/f/Paintball_Rules.docx_-_Google_Docs.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Paintball Rules Printed</a>
+                    <a href='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_staff/Paintball_Rules.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Paintball Rules Printed</a>
                     <div class="py-4">
                         <div class="w-full border-t border-gray-800"></div>
                     </div>

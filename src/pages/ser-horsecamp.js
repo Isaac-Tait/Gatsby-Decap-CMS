@@ -26,9 +26,9 @@ const SerHorseCamp = () => {
                     <a href='https://www.youtube.com/watch?v=B0LcnhdLRjA' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Tacking</a>
                     <a href='https://www.youtube.com/watch?v=ytc--2KjBrc' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Mounting</a>
                     <a href='https://www.youtube.com/watch?v=WHBPDMLjii4' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Bridling</a>
-                    <a href='https://www.royalridges.upcsites.org/f/Horsemanship_Manual.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Horsemanship Manual</a>
-                    <a href='https://www.royalridges.upcsites.org/f/Horse_Care_Horse_Science_Summer_-_Google_Docs.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Horse Science</a>
-                    <a href='https://www.royalridges.upcsites.org/f/Horse_Care_Horse_Activity_Summer_-_Google_Docs.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Horse Activity</a> 
+                    <a href='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_staff/Horsemanship_Manual.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Horsemanship Manual</a>
+                    <a href='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_staff/Horse_Care_Horse_Science.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Horse Science</a>
+                    <a href='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_staff/Horse_Care.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Horse Activity</a> 
                     <div class="py-4">
                         <div class="w-full border-t border-gray-800"></div>
                     </div>
