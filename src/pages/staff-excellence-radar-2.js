@@ -74,18 +74,14 @@ const SummerStaffOne = () => {
                         >Online Medical/Liabilitiy Waiver</a>(a new one must be completed each year)</p>
                     <p className='ml-2'>5.&nbsp;Email <a mailto="chrisy@royalridges.org" className='text-green-200 hover:underline hover:text-indigo-400'>chrisy@royalridges.org</a> your top 3 choices of camp name if you do not already have a camp name.</p>
                 <div className='text-center mt-4 flex flex-col'>
-                    <div>
                         <Link 
                             to='/staff-excellence-radar-3'
-                            className='text-2xl my-6 font-semibold text-gray-300 hover:underline hover:text-indigo-600'
-                        > {">"}{">"}{' '}On to step two{' '}{"<"}{"<"}</Link>
-                    </div>
-                    <div className='mt-2'>
+                            className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-300 hover:underline hover:text-indigo-600'
+                        > {">"}{">"}{' '}In Person Training{' '}{">"}{">"}</Link>
                         <Link 
                             to='/staff-excellence-radar'
-                            className='text-2xl my-6 font-semibold text-gray-300 hover:underline hover:text-indigo-600'
-                        > {">"}{">"}{' '}Back to the beginning{' '}{"<"}{"<"}</Link>
-                    </div>
+                            className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-300 hover:underline hover:text-indigo-600'
+                        > {"<"}{"<"}{' '}Beginning{' '}{"<"}{"<"}</Link>
                 </div>
             </div>
           <Footer />

@@ -48,8 +48,8 @@ const SummerStaff = () => {
                 <div className='text-center'>
                     <Link 
                         to='/staff-excellence-radar-2'
-                        className='text-2xl my-6 font-semibold text-gray-300 hover:underline hover:text-indigo-600'
-                    > {">"}{">"}{' '}Step 1{' '}{"<"}{"<"}</Link>
+                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-300 hover:underline hover:text-indigo-600'
+                    > {">"}{">"}{' '}Paperwork{' '}{">"}{">"}</Link>
                 </div>
             </div>
           <Footer />
