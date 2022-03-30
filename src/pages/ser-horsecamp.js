@@ -36,7 +36,7 @@ const SerHorseCamp = () => {
                 </div>
                 <div className='text-center flex flex-col'>
                     <Link 
-                        to='/staff-excellence-radar-3'
+                        to='/staff-excellence-radar-4'
                         className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {"<"}{"<"}{' '}Online Training{' '}{"<"}{"<"}</Link>
                 </div>

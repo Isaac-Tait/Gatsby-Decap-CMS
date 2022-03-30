@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 
 const SummerStaffOne = () => {
     return (
-        <div className="bg-gradient-to-b from-yellow-200 to-emerald-600">
+        <div className="bg-yellow-200">
           <Header />
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
                 <h3 className='text-2xl my-6 font-semibold text-center'>Paperwork</h3>
@@ -76,11 +76,11 @@ const SummerStaffOne = () => {
                 <div className='text-center mt-4 flex flex-col'>
                         <Link 
                             to='/staff-excellence-radar-3'
-                            className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-300 hover:underline hover:text-indigo-600'
+                            className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                         > {">"}{">"}{' '}In Person Training{' '}{">"}{">"}</Link>
                         <Link 
                             to='/staff-excellence-radar'
-                            className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-300 hover:underline hover:text-indigo-600'
+                            className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                         > {"<"}{"<"}{' '}Beginning{' '}{"<"}{"<"}</Link>
                 </div>
             </div>

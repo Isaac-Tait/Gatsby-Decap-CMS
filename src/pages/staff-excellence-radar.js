@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 
 const SummerStaff = () => {
     return (
-        <div className="bg-gradient-to-b from-yellow-200 to-emerald-600">
+        <div className="bg-yellow-200">
           <Header />
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
                 <h2 className='text-4xl text-center font-semibold text-green-200'>You Are Hired!</h2>
@@ -48,7 +48,7 @@ const SummerStaff = () => {
                 <div className='text-center'>
                     <Link 
                         to='/staff-excellence-radar-2'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-300 hover:underline hover:text-indigo-600'
+                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {">"}{">"}{' '}Paperwork{' '}{">"}{">"}</Link>
                 </div>
             </div>
