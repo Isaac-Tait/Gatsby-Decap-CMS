@@ -9,7 +9,7 @@ const SummerStaff = () => {
     return (
         <div className="bg-yellow-200">
           <Header />
-            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
+            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
                 <h2 className='text-4xl text-center font-semibold text-green-200'>You Are Hired!</h2>
                 <p className='mt-1'>Congratulations! You have been selected to serve at Royal Ridges this summer! I am excited to have you on our summer team and to see God at work in you and through you.</p>
                 <p className='mt-1'>Below you will find a number of important documents for hiring as well as training information. Please make sure to read over the information carefully, follow the steps below, send back the appropriate forms in timely manner, and mark your calendars with important dates.</p>
@@ -48,7 +48,7 @@ const SummerStaff = () => {
                 <div className='text-center'>
                     <Link 
                         to='/staff-excellence-radar-2'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
+                        className='text-medium lg:text-2xl my-6 font-semibold w-full lg:w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {">"}{">"}{' '}Paperwork{' '}{">"}{">"}</Link>
                 </div>
             </div>

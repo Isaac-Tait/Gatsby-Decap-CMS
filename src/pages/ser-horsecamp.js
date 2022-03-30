@@ -9,7 +9,7 @@ const SerHorseCamp = () => {
     return (
         <div className="bg-yellow-200">
           <Header />
-            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
+            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
                 <p className='text-center font-semibold text-3xl mb-4'>HORSE CAMP STAFF</p>
                 <p className='my-2'>View these videos and documents and take this quiz if you are serving in Corral, Day Horse or Resident Horse.</p>
                 <p className='mb-4'>Senior Staff are responsible for teaching Horse Science and Horse Activity but it would be good for Junior Staff to be familiar with the material as well.</p>
@@ -37,7 +37,7 @@ const SerHorseCamp = () => {
                 <div className='text-center flex flex-col'>
                     <Link 
                         to='/staff-excellence-radar-4'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
+                        className='text-medium lg:text-2xl my-6 font-semibold w-full lg:w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {"<"}{"<"}{' '}Online Training{' '}{"<"}{"<"}</Link>
                 </div>
             </div>

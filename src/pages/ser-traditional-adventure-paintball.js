@@ -9,7 +9,7 @@ const SerTraditionalAdventurePaintBall = () => {
     return (
         <div className="bg-yellow-200">
           <Header />
-            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
+            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
                 <p className='text-center font-semibold text-3xl mb-4'>TRADITIONAL DAY CAMP STAFF, PAINTBALL STAFF and ADVENTURE CAMP STAFF</p>
                 <p>View these videos and take this quiz if you are serving in Traditional Day Camp, Paintball Day Camp, or Day Adventure Camp.</p>
                 <div className='flex flex-col ml-2'>
@@ -38,7 +38,7 @@ const SerTraditionalAdventurePaintBall = () => {
                 <div className='text-center flex flex-col'>
                     <Link 
                         to='/staff-excellence-radar-4'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
+                        className='text-medium lg:text-2xl my-6 font-semibold w-full lg:w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {"<"}{"<"}{' '}Online Training{' '}{"<"}{"<"}</Link>
                 </div>
             </div>

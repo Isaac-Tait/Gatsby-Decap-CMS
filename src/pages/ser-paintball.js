@@ -9,7 +9,7 @@ const SerPaintball = () => {
     return (
         <div className="bg-yellow-200">
           <Header />
-            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
+            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
                 <p className='text-center font-semibold text-3xl mb-4'>PAINTBALL STAFF</p>
                 <div className='ml-2 flex flex-col'>
                     <a href='https://www.youtube.com/watch?v=tjab07IpM5U' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 w-1/4'>Paintball Rules Video</a>
@@ -22,7 +22,7 @@ const SerPaintball = () => {
                 <div className='text-center flex flex-col'>
                     <Link 
                         to='/staff-excellence-radar-4'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
+                        className='text-medium lg:text-2xl my-6 font-semibold w-full lg:w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {"<"}{"<"}{' '}Online Training{' '}{"<"}{"<"}</Link>
                 </div>
             </div>

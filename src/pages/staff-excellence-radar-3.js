@@ -9,7 +9,7 @@ const SummerStaffTwo = () => {
     return (
         <div className="bg-yellow-200">
           <Header />
-            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
+            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
                 <h3 className='text-2xl my-6 font-semibold text-center'>Training</h3>
                 <p>Review the staff onsite training dates and summer activities and mark your calendars for the training dates that apply to you. Onsite training is mandatory!</p>
                 <div className='text-center'>
@@ -44,15 +44,15 @@ const SummerStaffTwo = () => {
                 <div className='text-center flex flex-col'>
                     <Link 
                         to='/staff-excellence-radar-4'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
+                        className='text-medium lg:text-2xl my-6 font-semibold w-full lg:w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {">"}{">"}{' '}Online training{' '}{">"}{">"}</Link>
                     <Link 
                         to='/staff-excellence-radar-2'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
+                        className='text-medium lg:text-2xl my-6 font-semibold w-full lg:w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {"<"}{"<"}{' '}Paperwork{' '}{"<"}{"<"}</Link>
                     <Link 
                         to='/staff-excellence-radar'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
+                        className='text-medium lg:text-2xl my-6 font-semibold w-full lg:w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {"<"}{"<"}{' '}Beginning{' '}{"<"}{"<"}</Link>
                 </div>
             </div>

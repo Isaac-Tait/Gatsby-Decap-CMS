@@ -9,7 +9,7 @@ const SerHighRopes = () => {
     return (
         <div className="bg-yellow-200">
           <Header />
-            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
+            <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll">
                 <p className='text-center font-semibold text-3xl mb-4'>ADVENTURE CAMP: High Ropes</p>
                 <p>View these videos and take this quiz if you are serving in Day Adventure Camp or are planning to assist with High Ropes.</p>
                 <p className='mt-6'>High Ropes  [ <a href='https://youtu.be/w3gjMSU8nfs' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/4'>Part 1</a>{' '}&nbsp;&nbsp;| <a href='https://www.youtube.com/watch?v=6LbqPRhkmZU' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/4'>Part 2</a>{' '}&nbsp;&nbsp;| <a href='https://youtu.be/8a4Ktvhw1f4' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/4'>Part 3</a>{' '}&nbsp;&nbsp;| <a href='https://youtu.be/oUHCJetDob0' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/4'>Part 4</a>{' '}&nbsp;&nbsp;]</p>
@@ -23,7 +23,7 @@ const SerHighRopes = () => {
                 <div className='text-center flex flex-col'>
                     <Link 
                         to='/staff-excellence-radar-4'
-                        className='text-2xl my-6 font-semibold w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
+                        className='text-medium lg:text-2xl my-6 font-semibold w-full lg:w-1/4 mx-auto text-gray-600 hover:underline hover:text-indigo-600'
                     > {"<"}{"<"}{' '}Online Training{' '}{"<"}{"<"}</Link>
                 </div>
             </div>
