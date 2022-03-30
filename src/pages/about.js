@@ -30,7 +30,7 @@ const About = () => {
                 <img
                   alt="mission"
                   src={Mission}
-                  className="w-28 md:w-64 mt-8 mx-auto"
+                  className="w-40 md:w-64 mt-8 mx-auto"
                 />
               </Link>
           </div>
@@ -43,7 +43,7 @@ const About = () => {
                 <img
                   alt="newsletter"
                   src={Newsletter}
-                  className="w-28 md:w-64 mt-8 mx-auto"
+                  className="w-40 md:w-64 mt-8 mx-auto"
                 />
               </a>
           </div>
@@ -52,7 +52,7 @@ const About = () => {
                 <img
                   alt="staff"
                   src={Staff}
-                  className="w-28 md:w-64 mt-8 mx-auto"
+                  className="w-40 md:w-64 mt-8 mx-auto"
                 />
               </Link>
           </div>
@@ -61,7 +61,7 @@ const About = () => {
                 <img
                   alt="faith"
                   src={Faith}
-                  className="w-28 md:w-64 mt-8 mx-auto"
+                  className="w-40 md:w-64 mt-8 mx-auto"
                 />
               </Link>
           </div>

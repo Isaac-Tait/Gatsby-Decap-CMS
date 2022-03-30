@@ -30,7 +30,7 @@ const ProgramsPage = () => {
                 className='w-1/12 mt-1'
               />
             </div>
-            <div className="grid grid-cols-4 gap-4 h-screen my-4 overflow-y-scroll justify-center">
+            <div className="grid grid-cols-4 gap-4 h-screen my-4 overflow-y-scroll justify-center px-2">
                 {/*👇🏼First Row*/}
                 <div className="relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64">
                   <Link

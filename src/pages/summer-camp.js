@@ -30,7 +30,7 @@ const SummerCampPage = () => {
                   <img
                     alt="scholarships"
                     src={Scholarship}
-                    className="w-28 md:w-64 mt-8 mx-auto"
+                    className="w-40 md:w-64 mt-8 mx-auto"
                   />
                 </Link>
               </div>
@@ -42,7 +42,7 @@ const SummerCampPage = () => {
                   <img
                     alt="parents_manual"
                     src={ParentManual}
-                    className="w-28 md:w-64 mt-8 mx-auto"
+                    className="w-40 md:w-64 mt-8 mx-auto"
                   />
                 </Link>
               </div>
@@ -52,7 +52,7 @@ const SummerCampPage = () => {
                   <img
                     alt="staff_application"
                     src={SummerStaffApp}
-                    className="w-28 md:w-64 mt-8 mx-auto"
+                    className="w-40 md:w-64 mt-8 mx-auto"
                   />
                 </Link>
               </div>
@@ -64,7 +64,7 @@ const SummerCampPage = () => {
                   <img
                     alt="registration"
                     src={Reg}
-                    className="w-28 md:w-64 mt-8 mx-auto"
+                    className="w-40 md:w-64 mt-8 mx-auto"
                   />
                 </Link>
               </div>
@@ -76,7 +76,7 @@ const SummerCampPage = () => {
                   <img
                     alt="facts"
                     src={Faq}
-                    className="w-28 md:w-64 mx-auto"
+                    className="w-40 md:w-64 mx-auto"
                   />
                 </Link>
               </div>

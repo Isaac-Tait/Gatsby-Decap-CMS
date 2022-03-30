@@ -123,7 +123,7 @@ const HomePage = () => {
                 alt="Summer" 
                 placeholder="blurred"
                 objectFit="scale-down"
-                className="w-1/2"
+                className=""
                 width={1000}
               />
             </div>
@@ -140,7 +140,7 @@ const HomePage = () => {
         <div className="snap-always snap-center h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-emerald-200">
           {/* Row One */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
-            <div className="flex flex-col items-center justify-center mt-6">
+            <div className="flex flex-col items-center justify-center">
               <Link
                 to={'/summer-camp'}
               >
@@ -150,7 +150,7 @@ const HomePage = () => {
                     alt="Summer" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="w-1/2"
+                    className="pl-2"
                     width={400}
                   />
                 </div>
@@ -168,7 +168,7 @@ const HomePage = () => {
                     alt="Programs" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="w-1/2"
+                    className="pr-2"
                     width={400}
                   />
                 </div>
@@ -189,7 +189,7 @@ const HomePage = () => {
                     alt="About" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="w-1/2"
+                    className=""
                     width={400}
                   />
                 </div>
@@ -210,7 +210,7 @@ const HomePage = () => {
                     alt="Support" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="w-1/2"
+                    className="pl-2"
                     width={400}
                   />
                 </div>
@@ -228,7 +228,7 @@ const HomePage = () => {
                     alt="Contact" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="w-1/2"
+                    className="pr-2"
                     width={400}
                   />
                 </div>

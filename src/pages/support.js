@@ -30,7 +30,7 @@ const Support = () => {
                 <img
                   alt="volunteers"
                   src={Volunteers}
-                  className="w-28 md:w-64"
+                  className="w-40 md:w-64"
                 />
               </Link>
             </div>
@@ -39,7 +39,7 @@ const Support = () => {
                   <img
                     alt="donations"
                     src={Donations}
-                    className="w-28 md:w-64"
+                    className="w-40 md:w-64"
                   />
                 </Link>
             </div>
@@ -48,7 +48,7 @@ const Support = () => {
                 <img
                   alt="church"
                   src={Church}
-                  className="w-28 md:w-64"
+                  className="w-40 md:w-64"
                 />
               </Link>
             </div>
@@ -57,7 +57,7 @@ const Support = () => {
                   <img
                     alt="business"
                     src={Business}
-                    className="w-28 md:w-64"
+                    className="w-40 md:w-64"
                   />
                 </Link>
             </div>
