@@ -40,7 +40,7 @@ const RidingLessons = () => {
                 </p>
                 <div className='pb-20 text-center text-4xl'>
                     <a 
-                      href="https://www.ultracamp.com/info/upcomingSessions.aspx?sessionFinder=1&lnkcategory=Horsemanship%20Lessons/Vaulting" 
+                      href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Horsemanship+Lessons+Vaulting'
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="hover:underline hover:text-indigo-400 text-green-200 font-cursive"
