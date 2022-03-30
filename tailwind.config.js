@@ -28,18 +28,20 @@ module.exports = {
       blue: colors.blue,
       pink: colors.pink,
       emerald: colors.emerald,
+      amber: colors.amber,
       green: {
         200: '#355e3b',
       },
       yellow: {
-        200: '#Eedd82',
-        400: '#B8860b',
-      },
-      cyan: {
-        400: '#B45A1A',
-        500: '#8B4513',
-        600: '#A77197',
-        700: '#5F1E6F'
+        100: '#fef9c3',
+        200: '#Eedd82', //camp specific
+        300: '#fde047',
+        400: '#B8860b', //camp specific
+        500: '#8B4513', //custom
+        600: '#A77197', //custom
+        700: '#5F1E6F', //custom
+        800: '#92400e',
+        900: '#78350f'
       },
     },
     heroPatterns: {

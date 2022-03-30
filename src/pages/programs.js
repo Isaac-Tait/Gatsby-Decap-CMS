@@ -20,7 +20,7 @@ import Footer from "../components/footer";
 
 const ProgramsPage = () => {
     return (
-      <div className="bg-gradient-to-r from-yellow-200 to-green-200">
+      <div className="bg-gradient-to-r from-yellow-100 to-yellow-400">
         <Header />
           <div className="lg:max-w-6xl lg:mx-auto md:ml-4">
             <div className='flex justify-center'>

@@ -20,7 +20,7 @@ const navigation = [
 
 const Header = () => {
     return (
-        <div className="heropattern-topography-yellow-400 flex flex-col">
+        <div className="heropattern-topography-yellow-500 flex flex-col">
             <div className="flex mx-auto my-2">
                 <Link to="/">
                     <div className='flex justify-center content-center box-content h-full'>
