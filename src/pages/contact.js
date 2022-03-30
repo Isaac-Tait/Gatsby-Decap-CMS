@@ -5,11 +5,22 @@ import Footer from "../components/footer";
 
 const Comments = () => {
     return (
-    <div className="bg-gradient-to-l from-green-200 to-yellow-200">
+    <div className="bg-gradient-to-l from-yellow-400 to-yellow-200">
         <Header />
             <div className="max-w-6xl flex flex-col mx-auto h-screen overflow-y-scroll mb-4">
                 <img src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/Contact+1.0+(1).png" alt="girlScouts" className="w-full rounded-2xl shadow-xl mt-2" />
-                <hr />
+                
+                <div class="py-4">
+                    <div class="w-full border-t border-gray-800"></div>
+                </div>
+                
+                <p className='mt-4'>General questions email:</p><a href='mailto:info@royalridges.org' className='text-green-200 hover:underline'>info@royalridges.org</a>
+                <p>Program questions email:</p><a href='mailto:programs@royalridges.org' className='text-green-200 hover:underline'>programs@royalridges.org</a>
+                <p>Registration questions email:</p><a href='mailto:registration@royalridges.org' className='text-green-200 hover:underline'>registration@royalridges.org</a>
+                <p>Office Phone: 360-686-3737</p>
+                <p>Physical Address: 20115 NE 354th St Yacolt, WA 98675</p>
+                <p>Mailing Address: P.O. Box 3010 Battle Ground, WA 98604</p>
+                <p className='mt-4'>Or you can use the form below...</p>
                 <form 
                     data-netlify-honeypot="bot-field"
                     name="contact" 
