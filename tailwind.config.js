@@ -35,6 +35,9 @@ module.exports = {
         200: '#Eedd82',
         400: '#B8860b',
       },
+      cyan: {
+        500: '#8B4513',
+      },
     },
     heroPatterns: {
       topography: heroPatterns.topography,

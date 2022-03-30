@@ -150,7 +150,7 @@ const HomePage = () => {
                     alt="Summer" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="pl-2"
+                    className="w-full md:w-1/2 pl-2"
                     width={400}
                   />
                 </div>
@@ -168,7 +168,7 @@ const HomePage = () => {
                     alt="Programs" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="pr-2"
+                    className="w-full md:w-1/2 pr-2"
                     width={400}
                   />
                 </div>
@@ -189,7 +189,7 @@ const HomePage = () => {
                     alt="About" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className=""
+                    className="w-full md:w-1/2"
                     width={400}
                   />
                 </div>
@@ -210,7 +210,7 @@ const HomePage = () => {
                     alt="Support" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="pl-2"
+                    className="w-full md:w-1/2 pl-2"
                     width={400}
                   />
                 </div>
@@ -228,7 +228,7 @@ const HomePage = () => {
                     alt="Contact" 
                     placeholder="blurred"
                     objectFit="scale-down"
-                    className="pr-2"
+                    className="w-full md:w-1/2 pr-2"
                     width={400}
                   />
                 </div>
