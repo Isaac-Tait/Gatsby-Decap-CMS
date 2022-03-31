@@ -3,11 +3,7 @@ import {Link} from "gatsby"
 import { StaticImage  } from "gatsby-plugin-image"
 
 import Blog from "./blogPostList"
-import aboutIcon from "../images/AboutIcon.png"
-import contactIcon from "../images/ContactIcon.png"
-import summerIcon from "../images/SummerIcon.png"
-import programIcon from "../images/ProgramIcon.png"
-import supportIcon from "../images/SupportIcon.png"
+import Navigation from "./navigation"
 
 const HomePage = () => {
     return (
@@ -86,12 +82,11 @@ const HomePage = () => {
         <div className='snap-y snap-mandatory'>
         {/* First window */}
           <div className="snap-always snap-center heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between">
-            
-            <div className="flex justify-center mb-10">
-              <p className='bg-white px-1 text-gray-600'>Scroll Down</p>
+            <div className="flex justify-center mb-10 bg-gray-100 rounded-full opacity-80 w-1/2 mx-auto">
+              <p className='px-1 text-gray-600 font-semibold text-lg'>Scroll Down</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 animate-bounce text-green-200"
+                className="h-6 w-6 animate-bounce text-gray-600"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -116,28 +111,59 @@ const HomePage = () => {
             </div>
         </div>
         {/* Second window */}
-        <div className="snap-always snap-center bg-fixed mb-2 h-screen bg-gradient-to-r from-emerald-700 to-yellow-200">
-            <div className='flex justify-center content-center box-content h-full'>
+        <div className="flex flex-col h-screen bg-gradient-to-r from-yellow-500 to-yellow-200">
+        <Navigation />
+            <div className='flex justify-center h-2/3 mb-auto px-1'>
               <StaticImage
                 src='../images/D_C_G_Logo.png' 
                 alt="Summer" 
                 placeholder="blurred"
                 objectFit="scale-down"
-                className=""
                 width={1000}
               />
             </div>
+            <div className='flex justify-center'>
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 animate-bounce text-gray-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                    />
+              </svg>
+            </div>            
         </div>
         {/* Third window */}
-        <div className="snap-always snap-center bg-fixed rounded-lg shadow-lg h-screen heropattern-rain-gray-200 mb-2 overflow-scroll">
-          <div className="grid place-items-center h-screen">
+        <div className="flex flex-col h-screen justify-between heropattern-rain-yellow-200">
+          <div className="flex justify-center h-2/3 mb-auto mt-4 md:mt-28 px-1">
             <Blog />  {/* Blog post list */}
           </div>
-          
+          <div className='flex justify-center'>
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 animate-bounce text-gray-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                    />
+              </svg>
+            </div>
         </div>
         
         {/* Fourth window */}
-        <div className="snap-always snap-center h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-emerald-200">
+        <div className="h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-yellow-500">
           {/* Row One */}
           <div className="grid col-span-3 grid-cols-3 md:col-span-1">
             <div className="flex flex-col items-center justify-center">
