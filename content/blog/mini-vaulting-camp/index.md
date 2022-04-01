@@ -4,7 +4,7 @@ date: 2022-04-01T03:28:32.405Z
 description: Later this month we are having a Mini Vaulting Camp. The camp will
   give a great introduction to the fundamentals of vaulting in a three-hour
   evening session.
-image: static/img/mini-vaulting-camp-2.0.png
+image: ./mini-vaulting-camp-2.0.png
 imageAlt: fish
 ---
 ![Vaulting Camp](mini-vaulting-camp-2.0.png "Mini Vaulting Camp")

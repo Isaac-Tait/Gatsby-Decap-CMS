@@ -2,7 +2,7 @@
 title: Wanger Memorial Event
 date: 2022-04-01T04:30:19.644Z
 description: Ron & Sue Wanger Memorial Event
-image: static/img/ron-sue-wanger-event.png
+image: ./ron-sue-wanger-event.png
 imageAlt: fish
 ---
 ![Wanger Event](ron-sue-wanger-event.png "Ron & Sue Memorial Event")

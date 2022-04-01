@@ -2,7 +2,7 @@
 title: Women's Horse Camp
 date: 2022-04-01T04:24:45.704Z
 description: " A memorable day designed for women and horses."
-image: static/img/women-s-horse-camp-banner-2022.png
+image: ./women-s-horse-camp-banner-2022.png
 imageAlt: fish
 ---
 ![Women's Camp](women-s-horse-camp-banner-2022.png "Women's Horse Camp")
