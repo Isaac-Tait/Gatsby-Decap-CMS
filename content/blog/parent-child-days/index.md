@@ -1,12 +1,14 @@
 ---
 title: Parent Child Days
-date: 2022-02-28T22:03:45.755Z
+date: 2022-03-31T21:03:45.755Z
+description: Parent Child Days
 image: ./parentChildDays.png
 imageAlt: fish
 ---
 ![parentChildDays](parentChildDays.png "parent child days")
 
 We are kicking off our Spring Parent and Child Days. This is an excellent opportunity for parents to bring their children out to Royal Ridges for the day and share the experience of being campers. Our purpose for these programs is to provide opportunities to create unforgettable memories for families that will last a lifetime. Click on the links below to register for our parent & child day.
+
 <div className='text-center mt-4'>
 
 **Mother & Daughter:**
@@ -19,47 +21,14 @@ Time:  Saturday, 9:00 am to 4:00 pm
 
 Location: Upper Camp
 
-Cost:$90 per person   
+Cost:$90 per person\
 <a 
     href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Mother%2fDaughter+Day'
     className='text-green-200 hover:text-indigo-400 hover:underline'
     target='_blank' 
     rel='noopener noreferrer'
->Register for Mother-Daughter Day</a>
 
-**Mother & Son:**
-
-*Date: April 2, 2022*
-
-*Time: 9:00 AM - 4:00 PM*
-
-Ages: 8 years old and up
-
-Price: $90 per person
-
-<a 
-    href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Mother%2fSon+Day'
-    className='text-green-200 hover:text-indigo-400 hover:underline'
-    target='_blank' 
-    rel='noopener noreferrer'
->Register now for Mother Son Day</a>
-
-**Father & Daughter:** 
-
-*Date: April 2, 2022*
-
-*Time: 9:00 am - 4:00 pm*
-
-Ages: 8 years and up
-
-Price: $90 per person
-
-<a 
-    href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Father%2fDaughter+Day'
-    className='text-green-200 hover:text-indigo-400 hover:underline'
-    target='_blank' 
-    rel='noopener noreferrer'
->Register now for Father-Daughter Day</a>
+> Register for Mother-Daughter Day</a>
 
 **Father & Son:**
 
@@ -76,5 +45,7 @@ Price: $90 per person
     className='text-green-200 hover:text-indigo-400 hover:underline'
     target='_blank' 
     rel='noopener noreferrer'
->Register now for Father-Son Day</a>
+
+> Register now for Father-Son Day</a>
+
 </div>
