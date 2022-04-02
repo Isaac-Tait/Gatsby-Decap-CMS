@@ -3,7 +3,7 @@ title: Saturday Adventure Class
 date: 2022-04-01T04:13:49.619Z
 description: Do you have someone in your family who enjoys spending time in the
   great outdoors and wants to grow their survival skills?
-image: static/img/saturday-adventure-class-header-2022.png
+image: ./saturday-adventure-class-header-2022.png
 imageAlt: fish
 ---
 ![Adventure Class](saturday-adventure-class-header-2022.png "Saturday Adventure Class")
