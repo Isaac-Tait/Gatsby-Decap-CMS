@@ -19,4 +19,6 @@ imageAlt: fish
 
 #### ***[Register Here!](https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Women%27s+Horse+Camp)***
 
+
+
   Many times over the course of a year, we have a number of our camper's moms ask if they can become a kid again and join our horse camps. We decided that we should make a program for those ladies who want to experience our Day Horse Camp, so please join us for a memorable day designed for women and horses. Some of the activities planned are crafts, fellowship time, and of course, HORSES! A delicious lunch is included. ***[Click to find out more.](https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Women%27s+Horse+Camp)***
