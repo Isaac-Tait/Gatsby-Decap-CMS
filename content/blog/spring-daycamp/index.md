@@ -38,6 +38,7 @@ Our Spring Day Camp is back again this year. We are excited to have even more op
 
 \
 **West Route**
+
 **Albertsons at Salmon Creek**
 
  8:15 AM - Departure Time   
@@ -48,7 +49,6 @@ Our Spring Day Camp is back again this year. We are excited to have even more op
 
 **Northside by Dumpster** 
 
-\
 **Battle Ground Baptist**
 
 8:35 - Departure Time
@@ -58,8 +58,6 @@ Our Spring Day Camp is back again this year. We are excited to have even more op
 1110 NW 6th Ave., Battle Ground, WA
 
 **FRONT PARKING LOT**   
-
-
 
 <div className="text-center mt-4 text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl">
   <a href="https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Spring+Break+Camp">
