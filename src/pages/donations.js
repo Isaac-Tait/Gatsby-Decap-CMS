@@ -11,46 +11,45 @@ const Donations = () => {
             <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/support_page/header+photos/Donations.png' alt='donations' className='rounded-2xl shadow-xl mt-2 w-full'/>
 
               <p className="my-4">
-                We are excited about what God has planned for 2022 at Royal Ridges. Will
-                you join us by supporting one or more of the areas below?
+                We are excited about what God has planned for 2022 at Royal Ridges. Will you join us by supporting our mission at Royal Ridges by sending a gift to one of these following areas of need?
               </p>
 
               <p className="my-4">
-                Help plan new activities for Summer of 2022.
+                <span className="font-medium text-lg">Camp Scholarships</span> ~ Send deserving kids to camp by giving a gift to be used for our scholarship program. We are looking for scholarships for kids who are in need of a safe place to stay.
               </p>
 
               <p className="my-4">
-                Help cover general expenses with our current activities General fund.
+                <span className="font-medium text-lg">Building Projects</span> ~ Help Royal Ridges improve our property and activities for our guests' continued enjoyment. 
               </p>
 
               <p className="my-4">
-                On-going maintenance of grounds, vehicles, etc. Staff support Programs
-                Horse and Tack Donations.
+                <span className="font-medium text-lg">Ralph Bovey Memorial Scholarship</span> ~ Give a gift in honor of the late Ralph Bovey, a long-time supporter of Royal Ridges. His family wants to honor his memory by sharing his love of horses and the gospel with deserving kids by sending them to Summer Camp.
               </p>
 
               <p className="my-4">
-                Do you have a beginner safe horse looking for a great program to be a
-                part of? Contact <a href="mailto:chrisy@royalridges.org" className="text-green-200 hover:underline hover:text-indigo-400">chrisy@royalridges.org</a>for more information on a great
-                home for your horse.
+                <span className="font-medium text-lg">General Fund</span> ~ Give a gift that will go directly to support the day-to-day operations of Royal Ridges.
+              </p>
+
+              <h3 className="my-4 font-semibold text-xl">
+                Gift in-kind Donations:
+              </h3>
+
+              <p className="my-4">
+                <span className="font-medium text-lg">Horse Donations</span> ~ Do you have a horse that you think will serve well at Royal Ridges. Then please contact our Program Director, Chrisy, at programs@royalridges.org. 
               </p>
 
               <p className="my-4">
-                We also take tack and horse item donations.
+                <span className="font-medium text-lg">Tack Donations</span> ~ Do you have horse tack and gear that you would like to donate to our programs. Then please contact our Program Director Chrisy at programs@royalridges.org. 
               </p>
 
               <p className="my-4">
-                Please donate to our scholarship fund. Not everyone is able to afford the full cost of attending summer camp.
-                Your contribution will go toward helping another boy/girl have fun at Royal Ridges Retreat. Cost of camp varies between $160-$595. Scholarships can cover
-                partial or full cost of camp.
-              </p>
-
-              <p className="my-4">
-                All donations are tax-deductible and greatly appreciated.
+                <span className="font-medium text-lg">Other Donations</span> ~ Do you want to have an item that you think would be useful to any one of our programs, please email Info@royalridges.org with a description.
               </p>
                 
               <p className="my-4">
                 Or you can donate any amount at <a href="https://www.paypal.me/royalridges" target="_blank" rel="noopener noreferrer" className="text-green-200 hover:underline hover:text-indigo-400">paypal.me/royalridges</a> Make sure to add
-                a note that it is a donation!</p>
+                a note that it is a donation!
+              </p>
               
               <p className="my-4">If you want to send a donation as check
                 then make it payable to Royal Ridges and send it to PO Box 3010 Battle
