@@ -45,11 +45,6 @@ const Donations = () => {
               <p className="my-4">
                 <span className="font-medium text-lg">Other Donations</span> ~ Do you want to have an item that you think would be useful to any one of our programs, please email Info@royalridges.org with a description.
               </p>
-                
-              <p className="my-4">
-                Or you can donate any amount at <a href="https://www.paypal.me/royalridges" target="_blank" rel="noopener noreferrer" className="text-green-200 hover:underline hover:text-indigo-400">paypal.me/royalridges</a> Make sure to add
-                a note that it is a donation!
-              </p>
               
               <p className="my-4">If you want to send a donation as check
                 then make it payable to Royal Ridges and send it to PO Box 3010 Battle
