@@ -36,7 +36,7 @@ const MotherDaughter = () => {
                             This special day is for mothers and daughters who are looking to make
                             some unforgettable memories while building a better relationship with
                             each other. You will create a craft, ride a horse on a trail or in the
-                            arena, enjoy the big swing, spend time in Biblical Fellowship, and
+                            arena, spend time in Biblical Fellowship, and
                             invest in quality time together.
                         </p>
                         <p>For more information please see our <a href='https://royalridges.camp/updates/parent-child-days/' className='text-green-200 hover:text-indigo-400 hover:underline'>updates page</a>.</p> 
