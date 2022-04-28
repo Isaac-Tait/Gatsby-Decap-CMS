@@ -5,7 +5,7 @@ description: Current Summer Camp Availability
 image: .2022-summer-camp-availability.png
 imageAlt: SummerCampAvailability
 ---
-![SummerCampAvailability ](2022-summer-camp-availability.png)
+![SummerCampAvailability ](2022-summer-camp-availability.jpg)
 
 Current Summer Camp Availability 
 
