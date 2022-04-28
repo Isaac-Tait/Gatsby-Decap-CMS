@@ -57,10 +57,10 @@ const SummerStaffTwo = () => {
                     {/* All Staff Quiz */}
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSf3l0Bsv67uskSbCEdXbhilple-K2Duopa_afeH0XIxi01oyQ/viewform?usp=sf_link' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/2'>ALL STAFF QUIZ</a>
                     <p>Please also read over and study this year's camper Bible Curriculum from the link below. It is important that you are familiar enough with the curriculum to be able to teach it to the campers and not just read the paper.</p>
-                    {/* Bible Detective */}
+                    {/* Bible Curriculum */}
                     <a href='https://docs.google.com/document/d/12CwxRjw0YVrUDOFHACI1fE1TlanHeucJ-XwQFeEX0ac/edit?usp=sharing' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/2'>Bible Curriculum 2022</a>
-                    {/* Campfire Bible Curriculum */}
-                    <a href='https://www.royalridges.upcsites.org/f/Campfire_Bible_Curriculum_2021.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/2'>Day Horse Extended Stay Curriculum 2022</a>
+                    {/* Extended Bible Curriculum */}
+                    <a href='https://docs.google.com/document/d/1sXUM8Vr375OF_mLfceHkDDf6Ph1P1R-qVbaBt3rvDeE/edit?usp=sharing' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/2'>Day Horse Extended Stay Curriculum 2022</a>
                     </div>
                 </div>
                 <div className='text-center flex flex-col'>
