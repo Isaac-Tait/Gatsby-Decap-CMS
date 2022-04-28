@@ -26,10 +26,10 @@ const SummerCampPage = () => {
             <div className="grid grid-cols-3 gap-2 h-screen mx-2 overflow-y-scroll">
               {/* Column One */}         
               <div className="flex items-center justify-center">
-                <Link to={'/scholarships'}>
+                <Link to={'/registration'}>
                   <img
-                    alt="scholarships"
-                    src={Scholarship}
+                    alt="registration"
+                    src={Reg}
                     className="w-40 md:w-64 mt-8 mx-auto"
                   />
                 </Link>
@@ -60,10 +60,10 @@ const SummerCampPage = () => {
               <div></div>
               {/* Column Three */} 
               <div className="flex items-center justify-center">
-                <Link to={'/registration'}>
+                <Link to={'/scholarships'}>
                   <img
-                    alt="registration"
-                    src={Reg}
+                    alt="scholarships"
+                    src={Scholarship}
                     className="w-40 md:w-64 mt-8 mx-auto"
                   />
                 </Link>
