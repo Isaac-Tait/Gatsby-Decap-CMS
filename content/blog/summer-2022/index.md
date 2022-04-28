@@ -2,7 +2,7 @@
 title: Summer 2022
 date: 2022-02-27T21:12:23.378Z
 image: ./summer2022.png
-imageAlt: summer 2022
+imageAlt: summer_2022
 ---
 
 ![summer2022](summer2022.png)

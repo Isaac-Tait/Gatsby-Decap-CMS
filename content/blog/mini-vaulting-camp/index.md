@@ -1,13 +1,11 @@
 ---
 title: Mini Vaulting Camp
 date: 2022-04-01T03:28:32.405Z
-description: Later this month we are having a Mini Vaulting Camp. The camp will
-  give a great introduction to the fundamentals of vaulting in a three-hour
-  evening session.
+description: Later this month we are having a Mini Vaulting Camp. The camp will give a great introduction to the fundamentals of vaulting in a three-hour evening session.
 image: ./mini-vaulting-camp-2.0.png
-imageAlt: fish
+imageAlt: mini_vaulting_camp
 ---
-![Vaulting Camp](mini-vaulting-camp-2.0.png "Mini Vaulting Camp")
+![Vaulting Camp](mini-vaulting-camp-2.0.png "mini_vaulting_camp")
 
 ### **When: April 29**
 
