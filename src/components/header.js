@@ -12,7 +12,7 @@ const navigation = [
     { name: 'Support', href: '/support', current: false },
     { name: 'About', href: '/about', current: false },
     { name: 'Contact', href: '/contact', current: false },
-    { name: 'Account', href: '/account', current: false },
+    { name: 'Account', href: 'https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151', current: false },
   ]
   
   function classNames(...classes) {

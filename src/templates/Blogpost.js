@@ -14,8 +14,8 @@ const BlogPostPage = ({ data, pageContext, location }) => {
     <div location={location} className="bg-gradient-to-r from-pink-200 to-indigo-200">
       <Header />
       {/* 👇🏼 Blog post content*/}
-      <div className="grid place-items-center md:h-screen overflow-y-scroll">
-        <h1 className="font-semibold text-3xl uppercase text-gray-700">
+      <div className="max-w-6xl mx-auto md:h-screen overflow-y-scroll">
+        <h1 className="font-semibold text-3xl uppercase text-gray-700 flex flex-row justify-center">
           {post.frontmatter.title}
         </h1>
         <div className="mx-4 text-gray-800">

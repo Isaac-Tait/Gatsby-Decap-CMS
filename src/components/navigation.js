@@ -2,9 +2,6 @@ import React from "react";
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-import {Link} from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
-
 const navigation = [
     { name: 'Programs', href: '/programs', current: false },
     { name: 'Summer Camp', href: '/summer-camp', current: false },
@@ -12,7 +9,7 @@ const navigation = [
     { name: 'Support', href: '/support', current: false },
     { name: 'About', href: '/about', current: false },
     { name: 'Contact', href: '/contact', current: false },
-    { name: 'Account', href: '/account', current: false },
+    { name: 'Account', href: 'https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151', current: false },
   ]
   
   function classNames(...classes) {
