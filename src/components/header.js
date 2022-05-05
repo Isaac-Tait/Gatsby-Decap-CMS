@@ -60,7 +60,7 @@ const Header = () => {
                                                 key={item.name}
                                                 href={item.href}
                                                 className={classNames(
-                                                item.current ? 'bg-gray-900 text-white' : 'text-gray-800 hover:bg-yellow-400 hover:text-white',
+                                                item.current ? 'bg-gray-900 text-white' : 'text-gray-800 bg-yellow-400 opacity-80 hover:opacity-100 hover:bg-green-200 hover:text-white',
                                                 'px-3 py-2 rounded-md text-base font-semibold'
                                                 )}
                                                 aria-current={item.current ? 'page' : undefined}
@@ -75,7 +75,7 @@ const Header = () => {
                                 <div className='flex-2 flex justify-end px-3 py-2 font-medium text-sm'>
                                     <div className='flex'>
                                         <Link to={'/search'}>
-                                            <p className='text-gray-800 hover:bg-yellow-400 hover:text-white px-3 py-2 rounded-md text-base font-semibold'>Search</p>
+                                            <p className='text-gray-800 bg-yellow-400 opacity-80 hover:bg-green-200 hover:text-white hover:opacity-100 px-3 py-2 rounded-md text-base font-semibold'>Search</p>
                                         </Link>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@ const Header = () => {
                                     as="a"
                                     href={item.href}
                                     className={classNames(
-                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-800 hover:bg-yellow-400 hover:text-white',
+                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-800 bg-yellow-400 hover:text-white',
                                         'block px-3 py-2 rounded-md text-base font-medium'
                                     )}
                                     aria-current={item.current ? 'page' : undefined}
