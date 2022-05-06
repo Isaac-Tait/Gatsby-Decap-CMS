@@ -1,7 +1,7 @@
 ---
 title: Saturday Adventure Paintball Camp
 date: 2022-05-06T03:50:33.328Z
-description: Join us for Saturday Adventure Paintball Camp on May 21st
+description: Join us for Saturday Adventure Paintball Camp - May 21st
 image: ./saturdayadvpaintballcamp.jpg
 imageAlt: SaturdayAdventurePaintballCamp
 ---
