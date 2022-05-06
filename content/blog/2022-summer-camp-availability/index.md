@@ -5,9 +5,9 @@ description: Current Summer Camp Availability
 image: 2022-summer-camp-availability-05022022.png
 imageAlt: SummerCampAvailability
 ---
-![SummerCampAvailability](2022-summer-camp-availability-05022022.png "SummerCampAvailability")
+![SummerCampAvailability](2022availabilitysummer.jpg "SummerCampAvailability")
 
-Updated: May 2nd, 2022
+Updated: May 5th, 2022
 
 Current Summer Camp Availability 
 
