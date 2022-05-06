@@ -9,4 +9,4 @@ imageAlt: SaturdayAdventurePaintballCamp
 
 Our first ever Saturday adventure & paintball camp is coming up this month. Campers will spend the first part of the day doing adventure activities, and they will end the day playing paintball. If your kid needs a fun outlet to get their energy out, then have them join us for our last Saturday camp of the season.  [](https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps)
 
-#### **[Register Here](https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps)**
+[Register Here](https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps)
