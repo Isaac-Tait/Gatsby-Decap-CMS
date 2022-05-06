@@ -1,6 +1,6 @@
 ---
 title: "Summer Vaulting Camp: 2022"
-date: 2022-05-05T19:31:23.137Z
+date: 2022-05-06T03:57:47.906Z
 description: "Summer 2022: Vaulting Camp"
 image: ./summervaultingcamp.jpg
 imageAlt: SummerVaultingCamp
