@@ -1,13 +1,13 @@
 ---
 title: Summer 2022 Availability
-date: 2022-05-10T03:15:11.528Z
+date: 2022-05-16T21:25:31.582Z
 description: Current Summer Camp Availability
-image: ./summeravailmay9.jpg
+image: ./campavailabilitymay16.jpg
 imageAlt: SummerCampAvailability
 ---
-![SummerCampAvailability](summeravailmay9.jpg "SummerCampAvailability")
+![SummerCampAvailability](campavailabilitymay16.jpg "SummerCampAvailability")
 
-Updated: May 9th, 2022
+Updated: May 16th, 2022
 
 Current Summer Camp Availability 
 
