@@ -89,6 +89,17 @@ const DayHorseCamp = () => {
                             rel="noopener noreferrer"
                             className='text-yellow-400 py-10 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Day Horse Camp</a>
+                        {/*vaulting Camp */}
+                        <div>
+                            <h1 className='text-center text-3xl font-medium text-green-200'>Vaulting Camp</h1>
+                            <p>This special week-long Vaulting Day Camp program will introduce your child to the basics of Vaulting.</p>
+                            <p>Vaulting is essentially a gymnastic routine performed on horseback while the horse is moving. The horse is controlled by a staff member and your vaulter will learn basic moves under the supervision and support of our vaulting instructor.</p>
+                            <p>Vaulting is a wonderful activity for the brave horse-loving kiddo as well as the more cautious first-time horse lover.</p>
+                            <div className='text-center my-4'>
+                                <p><span className='text-green-200 font-semibold'>Week #3</span> - July 4-8</p>
+                                <p><span className='text-green-200 font-semibold'>Week #5</span> - July 18-22</p>
+                            </div>
+                        </div>
                     </div>    
                 </div>
             <Footer />
