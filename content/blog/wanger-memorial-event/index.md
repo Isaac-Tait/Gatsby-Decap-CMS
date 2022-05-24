@@ -1,6 +1,6 @@
 ---
 title: Wanger Legacy Event
-date: 2022-05-09T20:03:51.702Z
+date: 2022-05-24T18:50:01.327Z
 description: Ron & Sue Wanger Legacy Event
 image: ./wangerlegacyevent.jpg
 imageAlt: Wanger Event
