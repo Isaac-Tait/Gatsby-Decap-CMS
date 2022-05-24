@@ -7,7 +7,7 @@ imageAlt: SummerCampAvailability
 ---
 ![SummerCampAvailability](summeravailabiltymay23.jpg "SummerCampAvailability")
 
-Updated: May 16th, 2022.
+Updated: May 23rd, 2022.
 
 Current Summer Camp Availability 
 
