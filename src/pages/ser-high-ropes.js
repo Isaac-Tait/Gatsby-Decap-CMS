@@ -18,7 +18,7 @@ const SerHighRopes = () => {
                 </div>
                 <p>If you are serving at Adventure Camp, please also review the Outdoor Education curriculum below so you are familiar with it.</p>
                 <div className='my-10'>
-                    <a href='https://www.royalridges.upcsites.org/f/OE_Curriculum-_Google_Docs.pdf' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/4'>Outdoor Education</a>
+                    <a href='https://docs.google.com/document/d/1KBduf6tGXFc_mARUCo6c108hJD5etNPhf4yKOd6IpbA/edit?usp=sharing' target="_blank" rel="noopener noreferrer" className='text-green-200 hover:underline hover:text-indigo-400 ml-2 my-2 w-1/4'>Outdoor Education</a>
                 </div>
                 <div className='text-center flex flex-col'>
                     <Link 

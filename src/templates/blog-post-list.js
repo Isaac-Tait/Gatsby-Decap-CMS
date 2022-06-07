@@ -31,7 +31,7 @@ const BlogPosts = ({ data, pageContext }) => {
                     </Link>
                   </div>
                   
-                  <p className="mb-4 italic text-gray-700">{node.excerpt}</p>
+                  <p className="mb-4 italic text-gray-700 lg:font-bold lg:text-lg">{node.excerpt}</p>
                   <hr />
                 </article>
               </div>

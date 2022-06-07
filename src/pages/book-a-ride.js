@@ -1,4 +1,5 @@
 import React from "react";
+import { StaticImage  } from "gatsby-plugin-image"
 
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -9,9 +10,15 @@ const BookARide = () => {
         <Header />
           <div>
             <div className="max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen">
-              <p className="flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl">
-                Book-A-Ride
-              </p>
+                <div className='flex justify-center content-center pt-4'>
+                  <StaticImage 
+                    src='../images/bookARide.jpeg' 
+                    alt="book a ride" 
+                    placeholder="blurred"
+                    objectFit="scale-down"
+                    width={600}
+                  />
+                </div>
               <p className="mt-2">
                 We offer trail rides, for guests 9 years and older (no age exceptions
                 allowed).
@@ -52,7 +59,7 @@ const BookARide = () => {
                 </a>{' '}
                 us
               </p>
-              <p>You can register 
+              <p>You can register{' '}
               <a 
                 href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Book-A-Ride' 
                 className='text-green-200 hover:text-indigo-400 hover:underline'

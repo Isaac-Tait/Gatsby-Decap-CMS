@@ -140,7 +140,7 @@ const HomePage = () => {
             </div>            
         </div>
         {/* Third window */}
-        <div className="flex flex-col h-screen justify-between heropattern-rain-yellow-200">
+        <div className="flex flex-col h-screen justify-between heropattern-rain-gray-100">
           <div className="flex justify-center h-2/3 mb-auto mt-4 md:mt-28 px-1">
             <Blog />  {/* Blog post list */}
           </div>

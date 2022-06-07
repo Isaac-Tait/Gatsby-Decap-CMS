@@ -34,6 +34,7 @@ const About = () => {
                 />
               </Link>
           </div>
+          {/* Trigger Netlify build */}
           <div className="flex items-center justify-center">
               <a 
                 href='https://hardcore-khorana-19151f.netlify.app'

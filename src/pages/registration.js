@@ -40,6 +40,12 @@ const SummerReg = () => {
                             alt='summer camp descriptions'
                             className='w-1/2 flex mx-auto rounded-xl my-6'
                         />
+                        <h3 className='font-cursive text-center text-xl mb-4'>Check Availability{' '}<a 
+                            href='https://royalridges.org/updates/2022-summer-camp-availability/'
+                            className='text-green-200 hover:text-indigo-400 hover:underline'
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >Here</a>!</h3>
                         <p>All of our Summer Day Camps include lots of fun games, team building activities, Bible Studies, singing camp songs, and visits to the Camp Store.</p>
                         <p>Campers will come home dirty and tuckered out from their day at camp.</p>
                         <p>The Bible themes and main activities repeat each week within each camp.</p> 

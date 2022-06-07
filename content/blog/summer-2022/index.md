@@ -1,8 +1,9 @@
 ---
 title: Summer 2022
-date: 2022-02-27T21:12:23.378Z
+date: 2022-05-24T18:50:14.485Z
+description: Summer Camp 2022
 image: ./summer2022.png
-imageAlt: summer 2022
+imageAlt: summer_2022
 ---
 
 ![summer2022](summer2022.png)

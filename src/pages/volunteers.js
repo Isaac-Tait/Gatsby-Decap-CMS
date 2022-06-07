@@ -26,8 +26,6 @@ const Volunteers = () => {
                 <p className="flex flex-wrap text-green-200 font-bold text-xl justify-center md:text-xl">
                   Scheduled Volunteer Workdays:
                 </p>
-                <p>March 13</p>
-                <p>April 17</p>
                 <p>May 29</p>
                 <p>June 12</p>
                   <div className="flex justify-center">

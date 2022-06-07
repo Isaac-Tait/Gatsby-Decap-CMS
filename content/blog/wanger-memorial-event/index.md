@@ -1,16 +1,20 @@
 ---
-title: Wanger Memorial Event
-date: 2022-04-01T04:30:19.644Z
-description: Ron & Sue Wanger Memorial Event
-image: ./ron-sue-wanger-event.png
-imageAlt: fish
+title: Wanger Legacy Event
+date: 2022-05-24T18:50:01.327Z
+description: Ron & Sue Wanger Legacy Event
+image: ./wangerlegacyevent.jpg
+imageAlt: Wanger Event
 ---
-![Wanger Event](ron-sue-wanger-event.png "Ron & Sue Memorial Event")
+![Wanger Event](wangerlegacyevent.jpg "Ron & Sue Memorial Event: Royal Ridges")
 
-#### When: Sunday, May 29
+#### **When: Sunday, May 29** 
 
-#### Where: Royal Ridges
+#### **From 1-4 PM**
 
-   We cannot express our gratitude enough to Ron and Sue Wanger, who spent much of their energy helping create the place that Royal Ridges is today. Over the last two years, we lost both of them and wanted to honor their service and commitment to Royal Ridges, so please join us for a memorial event for these dear servants who ran Royal Ridges for over 24 years. Please fill out the form to receive more information as the event draws nearer.
+#### **Where: Royal Ridges**
 
-### [Event Email List](https://forms.gle/6LG7exfZM5iNPwyr5)
+You are invited to join us for a celebration of the life of Ron & Sue Wanger. Remembering the impact they had on Royal Ridges and all the lives they touched during their two decades of service. Please RSVP by emailing RSVP@royalridges.org or filling out the form in the link below.
+
+If you have photos you would like to send of your time at Royal Ridges with Ron and Sue, please email them to wangerlegacy@royalridges.org. Any submissions after May 23 may not be included in the legacy slideshow.
+
+   [](https://docs.google.com/forms/d/e/1FAIpQLSff8IoERiTwl_g2095Q06O6M24MhKvRjqLhus2t25TU5gBgIg/viewform?usp=sf_link)[RSVP HERE](https://docs.google.com/forms/d/e/1FAIpQLSff8IoERiTwl_g2095Q06O6M24MhKvRjqLhus2t25TU5gBgIg/viewform?usp=sf_link)

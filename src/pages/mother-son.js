@@ -32,7 +32,7 @@ const MotherSon = () => {
                         {/*Column Two (Right)*/}
                         <div className='mt-2'>
                             <p>This day event is for mothers and their sons, 8 years and older, looking to share a day of adventure and have an opportunity to build a better relationship with each other.</p>
-                            <p>For more information please see our <a href='https://royalridges.camp/updates/parent-child-days/' className='text-green-200 hover:text-indigo-400 hover:underline'>updates page</a>.</p>
+                            <p>For more information please see our <a href='https://royalridges.org/updates/parent-child-days/' className='text-green-200 hover:text-indigo-400 hover:underline'>updates page</a>.</p>
                         </div>
                     </div>
                 </div>

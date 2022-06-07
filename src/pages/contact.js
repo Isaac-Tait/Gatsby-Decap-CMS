@@ -16,7 +16,7 @@ const Comments = () => {
                 
                 <p className='mt-4'>General questions email:</p><a href='mailto:info@royalridges.org' className='text-green-200 hover:underline'>info@royalridges.org</a>
                 <p>Program questions email:</p><a href='mailto:programs@royalridges.org' className='text-green-200 hover:underline'>programs@royalridges.org</a>
-                <p>Registration questions email:</p><a href='mailto:registration@royalridges.org' className='text-green-200 hover:underline'>registration@royalridges.org</a>
+                <p>Registration questions email:</p><a href='mailto:registrations@royalridges.org' className='text-green-200 hover:underline'>registrations@royalridges.org</a>
                 <p>Office Phone: 360-686-3737</p>
                 <p>Physical Address: 20115 NE 354th St Yacolt, WA 98675</p>
                 <p>Mailing Address: P.O. Box 3010 Battle Ground, WA 98604</p>

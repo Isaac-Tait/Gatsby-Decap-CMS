@@ -26,7 +26,7 @@ const SchoolBreak = () => {
                             alt='summer camp descriptions'
                             className='rounded-xl mt-1'
                         />
-                        <p>Oops migrating sites is not without its little hiccups... Stay tuned this page will be live asap. (3/10/22)</p>
+                        <p>Looking for a great way for your kids to spend their school breaks. Then sign them up for one of our amazing day camp options and get them outside, discovering new skills, connecting with friends, and making new ones, while growing in their confidence. Our school break camps are aligned with the Battle Ground School District calender. Click on the specific camps for more details.</p>
                     </div>    
                 </div>
             <Footer />

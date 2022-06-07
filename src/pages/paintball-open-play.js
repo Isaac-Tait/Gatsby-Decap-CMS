@@ -15,7 +15,7 @@ const PaintBallOpenPlay = () => {
                         <p>February 12</p>
                         <p>March 12</p>
                         <p>April 9</p>
-                        <p>May 14</p>
+                        <p>May 28</p>
                         <p>June 11</p>
                     </div>
                     <div className="flex justify-center">
