@@ -2,6 +2,7 @@ import React from "react";
 
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { DocumentDuplicateIcon } from "@heroicons/react/outline";
 
 const Donations = () => {
     return (
@@ -14,6 +15,13 @@ const Donations = () => {
                 We are excited about what God has planned for 2022 at Royal Ridges. Will you join us by supporting our mission at Royal Ridges by sending a gift to one of these following areas of need?
               </p>
 
+              <h3 className='font-cursive text-center text-xl mb-4'>Donate{' '}<a 
+                            href='https://www.ultracamp.com/donations/donationintention.aspx?idCamp=1145&campCode=151'
+                            className='text-green-200 hover:text-indigo-400 hover:underline'
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >Today</a>&nbsp;!</h3>
+              
               <p className="my-4">
                 <span className="font-medium text-lg">Camp Scholarships</span> ~ Send deserving kids to camp by giving a gift to be used for our scholarship program. We are looking for scholarships for kids who are in need of a safe place to stay.
               </p>
@@ -51,6 +59,13 @@ const Donations = () => {
                 Ground, WA 98604 All donations are tax-deductible and greatly
                 appreciated.
               </p>
+
+              <h3 className='font-cursive text-center text-xl mb-4'>Donate{' '}<a 
+                            href='https://www.ultracamp.com/donations/donationintention.aspx?idCamp=1145&campCode=151'
+                            className='text-green-200 hover:text-indigo-400 hover:underline'
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >Today</a>&nbsp;!</h3>
               
               <div className='grid grid-cols-2 '>
                 <div className="text-center">
