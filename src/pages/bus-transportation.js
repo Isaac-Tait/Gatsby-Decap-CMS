@@ -48,29 +48,115 @@ const DayCamp = () => {
                             className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Bus Service</a>
                         <div className='my-4'>
-                            <h3 className="text-green-200 font-semibold text-xl">East One (1) Bus Route</h3>
-                                <p className='italic ml-2'>7:30am/4:50pm NW GOSPEL CHURCH/Camas - 1420 NE 3rd Ave, Camas</p>
-                                <p className='italic ml-2'>8:10am/4:10pm NW GOSPEL CHURCH - 305 NE 192nd Ave, Vancouver</p>
-                            <h3 className="text-green-200 font-semibold text-xl">East Two (2) Bus Route</h3>
-                                <p className='italic ml-2'>8:05am/4:30pm EAST PARK CHURCH - 15815 NE 18th St, Vancouver</p>
+                            <h3 className="text-green-200 font-semibold text-xl">East One Bus Route</h3>
+                            <h4 className='font-semibold'>NW Gospel Church - Camas</h4>
+                                <p className='ml-2'>7:50am - Departure Time</p>
+                                <p className='ml-2'>4:20pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/NPJ6W8WAqDRRATzj7' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >1420 NE 3rd Avenue Camas, WA</a>
+                            <h4 className='font-semibold'>NW Gospel Church - East Vancouver</h4>
+                                <p className='ml-2'>8:10am - Departure Time</p>
+                                <p className='ml-2'>4:00pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/hpvKZQcPRKAxzEKo9' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >305 NE 192nd Avenue Vancouver, WA</a>
+                            <h3 className="text-green-200 font-semibold text-xl">East Two Bus Route</h3>
+                            <h4 className='font-semibold'>East Park Church</h4>
+                                <p className='ml-2'>8:05am - Departure Time</p>
+                                <p className='ml-2'>4:15pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/qKhgGZcQhy5oNzPV8' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >15815 NE 18th Street Vancouver, WA</a>
                                 <p className='italic ml-2 text-xs'>(NE Side of parking lot)</p>
-                                <p className='italic ml-2'>8:15am/4:20pm CHURCH OF THE NAZARENE - 16807 NE 4th Plain Blvd, Vancouver </p>
-                            <h3 className="text-green-200 font-semibold text-xl">East Three (3) Bus Route</h3>
-                                <p className='italic ml-2'>8:30am/4:00pm BRUSH PRAIRIE BAPTIST CHURCH - 11814 NE 117th Ave, Vancouver</p>
-                                <p className='italic ml-2 text-xs'>(West Parking Lot off of 119th St.)</p>
-                                <p className='italic ml-2'>8:40am/3:50pm BATTLE GROUND BAPTIST CHURCH - 1110 NW 6th Ave, Battle Ground</p>
+                            <h4 className='font-semibold'>Fourth Plains Church of the Nazarene</h4>
+                                <p className='ml-2'>8:20am - Departure Time</p>
+                                <p className='ml-2'>4:00pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/YKX8bJS4H76KNDXp6' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >16807 NE Fourth Plain Boulevard Vancouver, WA</a>
+                            <h3 className="text-green-200 font-semibold text-xl">East Three Bus Route</h3>
+                            <h4 className='font-semibold'>Brush Prairie Baptist Church</h4>
+                                <p className='ml-2'>8:30am - Departure Time</p>
+                                <p className='ml-2'>4:00pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/Lewa8HyenUBhNw2q9' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >11814 NE 117th Avenue Vancouver, WA</a>
+                            <h4 className='font-semibold'>Battle Ground Baptist Church</h4>
+                                <p className='ml-2'>8:30am - Departure Time</p>
+                                <p className='ml-2'>3:50pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/cTXDh6qwmtNUxHHQ7' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >1110 NW 6th Avenue Battle Ground, WA</a>
                                 <p className='italic ml-2 text-xs'>(Front parking lot)</p>
-                            <h3 className="text-green-200 font-semibold text-xl">West One (1) Bus Route</h3>
-                                <p className='italic ml-2'>7:45am/4:30pm HUDSON BAY HIGH SCHOOL - 1206 E Reserve St, Vancouver</p>
+                            <h3 className="text-green-200 font-semibold text-xl mt-4">West One Bus Route</h3>
+                            <h4 className='font-semibold'>Hudson Bay High School</h4>
+                                <p className='ml-2'>7:45am - Departure Time</p>
+                                <p className='ml-2'>4:25pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/mo8xkcVFBjK2j2k16' target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >1206 E Reserve Street Vancouver, WA</a>
                                 <p className='italic ml-2 text-xs'>(West side under Oak tree by tennis courts)</p>
-                                <p className='italic ml-2'>8:00am/4:15pm CITY HARVEST CHURCH - 8100 NW 9th Ave., Vancouver</p>
-                            <h3 className="text-green-200 font-semibold text-xl">West Two (2) Bus Route</h3>
-                                <p className='italic ml-2'>8:15am/4:00pm ALBERTSONS at SALMON CREEK - 14300 NE 20th Ave., Vancouver</p>
+                                <h4 className='font-semibold'>City Harvest Church</h4>
+                                <p className='ml-2'>8:05am - Departure Time</p>
+                                <p className='ml-2'>4:00pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/WUrB2xMB1T1FbZFT7' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >8100 NW 9th Avenue Vancouver, WA</a>
+                            <h3 className="text-green-200 font-semibold text-xl mt-4">West Two Bus Route</h3>
+                            <h4 className='font-semibold'>Albertsons at Salmon Creek</h4>
+                                <p className='ml-2'>8:15am - Departure Time</p>
+                                <p className='ml-2'>3:50pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/uwcH583GVrLgoi61A' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >14300 NE 20th Avenue Vancouver, WA</a>
                                 <p className='italic ml-2 text-xs'>(North side by Dumpster)</p>
-                            <h3 className="text-green-200 font-semibold text-xl">West Three (3) Bus Route</h3>
-                                <p className='italic ml-2'>8:00am/4:20pm LA CENTER CHURCH - 111 E 5th St, LaCenter</p>
+                            <h3 className="text-green-200 font-semibold text-xl mt-4">West Three Bus Route</h3>
+                            <h4 className='font-semibold'>La Center Church</h4>
+                                <p className='ml-2'>7:50am - Departure Time</p>
+                                <p className='ml-2'>4:20pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/B4EQXNsazyMuFy4e9' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >111 E 5th Street LaCenter, WA</a>
                                 <p className='italic ml-2 text-xs'>(South parking lot - bus on the street)</p>
-                                <p className='italic ml-2'>8:20am/4:00pm RIDGEFIELD CHURCH OF THE NAZARENE - 747 Pioneer St, Ridgefield</p>
+                                <h4 className='font-semibold'>Ridgefield Church of the Nazarene</h4>
+                                <p className='ml-2'>8:10am - Departure Time</p>
+                                <p className='ml-2'>4:00pm - Drop Off Time (Final Stop)</p>
+                                <a 
+                                    href='https://goo.gl/maps/HMZbNaLseeihz8ZY9' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                >747 Pioneer Street Ridgefield, WA</a>
                         </div>
                         <hr />
                         <div className='my-4'>
@@ -81,18 +167,18 @@ const DayCamp = () => {
                             <p className='italic ml-2'>a) Arriving at the stop 10 minutes before the posted return time.</p>
                             <p className='italic ml-2'>b) Moving promptly from your car to the bus upon arrival.</p>
                             <p className='italic ml-2'>c) Encouraging your child to wear the bus wrist band at all times.</p>
+                            <p className='italic ml-2'>d) Knowing the color and number of your child's wrist band.</p>
+                            <p className='italic ml-2'>e) Requesting your children in numerical order of the wrist band.</p>
                             <p>Parents at the NEXT stop will appreciate your help in avoiding delay of bus departure.</p>
-                            <p>ALL BUSES WILL STAY AT THEIR LAST STOP UNTIL THE LAST KIDDO IS PICKED UP!</p>
-                            <p>Please call the office at 360.686.3737 to determine the last stop.   </p>
                         </div>
-                        <a 
-                            href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center py-10'
-                        >Register for Bus Service</a>
-                    </div>    
-                </div>
+                            <a 
+                                href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center py-10'
+                            >Register for Bus Service</a>
+                        </div>    
+                    </div>
             <Footer />
         </div>
     )
