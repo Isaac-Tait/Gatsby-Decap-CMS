@@ -89,7 +89,7 @@ const DayCamp = () => {
                                 >16807 NE Fourth Plain Boulevard Vancouver, WA</a>
                             <h3 className="text-green-200 font-semibold text-xl">East Three Bus Route</h3>
                             <h4 className='font-semibold'>Brush Prairie Baptist Church</h4>
-                                <p className='ml-2'>8:30am - Departure Time</p>
+                                <p className='ml-2'>8:15am - Departure Time</p>
                                 <p className='ml-2'>4:00pm - Drop Off Time (Final Stop)</p>
                                 <a 
                                     href='https://goo.gl/maps/Lewa8HyenUBhNw2q9' 
