@@ -51,7 +51,7 @@ const DayCamp = () => {
                             <h3 className="text-green-200 font-semibold text-xl">East One Bus Route</h3>
                             <h4 className='font-semibold'>NW Gospel Church - Camas</h4>
                                 <p className='ml-2'>7:50am - Departure Time</p>
-                                <p className='ml-2'>4:20pm - Drop Off Time (Final Stop)</p>
+                                <p className='ml-2'>4:20pm - Drop Off Time</p>
                                 <a 
                                     href='https://goo.gl/maps/NPJ6W8WAqDRRATzj7' 
                                     target="_blank" 
@@ -67,10 +67,11 @@ const DayCamp = () => {
                                     rel="noopener noreferrer" 
                                     className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
                                 >305 NE 192nd Avenue Vancouver, WA</a>
-                            <h3 className="text-green-200 font-semibold text-xl">East Two Bus Route</h3>
+                            <hr />
+                            <h3 className="text-green-200 font-semibold text-xl mt-6">East Two Bus Route</h3>
                             <h4 className='font-semibold'>East Park Church</h4>
                                 <p className='ml-2'>8:05am - Departure Time</p>
-                                <p className='ml-2'>4:15pm - Drop Off Time (Final Stop)</p>
+                                <p className='ml-2'>4:15pm - Drop Off Time</p>
                                 <a 
                                     href='https://goo.gl/maps/qKhgGZcQhy5oNzPV8' 
                                     target="_blank" 
@@ -87,10 +88,11 @@ const DayCamp = () => {
                                     rel="noopener noreferrer" 
                                     className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
                                 >16807 NE Fourth Plain Boulevard Vancouver, WA</a>
-                            <h3 className="text-green-200 font-semibold text-xl">East Three Bus Route</h3>
+                            <hr />
+                            <h3 className="text-green-200 font-semibold text-xl mt-6">East Three Bus Route</h3>
                             <h4 className='font-semibold'>Brush Prairie Baptist Church</h4>
                                 <p className='ml-2'>8:15am - Departure Time</p>
-                                <p className='ml-2'>4:00pm - Drop Off Time (Final Stop)</p>
+                                <p className='ml-2'>4:00pm - Drop Off Time</p>
                                 <a 
                                     href='https://goo.gl/maps/Lewa8HyenUBhNw2q9' 
                                     target="_blank" 
@@ -106,11 +108,12 @@ const DayCamp = () => {
                                     rel="noopener noreferrer" 
                                     className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
                                 >1110 NW 6th Avenue Battle Ground, WA</a>
-                                <p className='italic ml-2 text-xs'>(Front parking lot)</p>
-                            <h3 className="text-green-200 font-semibold text-xl mt-4">West One Bus Route</h3>
+                                <p className='italic ml-2 text-xs mb-2'>(Front parking lot)</p>
+                            <hr />
+                            <h3 className="text-green-200 font-semibold text-xl mt-6">West One Bus Route</h3>
                             <h4 className='font-semibold'>Hudson Bay High School</h4>
                                 <p className='ml-2'>7:45am - Departure Time</p>
-                                <p className='ml-2'>4:25pm - Drop Off Time (Final Stop)</p>
+                                <p className='ml-2'>4:25pm - Drop Off Time</p>
                                 <a 
                                     href='https://goo.gl/maps/mo8xkcVFBjK2j2k16' target="_blank" 
                                     rel="noopener noreferrer" 
@@ -124,23 +127,25 @@ const DayCamp = () => {
                                     href='https://goo.gl/maps/WUrB2xMB1T1FbZFT7' 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
-                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
+                                    className='ml-2 hover:underline text-green-200 hover:text-indigo-500 mb-2'
                                 >8100 NW 9th Avenue Vancouver, WA</a>
-                            <h3 className="text-green-200 font-semibold text-xl mt-4">West Two Bus Route</h3>
+                            <hr />
+                            <h3 className="text-green-200 font-semibold text-xl mt-6">West Two Bus Route</h3>
                             <h4 className='font-semibold'>Albertsons at Salmon Creek</h4>
                                 <p className='ml-2'>8:15am - Departure Time</p>
-                                <p className='ml-2'>3:50pm - Drop Off Time (Final Stop)</p>
+                                <p className='ml-2'>3:50pm - Drop Off Time</p>
                                 <a 
                                     href='https://goo.gl/maps/uwcH583GVrLgoi61A' 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
                                 >14300 NE 20th Avenue Vancouver, WA</a>
-                                <p className='italic ml-2 text-xs'>(North side by Dumpster)</p>
-                            <h3 className="text-green-200 font-semibold text-xl mt-4">West Three Bus Route</h3>
+                                <p className='italic ml-2 text-xs mb-2'>(North side by Dumpster)</p>
+                            <hr />
+                            <h3 className="text-green-200 font-semibold text-xl mt-6">West Three Bus Route</h3>
                             <h4 className='font-semibold'>La Center Church</h4>
                                 <p className='ml-2'>7:50am - Departure Time</p>
-                                <p className='ml-2'>4:20pm - Drop Off Time (Final Stop)</p>
+                                <p className='ml-2'>4:20pm - Drop Off Time</p>
                                 <a 
                                     href='https://goo.gl/maps/B4EQXNsazyMuFy4e9' 
                                     target="_blank" 
