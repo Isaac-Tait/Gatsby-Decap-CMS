@@ -5,11 +5,13 @@ description: Summer Bus Schedule
 image: ./summerbusservice.jpg
 imageAlt: Summerbiusservice
 ---
+
+
 ![Bus Service](summerbusservice.jpg "Bus Service")
 
 ### <https://royalridges.org/bus-transportation>
 
-### East One Bus Route
+> ### East One Bus Route
 
 #### NW Gospel Church - Camas
 
@@ -27,7 +29,7 @@ imageAlt: Summerbiusservice
 
 [305 NE 192nd Avenue Vancouver, WA](https://goo.gl/maps/hpvKZQcPRKAxzEKo9)
 
-### East Two Bus Route
+> ### East Two Bus Route
 
 #### East Park Church
 
@@ -47,7 +49,7 @@ imageAlt: Summerbiusservice
 
 [16807 NE Fourth Plain Boulevard Vancouver, WA](https://goo.gl/maps/YKX8bJS4H76KNDXp6)
 
-### East Three Bus Route
+> ### East Three Bus Route
 
 #### Brush Prairie Baptist Church
 
@@ -67,7 +69,7 @@ imageAlt: Summerbiusservice
 
 (Front parking lot)
 
-### West One Bus Route
+> ### West One Bus Route
 
 #### Hudson Bay High School
 
@@ -87,7 +89,7 @@ imageAlt: Summerbiusservice
 
 [8100 NW 9th Avenue Vancouver, WA](https://goo.gl/maps/WUrB2xMB1T1FbZFT7)
 
-### West Two Bus Route
+> ### West Two Bus Route
 
 #### Albertsons at Salmon Creek
 
@@ -99,7 +101,7 @@ imageAlt: Summerbiusservice
 
 (North side by Dumpster)
 
-### West Three Bus Route
+> ### West Three Bus Route
 
 #### La Center Church
 
@@ -119,7 +121,7 @@ imageAlt: Summerbiusservice
 
 [747 Pioneer Street Ridgefield, WA](https://goo.gl/maps/HMZbNaLseeihz8ZY9)
 
-Please arrive at least 10 minutes prior to the times posted. Please understand that bus times are subject to change
+> Please arrive at least 10 minutes prior to the times posted. Please understand that bus times are subject to change
 
 NOTICE All times are DEPARTURE times.
 
