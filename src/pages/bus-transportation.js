@@ -133,7 +133,7 @@ const DayCamp = () => {
                             <h3 className="text-green-200 font-semibold text-xl mt-6">West Two Bus Route</h3>
                             <h4 className='font-semibold'>Albertsons at Salmon Creek</h4>
                                 <p className='ml-2'>8:15am - Departure Time</p>
-                                <p className='ml-2'>3:50pm - Drop Off Time</p>
+                                <p className='ml-2'>4:05pm - Drop Off Time</p>
                                 <a 
                                     href='https://goo.gl/maps/uwcH583GVrLgoi61A' 
                                     target="_blank" 
