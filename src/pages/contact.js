@@ -22,7 +22,7 @@ const Comments = () => {
                 <p>Mailing Address: P.O. Box 3010 Battle Ground, WA 98604</p>
                 <p className='mt-4'>Or you can use the form below...</p>
                 <form 
-                    data-netlify-honeypot="bot-field"
+                    netlify-honeypot="bot-field"
                     name="contact" 
                     method="POST" 
                     data-netlify="true" 
@@ -31,6 +31,11 @@ const Comments = () => {
                 >
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="my-4 flex flex-col">
+                        <p class="hidden">
+                            <label>
+                                Don&39s;t fill this out if you&39s;re human: <input name="bot-field" />
+                            </label>
+                        </p>
                         <label htmlFor="name">Name</label>
                         <input
                                 className="border-2 border-green-200 caret-yellow-400 w-1/4" 
