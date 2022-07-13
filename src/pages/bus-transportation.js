@@ -111,15 +111,15 @@ const DayCamp = () => {
                                 <p className='italic ml-2 text-xs mb-2'>(Front parking lot)</p>
                             <hr />
                             <h3 className="text-green-200 font-semibold text-xl mt-6">West One Bus Route</h3>
-                            <h4 className='font-semibold'>Hudson Bay High School</h4>
+                            <h4 className='font-semibold'>Vancouver Vineyard Church</h4>
                                 <p className='ml-2'>7:45am - Departure Time</p>
                                 <p className='ml-2'>4:25pm - Drop Off Time&nbsp;<span className='font-semibold text-red-400'>(Final Stop)</span></p>
                                 <a 
-                                    href='https://goo.gl/maps/mo8xkcVFBjK2j2k16' target="_blank" 
+                                    href='https://goo.gl/maps/MT7CptBMtWGPALaj6' target="_blank" 
                                     rel="noopener noreferrer" 
                                     className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
-                                >1206 E Reserve Street Vancouver, WA</a>
-                                <p className='italic ml-2 text-xs'>(West side under Oak tree by tennis courts)</p>
+                                >2007 East 12th Street Vancouver, WA</a>
+                                <p className='italic ml-2 text-xs'>(South parking lot next to The Portal)</p>
                                 <h4 className='font-semibold'>City Harvest Church</h4>
                                 <p className='ml-2'>8:05am - Departure Time</p>
                                 <p className='ml-2'>4:00pm - Drop Off Time</p>
