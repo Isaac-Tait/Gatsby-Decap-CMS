@@ -31,7 +31,7 @@ const BlogPostList = () => {
             <p className="uppercase text-xl text-yellow-400 font-bold underline hover:text-red-400">
               {post.title}
             </p>
-            <div className="w-1/4 ml-2">
+            <div className="w-1/4 h-1/4 ml-2">
               <GatsbyImage image={post.image} alt={post.alt} />
             </div>
           </Link>
