@@ -32,7 +32,7 @@ const RidingLessons = () => {
                 </div>
 
                 <p className="font-semibold">Notes:</p>
-                <ul className="prose list-disc pb-12">
+                <ul className="prose list-disc pb-4">
                   <li>Horsemanship Lessons are once a week.</li>
                   <li>Classes are 2 hours long and include 45 minutes on a horse. </li>
                   <li>Due to our Summer Day Camp programs, Horsemanship Lessons are only offered during the school year. </li>
@@ -46,6 +46,9 @@ const RidingLessons = () => {
                   <li>Riders must wear closed-toed sturdy shoes, preferably boots, and long pants. Please also wear layers and gloves in the winter as it can be colder at the barn than it is in town. Helmets are provided, or you can wear your own ASTM-certified riding helmet.</li>
                   <li>Participants can withdraw from the program anytime during the session, but Royal Ridges requests a two-week notice.</li>
                 </ul>
+
+                <p><span className="font-semibold">Payments: </span>Payment can be made monthly or paid in full. (35 weeks)</p>
+                <p className="pb-12">Scholarships may be available upon request for those with financial needs.</p>
               </div>
             </div>
           <Footer />
