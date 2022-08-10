@@ -37,7 +37,7 @@ const GiddyUp = () => {
                     </div>
 
                     <p className="uppercase font-semibold">Notes:</p>
-                    <ul className="list-disc">
+                    <ul className="prose list-disc">
                         <li>* Please dress your camper in weather-appropriate
                         clothing (layers, gloves, long pants, sturdy shoes, rain jackets,
                         etc.)</li>
