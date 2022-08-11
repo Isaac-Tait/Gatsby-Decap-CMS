@@ -4,3 +4,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  list-disc {
+    @apply text-gray-900;
+  }
+}

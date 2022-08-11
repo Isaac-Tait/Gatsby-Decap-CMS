@@ -23,15 +23,17 @@ const Vaulting = () => {
                     </div>
                     
                     <p className="font-semibold">Notes:</p>
-                    <ul className="prose list-disc pb-4">
-                        <li>Recreational Vaulting Lessons are once a week.</li>
-                        <li>Classes are 2 hours long and include a workout, practice on the barrel, and several rounds on the horse.</li>
-                        <li>Due to our Summer Day Camp programs, Recreational Vaulting Lessons are only offered during the school year.</li>
-                        <li>Winter Break and Spring Break aligned with the Battle Ground Public School schedule will also be off.</li>
-                        <li>Make-ups or refunds are not available for students who miss a lesson since the instructor and horse still had to be available for the lesson whether you were there or not. If Royal Ridges cancels a lesson, a credit for the next term will be given.</li>
-                        <li>Vaulters should wear soft tennis shoes or purchase vaulting shoes for their time on the horse (see the instructor for tips for purchasing). Boots are not allowed on the horse. Vaulters should have long pants that are easy to move in (yoga pants, sweatpants, or leggings are fine). Vaulters do not wear helmets as the movements required would make a helmet unsafe.</li>
-                        <li>Participants can withdraw from the program anytime during the session, but Royal Ridges requests a two-week notice.</li>
-                    </ul>
+                    <div className="p-5">
+                        <ul className="prose list-disc pb-4">
+                            <li>Recreational Vaulting Lessons are once a week.</li>
+                            <li>Classes are 2 hours long and include a workout, practice on the barrel, and several rounds on the horse.</li>
+                            <li>Due to our Summer Day Camp programs, Recreational Vaulting Lessons are only offered during the school year.</li>
+                            <li>Winter Break and Spring Break aligned with the Battle Ground Public School schedule will also be off.</li>
+                            <li>Make-ups or refunds are not available for students who miss a lesson since the instructor and horse still had to be available for the lesson whether you were there or not. If Royal Ridges cancels a lesson, a credit for the next term will be given.</li>
+                            <li>Vaulters should wear soft tennis shoes or purchase vaulting shoes for their time on the horse (see the instructor for tips for purchasing). Boots are not allowed on the horse. Vaulters should have long pants that are easy to move in (yoga pants, sweatpants, or leggings are fine). Vaulters do not wear helmets as the movements required would make a helmet unsafe.</li>
+                            <li>Participants can withdraw from the program anytime during the session, but Royal Ridges requests a two-week notice.</li>
+                        </ul>
+                    </div>
                     <p><span className="font-semibold">Payments: </span>Payment can be made monthly or paid in full. (35 weeks)</p>
                     <p className="pb-6">Scholarships may be available upon request for those with financial needs.</p>
                 </div>
