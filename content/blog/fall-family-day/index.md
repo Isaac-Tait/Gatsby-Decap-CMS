@@ -9,7 +9,8 @@ imageAlt: FallFamilyDay
 
 Come spend the day at Royal Ridges Retreat with your family! You and your family will create unforgettable memories with multiple activities and special moments to spend together. Check-in will be at 9:00 am on Saturday at upper camp, with lunch provided. Please wear long pants for riding and closed-toe shoes. Registration is open for kids six and older.
 
-\
+
+
 <div className='text-center mt-4'>
     <a 
         href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
