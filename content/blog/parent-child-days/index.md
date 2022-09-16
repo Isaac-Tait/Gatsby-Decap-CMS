@@ -11,13 +11,11 @@ Join us for a grand autumn adventure for Mother & Daughter duos! This special da
 
 Where: Royal Ridges Upper Camp
 
-When: October 1 & November 12
+When: October 1 (9 years old and Up) & November 12 (6 years old and Up)
 
 Time: 9:00am - 4:00pm
 
 Cost: $90 a participant
-
-Ages: 6-99
 
 <div className='text-center mt-4'>
     <a 
@@ -25,5 +23,5 @@ Ages: 6-99
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
-    >Registration</a>
+    >Register for Mother Daughter Day</a>
 </div>
