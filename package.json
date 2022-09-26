@@ -44,6 +44,7 @@
     "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "autoprefixer": "^10.4.12",
     "eslint": "^8.24.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -52,6 +53,17 @@
     "gatsby-plugin-netlify": "^5.0.1",
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
+=======
+    "@tailwindcss/typography": "^0.5.4",
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "gatsby-plugin-netlify": "^5.0.0",
+    "postcss": "^8.4.16",
+    "prettier": "^2.6.2",
+>>>>>>> 36a7436970b737cbde801bd2511d28cc28147e72
     "tailwindcss": "^3.1.8"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
