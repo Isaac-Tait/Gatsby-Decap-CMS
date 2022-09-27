@@ -27,6 +27,7 @@ const SchoolBreak = () => {
                             className='rounded-xl mt-1'
                         />
                         <p>Looking for a great way for your kids to spend their school breaks. Then sign them up for one of our amazing day camp options and get them outside, discovering new skills, connecting with friends, and making new ones, while growing in their confidence. Our school break camps are aligned with the Battle Ground School District calender. Click on the specific camps for more details.</p>
+                        <p>Testing testing 1 2 3 </p>
                     </div>    
                 </div>
             <Footer />
