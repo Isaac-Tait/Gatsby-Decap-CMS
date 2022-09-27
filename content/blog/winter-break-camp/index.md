@@ -21,7 +21,7 @@ H﻿orse Option Add On: $150
 
 <div className='text-center mt-4'>
     <a 
-        href='\\*\\*https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Winter+Break+Camp\\*\\*'
+        href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Winter+Break+Camp'
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
