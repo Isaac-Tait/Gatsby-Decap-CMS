@@ -21,7 +21,7 @@ Come on out to Royal Ridges Paintball and book a fun family adventure or throw a
 
 <div className='text-center mt-4'>
     <a 
-        href='\*\*https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Paintball+Party\*\*'
+        href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Paintball+Party'
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
