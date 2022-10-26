@@ -47,7 +47,7 @@ const WinterDayCamp = () => {
                         <p className='ml-1'>Horse Option: $150 per child</p>
                         <p className='mt-2 text-center font-cursive text-xl'>Register 
                         <a 
-                            href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Spring+Break+Camp' 
+                            href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Winter+Break+Camp' 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className='text-green-200 hover:text-indigo-400 hover:underline'
