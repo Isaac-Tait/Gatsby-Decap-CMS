@@ -19,15 +19,6 @@ H﻿orse Option Add On: $150
 
 **Join us this Christmas break for our Winter Day Camp as we create 5 days of fun-filled holiday-themed adventures for campers from Kindergarten through 6th grade. We are looking forward to filling camp with the joy of the season.  We also offer a break-out horse activity for those kiddos who love horses. We are offering limited bus service for the first time for our winter camps so let us do the driving. Space is limited. Click on the image above for more information and to register for camp.**
 
-<div className='text-center mt-4'>
-    <a 
-        href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Winter+Break+Camp'
-        className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
-        target='_blank' 
-        rel='noopener noreferrer'
-    >Register for Winter Camp</a>
-</div>
-
 **Bus Routes - Winter 2022** 
 *Please note bus times are subject to change due to inclement weather*.
 
@@ -58,3 +49,12 @@ NorthWest Parking Lot in Front of the Church
 
 11814 NE 117th Ave, Vancouver, WA 98662 
 NW Corner of Main Parking Lot off of 119th St
+
+<div className='text-center mt-4'>
+    <a 
+        href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Winter+Break+Camp'
+        className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
+        target='_blank' 
+        rel='noopener noreferrer'
+    >Register for Winter Camp</a>
+</div>
