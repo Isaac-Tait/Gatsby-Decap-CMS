@@ -39,9 +39,9 @@ const WinterDayCamp = () => {
                                 className='text-green-200 hover:text-indigo-400 hover:underline'
                             >&nbsp;here</a>.</p>
                         <hr />
-                        <p className='mt-1'><span className='font-bold'>Date: </span>April 4-8, 2022</p>
-                        <p><span className='font-bold'>Time: </span>8:30am - 3:30pm</p>
-                        <p><span className='font-bold'>Ages: </span>Kindergarten to 6th Grade</p>
+                        <p className='mt-1'><span className='font-bold'>Date:&nbsp;</span>December 26-30, 2022</p>
+                        <p><span className='font-bold'>Time:&nbsp;</span>8:30am - 3:30pm</p>
+                        <p><span className='font-bold'>Ages:&nbsp;</span>Kindergarten to 6th Grade</p>
                         <p className='font-bold'>Prices:</p>
                         <p className='ml-1'>Traditional Day Camp: $175.00 per child</p>
                         <p className='ml-1'>Horse Option: $150 per child</p>
