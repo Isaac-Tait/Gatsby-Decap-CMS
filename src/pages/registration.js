@@ -20,6 +20,9 @@ const SummerReg = () => {
                         <Link to={'/day-adventure-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Adventure Camp</p>
                         </Link>
+                        <Link to={'/specialty-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                            <p>Specialty Horse Camp</p>
+                        </Link>
                         <Link to={'/day-paintball-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Paintball Camp</p>
                         </Link>

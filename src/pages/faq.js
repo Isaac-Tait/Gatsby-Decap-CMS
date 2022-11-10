@@ -19,6 +19,9 @@ const Faq = () => {
                         <Link to={'/day-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Horse Camp</p>
                         </Link>
+                        <Link to={'/specialty-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                            <p>Specialty Horse Camp</p>
+                        </Link>
                         <Link to={'/day-adventure-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Adventure Camp</p>
                         </Link>
