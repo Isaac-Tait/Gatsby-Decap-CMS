@@ -65,27 +65,26 @@ const DayHorseCamp = () => {
                         <hr />
                         <div>
                             <p>Do you have a kiddo who is crazy about horses? Our Day Horse Camp may be the perfect solution! Your camper will have the opportunity to take riding lessons each day from our skilled instructors, learn exciting information in horse science, grow valuable skills like grooming and saddling, explore the Bible during the daily Bible lesson and make friends along the way! In addition to the horsemanship activities, they will engage in team building, group Bible studies, and go on a scenic trail ride. Riders must wear closed-toe shoes and long pants to ride. Helmets are provided.</p>
-                            <p className='italic'>(Cowpoke group will only ride in Arena.)</p>
-                            <p className='text-green-200 mt-2'>Day Horse Camp Extended Camp Option Week #2, #4, #6, & #8:</p>
-                            <p className='mt-2'>Our extended Day Horse Program will allow campers to experience additional horse time. Campers will stay after camp on Tuesday and Thursday during their Day Horse week so they can continue their day at camp. Dinner will be provided!</p>
-                            <p className='mt-2'>Please pack a sack lunch for your Day Horse Camper and plan to pick them up at the lower camp Day Horse Flag at 8 pm on Tuesday and Thursday of their week at camp.</p>
+                            {/*Updated for 2023*/}
+                            <p className='text-xl font-bold'>Day Horse Camp Overnight Blast Option</p>
+                            <p>Our Overnight Blast Day Horse Program will allow campers to experience additional horse time and stay overnight in the cabins on Thursday night of their week at camp. Campers will remain after camp Thursday during their Day Horse week to continue their day at camp. Dinner on Thursday, Breakfast on Friday, and a packed lunch for Friday are provided! There is limited availability, and <span className='uppercase font-semibold'>onb</span> will only be available on certain weeks. Please sign up for this option early to reserve your space. Don’t forget your sleeping bag and items needed for the next day!</p>
                             <p className='mt-4'>Activities to Include:</p>
-                            <p className='italic ml-2'>* Campfire, Dinner and S&#8217;Mores</p>
+                            <p className='italic ml-2'>* Dinner and Campfire</p>
                             <p className='italic ml-2'>* Additional Trail and Arena Rides</p>
                             <p className='italic ml-2'>* More Horse Science, Horse Activities and Groom/Saddle Time</p>
-                            <p className='italic ml-2'>* Outdoor Games and Crafts</p>
+                            <p className='italic ml-2'>* Outdoor Games</p>
                         </div>
                         <hr />
                         <div className='my-2 ml-2 text-center'>
-                            <p><span className='text-green-200 font-semibold'>Week #1</span> - June 20-24</p>
-                            <p><span className='text-green-200 font-semibold'>Week #2</span> - June 27-July 1</p>  
-                            <p><span className='text-green-200 font-semibold'>Week #3</span> - July 4-8 <span className='text-green-200'>(Cowpoke Group Available)</span></p>              
-                            <p><span className='text-green-200 font-semibold'>Week #4</span> - July 11-15 <span className='text-green-200'>(Teen Wrangler Group Available)</span></p>           
-                            <p><span className='text-green-200 font-semibold'>Week #5</span> - July 18-22 <span className='text-green-200'>(Cowpoke Group Available)</span></p>           
-                            <p><span className='text-green-200 font-semibold'>Week #6</span> - July 25-29 <span className='text-green-200'>(Teen Wrangler Group Available)</span></p>
-                            <p><span className='text-green-200 font-semibold'>Week #7</span> - August 1-5</p>
-                            <p><span className='text-green-200 font-semibold'>Week #8</span> - August 8-12</p>
-                            <p><span className='text-green-200 font-semibold'>Week #9</span> - August 15-19</p>
+                            <p><span className='text-green-200 font-semibold'>Week #1</span> - June 19-23</p>
+                            <p><span className='text-green-200 font-semibold'>Week #2</span> - June 26-30&nbsp;<span className='text-sm italic font-bold text-green-200'>(ONB Available)</span></p>  
+                            <p><span className='text-green-200 font-semibold'>Week #3</span> - July 3-7&nbsp;<span className='text-sm italic font-bold text-green-200'>(Cowpoke Group Available)</span></p>              
+                            <p><span className='text-green-200 font-semibold'>Week #4</span> - July 10-14&nbsp;<span className='text-sm italic font-bold text-green-200'>(ONB and Teen Wrangler Groups Adventure Available)</span></p>           
+                            <p><span className='text-green-200 font-semibold'>Week #5</span> - July 17-21</p>           
+                            <p><span className='text-green-200 font-semibold'>Week #6</span> - July 24-28&nbsp;<span className='text-sm italic font-bold text-green-200'>(ONB Available)</span></p>
+                            <p><span className='text-green-200 font-semibold'>Week #7</span> - July 31 - August 4&nbsp;<span className='text-sm italic font-bold text-green-200'>(Cowpoke Group Available)</span></p>
+                            <p><span className='text-green-200 font-semibold'>Week #8</span> - August 7-11&nbsp;<span className='text-sm italic font-bold text-green-200'>(ONB and Teen Wrangler Groups Adventure Available)</span></p>
+                            <p><span className='text-green-200 font-semibold'>Week #9</span> - August 14-18</p>
                         </div>
                         <a 
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
