@@ -52,20 +52,19 @@ const DayHorseCamp = () => {
                             rel="noopener noreferrer"
                             className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Day Horse Camp</a>
-                        <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
-                            <p>Monday-Friday 9am-3:30pm</p>   
+                        <div className=' text-green-200 ml-4 my-4 text-center'>                            <p>Monday-Friday 9am-3:30pm</p>   
                             <p>8-14 Years Old</p>      
-                            <p>$350 for the week</p>             
-                            <p>$75 ADD ON Extend Day Horse Camp Weeks #2, #4, #6, & #8</p>
-                            <p>$50 Bus Transportation</p>
+                            <p>$400 for the week</p>
+                            <p>$60 Bus Transportation</p>             
+                            <p>$125 ADD ON Overnight Blast Weeks 2, 4, 6, 8</p>
                             <p>New this year! Special groups designed for the younger and older horse lovers</p>
-                            <p>Cowpoke Day Horse Camp /Arena Ride Only (Ages 7-8)</p>
-                            <p>Teen Wrangler Day Horse Camp (Ages 13-16)</p>
-                            <p>These groups will take place on certain weeks only. Please see schedule below.</p>
+                            <p>Cowpoke Day Horse Camp /Arena Ride Only (Ages 7-8) Weeks 3 & 7</p>
+                            <p>Teen Wrangler Day Horse Camp (Ages 13-16) Weeks 4 & 8</p>
+                            <p className='mt-2'><span className='font-semibold'>New this year!</span> Day Horse Specialty Theme Camps Weeks 1, 3, 5, 7</p>
                         </div>
                         <hr />
                         <div>
-                            <p>Do you have a kiddo who is crazy about horses? Our Day Horse Camp may be the perfect solution! Your camper will have the opportunity to take riding lessons each day from our skilled instructors, learn exciting information in horse science, grow valuable skills like grooming and saddling, and make friends along the way! In addition to the horsemanship activities, they will engage in team building, do group Bible studies, and go on a scenic trail ride.</p>
+                            <p>Do you have a kiddo who is crazy about horses? Our Day Horse Camp may be the perfect solution! Your camper will have the opportunity to take riding lessons each day from our skilled instructors, learn exciting information in horse science, grow valuable skills like grooming and saddling, explore the Bible during the daily Bible lesson and make friends along the way! In addition to the horsemanship activities, they will engage in team building, group Bible studies, and go on a scenic trail ride. Riders must wear closed-toe shoes and long pants to ride. Helmets are provided.</p>
                             <p className='italic'>(Cowpoke group will only ride in Arena.)</p>
                             <p className='text-green-200 mt-2'>Day Horse Camp Extended Camp Option Week #2, #4, #6, & #8:</p>
                             <p className='mt-2'>Our extended Day Horse Program will allow campers to experience additional horse time. Campers will stay after camp on Tuesday and Thursday during their Day Horse week so they can continue their day at camp. Dinner will be provided!</p>
