@@ -52,24 +52,25 @@ const MultiWeekCamp = () => {
                             className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Multi Week Camp</a>
                         <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
-                            <p>Monday-Friday 9am-3:30pm</p>   
-                            <p>Entering Grades 1st - 5th</p>      
-                            <p>$640 for four (4) weeks</p>             
-                            <p>$50 Bus Transportation (You must purchase bus for each week your child attends.)</p>
+                            <p>Monday-Friday 9am-3:30pm</p>        
+                            <p>$525 for three (3) weeks</p>             
+                            <p>$60 Bus Transportation (You must purchase bus for each week your child attends.)</p>
+                            <p><span className='uppercase'>juniper</span>Entering Grades 1st - 5th</p> 
+                            <p><span className='uppercase'>pine</span>Entering Grades 4th - 6th</p>
                         </div>
                         <hr />
-                        <p className='my-4'>Our popular Multi Week Camp Program will be continuing throughout the summer! This program is ideal for the repeating camper who wants to experience multiple weeks at Royal Ridges. Campers will enjoy various activities (including a special surprise activity each week), fun games, and a different Bible Story focus each week. Purchased four weeks at a time, you choose the four weeks that work best for your schedule.</p>
+                        <p className='my-4'>Our MultiWeek Camp option is ideal for the repeating camper who wants to experience multiple weeks at Royal Ridges. Multi-week participants will enjoy various activities (including a special surprise activity each week), fun games, and a different Bible Story focus each week. Purchased three weeks at a time, you choose the three weeks that work best for your schedule</p>
                         <hr />
                         <div className='my-2 ml-2 text-center'>
-                            <p><span className='text-green-200 font-semibold'>Week #1</span> - June 20-24</p>
-                            <p><span className='text-green-200 font-semibold'>Week #2</span> - June 27-July 1</p>  
-                            <p><span className='text-green-200 font-semibold'>Week #3</span> - July 4-8</p>              
-                            <p><span className='text-green-200 font-semibold'>Week #4</span> - July 11-15</p>           
-                            <p><span className='text-green-200 font-semibold'>Week #5</span> - July 18-22</p>           
-                            <p><span className='text-green-200 font-semibold'>Week #6</span> - July 25-29</p>
-                            <p><span className='text-green-200 font-semibold'>Week #7</span> - August 1-5</p>
-                            <p><span className='text-green-200 font-semibold'>Week #8</span> - August 8-12</p>
-                            <p><span className='text-green-200 font-semibold'>Week #9</span> - August 15-19</p>
+                            <p><span className='text-green-200 font-semibold'>Week #1</span> - June 19-23</p>
+                            <p><span className='text-green-200 font-semibold'>Week #2</span> - June 26-30</p>  
+                            <p><span className='text-green-200 font-semibold'>Week #3</span> - July 3-7</p>              
+                            <p><span className='text-green-200 font-semibold'>Week #4</span> - July 10-14</p>           
+                            <p><span className='text-green-200 font-semibold'>Week #5</span> - July 17-21</p>           
+                            <p><span className='text-green-200 font-semibold'>Week #6</span> - July 24-28</p>
+                            <p><span className='text-green-200 font-semibold'>Week #7</span> - July 31 - August 4</p>
+                            <p><span className='text-green-200 font-semibold'>Week #8</span> - August 7-11</p>
+                            <p><span className='text-green-200 font-semibold'>Week #9</span> - August 14-18</p>
                         </div>
                         <a 
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
