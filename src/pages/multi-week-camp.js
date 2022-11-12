@@ -4,7 +4,9 @@ import { Link } from 'gatsby'
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-const SummerGiddyUp = () => {
+import Camp from '../images/multiWeekCamp.jpeg';
+
+const MultiWeekCamp = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
@@ -39,8 +41,8 @@ const SummerGiddyUp = () => {
                     </div>
                     {/*Column 2*/}
                     <div className='mr-4 overflow-y-scroll'>
-                        <img src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Summer_GiddyUp_15.png'
-                            alt='summer_giddyup_info' 
+                        <img src={Camp}
+                            alt='multi-week-camp' 
                             className='w-1/2 flex mx-auto rounded-xl my-6' 
                         />
                         <a 
@@ -48,7 +50,7 @@ const SummerGiddyUp = () => {
                             target="_blank" 
                             rel="noopener noreferrer"
                             className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
-                        >Register for Summer Giddy Up</a>
+                        >Register for Multi Week Camp</a>
                         <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
                             <p>Monday-Friday 9am-3:30pm</p>   
                             <p>Entering Grades 1st - 5th</p>      
@@ -56,7 +58,7 @@ const SummerGiddyUp = () => {
                             <p>$50 Bus Transportation (You must purchase bus for each week your child attends.)</p>
                         </div>
                         <hr />
-                        <p className='my-4'>Our popular GiddyUp Program will be continuing throughout the summer! This program is ideal for the repeating camper who wants to experience multiple weeks at Royal Ridges. GiddyUp participants will enjoy various activities (including a special surprise activity each week), fun games, and a different Bible Story focus each week. Purchased four weeks at a time, you choose the four weeks that work best for your schedule.</p>
+                        <p className='my-4'>Our popular Multi Week Camp Program will be continuing throughout the summer! This program is ideal for the repeating camper who wants to experience multiple weeks at Royal Ridges. Campers will enjoy various activities (including a special surprise activity each week), fun games, and a different Bible Story focus each week. Purchased four weeks at a time, you choose the four weeks that work best for your schedule.</p>
                         <hr />
                         <div className='my-2 ml-2 text-center'>
                             <p><span className='text-green-200 font-semibold'>Week #1</span> - June 20-24</p>
@@ -74,7 +76,7 @@ const SummerGiddyUp = () => {
                             target="_blank" 
                             rel="noopener noreferrer"
                             className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center py-10'
-                        >Register for Summer Giddy Up</a>
+                        >Register for a Multi Week Camp</a>
                     </div>    
                 </div>
             <Footer />
@@ -82,4 +84,4 @@ const SummerGiddyUp = () => {
     )
 }
 
-export default SummerGiddyUp
+export default MultiWeekCamp

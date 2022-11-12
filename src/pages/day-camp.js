@@ -27,8 +27,8 @@ const DayCamp = () => {
                         <Link to={'/day-paintball-camp'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Paintball Camp</p>
                         </Link>
-                        <Link to={'/summer-giddy-up-program'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Summer Giddy Up Program</p>
+                        <Link to={'/multi-week-camp'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                            <p>Multi Week Camp</p>
                         </Link>
                         <Link to={'/bus-transportation'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
