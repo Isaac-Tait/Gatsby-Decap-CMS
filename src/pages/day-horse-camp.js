@@ -13,7 +13,7 @@ const DayHorseCamp = () => {
                 <div className='h-screen grid grid-cols-2'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
-                        <Link to={'/registration'} className='my-4 underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
+                        <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
                             <p>Registration</p>
                         </Link>
                         <hr /> 

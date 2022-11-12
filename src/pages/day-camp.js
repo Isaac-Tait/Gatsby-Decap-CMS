@@ -10,30 +10,30 @@ const DayCamp = () => {
             <Header />
                 <div className='h-screen grid grid-cols-2'>
                     {/*Column 1*/}
-                    <div className='flex flex-col'>
-                        <Link to={'/registration'} className='mx-auto my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
+                    <div className='flex flex-col mx-auto'>
+                        <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
                             <p>Registration</p>
                         </Link>
                         <hr /> 
-                        <Link to={'/day-horse-camp'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Horse Camp</p>
                         </Link>
-                        <Link to={'/day-adventure-camp'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-adventure-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Adventure Camp</p>
                         </Link>
-                        <Link to={'/specialty-horse-camp'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/specialty-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Specialty Horse Camp</p>
                         </Link>
-                        <Link to={'/day-paintball-camp'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/day-paintball-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Day Paintball Camp</p>
                         </Link>
-                        <Link to={'/multi-week-camp'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/multi-week-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Multi Week Camp</p>
                         </Link>
-                        <Link to={'/bus-transportation'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/bus-transportation'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>Bus Transportation</p>
                         </Link>
-                        <Link to={'/faq'} className='mx-auto my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
+                        <Link to={'/faq'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
                             <p>FAQs</p>
                         </Link>
                     </div>
