@@ -54,8 +54,12 @@ const SummerReg = () => {
                         <p>All of our Summer Day Camps include lots of fun games, team building activities, Bible Studies, singing camp songs, and visits to the Camp Store.</p>
                         <p>Campers will come home dirty and tuckered out from their day at camp.</p>
                         <p>The Bible themes and main activities repeat each week within each camp.</p> 
-                        <p>All campers will need to be dressed in weather-appropriate clothing <span className='italic'>(it is often chilly in the morning so do not forget a coat)</span> and closed-toe shoes.</p>
+                        <p>All campers should wear weather-appropriate clothing <span className='italic'>(it is often chilly in the morning so remember a coat)</span> and closed-toe shoes.</p>
                         <p>Please bring a lunch packed in a self-insulated lunch box, a water bottle, and <span className='font-bold underline'>please do not</span> send your camper with any electronic devices.</p>
+                        {/*New Content for 2023*/}
+                        <p className='font-semibold text-xl text-green-200 text-center mt-4'>What&#39;s New for Summer Camp 2023!</p>
+                        <p className='text-center font-bold'>We&#39;re looking forward to Summer Camp 2023 and are delighted to let you know about some exciting new adventures and changes.</p>
+
                         <p className='text-xs italic mt-4'>* For questions regarding registrations, please email <a href="mailto:registrations@royalridges.org" className='underline text-green-200 hover:text-indigo-500'>our Registrations department</a></p>
                         <p className='text-xs italic'>* For questions regarding our summer camp programs please email <a href="mailto:programs@royalridges.org" className='underline text-green-200 hover:text-indigo-500'>our Programs department</a></p>
                     </div>    
