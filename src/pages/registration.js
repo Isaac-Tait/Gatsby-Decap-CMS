@@ -4,11 +4,13 @@ import { Link } from 'gatsby'
 import Header from "../components/header";
 import Footer from "../components/footer";
 
+import Image from '../images/summerCamp.jpeg'
+
 const SummerReg = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
+                <div className='h-screen grid grid-cols-2'>
                     {/*Column 1*/}
                     <div className='flex flex-col mx-auto'>
                         <Link to={'/day-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
@@ -39,7 +41,7 @@ const SummerReg = () => {
                     {/*Column 2*/}
                     <div className='mr-4 overflow-y-scroll'>
                         <img 
-                            src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Summer_Camp_Descriptions.png' 
+                            src={Image}
                             alt='summer camp descriptions'
                             className='w-1/2 flex mx-auto rounded-xl my-6'
                         />
