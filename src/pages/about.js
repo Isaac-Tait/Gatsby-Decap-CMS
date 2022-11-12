@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
-import Mission from '../images/MissionIcon.png'
-import Faith from '../images/FaithIcon.png'
-import Staff from '../images/StaffIcon.png'
-import Newsletter from '../images/NewsletterIcon.png';
-import AboutIcon from '../images/AboutIcon.png';
+import Mission from '../images/icons/MissionIcon.png'
+import Faith from '../images/icons/FaithIcon.png'
+import Staff from '../images/icons/StaffIcon.png'
+import Newsletter from '../images/icons/NewsletterIcon.png';
+import AboutIcon from '../images/icons/AboutIcon.png';
 
 import Header from "../components/header";
 import Footer from "../components/footer";

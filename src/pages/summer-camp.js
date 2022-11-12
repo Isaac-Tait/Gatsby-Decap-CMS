@@ -1,12 +1,12 @@
 import React from "react";
 import {Link} from "gatsby";
 
-import Reg from '../images/CampRegistration.png'
-import Faq from '../images/FAQ.png'
-import ParentManual from '../images/ParentManual.png'
-import Scholarship from '../images/Scholarships.png'
-import SummerStaffApp from '../images/SummerStaffApp.png'
-import Summer from '../images/SummerIcon.png'
+import Reg from '../images/icons/CampRegistration.png'
+import Faq from '../images/icons/FAQ.png'
+import ParentManual from '../images/icons/ParentManual.png'
+import Scholarship from '../images/icons/Scholarships.png'
+import SummerStaffApp from '../images/icons/SummerStaffApp.png'
+import Summer from '../images/icons/SummerIcon.png'
 
 import Header from "../components/header";
 import Footer from "../components/footer";

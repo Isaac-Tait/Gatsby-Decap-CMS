@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
-import Church from '../images/ChurchSponsors.png';
-import Business from '../images/BusinessSponsors.png';
-import Donations from '../images/Donations.png';
-import Volunteers from '../images/Volunteers.png';
-import SupportIcon from '../images/SupportIcon.png';
+import Church from '../images/icons/ChurchSponsors.png';
+import Business from '../images/icons/BusinessSponsors.png';
+import Donations from '../images/icons/Donations.png';
+import Volunteers from '../images/icons/Volunteers.png';
+import SupportIcon from '../images/icons/SupportIcon.png';
 
 import Header from "../components/header";
 import Footer from "../components/footer";
