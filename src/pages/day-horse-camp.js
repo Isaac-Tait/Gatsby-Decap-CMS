@@ -66,7 +66,7 @@ const DayHorseCamp = () => {
                         <div>
                             <p>Do you have a kiddo who is crazy about horses? Our Day Horse Camp may be the perfect solution! Your camper will have the opportunity to take riding lessons each day from our skilled instructors, learn exciting information in horse science, grow valuable skills like grooming and saddling, explore the Bible during the daily Bible lesson and make friends along the way! In addition to the horsemanship activities, they will engage in team building, group Bible studies, and go on a scenic trail ride. Riders must wear closed-toe shoes and long pants to ride. Helmets are provided.</p>
                             {/*Updated for 2023*/}
-                            <p className='text-xl font-bold'>Day Horse Camp Overnight Blast Option</p>
+                            <p className='text-xl font-bold mt-2'>Day Horse Camp Overnight Blast Option</p>
                             <p>Our Overnight Blast Day Horse Program will allow campers to experience additional horse time and stay overnight in the cabins on Thursday night of their week at camp. Campers will remain after camp Thursday during their Day Horse week to continue their day at camp. Dinner on Thursday, Breakfast on Friday, and a packed lunch for Friday are provided! There is limited availability, and <span className='uppercase font-semibold'>onb</span> will only be available on certain weeks. Please sign up for this option early to reserve your space. Don’t forget your sleeping bag and items needed for the next day!</p>
                             <p className='mt-4'>Activities to Include:</p>
                             <p className='italic ml-2'>* Dinner and Campfire</p>
