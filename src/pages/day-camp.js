@@ -11,10 +11,11 @@ const DayCamp = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2'>
-                    <Navigation />
+                <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'> 
                     {/*Column 1*/}
-                    
+                    <div className=''>
+                        <Navigation />
+                    </div>                    
                     {/*Column 2*/}
                     <div className='flex flex-col mr-4 overflow-y-scroll'>
                         <img 
