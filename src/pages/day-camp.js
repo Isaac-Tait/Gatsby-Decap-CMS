@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -13,7 +12,7 @@ const DayCamp = () => {
             <Header />
                 <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'> 
                     {/*Column 1*/}
-                    <div className=''>
+                    <div>
                         <Navigation />
                     </div>                    
                     {/*Column 2*/}
