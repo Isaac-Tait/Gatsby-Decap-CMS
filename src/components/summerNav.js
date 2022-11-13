@@ -7,9 +7,9 @@ const navigation = [
     { name: 'Day Camp', href: '/day-camp', current: false },
     { name: 'Day Horse Camp', href: '/day-horse-camp', current: false },
     { name: 'Day Adventure Camp', href: '/day-adventure-camp', current: false },
-    { name: 'Specialty Horse Camp', href: '/specialty-horse-camp', current: false },
     { name: 'Day Paintball Camp', href: '/day-paintball-camp', current: false },
     { name: 'Multi Week Camp', href: '/multi-week-camp', current: false },
+    { name: 'Specialty Horse Camp', href: '/specialty-horse-camp', current: false },
     { name: 'Bus Transportation', href: '/bus-transportation', current: false },
     { name: 'FAQs', href: '/faq', current: false },
   ]
