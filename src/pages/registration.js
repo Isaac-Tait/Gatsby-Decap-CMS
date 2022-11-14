@@ -49,7 +49,7 @@ const SummerReg = () => {
                             </li>
                         </ul>
                         <p className='text-xs italic mt-4'>* For questions regarding registrations, please email <a href="mailto:registrations@royalridges.org" className='underline text-green-200 hover:text-indigo-500'>our Registrations department</a></p>
-                        <p className='text-xs italic'>* For questions regarding our summer camp programs please email <a href="mailto:programs@royalridges.org" className='underline text-green-200 hover:text-indigo-500'>our Programs department</a></p>
+                        <p className='text-xs italic mb-8'>* For questions regarding our summer camp programs please email <a href="mailto:programs@royalridges.org" className='underline text-green-200 hover:text-indigo-500'>our Programs department</a></p>
                     </div>    
                 </div>
             <Footer />

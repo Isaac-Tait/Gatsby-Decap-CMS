@@ -160,7 +160,7 @@ const DayCamp = () => {
                                 href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center py-10'
+                                className='text-yellow-400 font-extrabold text-3xl text-center hover:underline hover:text-indigo-400 flex justify-center py-10'
                             >Register for Bus Service</a>
                         </div>    
                     </div>
