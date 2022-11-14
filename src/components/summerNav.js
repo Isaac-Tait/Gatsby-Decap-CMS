@@ -24,7 +24,6 @@ const SummerNav = () => {
             <Disclosure as="nav">
                 {({ open }) => (
                     <div className="flex justify-center">
-                        
                         <div className="mt-10">
                             <div className="sm:hidden">
                                 {/* Mobile menu button*/}
