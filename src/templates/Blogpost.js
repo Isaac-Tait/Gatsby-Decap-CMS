@@ -15,10 +15,7 @@ const BlogPostPage = ({ data, pageContext, location }) => {
       <Header />
       {/* 👇🏼 Blog post content*/}
       <div className="max-w-6xl mx-auto md:h-screen overflow-y-scroll">
-        <h1 className="font-semibold text-3xl uppercase text-gray-700 flex flex-row justify-center">
-          {post.frontmatter.title}
-        </h1>
-        <div className="mx-4 text-gray-800">
+        <div className="mx-4 text-gray-800 pt-4">
           <MDXRenderer>{post.body}</MDXRenderer>
         </div>
         <nav className="flex flex-wrap w-full justify-between px-4">
