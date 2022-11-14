@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
+import Navigation from '../components/summerNav'
 import Header from "../components/header";
 import Footer from "../components/footer";
 
@@ -10,34 +10,10 @@ const DayHorseCamp = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2'>
+                <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'>
                     {/*Column 1*/}
-                    <div className='flex flex-col mx-auto'>
-                        <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
-                            <p>Registration</p>
-                        </Link>
-                        <hr /> 
-                        <Link to={'/day-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Traditional Day Camp</p>
-                        </Link>
-                        <Link to={'/day-adventure-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Adventure Camp</p>
-                        </Link>
-                        <Link to={'/specialty-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Specialty Horse Camp</p>
-                        </Link>
-                        <Link to={'/day-paintball-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Paintball Camp</p>
-                        </Link>
-                        <Link to={'/multi-week-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Multi Week Camp</p>
-                        </Link>
-                        <Link to={'/bus-transportation'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Bus Transportation</p>
-                        </Link>
-                        <Link to={'/faq'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>FAQs</p>
-                        </Link>
+                    <div>
+                        <Navigation />
                     </div>
                     {/*Column 2*/}
                     <div className='mr-4 overflow-y-scroll'>
@@ -57,11 +33,16 @@ const DayHorseCamp = () => {
                             <p>$400 for the week</p>
                             <p>$60 Bus Transportation</p>             
                             <p>$125 ADD ON Overnight Blast Weeks 2, 4, 6, 8</p>
-                            <p>New this year! Special groups designed for the younger and older horse lovers</p>
+                            <p className='pt-2'>New this year! Special groups designed for the younger and older horse lovers</p>
                             <p>Cowpoke Day Horse Camp /Arena Ride Only (Ages 7-8) Weeks 3 & 7</p>
                             <p>Teen Wrangler Day Horse Camp (Ages 13-16) Weeks 4 & 8</p>
-                            <p className='mt-2'><span className='font-semibold'>New this year!</span> Day Horse Specialty Theme Camps Weeks 1, 3, 5, 7</p>
                         </div>
+                        <p className='mt-2 text-center mb-4'><span className='font-semibold'>New this year!</span>&nbsp;<a
+                                href='/specialty-horse-camp' 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className='hover:underline text-indigo-400 hover:text-green-200'
+                            >Day Horse Specialty Theme Camps</a>&nbsp;Weeks 1, 3, 5, 7</p>
                         <hr />
                         <div>
                             <p>Do you have a kiddo who is crazy about horses? Our Day Horse Camp may be the perfect solution! Your camper will have the opportunity to take riding lessons each day from our skilled instructors, learn exciting information in horse science, grow valuable skills like grooming and saddling, explore the Bible during the daily Bible lesson and make friends along the way! In addition to the horsemanship activities, they will engage in team building, group Bible studies, and go on a scenic trail ride. Riders must wear closed-toe shoes and long pants to ride. Helmets are provided.</p>

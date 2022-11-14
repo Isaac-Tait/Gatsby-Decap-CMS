@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+
+import Navigation from '../components/summerNav'
 import Header from "../components/header";
 import Footer from "../components/footer";
 
@@ -8,34 +9,12 @@ const Faq = () => {
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
         <Header />
             <div className="h-screen grid grid-cols-2">
-            <div className='flex flex-col mx-auto'>
-                        <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
-                            <p>Registration</p>
-                        </Link>
-                        <hr />                
-                        <Link to={'/day-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Traditional Day Camp</p>
-                        </Link>
-                        <Link to={'/day-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Horse Camp</p>
-                        </Link>
-                        <Link to={'/specialty-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Specialty Horse Camp</p>
-                        </Link>
-                        <Link to={'/day-adventure-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Adventure Camp</p>
-                        </Link>
-                        <Link to={'/day-paintball-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Paintball Camp</p>
-                        </Link>
-                        <Link to={'/multi-week-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Multi Week Camp</p>
-                        </Link>
-                        <Link to={'/bus-transportation'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Bus Transportation</p>
-                        </Link>
-                    </div>
-                <div className="max-w-4xl mx-auto mt-8 overflow-y-scroll">
+                {/*Column 1*/}
+                <div>
+                    <Navigation />
+                </div>
+                {/*Column 2*/}
+                <div className="mr-4 overflow-y-scroll">
                     <img 
                         src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/headers/FAQs.png'
                         alt='faqs'

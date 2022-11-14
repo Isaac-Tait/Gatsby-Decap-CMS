@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import Navigation from '../components/summerNav'
 import Header from "../components/header";
 import Footer from "../components/footer";
 
@@ -10,33 +11,10 @@ const SummerReg = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2'>
+                <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'>
                     {/*Column 1*/}
-                    <div className='flex flex-col mx-auto'>
-                        <Link to={'/day-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Traditional Day Camp</p>
-                        </Link>
-                        <Link to={'/day-horse-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Horse Camp</p>
-                        </Link>
-                        <Link to={'/day-adventure-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Adventure Camp</p>
-                        </Link>
-                        <Link to={'/specialty-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Specialty Horse Camp</p>
-                        </Link>
-                        <Link to={'/day-paintball-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Paintball Camp</p>
-                        </Link>
-                        <Link to={'/multi-week-camp'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Multi Week Camp</p>
-                        </Link>
-                        <Link to={'/bus-transportation'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Bus Transportation</p>
-                        </Link>
-                        <Link to={'/faq'} className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>FAQs</p>
-                        </Link>
+                    <div>
+                        <Navigation />
                     </div>
                     {/*Column 2*/}
                     <div className='mr-4 overflow-y-scroll'>

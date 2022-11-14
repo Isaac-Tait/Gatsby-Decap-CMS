@@ -34,8 +34,13 @@ const DayCamp = () => {
                             <p>Spruce and Cedar Groups - $190</p>             
                             <p>Fir Group - $200</p>
                             <p>$60 Bus Transportation</p>
-                            <p>Multi-Week Option $540</p>
                         </div>
+                        <p className='text-center'><a
+                            href='/multi-week-camp' 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className='hover:underline text-indigo-400 hover:text-green-200'
+                        >Multi-Week</a> Option $540</p>
                         <hr />
                         <div className='my-4'>
                             <p>Our Traditional Day Camps are jam-packed with activities and fun! Campers will play games, experience team-building activities, explore the Bible during the daily Bible lesson and sing songs. Traditional camps are divided into three age level groups:</p>
@@ -45,7 +50,12 @@ const DayCamp = () => {
                                 <p>Fun times abound for the Cedar Group campers! From visiting the pony corral to an adventurous hike, your child is sure to have a great time. Additional activities include fun games, team challenges and a visit to the giant jump pillow and so much more! </p>
                             <p className='font-bold underline mt-4'>Fir Group - 5th - 7th</p>
                                 <p>Designed for your pre-teen, the Fir Group campers will have all the fun of Traditional Day Camp with a sampling of our Day Adventure Camp thrown in. Your camper will challenge themselves on the climbing wall, find their inner Robin Hood at the archery field, and glide across the Andersen Reservoir in a canoe.</p>
-                            <p className='font-bold underline mt-4'>Multi-Week Traditional Day Camp Option:</p>
+                            <p className='font-bold underline mt-4'><a
+                                href='/multi-week-camp' 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className='hover:underline text-indigo-400 hover:text-green-200'
+                            >Multi-Week Traditional Day Camp</a>&nbsp;Option:</p>
                                 <p>Campers eager to spend several weeks at Traditional Day Camp may enjoy this option to keep their weeks at camp exciting. Campers will enjoy the activities of Traditional Day camp with an additional adventure or team-building activity each week, as well as a different Bible Story focus each week. You choose the weeks that work best for you.</p>
                         </div>
                         <hr />
