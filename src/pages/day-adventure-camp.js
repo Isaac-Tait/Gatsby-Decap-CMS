@@ -26,7 +26,7 @@ const DayAdventureCamp = () => {
                             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center'
+                            className='text-yellow-400 font-extrabold text-3xl text-center hover:underline hover:text-indigo-400 flex justify-center'
                         >Register for Adventure Camp</a>
                         <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
                             <p>Monday-Friday 9am-3:30pm</p>   
