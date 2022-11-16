@@ -60,6 +60,7 @@ const ProgramsPage = () => {
                   </Link>
                 </div>
 
+                {/*
                 <div className="relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64">
                   <Link
                     to={'/adventure-class'}
@@ -70,6 +71,21 @@ const ProgramsPage = () => {
                   />
                   <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-green-200 rounded-full">
                       <p className='text-white px-1 hidden lg:block'>If you are into learning survival and self-sufficiency then this is the place to be.</p>
+                    </div>
+                  </Link>
+                </div>
+                */}
+
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
+                  <Link
+                    to={'/girl-scouts'}
+                  >
+                  <img
+                    alt="Girl Scouts"
+                    src={GirlScouts}
+                  />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-green-200 rounded-full">
+                      <p className='px-1 text-white hidden lg:block'>We have helped hundreds of Girl Scouts get their horsemanship badges. Let us help your troop succeed too!</p>
                     </div>
                   </Link>
                 </div>
@@ -105,57 +121,14 @@ const ProgramsPage = () => {
 
                 <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
-                    to={'/girl-scouts'}
+                    to={'/school-break'}
                   >
                   <img
-                    alt="Girl Scouts"
-                    src={GirlScouts}
+                    alt="School Break"
+                    src={School}
                   />
                   <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-green-200 rounded-full">
-                      <p className='px-1 text-white hidden lg:block'>We have helped hundreds of Girl Scouts get their horsemanship badges. Let us help your troop succeed too!</p>
-                    </div>
-                  </Link>
-                </div>              
-
-                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
-                  <Link
-                    to={'/book-a-ride'}
-                  >
-                  <img
-                    alt="Book a Ride"
-                    src={BookRide}
-                  />
-                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-400 rounded-full">
-                      <p className='text-white px-1 hidden lg:block'>A perfect gift for that special someone - great for birthdays, graduation gifts, or just because...</p>
-                    </div>
-                  </Link>
-                </div>
-
-                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
-                  <Link 
-                    to={'/paintball'}
-                  >
-                  <img
-                    alt="paintball camp"
-                    src={PaintBall}
-                  />
-                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
-                      <p className='px-1 hidden lg:block'>We have the best paintball course in southern Washington. Come and experience it for yourself.</p>
-                    </div>
-                  </Link>
-                </div>
-                
-                {/*👇🏼Third Row*/}
-                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
-                  <Link
-                    to={'/guest-groups'}
-                  >
-                    <img
-                    alt="Guest Groups Camp"
-                    src={GuestGroup}
-                  />
-                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-green-200 rounded-full">
-                      <p className='px-1 text-white hidden lg:block'>Looking for a retreat location? Let Royal Ridges Retreat meet and exceed your needs.</p>
+                      <p className='px-2 text-white hidden lg:block'>Need something for junior to do during school break? Send them to Royal Ridges Retreat. We promise to send them back tired and happy.</p>
                     </div>
                   </Link>
                 </div>
@@ -172,8 +145,53 @@ const ProgramsPage = () => {
                       <p className='px-1 text-white hidden lg:block'>Vaulting does not have to be scary. Let our fully certified instructors show you the ropes in a fun and safe environment.</p>
                     </div>
                   </Link>
-                </div>
+                </div>             
 
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
+                  <Link 
+                    to={'/paintball'}
+                  >
+                  <img
+                    alt="paintball camp"
+                    src={PaintBall}
+                  />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-200 rounded-full">
+                      <p className='px-1 hidden lg:block'>We have the best paintball course in southern Washington. Come and experience it for yourself.</p>
+                    </div>
+                  </Link>
+                </div>
+                
+                {/*👇🏼Third Row*/}
+                {/*Empty div to center*/}
+                <div></div>
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
+                  <Link
+                    to={'/guest-groups'}
+                  >
+                    <img
+                    alt="Guest Groups Camp"
+                    src={GuestGroup}
+                  />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-green-200 rounded-full">
+                      <p className='px-1 text-white hidden lg:block'>Looking for a retreat location? Let Royal Ridges Retreat meet and exceed your needs.</p>
+                    </div>
+                  </Link>
+                </div>
+                
+                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
+                  <Link
+                    to={'/book-a-ride'}
+                  >
+                  <img
+                    alt="Book a Ride"
+                    src={BookRide}
+                  />
+                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-yellow-400 rounded-full">
+                      <p className='text-white px-1 hidden lg:block'>A perfect gift for that special someone - great for birthdays, graduation gifts, or just because...</p>
+                    </div>
+                  </Link>
+                </div>
+                {/*
                 <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
                   <Link
                     to={'/women-horse-camp'}
@@ -187,20 +205,7 @@ const ProgramsPage = () => {
                     </div>
                   </Link>
                 </div>
-
-                <div className='relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-64'>
-                  <Link
-                    to={'/school-break'}
-                  >
-                  <img
-                    alt="School Break"
-                    src={School}
-                  />
-                  <div className="text-center absolute inset-0 opacity-0 hover:opacity-100 duration-300 flex justify-center items-center text-md text-gray-800 bg-green-200 rounded-full">
-                      <p className='px-2 text-white hidden lg:block'>Need something for junior to do during school break? Send them to Royal Ridges Retreat. We promise to send them back tired and happy.</p>
-                    </div>
-                  </Link>
-                </div>
+                */}
             </div>
           </div>
         <Footer />
