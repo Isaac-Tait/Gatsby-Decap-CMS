@@ -14,7 +14,7 @@ imageAlt: Summer Camp 2023
 <hr />
 </div>
 
-<p className="my-4">Summer programs are open for registration!. Campers will discover new adventures this summer, connect with one another, and grow as they explore all the opportunities that our day camps offer. Check it out and lock in our early registration discount starting November 25 and going until December 4.</p>
+<p className="my-4">Summer programs are open for registration! Campers will discover new adventures this summer, connect with one another, and grow as they explore all the opportunities that our day camps offer. Check it out and lock in our early registration discount starting November 25 and going until December 4.</p>
 <hr />
 
 <div className='text-center mt-4'>
