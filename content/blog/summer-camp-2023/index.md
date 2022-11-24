@@ -9,13 +9,12 @@ imageAlt: Summer Camp 2023
 
 <div className="text-center">
 <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
-<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>**Summer 2023** </p>
-<p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:30pm</p>
-<p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>**Starting at $190**</p> 
+<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Summer 2023 </p>
+<p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>Starting at $190</p> 
 <hr />
 </div>
 
-<p className="my-4">Summer programs are open for registration!. Campers will discover new adventures this summer, connect with one another, and grow as they explore all the opportunities that our day camps offer. Check it out and lock in our early registration discount starting November 25 and going until December 4. Full Price starting December 5.</p>
+<p className="my-4">Summer programs are open for registration!. Campers will discover new adventures this summer, connect with one another, and grow as they explore all the opportunities that our day camps offer. Check it out and lock in our early registration discount starting November 25 and going until December 4.</p>
 <hr />
 
 <div className='text-center mt-4'>
@@ -24,13 +23,13 @@ imageAlt: Summer Camp 2023
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
-    >**Find Out More**</a>
+    >Find Out More</a>
 </div>
 
 <hr />
 
 <div className="text-center mt-4">
-<p className="font-semibold underline text-xl">**Summer 2023**</p>
+<p className="font-semibold underline text-xl">Summer 2023</p>
 <p className="font-semibold">Week #1 - June 19-23</p>
 
 <p className="font-semibold">Week #2 - June 26-30</p>
@@ -56,5 +55,5 @@ imageAlt: Summer Camp 2023
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
-    >**Register for Summer 2023**</a>
+    >Register for Summer 2023</a>
 </div>
