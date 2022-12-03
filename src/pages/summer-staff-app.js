@@ -24,12 +24,13 @@ const SummerStaffApp = () => {
                         <p>If you have a specific question before applying, please email Chrisy our Program Director <a href="mailto:chrisy@royalridges.org" className='text-green-200 underline hover:text-indigo-400'>chrisy@royalridges.org</a></p>
                     </div>
                     <div className='flex flex-col justify-between h-screen text-center heropattern-bamboo-indigo-100 rounded-2xl'>
+                        <div></div>
                         {/*Summer Staff Job Descriptions*/}
                         <div className='mt-4'>
                             <p className='text-3xl text-yellow-400'>Step I</p>
                             <p>Summer Camp Job Descriptions and Information</p>
                             <a 
-                                href="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/PDFs/Summer_Camp_Job_Descriptions.pdf" 
+                                href="https://docs.google.com/document/d/e/2PACX-1vRLtvWVgwWMldZqRuwparRf5qpJp6R4MrXKB9GwgjcQ7UyXpPoL2z_w7fouR741KB1TvtGiEym4zRAu/pub" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
                                 className='text-green-200 italic text-sm underline hover:text-indigo-400'
@@ -64,37 +65,10 @@ const SummerStaffApp = () => {
                                 rel="noopener noreferrer" 
                                 className='text-green-200 italic text-sm underline hover:text-indigo-400'
                             >All about references</a>
+                            <p className="mx-10 mt-4">Please give us some time to process your application. If you have not heard from us after a week, please contact the Program Director to make sure we received it. Thank you for considering Royal Ridges for your summer!</p>
                         </div>
-                        {/*Summer Staff Application*/}
-                        <div className=''>
-                            <p className='text-3xl text-yellow-400'>Step IV</p>
-                            <p className="mx-10">Please give us some time to process your application. If you have not heard from us after a week, please contact the Program Director to make sure we received it. Thank you for considering Royal Ridges for your summer!</p>
-                            <Link 
-                                to={'/application'}
-                                className='text-green-200 italic text-sm underline hover:text-indigo-400'
-                            >Click here to be taken to the application</Link>
-                        </div>
-                        {/*References Link*/}
-                        <div className=''>
-                            <p className='text-3xl text-yellow-400'>Step V</p>
-                            <p>Send the link below to your references for them to fill out.</p>
-                            <p className='text-xs italic'>(Right click the link then select copy. Next paste the link into the email body addressed to the references of your choice)</p>
-                            <a 
-                                href="https://docs.google.com/forms/d/1T55_5bN0zDRQbfhwftNR0HVEs1FyK2Iny7ET_AJL_is/edit" 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className='text-green-200 italic text-sm underline hover:text-indigo-400 mt-4'
-                            >Right click me please...</a>
-                        </div>
-                        {/*References Link*/}
-                        <div className='mb-4'>
-                            <p className='text-3xl text-yellow-400'>Step VI</p>
-                            <p>Your application has been completed <span className='underline'>successfully</span>&nbsp;!!! Please give us three(3) to five(5) business days to process it.</p>
-                            <p>If you have not heard from us within six(6) business days than please contact us using the link below to make sure we received it. Thank you.</p>
-                            <Link 
-                                to={'/contact'} 
-                                className='text-green-200 italic text-sm underline hover:text-indigo-400'>How to contact us if you have not heard from us in at least six business days</Link>
-                        </div>
+                        <div></div>
+                        
                     </div>
                 </div>
             <Footer />
