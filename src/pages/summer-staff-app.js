@@ -60,11 +60,11 @@ const SummerStaffApp = () => {
                             >(Create an Account)</a>
                             <p>Once you have made account click the link below to be directed to the staff application.</p>
                             <a 
-                                href="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/PDFs/All_About_References.pdf" 
+                                href="https://www.ultracamp.com/registration/publicSelectSession.aspx?sessionFinder=1&&idPerson=6532791" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
                                 className='text-green-200 italic text-sm underline hover:text-indigo-400'
-                            >All about references</a>
+                            >Click to begin the staff application process</a>
                             <p className="mx-10 mt-4">Please give us some time to process your application. If you have not heard from us after a week, please contact the Program Director to make sure we received it. Thank you for considering Royal Ridges for your summer!</p>
                         </div>
                         <div></div>
