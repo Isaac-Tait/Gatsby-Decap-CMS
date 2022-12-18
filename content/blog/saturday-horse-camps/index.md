@@ -1,27 +1,39 @@
 ---
 title: Saturday Horse Camps
-date: 2022-09-17T00:28:25.167Z
+date: 2022-12-18T05:12:37.825Z
 description: Saturday Horse Camps
-image: ./saturdayhorsefall22.jpg
-imageAlt: Saturday Horse Camp Fall 2022
+image: ./sathorsecampwinter23.jpg
+imageAlt: Saturday Horse Camp Winter 2023
 ---
-![saturdayhorsefall22](saturdayhorsefall22.jpg "saturdayhorsefall22")
+![sathorsecampwinter23](sathorsecampwinter23.jpg "sathorsecampwinter23")
 
-Join us this Fall for our Saturday Horse Camps. These camps bring the summer horse camp fun to the school year weekends. We aim to get campers outside playing with our four-hooved friends and provide a fun day of discovering, connecting, and growing. Follow the link below to find out more, and don’t miss out on these fun-filled Saturdays!
+<div className="text-center">
+<p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
+<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: January 28, February 25, and March 25</p>
+<p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:00pm</p>
+<p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$75 a participant</p> 
+<hr />
+</div>
 
-Where: Royal Ridges Upper Camp
+<div className='text-center mt-4'>
 
-When: October 22 (8-14 years old) & November 19 (6-14 years old)
+<﻿p className="my-4"> January 28: Arena Ride </p>
 
-Time: 9:00am - 3:00pm
+<﻿p className="my-4"> February 25: English Riding </p>
 
-Cost: $75 a participant
+<﻿p className="my-4"> March 25: Gaming Patterns </p>
+
+</div>
+
+<p className="my-4">Saturday horse camps are back, and we’re offering theme Horse Camps this year, one Saturday a month, January-March. For English day, riders will learn about English and Western tack differences and have an English riding lesson. On Gaming Patterns day, campers will learn about ranch rodeo events and practice a few of them in the saddle. These Saturday camps are great for getting your kid's toes wet in different riding styles. Click on the image above for more information. </p>
+<hr />
 
 <div className='text-center mt-4'>
     <a 
-        href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps'
+        href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151'
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
-    >Register for Saturday Horse Camp</a>
-</div>
+    >Register for Saturday Horse Camp </a>
+
+<﻿/div>
