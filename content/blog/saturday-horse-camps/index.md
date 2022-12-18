@@ -9,7 +9,7 @@ imageAlt: Saturday Horse Camp Winter 2023
 
 <div className="text-center">
 <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
-<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: January 28, February 25: English Riding, and March 25: Gaming Patterns/p>
+<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: January 28, February 25: English Riding, and March 25: Gaming Patterns</p>
 <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:00pm</p>
 <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$75 a participant</p> 
 <hr />
@@ -24,6 +24,4 @@ imageAlt: Saturday Horse Camp Winter 2023
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
-    >Register for Saturday Horse Camp </a>
-
-<﻿/div>
+    >Register for Saturday Horse Camp </a><﻿/div>
