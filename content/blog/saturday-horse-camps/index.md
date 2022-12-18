@@ -9,20 +9,10 @@ imageAlt: Saturday Horse Camp Winter 2023
 
 <div className="text-center">
 <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
-<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: January 28, February 25, and March 25</p>
+<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: January 28, February 25: English Riding, and March 25: Gaming Patterns/p>
 <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:00pm</p>
 <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$75 a participant</p> 
 <hr />
-</div>
-
-<div className='text-center mt-4'>
-
-<﻿p className="my-4"> January 28: Arena Ride </p>
-
-<﻿p className="my-4"> February 25: English Riding </p>
-
-<﻿p className="my-4"> March 25: Gaming Patterns </p>
-
 </div>
 
 <p className="my-4">Saturday horse camps are back, and we’re offering theme Horse Camps this year, one Saturday a month, January-March. For English day, riders will learn about English and Western tack differences and have an English riding lesson. On Gaming Patterns day, campers will learn about ranch rodeo events and practice a few of them in the saddle. These Saturday camps are great for getting your kid's toes wet in different riding styles. Click on the image above for more information. </p>
