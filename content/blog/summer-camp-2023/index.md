@@ -1,6 +1,6 @@
 ---
 title: Summer Camp 2023
-date: 2022-11-24T05:17:02.838Z
+date: 2023-01-08T22:55:05.250Z
 description: "Summer Camp 2023: Registration Now Open"
 image: ./summercamp2023.jpg
 imageAlt: Summer Camp 2023
