@@ -1,6 +1,6 @@
 ---
 title: Royal Ridges Paintball Parties
-date: 2022-09-26T22:49:41.742Z
+date: 2023-01-08T22:54:18.754Z
 description: "Royal Ridges Paintball Parties "
 image: ./paintballparty22.jpg
 imageAlt: paintballparty22
