@@ -15,7 +15,24 @@ imageAlt: ParentChildDays2023
 <hr />
 </div>
 
-<p className="my-4">Are you looking for a fantastic opportunity to discover new adventures while making lifelong memories with your child? Then join us this Spring for our Parent-Child Days. Lots of fun activities and crafts are planned. Lunch will also be provided </p>
+<p className="my-4">Are you looking for a fantastic opportunity to discover new adventures while making lifelong memories with your child? Then join us this Spring for our Parent-Child Days. Lots of fun activities and crafts are planned. Lunch will also be provided
+
+ </p>
+
+<hr />
+
+<p className=‘Text-center my-4’>
+
+Mother & Son Day: April 15
+
+Father & Daughter Day: April 15
+
+Mother & Daughter Day: April 29
+
+Father & Son Day: April 29
+
+Mother & Daughter Day: May 13 \
+ </p>
 <hr />
 
 <div className='text-center mt-4'>
