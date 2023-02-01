@@ -21,7 +21,7 @@ imageAlt: ParentChildDays2023
 
 <hr />
 
-<p className=‘Text-center my-4’>
+<p className="Text-center">
 
 Mother & Son Day: April 15
 
@@ -33,6 +33,7 @@ Father & Son Day: April 29
 
 Mother & Daughter Day: May 13 \
  </p>
+
 <hr />
 
 <div className='text-center mt-4'>
