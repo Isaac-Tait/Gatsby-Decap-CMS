@@ -31,7 +31,7 @@ Mother & Daughter Day: April 29
 
 Father & Son Day: April 29
 
-Mother & Daughter Day: May 13 \
+Mother & Daughter Day: May 13\
  </p>
 
 <hr />
