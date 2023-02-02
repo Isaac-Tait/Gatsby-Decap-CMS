@@ -82,7 +82,7 @@ const ChurchSponsors = () => {
                 rel="noopener noreferrer"
                 className="text-green-200 hover:underline hover:text-indigo-400"
               >
-                The Church At Proebstel
+                Probestel Church EFC
               </a>
             </li>
 
