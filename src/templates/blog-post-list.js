@@ -18,7 +18,7 @@ const BlogPosts = ({ data, pageContext }) => {
             return (
               <div>
                 <article key={node.id}>
-                  <div className="">
+                  <div className="mx-2 lg:m-0">
                     <Link to={`/updates/${node.slug}`}>
                       {/*
                         <p className="flex justify-center text-pink-800 hover:text-indigo-400 font-cursive text-3xl">
@@ -32,7 +32,9 @@ const BlogPosts = ({ data, pageContext }) => {
                           className="mt-2 border-2 border-gray-300 rounded-md"
                         />
                       </div>
-                      <p className='text-center italic font-light text-sm text-gray-800 mb-6'>Click To Read More....</p>
+                      <p className="text-center italic font-light text-sm text-gray-800 mb-6">
+                        Click To Read More....
+                      </p>
                     </Link>
                   </div>
                   {/* 
