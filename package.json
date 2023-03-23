@@ -8,12 +8,12 @@
     "url": "https://github.com/Isaac-Tait/Royal-Ridges-Retreat/issues"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.2",
+    "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^1.0.6",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "algoliasearch": "^4.14.2",
-    "eslint-config-prettier": "^8.5.0",
+    "algoliasearch": "^4.16.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "gatsby": "^4.23.1",
     "gatsby-plugin-algolia": "^0.26.0",
@@ -44,16 +44,16 @@
     "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "eslint": "^8.24.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.36.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
     "gatsby-plugin-netlify": "^5.0.1",
-    "postcss": "^8.4.16",
-    "prettier": "^2.7.1",
-    "@tailwindcss/typography": "^0.5.4",
-    "tailwindcss": "^3.1.8"
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.6",
+    "tailwindcss": "^3.2.7"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
