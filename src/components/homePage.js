@@ -172,7 +172,7 @@ const HomePage = () => {
               >
                <div className='flex justify-center content-center box-content h-full'>
                   <StaticImage 
-                    src='../images/SummerIcon.png' 
+                    src='../images/icons/SummerIcon.png' 
                     alt="Summer" 
                     placeholder="blurred"
                     objectFit="scale-down"
@@ -190,7 +190,7 @@ const HomePage = () => {
               >
               <div className='flex justify-center content-center box-content h-full'>
                   <StaticImage 
-                    src='../images/ProgramIcon.png' 
+                    src='../images/icons/ProgramIcon.png' 
                     alt="Programs" 
                     placeholder="blurred"
                     objectFit="scale-down"
@@ -211,7 +211,7 @@ const HomePage = () => {
               >
                 <div className='flex justify-center content-center box-content h-full'>
                   <StaticImage 
-                    src='../images/AboutIcon.png' 
+                    src='../images/icons/AboutIcon.png' 
                     alt="About" 
                     placeholder="blurred"
                     objectFit="scale-down"
@@ -232,7 +232,7 @@ const HomePage = () => {
               >
               <div className='flex justify-center content-center box-content h-full'>
                   <StaticImage 
-                    src='../images/SupportIcon.png' 
+                    src='../images/icons/SupportIcon.png' 
                     alt="Support" 
                     placeholder="blurred"
                     objectFit="scale-down"
@@ -250,7 +250,7 @@ const HomePage = () => {
               >
                 <div className='flex justify-center content-center box-content h-full'>
                   <StaticImage 
-                    src='../images/ContactIcon.png' 
+                    src='../images/icons/ContactIcon.png' 
                     alt="Contact" 
                     placeholder="blurred"
                     objectFit="scale-down"

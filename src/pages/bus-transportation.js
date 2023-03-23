@@ -1,44 +1,24 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
+import Navigation from '../components/summerNav'
 import Header from "../components/header";
 import Footer from "../components/footer";
+
+import Image from '../images/summerBusService.jpeg'
 
 const DayCamp = () => {
     return (
         <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
             <Header />
-                <div className='h-screen grid grid-cols-2'>
+                <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'>
                     {/*Column 1*/}
-                    <div className='flex flex-col mx-auto'>
-                    <Link to={'/registration'} className='my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'>
-                            <p>Registration</p>
-                        </Link>
-                        <hr /> 
-                        <Link to={'/day-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Traditional Day Camp</p>
-                        </Link>
-                        <Link to={'/day-horse-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Horse Camp</p>
-                        </Link>
-                        <Link to={'/day-adventure-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Adventure Camp</p>
-                        </Link>
-                        <Link to={'/day-paintball-camp'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Day Paintball Camp</p>
-                        </Link>
-                        <Link to={'/summer-giddy-up-program'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>Summer Giddy Up Program</p>
-                        </Link>
-                        <Link to={'/faq'} className='my-4 font-cursive hover:underline text-green-200 hover:text-indigo-500'>
-                            <p>FAQs</p>
-                        </Link>
+                    <div>
+                        <Navigation />
                     </div>
                     {/*Column 2*/}
                     <div className='mr-4 overflow-y-scroll'>
                         <img 
-                            src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/summer_camp_page/Summer_Bus_Service_-_10.png'
-                            alt='bus_service'
+                            src={Image}
                             className='w-1/2 flex mx-auto rounded-xl my-6'
                         />
                         <a 
@@ -180,7 +160,7 @@ const DayCamp = () => {
                                 href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151' 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 flex justify-center py-10'
+                                className='text-yellow-400 font-extrabold text-3xl text-center hover:underline hover:text-indigo-400 flex justify-center py-10'
                             >Register for Bus Service</a>
                         </div>    
                     </div>

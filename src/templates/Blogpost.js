@@ -1,24 +1,24 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import Header from '../components/header'
-import Bio from '../components/bio'
+import Header from '../components/header';
+import Bio from '../components/bio';
 
 const BlogPostPage = ({ data, pageContext, location }) => {
-  console.log(data, pageContext)
-  const post = data.mdx
-  const { previous, next } = data
+  console.log(data, pageContext);
+  const post = data.mdx;
+  const { previous, next } = data;
 
   return (
-    <div location={location} className="bg-gradient-to-r from-pink-200 to-indigo-200">
+    <div
+      location={location}
+      className="bg-gradient-to-r from-pink-200 to-indigo-200"
+    >
       <Header />
       {/* 👇🏼 Blog post content*/}
-      <div className="max-w-6xl mx-auto md:h-screen overflow-y-scroll">
-        <h1 className="font-semibold text-3xl uppercase text-gray-700 flex flex-row justify-center">
-          {post.frontmatter.title}
-        </h1>
-        <div className="mx-4 text-gray-800">
+      <div className="max-w-6xl mx-auto md:h-screen overflow-auto">
+        <div className="mx-4 text-gray-800 pt-4">
           <MDXRenderer>{post.body}</MDXRenderer>
         </div>
         <nav className="flex flex-wrap w-full justify-between px-4">
@@ -54,8 +54,8 @@ const BlogPostPage = ({ data, pageContext, location }) => {
       {/* 👆🏻 End of blog post content*/}
       <Bio />
     </div>
-  )
-}
+  );
+};
 
 export const pageQuery = graphql`
   query blogPost($id: String!, $previous: String, $next: String) {
@@ -77,8 +77,8 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
 
-export default BlogPostPage
+export default BlogPostPage;
 
 //What the heck gatsby!
