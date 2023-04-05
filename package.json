@@ -15,7 +15,7 @@
     "algoliasearch": "^4.16.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "gatsby": "^4.23.1",
+    "gatsby": "^4.25.5",
     "gatsby-plugin-algolia": "^0.26.0",
     "gatsby-plugin-gatsby-cloud": "^4.23.1",
     "gatsby-plugin-image": "^2.23.1",
@@ -54,7 +54,6 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.6",
     "tailwindcss": "^3.2.7"
-
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
