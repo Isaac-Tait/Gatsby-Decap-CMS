@@ -43,7 +43,7 @@ const Header = () => {
       <Disclosure as="nav">
         {({ open }) => (
           <>
-            <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
               <div className="relative flex items-center justify-between h-16">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
@@ -79,10 +79,10 @@ const Header = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex-2 flex justify-end px-3 py-2 font-medium text-sm">
+                <div className="flex-2 flex justify-end py-2 font-medium text-sm">
                   <div className="flex">
                     <Link to={'/search'}>
-                      <p className="text-gray-800 bg-yellow-400 opacity-80 hover:bg-green-200 hover:text-white hover:opacity-100 px-3 py-2 rounded-md text-base font-semibold">
+                      <p className="text-gray-800 bg-yellow-400 opacity-80 hover:bg-green-200 hover:text-white hover:opacity-100 px-2 py-2 rounded-md text-base font-medium">
                         Search
                       </p>
                     </Link>
