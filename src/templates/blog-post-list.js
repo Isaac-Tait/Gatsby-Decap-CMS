@@ -8,15 +8,15 @@ import Footer from '../components/footer';
 
 const BlogPosts = ({ data, pageContext }) => {
   return (
-    <div className="bg-gradient-to-l from-green-200 to-yellow-200">
+    <div className="bg-gradient-to-l from-green-200 to-yellow-200 flex flex-col">
       <Header />
-      <div className="flex flex-1">
-        <div className="max-w-6xl md:mx-auto">
+      <div className="h-screen overflow-auto">
+        <div className="h-full max-w-6xl md:mx-auto">
           {data.allMdx.nodes.map((node) => {
             const { frontmatter } = node;
             const image = getImage(frontmatter.image);
             return (
-              <div>
+              <div className="">
                 <article key={node.id}>
                   <div className="mx-2 lg:m-0">
                     <Link to={`/updates/${node.slug}`}>
@@ -51,7 +51,9 @@ const BlogPosts = ({ data, pageContext }) => {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className="">
+        <Footer />
+      </div>
     </div>
   );
 };

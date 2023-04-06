@@ -1,6 +1,6 @@
 import React from 'react';
 import { Disclosure } from '@headlessui/react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { XIcon } from '@heroicons/react/outline';
 
 const navigation = [
   { name: 'Programs', href: '/programs', current: false },

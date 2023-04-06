@@ -24,7 +24,7 @@ const BlogPostList = () => {
   const postList = getPostList();
 
   return (
-    <div>
+    <div className="overflow-auto">
       {postList.map((post) => (
         <div className="max-w-6xl">
           <Link to={`/updates${post.path}`} key={post.title}>
