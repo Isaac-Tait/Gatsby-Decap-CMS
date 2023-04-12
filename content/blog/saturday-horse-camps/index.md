@@ -16,8 +16,6 @@ imageAlt: Saturday Horse Camp Spring 2023
 
 <p className="my-4">Saturday horse camps are back, and we’re offering theme Horse Camps this year, one Saturday a month. On Trail Ride Day, April 22, campers will experience riding our extensive network of trails that cross all over our property from woods, pastures, streams, and around our lake. This is a fun day of exploring camp on horseback. For our Ranch Day on May 20, campers will learn the finer points of what it takes to sort cows and practice their roping skills. These Saturday camps are great for getting your kid's toes wet in different riding styles.
 
-\
-
 </p>
 <hr />
 
