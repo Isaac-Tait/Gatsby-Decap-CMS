@@ -2,10 +2,10 @@
 title: Parent Child Days
 date: 2023-04-27T05:30:41.186Z
 description: Spring 2023 Parent Child Days
-image: ./parentchildday2023.jpg
+image: ./motherdaughterday23.jpg
 imageAlt: ParentChildDays2023
 ---
-![parentchilddays](parentchildday2023.jpg 'parentchilddays')
+![parentchilddays](motherdaughterday23.jpg)
 
 <div className="text-center">
     <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
