@@ -9,67 +9,32 @@ imageAlt: Summerbusservice
 
 ### <https://royalridges.org/bus-transportation>
 
-**West 1 Bus Route** 
-***Vancouver Vineyard Church***
-7:45 AM - Departure Time
-4:25 PM Drop Off Time - Final Stop
-2007 E 12th St., Vancouver, WA
-South Parking Lot next to The Portal
-***City Harvest Church***\
-8:05 AM - Departure Time
-4:00 PM - Drop Off Time - 
-8100 NW 9th Ave. Vancouver, WA 98665
+<div className="Text-center">
 
-**West 2 Bus Route** \
-***Albertsons at Salmon Creek*** 
- 8:15 AM - Departure Time\
-4:05 PM - Drop Off Time - Final Stop
-14300 NE 20th Ave Vancouver, WA 
-Northside by Dumpster 
+<p className="my-2"><span className="font-semibold">West 1 Bus Route</p> 
 
-**West 3 Bus Route**
-***La Center Church***
-7:50 AM - Departure Time
-4:20 PM - Drop Off Time - Final Stop
-111 E 5th St, La Center, WA 98629
-South Parking Lot - Bus on the Street 
-***Ridgefield Church of the Nazarene***\
-747 Pioneer St, Ridgefield, WA 98642 
-8:10 AM - Departure Time
-4:00 PM - Departure Time
+ <p>Vancouver Vineyard Church</p>
 
-**East 1 Bus Route**\
-***NW Gospel Church - Camas*** 
-7:50 AM - Departure Time
-4:20 PM - Drop Off Time - Last Stop
-1420 NE 3rd Ave, Camas, WA 98607\
- ***NW Gospel Church - East Vancouver***
-305 NE 192nd Ave, Vancouver, WA 98684\
-8:10 AM - Departure Time
-4:00 PM - Drop-Off Time
+ <p>7:45 AM - Departure Time</p>
 
-**East 2 Bus Route**\
-***East Park Church*** 
-8:05 AM- Departure Time
-4:15 PM - Drop Off Time - Last Stop
-15815 NE 18th St.\
-NE side of Parking Lot
-***Fourth Plain Church of the Nazarene***
-16807 NE Fourth Plain Blvd, Vancouver, WA 98682
-8:20 AM - Departure Time 
-4:00 PM - Drop-Off Time      
+ <p>4:25 PM Drop Off Time - Final Stop</p>
 
-**East 3 Bus Route** 
-***Brush Prairie Baptist Church***
-11814 NE 117th Ave, Vancouver, WA 98662 
-8:15 AM - Departure Time
-4:05 PM - Drop Off Time
-Please note this is the parking lot on 117th Ave.
+ <p>2007 E 12th St., Vancouver, WA</p>
 
-***Battle Ground Baptist Church***
-8:30 - Departure Time
-3:50 - Drop off Time
-1110 NW 6th Ave., Battle Ground, WA
-FRONT PARKING LOT   
+ <p>South Parking Lot next to The Portal</p>
+
+ <p>City Harvest Church</p>
+
+ <p>8:05 AM - Departure Time</p>
+
+ <p>4:00 PM - Drop Off Time</p>
+
+ <p>8100 NW 9th Ave. Vancouver, WA 98665</p>
+
+</div>
+
+<hr />
+
+
 
 ### <https://royalridges.org/bus-transportation>
