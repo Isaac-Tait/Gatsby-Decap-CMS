@@ -25,15 +25,13 @@ imageAlt: Summerbusservice
 
 <hr />
 
-<p>  </p>
-
 
 
 <div className="Text-center">
 
 <p>West 1 Bus Route</p>
 
-<p>  </p>
+
 
  <p>Vancouver Vineyard Church</p>
 
@@ -61,7 +59,7 @@ imageAlt: Summerbusservice
 
 <p>West 2 Bus Route</p>
 
-<p>  </p> 
+
 
 <p>Albertsons at Salmon Creek</p>  
 
@@ -81,7 +79,7 @@ imageAlt: Summerbusservice
 
 <p>West 3 Bus Route</p>
 
-<p>  </p> 
+
 
 <p>La Center Church</p>
 
@@ -109,7 +107,7 @@ imageAlt: Summerbusservice
 
 <p>East 1 Bus Route</p> 
 
-<p>  </p>
+
 
 <p>NW Gospel Church - Camas</p> 
 
@@ -131,13 +129,11 @@ imageAlt: Summerbusservice
 
 <hr />
 
-
-
 <div className="Text-center">
 
 <p>East 2 Bus Route</p>
 
-<p>  </p> 
+
 
 <p>East Park Church</p> 
 
@@ -165,7 +161,7 @@ imageAlt: Summerbusservice
 
 <p>East 3 Bus Route</p> 
 
-<p>  </p>
+
 
 <p>Brush Prairie Baptist Church</p> 
 
@@ -188,8 +184,6 @@ imageAlt: Summerbusservice
 <p>FRONT PARKING LOT</p> 
 
 </div>
-
-
 
 <div className='text-center mt-4'>
 
