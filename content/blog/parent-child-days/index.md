@@ -5,7 +5,6 @@ description: Spring 2023 Parent Child Days
 image: ./parentchildday2023.jpg
 imageAlt: ParentChildDays2023
 ---
-
 ![parentchilddays](parentchildday2023.jpg 'parentchilddays')
 
 <div className="text-center">
@@ -20,10 +19,7 @@ imageAlt: ParentChildDays2023
 <hr />
 
 <div className="Text-center">
-    <p>Mother & Son Day: April 15</p>
-    <p>Father & Daughter Day: April 15</p>
     <p>Mother & Daughter Day: April 29</p>
-    <p>Father & Son Day: April 29</p>
     <p>Mother & Daughter Day: May 13</p>
 </div>
 
