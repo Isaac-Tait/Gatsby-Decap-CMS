@@ -7,7 +7,7 @@ imageAlt: Summerbusservice
 ---
 ![Bus Service](summerbus2023.jpg "Bus Service")
 
-<p className="my-4">
+### <https://royalridges.org/bus-transportation>
 
 **West 1 Bus Route** 
 ***Vancouver Vineyard Church***
@@ -71,7 +71,5 @@ Please note this is the parking lot on 117th Ave.
 3:50 - Drop off Time
 1110 NW 6th Ave., Battle Ground, WA
 FRONT PARKING LOT   
-
-</p>
 
 ### <https://royalridges.org/bus-transportation>
