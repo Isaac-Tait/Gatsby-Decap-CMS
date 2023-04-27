@@ -11,7 +11,7 @@ imageAlt: Summerbusservice
 
 <div className="Text-center">
 
-<p className="my-2"><span className="font-semibold">West 1 Bus Route</p> 
+<p className="my-2">West 1 Bus Route</p> 
 
  <p>Vancouver Vineyard Church</p>
 
@@ -34,7 +34,5 @@ imageAlt: Summerbusservice
 </div>
 
 <hr />
-
-
 
 ### <https://royalridges.org/bus-transportation>
