@@ -8,30 +8,19 @@ imageAlt: Summerbusservice
 ![Bus Service](summerbus2023.jpg "Bus Service")
 
 <div className='text-center mt-4'>
-
-    <a 
-
-        href='https://royalridges.org/bus-transportation/'
-
-        className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
-
-        target='_blank' 
-
-        rel='noopener noreferrer'
-
-\>Register for Bus Service</a>
-
+    <a 
+        href='https://royalridges.org/bus-transportation/'
+        className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
+        target='_blank' 
+        rel='noopener noreferrer'
+    >Register for Bus Service</a>
 </div>
 
 <hr />
 
-
-
 <div className="Text-center">
 
 <p>West 1 Bus Route</p>
-
-
 
  <p>Vancouver Vineyard Church</p>
 
@@ -59,8 +48,6 @@ imageAlt: Summerbusservice
 
 <p>West 2 Bus Route</p>
 
-
-
 <p>Albertsons at Salmon Creek</p>  
 
 <p>8:15 AM - Departure Time</p> 
@@ -78,8 +65,6 @@ imageAlt: Summerbusservice
 <div className="Text-center">
 
 <p>West 3 Bus Route</p>
-
-
 
 <p>La Center Church</p>
 
@@ -107,8 +92,6 @@ imageAlt: Summerbusservice
 
 <p>East 1 Bus Route</p> 
 
-
-
 <p>NW Gospel Church - Camas</p> 
 
 <p>7:50 AM - Departure Time</p> 
@@ -132,8 +115,6 @@ imageAlt: Summerbusservice
 <div className="Text-center">
 
 <p>East 2 Bus Route</p>
-
-
 
 <p>East Park Church</p> 
 
@@ -160,8 +141,6 @@ imageAlt: Summerbusservice
 <div className="Text-center">
 
 <p>East 3 Bus Route</p> 
-
-
 
 <p>Brush Prairie Baptist Church</p> 
 
