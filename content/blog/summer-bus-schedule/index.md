@@ -7,15 +7,6 @@ imageAlt: Summerbusservice
 ---
 ![Bus Service](summerbus2023.jpg "Bus Service")
 
-<div className='text-center mt-4'>
-    <a 
-        href='https://royalridges.org/bus-transportation/'
-        className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
-        target='_blank' 
-        rel='noopener noreferrer'
-    >Register for Bus Service</a>
-</div>
-
 <hr />
 
 <div className="Text-center">
@@ -161,21 +152,5 @@ imageAlt: Summerbusservice
 <p>1110 NW 6th Ave., Battle Ground, WA</p> 
 
 <p>FRONT PARKING LOT</p> 
-
-</div>
-
-<div className='text-center mt-4'>
-
-    <a 
-
-        href='https://royalridges.org/bus-transportation/'
-
-        className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
-
-        target='_blank' 
-
-        rel='noopener noreferrer'
-
-\>Register for Bus Service</a>
 
 </div>
