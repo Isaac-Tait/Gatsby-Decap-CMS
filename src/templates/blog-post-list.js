@@ -62,11 +62,7 @@ export default BlogPosts;
 
 export const query = graphql`
   query ($skip: Int, $limit: Int) {
-    allMdx(
-      sort: { fields: frontmatter___date, order: DESC }
-      skip: $skip
-      limit: $limit
-    ) {
+    allMdx(sort: { frontmatter: { date: DESC } }, skip: $skip, limit: $limit) {
       nodes {
         excerpt
         frontmatter {
