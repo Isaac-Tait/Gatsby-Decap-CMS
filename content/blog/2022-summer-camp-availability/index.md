@@ -9,10 +9,6 @@ imageAlt: SummerCampAvailability
 
 Updated: Updated May 15, 2023
 
-![2023AvailabilityMay](avail2023may.jpg "2023AvailabilityMay")
-
-![2023AvailabilityMay](availmay2023-2.jpg "2023AvailabilityMay")
-
 <div className='text-center mt-4'>
     <a 
         href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
