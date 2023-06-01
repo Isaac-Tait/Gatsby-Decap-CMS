@@ -7,7 +7,7 @@ imageAlt: SummerCampAvailability
 ---
 ![SummerCampAvailability](campavailabilitymay31.jpg "SummerCampAvailability")
 
-Updated: Updated May 26, 2023
+Updated: Updated May 31, 2023
 
 <div className='text-center mt-4'>
     <a 
