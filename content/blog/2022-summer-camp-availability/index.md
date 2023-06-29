@@ -1,13 +1,13 @@
 ---
 title: Summer Camp Availability
-date: 2023-06-07T21:44:43.706Z
+date: 2023-06-29T19:04:07.575Z
 description: Current Summer Camp Availability
-image: ./2023availabilityjune7.jpg
+image: ./23-summeravailjune-29.jpg
 imageAlt: SummerCampAvailability
 ---
-![SummerCampAvailability](2023availabilityjune7.jpg "SummerCampAvailability")
+![SummerCampAvailability](23-summeravailjune-29.jpg "SummerCampAvailability")
 
-Updated: Updated June 7, 2023
+Updated: Updated June 29, 2023 Summer Camp Availabiliity 
 
 <div className='text-center mt-4'>
     <a 
