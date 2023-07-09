@@ -38,7 +38,7 @@ const Donations = () => {
           to donate items or hay.
         </p>
 
-        <div className="flex w-full justify-between px-8">
+        <div className="flex flex-col md:flex-row w-full justify-between px-8">
           <img
             src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1688934484/Royal-Ridges/before_barn_fire_njqn1n.jpg"
             alt="barn before fire"
