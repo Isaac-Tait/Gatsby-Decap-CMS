@@ -2,7 +2,7 @@
 title: 'Barn Fire: Update'
 date: 2023-07-09T16:42:52.677Z
 description: Updates about Barn Fire at Royal Ridges
-image: ./BarnFireUpdate.jpg
+image: ./barnfireupdate.jpg
 imageAlt: BarnFire
 ---
 
