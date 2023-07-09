@@ -24,7 +24,7 @@ imageAlt: BarnFire
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
-    \>Donate</a>
+    >Donate</a>
 </div>
 <hr />
 <div className='text-center mt-4'>
@@ -33,5 +33,5 @@ imageAlt: BarnFire
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
-    \>Items Needed</a>
+    >Items Needed</a>
 </div>
