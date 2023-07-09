@@ -15,7 +15,7 @@ const Donations = () => {
           className="rounded-2xl shadow-xl mt-2 w-full"
         />
 
-        <h1 className="font-semibold text-2xl tracking-wide">
+        <h1 className="font-semibold text-2xl tracking-wide text-center text-red-600">
           Barn Fire Update
         </h1>
         <p className="my-4">
@@ -37,6 +37,8 @@ const Donations = () => {
           </a>{' '}
           to donate items or hay.
         </p>
+
+        <hr />
 
         <p className="my-4">
           We are excited about what God has planned for 2023 at Royal Ridges.
