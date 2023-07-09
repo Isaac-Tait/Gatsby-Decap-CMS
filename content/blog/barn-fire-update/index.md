@@ -9,11 +9,8 @@ imageAlt: BarnFire
 ![BarnFire](barnfireupdate.jpg 'BarnFire')
 
 <div className="text-center">
-
 <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
-
-<p className="mb-2"><span className="font-semibold">When:&nbsp;</span> July 7, 2023</p>
-
+<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>July 7, 2023</p>
 <hr />
 
 </div>
@@ -28,12 +25,13 @@ imageAlt: BarnFire
         target='_blank' 
         rel='noopener noreferrer'
     \>Donate</a>
-</div><hr />
+</div>
+<hr />
 <div className='text-center mt-4'>
     <a 
         href='https://www.amazon.com/hz/wishlist/ls/3D5MD2FK1UZCD/ref=hz_ls_biz_ex?fbclid=IwAR2BzHqvvztyFsUB3pFYiW9wk1hrmSpqAJe6i1DaIbiBwJoHUgeAw3TtaUo'
         className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
         target='_blank' 
         rel='noopener noreferrer'
-\>Items Needed</a>
+    \>Items Needed</a>
 </div>
