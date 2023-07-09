@@ -38,6 +38,19 @@ const Donations = () => {
           to donate items or hay.
         </p>
 
+        <div className="flex w-full justify-between">
+          <img
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1688934484/Royal-Ridges/before_barn_fire_njqn1n.jpg"
+            alt="barn before fire"
+            className="rounded-2xl shadow-xl mt-2 w-1/3"
+          />
+          <img
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1688934484/Royal-Ridges/during_barn_fire_uxplf1.jpg"
+            alt="barn after fire"
+            className="rounded-2xl shadow-xl mt-2 w-1/3"
+          />
+        </div>
+
         <hr />
 
         <p className="my-4">
