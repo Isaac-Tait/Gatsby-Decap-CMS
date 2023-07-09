@@ -15,8 +15,10 @@ const Donations = () => {
           className="rounded-2xl shadow-xl mt-2 w-full"
         />
 
-        <h1>July 7, 2023 Barn Fire Updates</h1>
-        <p>
+        <h1 className="font-semibold text-2xl tracking-wide">
+          Barn Fire Update
+        </h1>
+        <p className="my-4">
           On Friday, July 7th, our hay barn caught fire and burned to the
           ground. It was a total loss. All of our equipment, medical supplies,
           grain, and hay for the year was destroyed. Our herd was out on pasture
@@ -26,7 +28,14 @@ const Donations = () => {
           recover. We have an incredible community supporting us and we know
           that God is in control and the loss of our barn and hay will work for
           His glory. If you would like to help please make a donation to our
-          general fund or email sarah@royalridges.org to donate items or hay.
+          general fund or email{' '}
+          <a
+            href="mailto: sarah@royalridges.org"
+            className="text-green-200 hover:text-indigo-400 hover:underline"
+          >
+            sarah@royalridges.org
+          </a>{' '}
+          to donate items or hay.
         </p>
 
         <p className="my-4">
