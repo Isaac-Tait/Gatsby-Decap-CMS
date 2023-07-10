@@ -19,7 +19,7 @@ imageAlt: BarnFire
 
 <hr />
 
-<p className="my-4">James 1: 2-4 - Count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness.  And let steadfastness have its full effect, that you may be perfect and complete, lacking in nothing.</p>
+<p className="my-4">James 1:2-4 - Count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness.  And let steadfastness have its full effect, that you may be perfect and complete, lacking in nothing.</p>
 
 <hr />
 
