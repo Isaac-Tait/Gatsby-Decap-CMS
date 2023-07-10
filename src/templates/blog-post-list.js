@@ -19,7 +19,7 @@ const BlogPosts = ({ data, pageContext }) => {
               <div className="">
                 <article key={node.id}>
                   <div className="mx-2 lg:m-0">
-                    <Link to={`/updates/${node.slug}`}>
+                    <Link to={`/updates${node.fields.slug}`}>
                       {/*
                         <p className="flex justify-center text-pink-800 hover:text-indigo-400 font-cursive text-3xl">
                           {node.frontmatter.title}
@@ -84,6 +84,9 @@ export const query = graphql`
           }
         }
         id
+        fields {
+          slug
+        }
       }
     }
   }

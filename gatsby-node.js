@@ -60,6 +60,19 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 };
 
+// The following address using slug with MDX 2 and v4 of the plugin
+// https://paulie.dev/posts/2022/09/mdx-2-breaking-changes-and-gatsby-plugin-mdx-v4-slug/
+
+exports.onCreateNode = ({ node, getNode, actions: { createNodeField } }) => {
+  if (node.internal.type === 'Mdx') {
+    createNodeField({
+      node,
+      name: 'slug',
+      value: createFilePath({ node, getNode }),
+    });
+  }
+};
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `Mdx`) {
