@@ -1,11 +1,10 @@
 ---
 title: Barn Fire - Update
-date: 2023-07-09T16:42:52.677Z
+date: 2023-07-14T14:55:54.923Z
 description: Updates about Barn Fire at Royal Ridges
 image: ./barnfireupdate.jpg
 imageAlt: BarnFire
 ---
-
 ![BarnFire](barnfireupdate.jpg 'BarnFire')
 
 <div className="text-center">
@@ -15,7 +14,11 @@ imageAlt: BarnFire
 
 <hr />
 
-<p className="my-4">Friday evening, we had a fire in our hay barn. By the time I arrived at the barn, it was fully engulfed. Unfortunately, one horse sustained burns in a paddock beside the barn. He is being treated at OSU at the Veterinarian Hospital. The whole building is a total loss. We appreciate all the thoughts and prayers, and offers of help they are much appreciated. Below you will find a link to our donation page that will go toward helping us recover and rebuild if you want to donate physical items that were lost in the fire, the list is below. We will update this page as often as we can as we move forward with the recovery process</p>
+<p className="my-4">It’s been 7 days since our hay barn burnt down, and we have received such an outpouring of love and support. We have received so many generous gifts that we almost replaced all the small items we lost in the fire. Despite losing our barn, we are still running our camps, and it’s going great. We aren’t letting this catastrophe slow us down. Our campers are having a blast. 
+
+Toby, our beloved vaulting horse, was taken to OSU veterinary hospital, his prognosis is hopeful, and we may be able to pick him up next week. 
+
+Our biggest need right now is hay. With 35 horses (and a donkey), we go through a lot of hay and have a long winter ahead of us. It has been amazing to hear the stories of the impact we have made on the community over the last 45 years and their desire to give back to us. From the bottom of our hearts, we want to Thank you. See below for ways to help.</p>
 
 <hr />
 
