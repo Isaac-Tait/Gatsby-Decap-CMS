@@ -131,9 +131,9 @@ const Faq = () => {
 
           <h2 className="text-green-200 font-bold text-xl mt-2">
             {' '}
-            purchased a Summer Camp for my child and received the confirmation,
-            but I have not received any more emails from Royal Ridges. Is this
-            okay?
+            I purchased a Summer Camp for my child and received the
+            confirmation, but I have not received any more emails from Royal
+            Ridges. Is this okay?
           </h2>
           <p>
             After you receive your confirmation, you will not hear from us until

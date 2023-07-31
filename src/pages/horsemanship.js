@@ -32,11 +32,11 @@ const RidingLessons = () => {
               Tuesdays - September 12, 2023 - June 4, 2024 - 4:00 - 6:00 pm
             </li>
             <li>
-              Wednesdays - September 13,2022 - June 5, 2023 - 10:00 am - 12:00
+              Wednesdays - September 13,2023 - June 5, 2024 - 10:00 am - 12:00
               pm
             </li>
             <li>
-              Thursdays - September 14, 2022 - June 6, 2023 - 4:00 - 6:00 pm
+              Thursdays - September 14, 2023 - June 6, 2024 - 4:00 - 6:00 pm
             </li>
           </ul>
 
