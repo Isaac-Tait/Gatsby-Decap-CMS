@@ -14,7 +14,7 @@ imageAlt: GiddyUp Wednesday - Open House
     <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$35 a day</p>
 </div>
 
-<p className="my-4">Are your kids sad that camp is over and can’t wait until summer 2024? Our Giddy-Up program is the perfect way for them to enjoy camp year-round. Every Wednesday from 9:00-3:00, kids can get outside, do crafts, Bible study, and do fun camp activities with their friends. If you’d like to see what it’s all about, we will have a free open house on September 6. Parents are welcome to stay for the first 30 minutes, meet our staff, and learn about our Giddyup Wednesdays. Click the picture above to find out more.</p>
+<p className="my-4">Are your kids sad that camp is over and can’t wait until summer 2024? Our Giddy-Up program is the perfect way for them to enjoy camp year-round. Every Wednesday from 9:00-3:00, kids can get outside, do crafts, Bible study, and do fun camp activities with their friends. If you’d like to see what it’s all about, we will have a free open house on September 6. Parents are welcome to stay for the first 30 minutes, meet our staff, and learn about our Giddyup Wednesdays.</p>
 
 <hr />
 
