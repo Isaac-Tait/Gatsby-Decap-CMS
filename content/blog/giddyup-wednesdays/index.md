@@ -19,9 +19,11 @@ imageAlt: GiddyUp Wednesday - Open House
 <hr />
 
 <div className='text-center mt-4'>
-    <a 
-        href='https://www.ultracamp.com/info/sessiondetail.aspx?idCamp=1145&campCode=151&idSession=411780'
-
-rel='noopener noreferrer'
+  <a 
+        href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151'
+        className='text-green-200 hover:text-indigo-400 hover:underline font-cursive text-2xl'
+        target='_blank' 
+        rel='noopener noreferrer'
     >Register for GiddyUp Wednesdays</a>
+
 </div>
