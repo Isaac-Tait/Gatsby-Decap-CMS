@@ -14,7 +14,7 @@ imageAlt: ParentChildDays2023
     <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$90 a participant</p>
 </div>
 
-<p className="my-4">Join us for our Mother & Daughter Day. It is a fun way for moms and daughters to bond and enjoy a fun day of camp together. The ladies will ride, do a fun craft together, learn about horses, and have some great mother-daughter bonding time. Lunch is included. Click the image above to register.</p>
+<p className="my-4">Join us for our Mother & Daughter Day. It is a fun way for moms and daughters to bond and enjoy a fun day of camp together. The ladies will ride, do a fun craft together, learn about horses, and have some great mother-daughter bonding time. Lunch is included.</p>
 
 <hr />
 
