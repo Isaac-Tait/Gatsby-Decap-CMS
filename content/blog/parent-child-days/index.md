@@ -1,26 +1,25 @@
 ---
 title: Parent Child Days
-date: 2023-04-27T05:30:41.186Z
-description: Spring 2023 Parent Child Days
-image: ./motherdaughterday23.jpg
+date: 2023-08-31T19:36:56.109Z
+description: Fall 2023 Parent Child Days
+image: ./motherdaughterfall23.jpg
 imageAlt: ParentChildDays2023
 ---
-![parentchilddays](motherdaughterday23.jpg)
+![parentchilddays](motherdaughterfall23.jpg "Mother & Daughter Day Fall 2023")
 
 <div className="text-center">
     <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
-    <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>See Specific Dates Below</p>
+    <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>October 14</p>
     <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00 am - 4:00 pm</p>
     <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$90 a participant</p>
 </div>
 
-<p className="my-4">Are you looking for a fantastic opportunity to discover new adventures while making lifelong memories with your child? Then join us this Spring for our Parent-Child Days. Lots of fun activities and crafts are planned. Lunch will also be provided</p>
+<p className="my-4">Join us on October 14 for our Mother & Daughter Day. It is a fun way for moms and daughters to bond and enjoy a fun day of camp together. The ladies will ride, do a fun craft together, learn about horses, and have some great mother-daughter bonding time. Lunch is included. Click the image above to register.</p>
 
 <hr />
 
 <div className="Text-center">
-    <p>Mother & Daughter Day: April 29</p>
-    <p>Mother & Daughter Day: May 13</p>
+    <p>Mother & Daughter Day: October 14</p>
 </div>
 
 <hr />
