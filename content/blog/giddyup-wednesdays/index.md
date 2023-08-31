@@ -21,5 +21,7 @@ imageAlt: GiddyUp Wednesday - Open House
 <div className='text-center mt-4'>
     <a 
         href='https://www.ultracamp.com/info/sessiondetail.aspx?idCamp=1145&campCode=151&idSession=411780'
+
+rel='noopener noreferrer'
     >Register for GiddyUp Wednesdays</a>
 </div>
