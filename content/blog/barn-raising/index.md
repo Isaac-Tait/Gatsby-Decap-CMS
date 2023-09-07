@@ -5,20 +5,17 @@ description: "Fundraising Event for Royal Ridges "
 image: ./barnraisinginvitation.jpg
 imageAlt: Barn Raising Invitation
 ---
-
-
 ![Barn Rising](barnraisinginvitation.jpg "Barn Rising - Royal Ridges Fundraiser")
 
 <div className="text-center">
     <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Battle Ground Baptist Church</p>
     <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>October 13 </p>
     <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>6pm - 8pm</p>
-    <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$100 per ticket or $600 per table</p>
+    <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$75 per ticket or $500 per table</p>
 </div>
 
-<p className="my-4"> Please join us as we share how God continues
-to work at Royal Ridges. As you may know, our hay barn burnt down in July. Our insurance will not cover all that was lost. The goal of this event is to raise the funds needed to alleviate the financial burden 
-on camp. Please consider partnering with us as we rebuild. </p>
+<p className="my-4"> This summer, we lost our hay barn and feed floor to an accidental fire. 
+Although some things are underway, much still needs to be done to care for the horses this winter. With about half the cost to rebuild covered, we are in need of a good old-fashioned “Barn Raising”!!Come join us in celebrating all the good things God has done this year, and support us in what is needed to carry out His work for the future.  </p>
 
 <hr />
 
