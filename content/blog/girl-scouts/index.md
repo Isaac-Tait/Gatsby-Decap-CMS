@@ -24,7 +24,4 @@ Minimum Group size for Badge Class or Trail Ride = 7.
 
 Interested? Please contact programs@royalridges.org.
 
-\
 </p>
-
-<hr />
