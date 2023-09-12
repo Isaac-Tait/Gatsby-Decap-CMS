@@ -1,6 +1,6 @@
 ---
 title: Barn Raising
-date: 2023-09-06T21:03:26.367Z
+date: 2023-09-12T19:12:29.419Z
 description: "Fundraising Event for Royal Ridges "
 image: ./barnraisinginvitation.jpg
 imageAlt: Barn Raising Invitation
