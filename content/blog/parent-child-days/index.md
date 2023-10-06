@@ -1,11 +1,11 @@
 ---
 title: Parent Child Days
-date: 2023-08-31T19:36:56.109Z
+date: 2023-10-06T06:06:24.120Z
 description: Fall 2023 Parent Child Days
-image: ./motherdaughterfall23.jpg
+image: ./motherdaughterfall2023.jpg
 imageAlt: ParentChildDays2023
 ---
-![parentchilddays](motherdaughterfall23.jpg "Mother & Daughter Day Fall 2023")
+![parentchilddays](motherdaughterfall2023.jpg "Mother & Daughter Day Fall 2023")
 
 <div className="text-center">
     <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
