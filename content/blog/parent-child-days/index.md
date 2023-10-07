@@ -11,7 +11,7 @@ imageAlt: ParentChildDays2023
     <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
     <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>October 14 & November 11</p>
     <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00 am - 4:00 pm</p>
-    <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$90 a participant</p>
+    <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$90 a participant</p><p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>Minimum age: 6 years old</p>
 </div>
 
 <p className="my-4">Join us for our Mother & Daughter Day. It is a fun way for moms and daughters to bond and enjoy a fun day of camp together. The ladies will ride, do a fun craft together, learn about horses, and have some great mother-daughter bonding time. Lunch is included.</p>
