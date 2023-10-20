@@ -11,6 +11,8 @@ imageAlt: Saturday Horse Camp Fall 2023
     <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
     <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: October 28 & November 18</p>
     <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:00pm</p>
+
+ <p className="mb-2"><span className="font-semibold">Age:&nbsp;</span>October 28: 9 - 15yrs & November 18: 6 - 14yrs</p>
     <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$75 a participant</p> 
 </div>
 
