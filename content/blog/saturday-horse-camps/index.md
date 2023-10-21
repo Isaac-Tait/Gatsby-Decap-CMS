@@ -12,8 +12,9 @@ imageAlt: Saturday Horse Camp Fall 2023
     <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: October 28 & November 18</p>
     <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:00pm</p>
 
- <p className="mb-2"><span className="font-semibold">Age:&nbsp;</span>October 28: 9 - 15yrs & November 18: 6 - 14yrs</p>
-    <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$75 a participant</p> 
+<p className="mb-2"><span className="font-semibold">Age:&nbsp;</span>October 28: 9 - 15yrs & November 18: 6 - 14yrs</p>
+
+\    <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$75 a participant</p> 
 </div>
 
 <p className="my-4">It may be fall, but camp isn’t over! One Saturday a month, starting in October, we have a one-day horse camp. Each month will feature a different theme, and kids will spend the day improving their riding skills while spending time with our four-hooved friends. Click the link below to register.</p>
