@@ -9,7 +9,7 @@ imageAlt: ParentChildDays2023
 
 <div className="text-center">
     <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
-    <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>October 14 & November 11</p>
+    <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>November 11</p>
     <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00 am - 4:00 pm</p>
     <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$90 a participant</p><p className="mb-2"><span className="font-semibold">Minimum age:&nbsp;</span>6 years old</p>
 </div>
@@ -19,7 +19,6 @@ imageAlt: ParentChildDays2023
 <hr />
 
 <div className="Text-center">
-    <p>Mother & Daughter Day: October 14</p>
 
  <p>Mother & Daughter Day: November 11</p>
 </div>
