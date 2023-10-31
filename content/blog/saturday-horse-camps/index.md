@@ -9,7 +9,7 @@ imageAlt: Saturday Horse Camp Fall 2023
 
 <div className="text-center">
     <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
-    <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: October 28 & November 18</p>
+    <p className="mb-2"><span className="font-semibold">When:&nbsp;</span>Saturday: November 18</p>
     <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:00pm</p>
 
 <p className="mb-2"><span className="font-semibold">Age:&nbsp;</span>November 18: 6 - 14yrs</p>
