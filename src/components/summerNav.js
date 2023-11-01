@@ -8,7 +8,6 @@ const navigation = [
   { name: 'Horse Camp', href: '/horse-camp', current: false },
   { name: 'Adventure Camp', href: '/adventure-camp', current: false },
   { name: 'Paintball Camp', href: '/paintball-camp', current: false },
-  { name: 'Multi-Week Camp', href: '/multi-week-camp', current: false },
   {
     name: 'Specialty Horse Camp',
     href: '/specialty-horse-camp',
