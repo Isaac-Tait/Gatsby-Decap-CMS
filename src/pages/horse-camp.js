@@ -110,7 +110,7 @@ const DayHorseCamp = () => {
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #4</span> -
-              July 8-12 (Teen Horse Available)
+              July 8-12 (Miniature Horse Available)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #5</span> -
