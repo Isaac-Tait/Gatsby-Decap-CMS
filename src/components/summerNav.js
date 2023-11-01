@@ -4,10 +4,10 @@ import { XIcon } from '@heroicons/react/outline';
 
 const navigation = [
   { name: 'Registration', href: '/registration', current: false },
-  { name: 'Day Camp', href: '/day-camp', current: false },
-  { name: 'Day Horse Camp', href: '/day-horse-camp', current: false },
-  { name: 'Day Adventure Camp', href: '/day-adventure-camp', current: false },
-  { name: 'Day Paintball Camp', href: '/day-paintball-camp', current: false },
+  { name: 'Base Camp', href: '/base-camp', current: false },
+  { name: 'Horse Camp', href: '/horse-camp', current: false },
+  { name: 'Adventure Camp', href: '/adventure-camp', current: false },
+  { name: 'Paintball Camp', href: '/paintball-camp', current: false },
   { name: 'Multi-Week Camp', href: '/multi-week-camp', current: false },
   {
     name: 'Specialty Horse Camp',

@@ -36,7 +36,7 @@ const SummerReg = () => {
             !
           </h3>
           <p>
-            All of our Summer Day Camps include lots of fun games, team building
+            All of our Summer Camps include lots of fun games, team building
             activities, Bible Studies, singing camp songs, and visits to the
             Camp Store.
           </p>
@@ -61,24 +61,21 @@ const SummerReg = () => {
             <span className="font-bold underline">please do not</span> send your
             camper with any electronic devices.
           </p>
-          {/*New Content for 2023*/}
+          {/*New Content for 2024*/}
           <p className="font-semibold text-xl text-green-200 text-center mt-4">
-            What&#39;s New for Summer Camp 2023!
+            What&#39;s New for Summer Camp 2024!
           </p>
           <p className="text-center font-bold">
-            We&#39;re looking forward to Summer Camp 2023 and are delighted to
+            We&#39;re looking forward to Summer Camp 2024 and are delighted to
             let you know about some exciting new adventures and changes.
           </p>
           <ul className="list-disc mb-2 ml-6">
             <li className="mt-2">
-              Overnight Blast (ONB) - Campers will spend Thursday night at camp!{' '}
-              <span className="font-semibold">ONB</span> will be an opportunity
-              to continue the camp experience with special activities for our{' '}
-              <span className="font-semibold">ONB</span> participants. Dinner,
-              breakfast, and a sack lunch for Friday will be provided.{' '}
-              <span className="font-semibold">ONB</span> will be available for
-              Day Horse and Adventure Camps only. Space is limited, so don&#39;t
-              wait too long!
+              Traditional Camps have taken on a new name. They are now referred
+              to as Base Camp. Same great camp with a new name! If you are
+              looking for a Base Camp option for older campers, see Adventure
+              Camp without the high ropes for a similar camp to the Fir groups
+              from last year.
             </li>
             <li className="mt-2">
               <Link
@@ -87,32 +84,24 @@ const SummerReg = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Day Horse Camp Specialty Themes
+                Horse Camp Specialty Themes
               </Link>{' '}
               - Theme weeks designed for returning campers or experienced riders
-              looking for some variety at horse camp. Four different disciplines
-              to choose from:{' '}
+              looking for some variety at horse camp. Choose from:{' '}
               <span className="font-semibold">
-                English, Vaulting, Ranch Rodeo, and Trail
+                Vaulting (gymnastics on horseback), Miniature Horse Driving, and
+                Trail
               </span>
               . Group size will be limited, so order your camp soon!
             </li>
             <li className="mt-2">
-              Summer GiddyUp has been renamed{' '}
-              <Link
-                to={'/multi-week-camp'}
-                className="underline text-green-200 hover:text-indigo-500"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Multi-Week Camp
-              </Link>
-              . Our Multi-Week Camp option is ideal for the repeating camper who
-              wants to experience multiple weeks at Royal Ridges. Multi-week
-              participants will enjoy various activities (including a special
-              surprise activity each week), fun games, and a different Bible
-              Story focus each week. Purchased three weeks at a time, you choose
-              the three weeks that work best for your schedule.
+              Adventure Camp has added more age groups with the fun of past
+              summer but without the option of high ropes. If you want high
+              ropes as part of your camp, sign up for Extreme Adventure Camp.
+            </li>
+            <li className="mt-2">
+              Multi-Week Camp will not be offered this year. See our other
+              exciting options to sign up for multiple weeks
             </li>
           </ul>
           <div className="text-center">
