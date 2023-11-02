@@ -4,8 +4,6 @@ import Navigation from '../components/summerNav';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import Image from '../images/paintballDayCamp.jpeg';
-
 const DayPaintBall = () => {
   return (
     <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
@@ -18,7 +16,7 @@ const DayPaintBall = () => {
         {/*Column 2*/}
         <div className="mr-4 overflow-y-scroll">
           <img
-            src={Image}
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1698884263/royalRidges/Paintball_Camp_Website_2024_m3rhge.png"
             alt="paintball_day_camp"
             className="w-1/2 flex mx-auto rounded-xl my-6"
           />

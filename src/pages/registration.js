@@ -5,8 +5,6 @@ import Navigation from '../components/summerNav';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import Image from '../images/summerCamp.jpeg';
-
 const SummerReg = () => {
   return (
     <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
@@ -19,7 +17,7 @@ const SummerReg = () => {
         {/*Column 2*/}
         <div className="mr-4 ">
           <img
-            src={Image}
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1698884262/royalRidges/Summer_Camp_Descriptions_-_2024_gjloqj.png"
             alt="summer camp descriptions"
             className="w-1/2 flex mx-auto rounded-xl my-6"
           />

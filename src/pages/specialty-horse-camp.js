@@ -16,7 +16,7 @@ const Staff = () => {
         {/*Column 2*/}
         <div className="mr-4 overflow-y-scroll">
           <img
-            src="https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/SummerTwentyThree/dayHorseSpecialtyThemeCamp.jpeg"
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1698884263/royalRidges/Specialty_Horse_Camps_Web__24_rdtva4.png"
             alt="multi-week-camp"
             className="w-1/2 mx-auto rounded-xl my-6"
           />

@@ -4,7 +4,6 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 
 import Navigation from '../components/summerNav';
-import Image from '../images/traditionalDayCamp.jpeg';
 
 const DayCamp = () => {
   return (
@@ -18,8 +17,8 @@ const DayCamp = () => {
         {/*Column 2*/}
         <div className="flex flex-col mr-4 overflow-y-scroll">
           <img
-            src={Image}
-            alt="traditional_day_camp"
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1698884263/royalRidges/Base_Camp_Website_2024_pvkljy.png"
+            alt="base_camp"
             className="w-1/2 mx-auto rounded-xl my-6"
           />
           <a
