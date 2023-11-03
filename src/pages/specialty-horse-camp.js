@@ -40,24 +40,6 @@ const Staff = () => {
           </div>
 
           <h3 className="font-semibold text-xl mt-4">
-            Vaulting Camp -
-            <span className="text-sm italic">&nbsp;ages 8 - 16</span> (Week 5) -
-            $475
-          </h3>
-          <p>
-            This special week-long Vaulting Day Camp program will introduce your
-            child to the basics of Vaulting. Vaulting is essentially a gymnastic
-            routine performed on horseback while the horse is moving. The horse
-            is controlled by a staff member on a lunge line, and your vaulter
-            will learn basic moves under the supervision and support of our
-            vaulting instructor. Vaulting is a wonderful activity for the brave
-            horse-loving kiddo as well as the more cautious first-time horse
-            lover. Campers will also get to go on a trail ride. Vaulters should
-            wear leggings or sweatpants and soft tennis shoes to be more free
-            moving and comfortable for the horse.
-          </p>
-
-          <h3 className="font-semibold text-xl mt-4">
             Trail Camp{' '}
             <span className="text-sm italic">&nbsp;ages 10 - 16</span>(Week 3 &
             7) - $475
@@ -85,6 +67,25 @@ const Staff = () => {
             Campers will also take the reins, learn how to harness a miniature
             horse, and learn new driving skills each day.
           </p>
+
+          <h3 className="font-semibold text-xl mt-4">
+            Vaulting Camp -{' '}
+            <span className="text-sm italic">&nbsp;ages 8 - 16</span> (Week 5) -
+            $475
+          </h3>
+          <p>
+            This special week-long Vaulting Day Camp program will introduce your
+            child to the basics of Vaulting. Vaulting is essentially a gymnastic
+            routine performed on horseback while the horse is moving. The horse
+            is controlled by a staff member on a lunge line, and your vaulter
+            will learn basic moves under the supervision and support of our
+            vaulting instructor. Vaulting is a wonderful activity for the brave
+            horse-loving kiddo as well as the more cautious first-time horse
+            lover. Campers will also get to go on a trail ride. Vaulters should
+            wear leggings or sweatpants and soft tennis shoes to be more free
+            moving and comfortable for the horse.
+          </p>
+
           <div className="text-center mb-6">
             <p>
               <span className="text-green-200 font-semibold">Week #3</span>

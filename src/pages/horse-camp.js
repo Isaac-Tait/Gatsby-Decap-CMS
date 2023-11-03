@@ -40,7 +40,7 @@ const DayHorseCamp = () => {
             <p>
               Cowpoke Horse Camp /Arena Ride Only (Ages 7-8) Weeks 2, 6, & 9
             </p>
-            <p>Teen Horse Camp (Ages 13-16) Weeks 1, 4, & 8</p>
+            <p>Teen Horse Camp (Ages 13-16) Weeks 1 & 8</p>
           </div>
           <p className="mt-2 text-center mb-4">
             <span className="font-semibold">New this year!</span>&nbsp;
