@@ -13,6 +13,8 @@ imageAlt: WinterDayCamp
 <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:00pm</p>
 <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$175 a participant</p> 
 <p className="mb-2">Horse Option Add On: $150</p>
+
+<p className="mb-2">Winter Bus Available: $60</p>
 <hr />
 </div>
 
