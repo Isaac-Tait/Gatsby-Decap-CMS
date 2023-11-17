@@ -9,7 +9,7 @@ imageAlt: WinterDayCamp
 
 <div className="text-center">
 <p className="my-2"><span className="font-semibold">Where:&nbsp;</span>Royal Ridges</p>
-<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>December 19th - 22th </p>
+<p className="mb-2"><span className="font-semibold">When:&nbsp;</span>December 18th - 22th </p>
 <p className="mb-2"><span className="font-semibold">Time:&nbsp;</span>9:00am - 3:00pm</p>
 <p className="mb-2"><span className="font-semibold">Cost:&nbsp;</span>$175 a participant</p> 
 <p className="mb-2">Horse Option Add On: $150</p>
