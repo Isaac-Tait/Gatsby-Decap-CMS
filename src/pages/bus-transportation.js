@@ -4,8 +4,6 @@ import Navigation from '../components/summerNav';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import Image from '../images/summerBusService.jpeg';
-
 const BusTransportation = () => {
   return (
     <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
@@ -17,7 +15,10 @@ const BusTransportation = () => {
         </div>
         {/*Column 2*/}
         <div className="mr-4 overflow-y-scroll">
-          <img src={Image} className="w-1/2 flex mx-auto rounded-xl my-6" />
+          <img
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1700409573/royalRidges/Summer_Bus_Service_Website_2024_x0fqkw.jpg"
+            className="w-1/2 flex mx-auto rounded-xl my-6"
+          />
           <a
             href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151"
             target="_blank"
