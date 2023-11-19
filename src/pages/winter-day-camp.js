@@ -55,7 +55,7 @@ const WinterDayCamp = () => {
           </p>
           <hr />
           <p className="mt-1">
-            <span className="font-bold">Date:&nbsp;</span>December 18-20, 2023
+            <span className="font-bold">Date:&nbsp;</span>December 18-22, 2023
           </p>
           <p>
             <span className="font-bold">Time:&nbsp;</span>9:00am - 3:00pm
@@ -67,6 +67,9 @@ const WinterDayCamp = () => {
           <p className="font-bold">Prices:</p>
           <p className="ml-1">Base Camp: $175.00 per camper for the week</p>
           <p className="ml-1">Horse Option: add $150 per camper for the week</p>
+          <p className="ml-1">
+            Bus Transportation: add $60 per camper for the week
+          </p>
           <p className="mt-2 text-center font-cursive text-xl">
             Register
             <a
