@@ -34,11 +34,11 @@ imageAlt: Summer Camps 2024
 
 <p className="font-semibold">Week #2 - June 24-28</p>
 
-<p className="font-semibold">Week #3 - July 1-5/p>
+<p className="font-semibold">Week #3 - July 1-5</p>
 
 <p className="font-semibold">Week #4 - July 8-12</p>
 
-<p className="font-semibold">Week #5 - July 15-19/p>
+<p className="font-semibold">Week #5 - July 15-19</p>
 
 <p className="font-semibold">Week #6 - July 22-26</p>
 
