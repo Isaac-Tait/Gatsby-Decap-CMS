@@ -1,6 +1,6 @@
 ---
 title: Summer Camps 2024
-date: 2023-11-22T20:54:25.172Z
+date: 2023-11-22T22:44:18.738Z
 description: Summer Camps
 image: ./summercamp-24.jpg
 imageAlt: Summer Camps 2024
