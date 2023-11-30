@@ -1,4 +1,4 @@
-require("dotenv").config()
+require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
@@ -10,7 +10,7 @@ module.exports = {
     description: `An epic horse based adventure retreat located on the flanks of Mount Saint Helens.`,
     siteUrl: `https://royalridges.org`,
     social: {
-      instagram: '/royalridges'
+      instagram: '/royalridges',
     },
   },
   plugins: [
@@ -21,10 +21,10 @@ module.exports = {
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries: require("./src/utils/algolia-queries")
+        queries: require('./src/utils/algolia-queries'),
       },
     },
-    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-decap-cms`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
@@ -82,6 +82,6 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
   ],
-}
+};
 
 //I like turtles
