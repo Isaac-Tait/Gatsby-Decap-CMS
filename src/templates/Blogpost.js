@@ -5,6 +5,28 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Header from '../components/header';
 import Bio from '../components/bio';
 
+export const pageQuery = graphql`
+  query blogPost($id: String!, $previous: String, $next: String) {
+    mdx(id: { eq: $id }) {
+      frontmatter {
+        title
+      }
+      body
+      id
+    }
+    previous: mdx(id: { eq: $previous }) {
+      fields {
+        slug
+      }
+    }
+    next: mdx(id: { eq: $next }) {
+      fields {
+        slug
+      }
+    }
+  }
+`;
+
 const BlogPostPage = ({ data, pageContext, location }) => {
   console.log(data, pageContext);
   const post = data.mdx;
@@ -57,28 +79,4 @@ const BlogPostPage = ({ data, pageContext, location }) => {
   );
 };
 
-export const pageQuery = graphql`
-  query blogPost($id: String!, $previous: String, $next: String) {
-    mdx(id: { eq: $id }) {
-      frontmatter {
-        title
-      }
-      body
-      id
-    }
-    previous: mdx(id: { eq: $previous }) {
-      fields {
-        slug
-      }
-    }
-    next: mdx(id: { eq: $next }) {
-      fields {
-        slug
-      }
-    }
-  }
-`;
-
 export default BlogPostPage;
-
-//What the heck gatsby!
