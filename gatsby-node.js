@@ -5,26 +5,24 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const blogTemplate = path.resolve(`./src/templates/Blogpost.js`); //template for individual blog posts
   const blogPosts = path.resolve(`./src/templates/blog-post-list.js`); //template for url/blog page
-  const result = await graphql(
-    `
-      {
-        allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
-          edges {
-            node {
-              body
-              id
-              frontmatter {
-                title
-              }
-              fields {
-                slug
-              }
+  const result = await graphql(`
+    {
+      allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+        edges {
+          node {
+            body
+            id
+            frontmatter {
+              title
+            }
+            fields {
+              slug
             }
           }
         }
       }
-    `,
-  );
+    }
+  `);
 
   const posts = result.data.allMdx.edges;
   if (posts.length > 0) {
